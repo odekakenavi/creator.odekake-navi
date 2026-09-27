@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>📸 みんなのおでかけ｜掲載登録 - おでかけナビ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+<div class="wrap" id="app">
+
+  <div class="top-bar">
+    <div class="mark">🚗</div>
+    <div class="brand-text">
+      <div class="brand">おでかけナビ</div>
+      <div class="tagline">今日は、子どもとどこ行く？</div>
+    </div>
+  </div>
+
+  <h1 class="page-title">📸 みんなのおでかけ｜掲載登録</h1>
+  <p class="page-lead">
+    あなたのおすすめのおでかけ先を、おでかけナビで紹介しませんか？<br>
+    Instagramの投稿と、おでかけナビの施設情報をつないで、あなたのおでかけをまとめて紹介できます。
+  </p>
+
+  <div class="steps">
+    <div class="step-dot active" data-step-dot="1"></div>
+    <div class="step-dot" data-step-dot="2"></div>
+    <div class="step-dot" data-step-dot="3"></div>
+  </div>
+
+  <!-- ============ STEP 1：あなたの情報 ============ -->
+  <section id="screen-step1">
+    <div class="card">
+      <div class="section-heading"><span class="num">1</span>あなたの情報を登録</div>
+
+      <div class="choice-group">
+        <div class="choice-card selected" id="choice-new" data-choice="new">はじめて登録する</div>
+        <div class="choice-card" id="choice-existing" data-choice="existing">前回の続きから</div>
+      </div>
+
+      <!-- 新規登録フォーム -->
+      <div id="new-contributor-form">
+        <div class="field" id="field-displayName">
+          <label>表示名 <span class="required-tag">必須</span></label>
+          <input type="text" id="input-displayName" maxlength="30" placeholder="例：○○ママ">
+          <div class="error-msg">表示名を入力してください</div>
+        </div>
+
+        <div class="field" id="field-snsUrl">
+          <label>Instagram URL <span class="required-tag">必須</span></label>
+          <input type="url" id="input-snsUrl" placeholder="https://www.instagram.com/xxxxx/">
+          <div class="hint">あなたのInstagramアカウントのURLを入力してください</div>
+          <div class="error-msg">Instagram URLの形式が正しくありません（例：https://www.instagram.com/xxxxx/）</div>
+        </div>
+
+        <div class="field" id="field-profileText">
+          <label>プロフィール紹介文 <span class="optional-tag">任意</span></label>
+          <textarea id="input-profileText" maxlength="150" placeholder="例：横浜・湘南を中心に、子どもと楽しめるおでかけ先を紹介しています。"></textarea>
+          <div class="char-count"><span id="count-profileText">0</span>/150</div>
+        </div>
+      </div>
+
+      <!-- 既存紹介者を選ぶフォーム -->
+      <div id="existing-contributor-form" class="hidden">
+        <div class="field">
+          <label>紹介者を選択 <span class="required-tag">必須</span></label>
+          <select id="select-existing-contributor">
+            <option value="">選択してください</option>
+          </select>
+          <div class="hint" id="existing-contributor-empty">読み込み中です…</div>
+        </div>
+      </div>
+    </div>
+
+    <button class="btn btn-primary" id="btn-step1-next">つぎへ（紹介スポットの登録）</button>
+  </section>
+
+  <!-- ============ STEP 2：紹介スポット ============ -->
+  <section id="screen-step2" class="hidden">
+    <div class="card">
+      <div class="section-heading"><span class="num">2</span>紹介したいスポット</div>
+
+      <div class="field" id="field-spot-search">
+        <label>紹介する施設 <span class="required-tag">必須</span></label>
+        <div class="spot-search-box">
+          <input type="text" id="input-spot-search" placeholder="施設名を検索">
+          <div class="spot-results" id="spot-results"></div>
+          <div class="spot-selected" id="spot-selected">
+            <div>
+              <div class="name" id="spot-selected-name"></div>
+              <div class="area" id="spot-selected-area"></div>
+            </div>
+            <button class="link-btn" id="btn-spot-clear">変更する</button>
+          </div>
+        </div>
+        <div class="hint">おでかけナビに登録されている施設の中から選べます。見つからない場合はおでかけナビ本体への施設追加を先にご依頼ください。</div>
+        <div class="error-msg">施設を検索して選択してください</div>
+      </div>
+
+      <div class="field" id="field-postUrl">
+        <label>Instagram投稿URL <span class="required-tag">必須</span></label>
+        <input type="url" id="input-postUrl" placeholder="https://www.instagram.com/p/xxxxx/">
+        <div class="hint">この施設を紹介しているInstagram投稿のURLを入力してください</div>
+        <div class="error-msg">投稿URLの形式が正しくありません（例：https://www.instagram.com/p/xxxxx/）</div>
+      </div>
+
+      <div class="field">
+        <label>コメント <span class="optional-tag">任意</span></label>
+        <textarea id="input-comment" maxlength="300" placeholder="例：3歳でも楽しめました！雨の日にもおすすめです。"></textarea>
+        <div class="char-count"><span id="count-comment">0</span>/300</div>
+      </div>
+
+      <div class="field">
+        <label>訪問日 <span class="optional-tag">任意</span></label>
+        <input type="date" id="input-visitDate">
+      </div>
+
+      <button class="btn btn-add" id="btn-add-contribution">＋ このスポットを追加する</button>
+    </div>
+
+    <div id="contrib-list"></div>
+
+    <div class="btn-row">
+      <button class="btn btn-ghost" id="btn-step2-back">もどる</button>
+      <button class="btn btn-primary" id="btn-step2-next" disabled>確認画面へ</button>
+    </div>
+  </section>
+
+  <!-- ============ 確認画面 ============ -->
+  <section id="screen-confirm" class="hidden">
+    <div class="card">
+      <div class="section-heading">この内容で登録しますか？</div>
+      <dl class="confirm-list" id="confirm-body"></dl>
+      <div class="confirm-note">
+        ご登録いただいた内容は運営者が内容を確認したうえで、おでかけナビに掲載されます。掲載までお時間をいただく場合があります。
+      </div>
+    </div>
+    <div class="btn-row">
+      <button class="btn btn-ghost" id="btn-confirm-back">戻る</button>
+      <button class="btn btn-primary" id="btn-confirm-submit">登録する</button>
+    </div>
+  </section>
+
+  <!-- ============ 完了画面 ============ -->
+  <section id="screen-done" class="hidden">
+    <div class="card" style="text-align:center;">
+      <div class="done-icon">✓</div>
+      <h2 style="margin:0 0 8px;">ご登録ありがとうございます！</h2>
+      <p style="color:var(--ink-soft); font-size:13.5px; line-height:1.8;">
+        このフォームだけでは自動的にサイトへ反映されません。<br>
+        下の「登録内容（JSON）」を<b>コピーまたはダウンロード</b>して、<br>
+        おでかけナビ運営者へお送りください。運営者が内容を確認・公開設定した後、サイトに掲載されます。
+      </p>
+    </div>
+
+    <div class="card">
+      <div class="file-label">登録内容（JSON）</div>
+      <div class="json-box" id="output-json"></div>
+      <div class="btn-row">
+        <button class="btn btn-secondary btn-sm" id="btn-copy-json">JSONをコピー</button>
+        <button class="btn btn-secondary btn-sm" id="btn-download-json">JSONをダウンロード</button>
+      </div>
+      <div class="copy-flash" id="copy-flash">コピーしました！</div>
+    </div>
+
+    <button class="btn btn-add" id="btn-add-more">続けて別のスポットを紹介する</button>
+  </section>
+
+  <div style="text-align:center; margin-top:52px; padding-bottom:6px;">
+    <a href="./admin.html" style="font-size:10px; color:#D8D2C4; text-decoration:none; letter-spacing:0.05em;">・</a>
+  </div>
+
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script src="./assets/app.js"></script>
+<script>
+(async function () {
+  const $ = (sel) => document.querySelector(sel);
+  const $$ = (sel) => Array.from(document.querySelectorAll(sel));
+
+  const state = {
+    mode: 'new',            // 'new' | 'existing'
+    contributor: null,      // {id?, displayName, snsUrl, profileText} ※idは既存選択時のみ
+    isNewContributor: true,
+    contributions: [],      // [{spotId, spotName, spotArea, postUrl, comment, visitDate}]
+    selectedSpot: null,
+    publishedContributors: []
+  };
+
+  function showStepDot(n) {
+    $$('.step-dot').forEach((el, i) => {
+      el.classList.remove('active', 'done');
+      if (i + 1 < n) el.classList.add('done');
+      if (i + 1 === n) el.classList.add('active');
+    });
+  }
+
+  function showScreen(id) {
+    ['screen-step1', 'screen-step2', 'screen-confirm', 'screen-done'].forEach(s => {
+      $('#' + s).classList.toggle('hidden', s !== id);
+    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function toast(msg) {
+    const t = $('#toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 1800);
+  }
+
+  /* ---------------- STEP1 ---------------- */
+
+  $('#choice-new').addEventListener('click', () => setMode('new'));
+  $('#choice-existing').addEventListener('click', () => setMode('existing'));
+
+  function setMode(mode) {
+    state.mode = mode;
+    $('#choice-new').classList.toggle('selected', mode === 'new');
+    $('#choice-existing').classList.toggle('selected', mode === 'existing');
+    $('#new-contributor-form').classList.toggle('hidden', mode !== 'new');
+    $('#existing-contributor-form').classList.toggle('hidden', mode !== 'existing');
+  }
+
+  // 前回このブラウザで登録した情報があれば「前回の続きから」を出せるようにする
+  const draft = ODEKAKE.readLS(ODEKAKE.LS_KEYS.draftContributor, null);
+
+  ODEKAKE.loadPublishedContributors().then(list => {
+    state.publishedContributors = list;
+    const sel = $('#select-existing-contributor');
+    const emptyHint = $('#existing-contributor-empty');
+    if (draft) {
+      const opt = document.createElement('option');
+      opt.value = '__draft__';
+      opt.textContent = draft.displayName + '（このブラウザで前回登録）';
+      sel.appendChild(opt);
+    }
+    list.forEach(c => {
+      const opt = document.createElement('option');
+      opt.value = c.id;
+      opt.textContent = c.displayName;
+      sel.appendChild(opt);
+    });
+    if (list.length === 0 && !draft) {
+      emptyHint.textContent = '公開済みの紹介者データを取得できませんでした。はじめての方はそのまま「はじめて登録する」から進めます。';
+    } else {
+      emptyHint.textContent = '一覧にない場合は「はじめて登録する」を選んでください。';
+    }
+  });
+
+  function validateStep1() {
+    let ok = true;
+    if (state.mode === 'new') {
+      const name = $('#input-displayName').value.trim();
+      const url = $('#input-snsUrl').value.trim();
+      toggleError('field-displayName', !name);
+      if (!name) ok = false;
+      const urlOk = ODEKAKE.isValidInstagramProfileUrl(url);
+      toggleError('field-snsUrl', !urlOk);
+      if (!urlOk) ok = false;
+    } else {
+      const val = $('#select-existing-contributor').value;
+      if (!val) { toast('紹介者を選択してください'); ok = false; }
+    }
+    return ok;
+  }
+
+  function toggleError(fieldId, hasError) {
+    $('#' + fieldId).classList.toggle('has-error', hasError);
+  }
+
+  $('#input-profileText').addEventListener('input', (e) => {
+    $('#count-profileText').textContent = e.target.value.length;
+  });
+
+  $('#btn-step1-next').addEventListener('click', () => {
+    if (!validateStep1()) return;
+
+    if (state.mode === 'new') {
+      state.isNewContributor = true;
+      state.contributor = {
+        id: ODEKAKE.uid('creator'),
+        displayName: $('#input-displayName').value.trim(),
+        snsUrl: $('#input-snsUrl').value.trim(),
+        profileText: $('#input-profileText').value.trim()
+      };
+    } else {
+      const val = $('#select-existing-contributor').value;
+      if (val === '__draft__') {
+        state.isNewContributor = true; // まだ運営者側に届いていない可能性があるためJSONには含める
+        state.contributor = draft;
+      } else {
+        state.isNewContributor = false;
+        const found = state.publishedContributors.find(c => c.id === val);
+        state.contributor = found;
+      }
+    }
+    showStepDot(2);
+    showScreen('screen-step2');
+  });
+
+  /* ---------------- STEP2 ---------------- */
+
+  const spotsReady = ODEKAKE.loadSpots();
+
+  $('#input-spot-search').addEventListener('input', async (e) => {
+    const { items } = await spotsReady;
+    const kw = e.target.value;
+    const results = ODEKAKE.searchSpots(items, kw);
+    const box = $('#spot-results');
+    if (!kw.trim()) { box.classList.remove('show'); box.innerHTML = ''; return; }
+    if (results.length === 0) {
+      box.innerHTML = '<div class="spot-result-item">該当する施設が見つかりません</div>';
+    } else {
+      box.innerHTML = results.map(s =>
+        `<div class="spot-result-item" data-id="${ODEKAKE.escapeHtml(s.id)}">
+           <div class="name">${ODEKAKE.escapeHtml(s.name)}</div>
+           <div class="area">${ODEKAKE.escapeHtml(s.area)}</div>
+         </div>`
+      ).join('');
+    }
+    box.classList.add('show');
+  });
+
+  $('#spot-results').addEventListener('click', async (e) => {
+    const item = e.target.closest('.spot-result-item');
+    if (!item || !item.dataset.id) return;
+    const { items } = await spotsReady;
+    const spot = items.find(s => s.id === item.dataset.id);
+    if (!spot) return;
+    state.selectedSpot = spot;
+    $('#spot-selected-name').textContent = spot.name;
+    $('#spot-selected-area').textContent = spot.area;
+    $('#spot-selected').classList.add('show');
+    $('#input-spot-search').value = '';
+    $('#input-spot-search').classList.add('hidden');
+    $('#spot-results').classList.remove('show');
+    $('#spot-results').innerHTML = '';
+    toggleError('field-spot-search', false);
+  });
+
+  $('#btn-spot-clear').addEventListener('click', () => {
+    state.selectedSpot = null;
+    $('#spot-selected').classList.remove('show');
+    $('#input-spot-search').classList.remove('hidden');
+    $('#input-spot-search').value = '';
+    $('#input-spot-search').focus();
+  });
+
+  $('#input-comment').addEventListener('input', (e) => {
+    $('#count-comment').textContent = e.target.value.length;
+  });
+
+  $('#btn-add-contribution').addEventListener('click', () => {
+    let ok = true;
+    toggleError('field-spot-search', !state.selectedSpot);
+    if (!state.selectedSpot) ok = false;
+
+    const postUrl = $('#input-postUrl').value.trim();
+    const postUrlOk = ODEKAKE.isValidInstagramPostUrl(postUrl);
+    toggleError('field-postUrl', !postUrlOk);
+    if (!postUrlOk) ok = false;
+    if (!ok) return;
+
+    state.contributions.push({
+      id: ODEKAKE.uid('contribution'),
+      spotId: state.selectedSpot.id,
+      spotName: state.selectedSpot.name,
+      spotArea: state.selectedSpot.area,
+      postUrl,
+      comment: $('#input-comment').value.trim(),
+      visitDate: $('#input-visitDate').value || ''
+    });
+
+    // フォームをリセット
+    state.selectedSpot = null;
+    $('#spot-selected').classList.remove('show');
+    $('#input-spot-search').classList.remove('hidden');
+    $('#input-spot-search').value = '';
+    $('#input-postUrl').value = '';
+    $('#input-comment').value = '';
+    $('#count-comment').textContent = '0';
+    $('#input-visitDate').value = '';
+
+    renderContribList();
+    toast('スポットを追加しました');
+  });
+
+  function renderContribList() {
+    const box = $('#contrib-list');
+    if (state.contributions.length === 0) {
+      box.innerHTML = '';
+      $('#btn-step2-next').disabled = true;
+      return;
+    }
+    box.innerHTML = state.contributions.map(c => `
+      <div class="contrib-item" data-id="${c.id}">
+        <button class="remove-btn" data-remove="${c.id}">削除</button>
+        <div class="spot-name">📍 ${ODEKAKE.escapeHtml(c.spotName)}</div>
+        <div class="meta">
+          ${ODEKAKE.escapeHtml(c.spotArea)}<br>
+          投稿: ${ODEKAKE.escapeHtml(c.postUrl)}<br>
+          ${c.visitDate ? '訪問日: ' + ODEKAKE.escapeHtml(c.visitDate) + '<br>' : ''}
+          ${c.comment ? ODEKAKE.escapeHtml(c.comment) : ''}
+        </div>
+      </div>
+    `).join('');
+    $('#btn-step2-next').disabled = false;
+  }
+
+  $('#contrib-list').addEventListener('click', (e) => {
+    const id = e.target.dataset.remove;
+    if (!id) return;
+    state.contributions = state.contributions.filter(c => c.id !== id);
+    renderContribList();
+  });
+
+  $('#btn-step2-back').addEventListener('click', () => {
+    showStepDot(1);
+    showScreen('screen-step1');
+  });
+
+  $('#btn-step2-next').addEventListener('click', () => {
+    if (state.contributions.length === 0) return;
+    renderConfirm();
+    showStepDot(3);
+    showScreen('screen-confirm');
+  });
+
+  /* ---------------- 確認画面 ---------------- */
+
+  function renderConfirm() {
+    const c = state.contributor;
+    let html = `
+      <dt>表示名</dt><dd>${ODEKAKE.escapeHtml(c.displayName)}</dd>
+      <dt>Instagram URL</dt><dd><a href="${ODEKAKE.escapeHtml(c.snsUrl)}" target="_blank" rel="noopener">${ODEKAKE.escapeHtml(c.snsUrl)}</a></dd>
+    `;
+    state.contributions.forEach((item, i) => {
+      html += `
+        <dt>紹介施設 ${i + 1}</dt><dd>${ODEKAKE.escapeHtml(item.spotName)}（${ODEKAKE.escapeHtml(item.spotArea)}）</dd>
+        <dt>Instagram投稿URL</dt><dd><a href="${ODEKAKE.escapeHtml(item.postUrl)}" target="_blank" rel="noopener">${ODEKAKE.escapeHtml(item.postUrl)}</a></dd>
+        ${item.comment ? `<dt>コメント</dt><dd>${ODEKAKE.escapeHtml(item.comment)}</dd>` : ''}
+        ${item.visitDate ? `<dt>訪問日</dt><dd>${ODEKAKE.escapeHtml(item.visitDate)}</dd>` : ''}
+      `;
+    });
+    $('#confirm-body').innerHTML = html;
+  }
+
+  $('#btn-confirm-back').addEventListener('click', () => {
+    showStepDot(2);
+    showScreen('screen-step2');
+  });
+
+  $('#btn-confirm-submit').addEventListener('click', () => {
+    // このブラウザに下書きとして保存（次回の入力省略のため）
+    ODEKAKE.writeLS(ODEKAKE.LS_KEYS.draftContributor, state.contributor);
+
+    const pending = ODEKAKE.readLS(ODEKAKE.LS_KEYS.pendingContributions, []);
+    const payload = {
+      contributor: state.isNewContributor ? state.contributor : { id: state.contributor.id },
+      isNewContributor: state.isNewContributor,
+      contributions: state.contributions.map(c => ({
+        id: c.id,
+        contributorId: state.contributor.id,
+        spotId: c.spotId,
+        postUrl: c.postUrl,
+        comment: c.comment,
+        visitDate: c.visitDate,
+        published: false
+      }))
+    };
+    pending.push(payload);
+    ODEKAKE.writeLS(ODEKAKE.LS_KEYS.pendingContributions, pending);
+
+    renderDone(payload);
+    showScreen('screen-done');
+  });
+
+  function renderDone(payload) {
+    const out = {};
+    if (payload.isNewContributor) {
+      out.contributors = ODEKAKE.buildContributorsJson([{ ...payload.contributor, published: false }]);
+    }
+    out.contributions = ODEKAKE.buildContributionsJson(payload.contributions);
+    const jsonText = JSON.stringify(out, null, 2);
+    $('#output-json').textContent = jsonText;
+
+    $('#btn-copy-json').onclick = async () => {
+      await ODEKAKE.copyText(jsonText);
+      $('#copy-flash').style.display = 'block';
+      setTimeout(() => $('#copy-flash').style.display = 'none', 1800);
+    };
+    $('#btn-download-json').onclick = () => {
+      ODEKAKE.downloadJson('odekake_submission_' + ODEKAKE.todayISO() + '.json', out);
+    };
+  }
+
+  $('#btn-add-more').addEventListener('click', () => {
+    state.contributions = [];
+    renderContribList();
+    showStepDot(2);
+    showScreen('screen-step2');
+  });
+
+  showStepDot(1);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>管理画面｜みんなのおでかけ - おでかけナビ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+
+<div id="login-gate" class="wrap" style="max-width:360px; padding-top:18vh;">
+  <div class="card" style="text-align:center;">
+    <div class="mark" style="margin:0 auto 14px; width:52px; height:52px; font-size:24px;">🔒</div>
+    <h1 style="font-size:18px; margin:0 0 6px;">管理画面ログイン</h1>
+    <p style="font-size:12.5px; color:var(--ink-soft); margin:0 0 18px;">パスワードを入力してください</p>
+    <div class="field" style="margin-bottom:12px;">
+      <input type="password" id="login-password" placeholder="パスワード" autocomplete="off">
+      <div class="error-msg" id="login-error" style="display:none;">パスワードが違います</div>
+    </div>
+    <button class="btn btn-primary" id="btn-login">ログイン</button>
+  </div>
+</div>
+
+<div class="wrap wide" id="admin-content" style="display:none;">
+
+  <div class="top-bar">
+    <div class="mark">🛠️</div>
+    <div class="brand-text">
+      <div class="brand">おでかけナビ｜管理用ページ</div>
+      <div class="tagline">📸 みんなのおでかけ の確認・公開管理</div>
+    </div>
+  </div>
+
+  <h1 class="page-title">管理画面</h1>
+  <p class="page-lead">
+    紹介者・紹介投稿の確認、公開/非公開の切り替え、削除、完成版JSONの出力を行います。<br>
+    このページのリンクは紹介者には共有しないでください。
+  </p>
+
+  <div class="notice-banner">
+    ⚠️ このパスワードはブラウザ側だけで確認する簡易的なものです（ページのソースを見れば誰でも分かります）。本格的な権限管理ではなく、「うっかりたどり着いた人が編集できないようにする」ための簡易ロックとしてご利用ください。共有リンクや検索エンジンにも載せないようにしてください。
+  </div>
+
+  <div class="admin-tabs">
+    <div class="admin-tab active" data-tab="import">取り込み</div>
+    <div class="admin-tab" data-tab="contributors">紹介者一覧</div>
+    <div class="admin-tab" data-tab="contributions">紹介投稿一覧</div>
+    <div class="admin-tab" data-tab="export">完成版JSON出力</div>
+  </div>
+
+  <!-- ============ 取り込み ============ -->
+  <div class="admin-panel active" id="panel-import">
+    <div class="card">
+      <div class="section-heading">送られてきた登録内容を取り込む</div>
+      <p style="font-size:13px; color:var(--ink-soft); line-height:1.8;">
+        紹介者が入力フォームの完了画面で表示された「登録内容（JSON）」をコピー＆ダウンロードして送ってくれます。その内容をここに貼り付けて「取り込む」を押してください。
+      </p>
+      <div class="field import-box">
+        <label>登録内容のJSONを貼り付け</label>
+        <textarea id="import-textarea" rows="8" placeholder='{"contributors": [...], "contributions": [...]}'></textarea>
+      </div>
+      <button class="btn btn-primary" id="btn-import">取り込む</button>
+      <div id="import-result" style="margin-top:10px; font-size:13px;"></div>
+    </div>
+
+    <div class="card">
+      <div class="section-heading">今すぐ手入力で追加</div>
+      <p style="font-size:13px; color:var(--ink-soft); margin-bottom:14px;">JSONを受け取っていない場合、直接内容を入力して登録者・紹介投稿を追加できます。</p>
+      <div class="btn-row">
+        <button class="btn btn-secondary" id="btn-manual-contributor">紹介者を手入力で追加</button>
+        <button class="btn btn-secondary" id="btn-manual-contribution">紹介投稿を手入力で追加</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============ 紹介者一覧 ============ -->
+  <div class="admin-panel" id="panel-contributors">
+    <div id="contributors-list"></div>
+  </div>
+
+  <!-- ============ 紹介投稿一覧 ============ -->
+  <div class="admin-panel" id="panel-contributions">
+    <div id="contributions-list"></div>
+  </div>
+
+  <!-- ============ 完成版JSON出力 ============ -->
+  <div class="admin-panel" id="panel-export">
+    <div class="card">
+      <div class="section-heading">contributors.json</div>
+      <p style="font-size:12.5px; color:var(--ink-soft);">現在登録されている紹介者の「全件」を出力します（差分ではありません）。削除済みのデータは含まれません。</p>
+      <div class="json-box" id="export-contributors-json"></div>
+      <div class="btn-row">
+        <button class="btn btn-secondary btn-sm" id="btn-copy-contributors">コピー</button>
+        <button class="btn btn-primary btn-sm" id="btn-download-contributors">ダウンロード</button>
+      </div>
+    </div>
+    <div class="card">
+      <div class="section-heading">contributions.json</div>
+      <p style="font-size:12.5px; color:var(--ink-soft);">現在登録されている紹介投稿の「全件」を出力します（差分ではありません）。削除済みのデータは含まれません。</p>
+      <div class="json-box" id="export-contributions-json"></div>
+      <div class="btn-row">
+        <button class="btn btn-secondary btn-sm" id="btn-copy-contributions">コピー</button>
+        <button class="btn btn-primary btn-sm" id="btn-download-contributions">ダウンロード</button>
+      </div>
+    </div>
+    <div class="card">
+      <p style="font-size:12.5px; color:var(--ink-soft); line-height:1.8;">
+        ダウンロードした2つのファイルを、おでかけナビ本体のリポジトリの所定の場所（例：<code>/data/contributors.json</code> と <code>/data/contributions.json</code>）にアップロードしてください。アップロード後、入力フォーム側でも最新の紹介者一覧が選択できるようになります。
+      </p>
+    </div>
+  </div>
+
+</div>
+
+<div class="toast" id="toast"></div>
+
+<!-- 編集用モーダル（簡易） -->
+<div id="edit-modal" class="hidden" style="position:fixed; inset:0; background:rgba(50,40,30,0.45); z-index:40; display:flex; align-items:flex-end; justify-content:center;">
+  <div style="background:#fff; width:100%; max-width:520px; border-radius:22px 22px 0 0; padding:22px 18px 30px; max-height:88vh; overflow-y:auto;">
+    <div id="edit-modal-body"></div>
+  </div>
+</div>
+
+<script src="./assets/app.js"></script>
+<script>
+(function () {
+  const $ = (sel) => document.querySelector(sel);
+  const $$ = (sel) => Array.from(document.querySelectorAll(sel));
+
+  /* ---------------- 簡易パスワードロック ---------------- */
+  const ADMIN_PASSWORD = 'qwe123'; // ブラウザ側だけの簡易チェックです（本格的な認証ではありません）
+  const AUTH_KEY = 'odekake_mnO_adminAuth';
+
+  function showAdmin() {
+    $('#login-gate').style.display = 'none';
+    $('#admin-content').style.display = 'block';
+    initAdmin();
+  }
+
+  if (sessionStorage.getItem(AUTH_KEY) === 'ok') {
+    showAdmin();
+  } else {
+    $('#login-password').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') $('#btn-login').click();
+    });
+    $('#btn-login').addEventListener('click', () => {
+      const val = $('#login-password').value;
+      if (val === ADMIN_PASSWORD) {
+        sessionStorage.setItem(AUTH_KEY, 'ok');
+        showAdmin();
+      } else {
+        $('#login-error').style.display = 'block';
+        $('#login-password').closest('.field').classList.add('has-error');
+        $('#login-password').value = '';
+        $('#login-password').focus();
+      }
+    });
+  }
+
+  function initAdmin() {
+
+  let db = ODEKAKE.getAdminDb();
+
+  function persist() {
+    ODEKAKE.setAdminDb(db);
+  }
+
+  function toast(msg) {
+    const t = $('#toast');
+    t.textContent = msg;
+    t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 1800);
+  }
+
+  /* ---------------- タブ切り替え ---------------- */
+  $$('.admin-tab').forEach(tab => {
+    tab.addEventListener('click', () => {
+      $$('.admin-tab').forEach(t => t.classList.remove('active'));
+      $$('.admin-panel').forEach(p => p.classList.remove('active'));
+      tab.classList.add('active');
+      $('#panel-' + tab.dataset.tab).classList.add('active');
+      if (tab.dataset.tab === 'contributors') renderContributors();
+      if (tab.dataset.tab === 'contributions') renderContributions();
+      if (tab.dataset.tab === 'export') renderExport();
+    });
+  });
+
+  /* ---------------- 取り込み ---------------- */
+  $('#btn-import').addEventListener('click', () => {
+    const raw = $('#import-textarea').value.trim();
+    const resultBox = $('#import-result');
+    if (!raw) { resultBox.textContent = '内容を貼り付けてください。'; resultBox.style.color = 'var(--danger)'; return; }
+    let parsed;
+    try {
+      parsed = JSON.parse(raw);
+    } catch (e) {
+      resultBox.textContent = 'JSONの形式が正しくありません。貼り付け内容をご確認ください。';
+      resultBox.style.color = 'var(--danger)';
+      return;
+    }
+
+    let addedContributors = 0, addedContributions = 0;
+    (parsed.contributors || []).forEach(c => {
+      if (!db.contributors.find(x => x.id === c.id)) {
+        db.contributors.push({
+          id: c.id || ODEKAKE.uid('creator'),
+          displayName: c.displayName || '',
+          snsType: 'instagram',
+          snsUrl: c.snsUrl || '',
+          profileText: c.profileText || '',
+          published: false
+        });
+        addedContributors++;
+      }
+    });
+    (parsed.contributions || []).forEach(c => {
+      if (!db.contributions.find(x => x.id === c.id)) {
+        db.contributions.push({
+          id: c.id || ODEKAKE.uid('contribution'),
+          contributorId: c.contributorId,
+          spotId: c.spotId,
+          postUrl: c.postUrl || '',
+          comment: c.comment || '',
+          visitDate: c.visitDate || '',
+          published: false
+        });
+        addedContributions++;
+      }
+    });
+
+    persist();
+    resultBox.style.color = 'var(--ok)';
+    resultBox.textContent = `取り込み完了：紹介者 ${addedContributors}件、紹介投稿 ${addedContributions}件を追加しました（未公開の状態です）。`;
+    $('#import-textarea').value = '';
+  });
+
+  /* ---------------- 手入力追加 ---------------- */
+  $('#btn-manual-contributor').addEventListener('click', () => openContributorEditor(null));
+  $('#btn-manual-contribution').addEventListener('click', () => openContributionEditor(null));
+
+  function openModal(html) {
+    $('#edit-modal-body').innerHTML = html;
+    $('#edit-modal').classList.remove('hidden');
+  }
+  function closeModal() {
+    $('#edit-modal').classList.add('hidden');
+  }
+
+  function openContributorEditor(id) {
+    const item = id ? db.contributors.find(c => c.id === id) : { id: '', displayName: '', snsUrl: '', profileText: '', published: false };
+    openModal(`
+      <div class="section-heading">${id ? '紹介者を編集' : '紹介者を追加'}</div>
+      <div class="editable-form">
+        <div class="field"><label>表示名</label><input type="text" id="m-displayName" value="${ODEKAKE.escapeHtml(item.displayName)}"></div>
+        <div class="field"><label>Instagram URL</label><input type="url" id="m-snsUrl" value="${ODEKAKE.escapeHtml(item.snsUrl)}"></div>
+        <div class="field"><label>プロフィール紹介文</label><textarea id="m-profileText">${ODEKAKE.escapeHtml(item.profileText)}</textarea></div>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-ghost" id="m-cancel">キャンセル</button>
+        <button class="btn btn-primary" id="m-save">保存</button>
+      </div>
+    `);
+    $('#m-cancel').addEventListener('click', closeModal);
+    $('#m-save').addEventListener('click', () => {
+      const displayName = $('#m-displayName').value.trim();
+      const snsUrl = $('#m-snsUrl').value.trim();
+      if (!displayName || !ODEKAKE.isValidInstagramProfileUrl(snsUrl)) {
+        toast('表示名とInstagram URL（正しい形式）は必須です');
+        return;
+      }
+      const profileText = $('#m-profileText').value.trim();
+      if (id) {
+        Object.assign(item, { displayName, snsUrl, profileText });
+      } else {
+        db.contributors.push({ id: ODEKAKE.uid('creator'), displayName, snsType: 'instagram', snsUrl, profileText, published: false });
+      }
+      persist();
+      closeModal();
+      renderContributors();
+      toast('保存しました');
+    });
+  }
+
+  function openContributionEditor(id) {
+    const item = id ? db.contributions.find(c => c.id === id) : { id: '', contributorId: '', spotId: '', postUrl: '', comment: '', visitDate: '', published: false };
+    const contributorOptions = db.contributors.map(c => `<option value="${c.id}" ${c.id === item.contributorId ? 'selected' : ''}>${ODEKAKE.escapeHtml(c.displayName)}</option>`).join('');
+    openModal(`
+      <div class="section-heading">${id ? '紹介投稿を編集' : '紹介投稿を追加'}</div>
+      <div class="editable-form">
+        <div class="field"><label>紹介者</label><select id="m-contributorId"><option value="">選択してください</option>${contributorOptions}</select></div>
+        <div class="field"><label>施設ID（spotId）</label><input type="text" id="m-spotId" value="${ODEKAKE.escapeHtml(item.spotId)}" placeholder="既存施設データのID"></div>
+        <div class="field"><label>Instagram投稿URL</label><input type="url" id="m-postUrl" value="${ODEKAKE.escapeHtml(item.postUrl)}"></div>
+        <div class="field"><label>コメント</label><textarea id="m-comment" maxlength="300">${ODEKAKE.escapeHtml(item.comment)}</textarea></div>
+        <div class="field"><label>訪問日</label><input type="date" id="m-visitDate" value="${ODEKAKE.escapeHtml(item.visitDate)}"></div>
+      </div>
+      <div class="btn-row">
+        <button class="btn btn-ghost" id="m-cancel">キャンセル</button>
+        <button class="btn btn-primary" id="m-save">保存</button>
+      </div>
+    `);
+    $('#m-cancel').addEventListener('click', closeModal);
+    $('#m-save').addEventListener('click', () => {
+      const contributorId = $('#m-contributorId').value;
+      const spotId = $('#m-spotId').value.trim();
+      const postUrl = $('#m-postUrl').value.trim();
+      if (!contributorId || !spotId || !ODEKAKE.isValidInstagramPostUrl(postUrl)) {
+        toast('紹介者・施設ID・投稿URL（正しい形式）は必須です');
+        return;
+      }
+      const comment = $('#m-comment').value.trim();
+      const visitDate = $('#m-visitDate').value;
+      if (id) {
+        Object.assign(item, { contributorId, spotId, postUrl, comment, visitDate });
+      } else {
+        db.contributions.push({ id: ODEKAKE.uid('contribution'), contributorId, spotId, postUrl, comment, visitDate, published: false });
+      }
+      persist();
+      closeModal();
+      renderContributions();
+      toast('保存しました');
+    });
+  }
+
+  /* ---------------- 紹介者一覧 ---------------- */
+  function renderContributors() {
+    const box = $('#contributors-list');
+    if (db.contributors.length === 0) {
+      box.innerHTML = '<div class="empty-state">まだ紹介者が登録されていません。「取り込み」タブから追加してください。</div>';
+      return;
+    }
+    box.innerHTML = db.contributors.map(c => {
+      const count = db.contributions.filter(x => x.contributorId === c.id).length;
+      return `
+        <div class="table-card">
+          <div class="row1">
+            <div>
+              <div class="title">${ODEKAKE.escapeHtml(c.displayName)}</div>
+              <div class="sub">
+                <a class="plain-link" href="${ODEKAKE.escapeHtml(c.snsUrl)}" target="_blank" rel="noopener">${ODEKAKE.escapeHtml(c.snsUrl)}</a><br>
+                ${ODEKAKE.escapeHtml(c.profileText || '（紹介文なし）')}<br>
+                紹介投稿：${count}件
+              </div>
+            </div>
+            <span class="badge ${c.published ? 'pub' : 'unpub'}">${c.published ? '公開中' : '未公開'}</span>
+          </div>
+          <div class="actions">
+            <button class="btn btn-secondary btn-sm" data-edit-contributor="${c.id}">編集</button>
+            <button class="btn ${c.published ? 'btn-ghost' : 'btn-secondary'} btn-sm" data-toggle-contributor="${c.id}">${c.published ? '非公開にする' : '公開する'}</button>
+            <button class="btn btn-ghost btn-sm" style="color:var(--danger); border-color:#F4C9C9;" data-delete-contributor="${c.id}">削除</button>
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  $('#contributors-list').addEventListener('click', (e) => {
+    const editId = e.target.dataset.editContributor;
+    const toggleId = e.target.dataset.toggleContributor;
+    const delId = e.target.dataset.deleteContributor;
+    if (editId) openContributorEditor(editId);
+    if (toggleId) {
+      const c = db.contributors.find(x => x.id === toggleId);
+      c.published = !c.published;
+      persist(); renderContributors();
+    }
+    if (delId) {
+      const relatedCount = db.contributions.filter(x => x.contributorId === delId).length;
+      const msg = relatedCount > 0
+        ? `この紹介者を削除すると、紐づく紹介投稿 ${relatedCount}件 も削除されます。よろしいですか？`
+        : 'この紹介者を削除しますか？';
+      if (confirm(msg)) {
+        db.contributors = db.contributors.filter(x => x.id !== delId);
+        db.contributions = db.contributions.filter(x => x.contributorId !== delId);
+        persist(); renderContributors();
+        toast('削除しました');
+      }
+    }
+  });
+
+  /* ---------------- 紹介投稿一覧 ---------------- */
+  function renderContributions() {
+    const box = $('#contributions-list');
+    if (db.contributions.length === 0) {
+      box.innerHTML = '<div class="empty-state">まだ紹介投稿が登録されていません。</div>';
+      return;
+    }
+    box.innerHTML = db.contributions.map(c => {
+      const contributor = db.contributors.find(x => x.id === c.contributorId);
+      return `
+        <div class="table-card">
+          <div class="row1">
+            <div>
+              <div class="title">施設ID：${ODEKAKE.escapeHtml(c.spotId)}</div>
+              <div class="sub">
+                紹介者：${ODEKAKE.escapeHtml(contributor ? contributor.displayName : '（不明）')}<br>
+                <a class="plain-link" href="${ODEKAKE.escapeHtml(c.postUrl)}" target="_blank" rel="noopener">Instagramで見る</a><br>
+                ${c.visitDate ? '訪問日：' + ODEKAKE.escapeHtml(c.visitDate) + '<br>' : ''}
+                ${ODEKAKE.escapeHtml(c.comment || '（コメントなし）')}
+              </div>
+            </div>
+            <span class="badge ${c.published ? 'pub' : 'unpub'}">${c.published ? '公開中' : '未公開'}</span>
+          </div>
+          <div class="actions">
+            <button class="btn btn-secondary btn-sm" data-edit-contribution="${c.id}">編集</button>
+            <button class="btn ${c.published ? 'btn-ghost' : 'btn-secondary'} btn-sm" data-toggle-contribution="${c.id}">${c.published ? '非公開にする' : '公開する'}</button>
+            <button class="btn btn-ghost btn-sm" style="color:var(--danger); border-color:#F4C9C9;" data-delete-contribution="${c.id}">削除</button>
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  $('#contributions-list').addEventListener('click', (e) => {
+    const editId = e.target.dataset.editContribution;
+    const toggleId = e.target.dataset.toggleContribution;
+    const delId = e.target.dataset.deleteContribution;
+    if (editId) openContributionEditor(editId);
+    if (toggleId) {
+      const c = db.contributions.find(x => x.id === toggleId);
+      c.published = !c.published;
+      persist(); renderContributions();
+    }
+    if (delId) {
+      if (confirm('この紹介投稿を削除しますか？')) {
+        db.contributions = db.contributions.filter(x => x.id !== delId);
+        persist(); renderContributions();
+        toast('削除しました');
+      }
+    }
+  });
+
+  /* ---------------- 完成版JSON出力 ---------------- */
+  function renderExport() {
+    const contributorsJson = ODEKAKE.buildContributorsJson(db.contributors);
+    const contributionsJson = ODEKAKE.buildContributionsJson(db.contributions);
+    $('#export-contributors-json').textContent = JSON.stringify(contributorsJson, null, 2);
+    $('#export-contributions-json').textContent = JSON.stringify(contributionsJson, null, 2);
+
+    $('#btn-copy-contributors').onclick = () => ODEKAKE.copyText(JSON.stringify(contributorsJson, null, 2)).then(() => toast('コピーしました'));
+    $('#btn-copy-contributions').onclick = () => ODEKAKE.copyText(JSON.stringify(contributionsJson, null, 2)).then(() => toast('コピーしました'));
+    $('#btn-download-contributors').onclick = () => ODEKAKE.downloadJson('contributors.json', contributorsJson);
+    $('#btn-download-contributions').onclick = () => ODEKAKE.downloadJson('contributions.json', contributionsJson);
+  }
+
+  renderContributors();
+  } // initAdmin
+})();
+</script>
+</body>
+</html>
