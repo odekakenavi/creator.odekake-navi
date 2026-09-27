@@ -87,6 +87,16 @@ const ODEKAKE = (() => {
     return /^https?:\/\/(www\.)?instagram\.com\/(p|reel|tv)\/[a-zA-Z0-9_-]+\/?(\?.*)?$/.test(url.trim());
   }
 
+  function extractInstagramUsername(url) {
+    if (!url) return '';
+    const m = url.trim().match(/instagram\.com\/([a-zA-Z0-9._]+)\/?/i);
+    return m ? m[1] : '';
+  }
+
+  function normalizeUrl(url) {
+    return (url || '').trim().replace(/\/+$/, '').toLowerCase();
+  }
+
   /* ---------------- 施設データ ---------------- */
 
   async function fetchFirstAvailable(urls) {
@@ -141,6 +151,12 @@ const ODEKAKE = (() => {
   function findContributorById(list, id) {
     if (!id) return null;
     return (list || []).find(c => c.id === id) || null;
+  }
+
+  function findContributorBySnsUrl(list, snsUrl) {
+    const target = normalizeUrl(snsUrl);
+    if (!target) return null;
+    return (list || []).find(c => normalizeUrl(c.snsUrl) === target) || null;
   }
 
   let _contributionsCache = null;
@@ -219,7 +235,9 @@ const ODEKAKE = (() => {
   return {
     LS_KEYS, uid, todayISO, escapeHtml, readLS, writeLS,
     isValidInstagramProfileUrl, isValidInstagramPostUrl,
-    loadSpots, searchSpots, loadPublishedContributors, loadPublishedContributions, findContributorById,
+    extractInstagramUsername, normalizeUrl,
+    loadSpots, searchSpots, loadPublishedContributors, loadPublishedContributions,
+    findContributorById, findContributorBySnsUrl,
     getAdminDb, setAdminDb,
     buildContributorsJson, buildContributionsJson,
     downloadJson, copyText

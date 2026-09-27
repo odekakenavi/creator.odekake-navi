@@ -208,25 +208,34 @@
       return;
     }
 
-    let addedContributors = 0, addedContributions = 0;
+    let addedContributors = 0, addedContributions = 0, mergedByUrl = 0;
+    const idRemap = {}; // 送られてきたIDが重複統合された場合、正しいIDへ付け替える
+
     (parsed.contributors || []).forEach(c => {
-      if (!db.contributors.find(x => x.id === c.id)) {
-        db.contributors.push({
-          id: c.id || ODEKAKE.uid('creator'),
-          displayName: c.displayName || '',
-          snsType: 'instagram',
-          snsUrl: c.snsUrl || '',
-          profileText: c.profileText || '',
-          published: false
-        });
-        addedContributors++;
+      if (db.contributors.find(x => x.id === c.id)) return; // 既に同じIDが存在
+      const dup = ODEKAKE.findContributorBySnsUrl(db.contributors, c.snsUrl);
+      if (dup) {
+        // 同じInstagramアカウントの紹介者が別デバイス・別IDで送られてきた場合は統合する
+        idRemap[c.id] = dup.id;
+        mergedByUrl++;
+        return;
       }
+      db.contributors.push({
+        id: c.id || ODEKAKE.uid('creator'),
+        displayName: c.displayName || '',
+        snsType: 'instagram',
+        snsUrl: c.snsUrl || '',
+        profileText: c.profileText || '',
+        published: false
+      });
+      addedContributors++;
     });
+
     (parsed.contributions || []).forEach(c => {
       if (!db.contributions.find(x => x.id === c.id)) {
         db.contributions.push({
           id: c.id || ODEKAKE.uid('contribution'),
-          contributorId: c.contributorId,
+          contributorId: idRemap[c.contributorId] || c.contributorId,
           spotId: c.spotId,
           postUrl: c.postUrl || '',
           comment: c.comment || '',
@@ -239,7 +248,8 @@
 
     persist();
     resultBox.style.color = 'var(--ok)';
-    resultBox.textContent = `取り込み完了：紹介者 ${addedContributors}件、紹介投稿 ${addedContributions}件を追加しました（未公開の状態です）。`;
+    resultBox.textContent = `取り込み完了：紹介者 ${addedContributors}件、紹介投稿 ${addedContributions}件を追加しました（未公開の状態です）。` +
+      (mergedByUrl > 0 ? ` 同じInstagramアカウントの紹介者 ${mergedByUrl}件は既存データに統合しました。` : '');
     $('#import-textarea').value = '';
   });
 
