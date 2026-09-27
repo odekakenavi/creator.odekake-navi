@@ -13,20 +13,22 @@
 :root {
   --coral: #FF7A54;
   --coral-dark: #E8613C;
+  --coral-tint: #FFF1EA;
   --teal: #2FA8B0;
-  --teal-dark: #22848A;
+  --teal-dark: #1F8088;
+  --teal-tint: #EAF7F7;
   --sun: #FFC94D;
   --paper: #FFFBF3;
   --card: #FFFFFF;
-  --ink: #33302B;
-  --ink-soft: #6B655C;
-  --line: #F0E6D8;
+  --ink: #2A2620;
+  --ink-soft: #55504A;
+  --line: #E9DCC8;
   --danger: #E85D5D;
-  --ok: #3FA772;
+  --ok: #2E8F5C;
   --radius-lg: 22px;
   --radius-md: 14px;
-  --radius-sm: 9px;
-  --shadow: 0 8px 24px rgba(200, 130, 80, 0.14);
+  --radius-sm: 10px;
+  --shadow: 0 10px 26px rgba(180, 110, 60, 0.18);
 }
 
 * { box-sizing: border-box; }
@@ -132,73 +134,105 @@ img, svg { max-width: 100%; }
 .card {
   background: var(--card);
   border-radius: var(--radius-lg);
-  padding: 22px 18px;
+  padding: 24px 20px;
   box-shadow: var(--shadow);
-  margin-bottom: 18px;
-  border: 1px solid var(--line);
+  margin-bottom: 20px;
+  border: 1.5px solid var(--line);
 }
+
+/* STEP1（アカウント枠）と STEP2（施設枠）を色で明確に分ける */
+.card-step1 {
+  border: 2px solid var(--teal);
+  background: linear-gradient(180deg, var(--teal-tint) 0%, #FFFFFF 120px);
+}
+
+.card-step2 {
+  border: 2px solid var(--coral);
+  background: linear-gradient(180deg, var(--coral-tint) 0%, #FFFFFF 120px);
+}
+
+.step-eyebrow {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  padding: 4px 12px;
+  border-radius: 999px;
+  margin-bottom: 12px;
+  letter-spacing: 0.03em;
+}
+
+.card-step1 .step-eyebrow { background: var(--teal); }
+.card-step2 .step-eyebrow { background: var(--coral-dark); }
 
 .section-heading {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-size: 17px;
-  font-weight: 700;
-  margin: 0 0 16px;
+  font-size: 19px;
+  font-weight: 900;
+  margin: 0 0 18px;
+  color: var(--ink);
 }
 
 .section-heading .num {
-  width: 26px;
-  height: 26px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background: var(--teal);
   color: #fff;
-  font-size: 13px;
+  font-size: 14px;
+  font-weight: 900;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.15);
 }
+
+.card-step1 .section-heading .num { background: var(--teal-dark); }
+.card-step2 .section-heading .num { background: var(--coral-dark); }
 
 /* ---------- form controls ---------- */
 .field { margin-bottom: 18px; }
 
 .field label {
   display: block;
-  font-size: 13.5px;
-  font-weight: 700;
-  margin-bottom: 6px;
+  font-size: 14.5px;
+  font-weight: 800;
+  margin-bottom: 7px;
+  color: var(--ink);
 }
 
 .field .required-tag {
   display: inline-block;
-  font-size: 10px;
-  font-weight: 700;
+  font-size: 10.5px;
+  font-weight: 800;
   color: #fff;
-  background: var(--coral);
+  background: var(--coral-dark);
   border-radius: 5px;
-  padding: 2px 6px;
+  padding: 2px 7px;
   margin-left: 6px;
   vertical-align: middle;
 }
 
 .field .optional-tag {
   display: inline-block;
-  font-size: 10px;
-  font-weight: 700;
+  font-size: 10.5px;
+  font-weight: 800;
   color: var(--ink-soft);
-  background: var(--line);
+  background: #EFE6D2;
   border-radius: 5px;
-  padding: 2px 6px;
+  padding: 2px 7px;
   margin-left: 6px;
   vertical-align: middle;
 }
 
 .field .hint {
-  font-size: 12px;
+  font-size: 12.5px;
   color: var(--ink-soft);
   margin-top: 6px;
-  line-height: 1.6;
+  line-height: 1.7;
 }
 
 .field .example {
@@ -226,17 +260,18 @@ select {
   width: 100%;
   font-size: 16px;
   font-family: inherit;
-  padding: 12px 14px;
+  padding: 13px 14px;
   border-radius: var(--radius-sm);
-  border: 1.5px solid var(--line);
+  border: 2px solid #DCCFB6;
   background: #FFFEFC;
   color: var(--ink);
-  transition: border-color 0.15s ease;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
 
 input:focus, textarea:focus, select:focus {
   outline: none;
-  border-color: var(--teal);
+  border-color: var(--teal-dark);
+  box-shadow: 0 0 0 3px rgba(47, 168, 176, 0.18);
 }
 
 textarea { resize: vertical; min-height: 84px; line-height: 1.6; }
@@ -253,21 +288,23 @@ textarea { resize: vertical; min-height: 84px; line-height: 1.6; }
 
 .choice-card {
   flex: 1;
-  border: 1.5px solid var(--line);
+  border: 2px solid #DCCFB6;
   border-radius: var(--radius-md);
-  padding: 12px 10px;
+  padding: 13px 10px;
   text-align: center;
-  font-size: 13.5px;
-  font-weight: 700;
+  font-size: 14px;
+  font-weight: 800;
   cursor: pointer;
   background: #fff;
+  color: var(--ink-soft);
   transition: all 0.15s ease;
 }
 
 .choice-card.selected {
   border-color: var(--coral);
-  background: #FFF3EE;
+  background: var(--coral-tint);
   color: var(--coral-dark);
+  box-shadow: 0 4px 10px rgba(232, 97, 60, 0.15);
 }
 
 /* ---------- spot search ---------- */
@@ -275,7 +312,7 @@ textarea { resize: vertical; min-height: 84px; line-height: 1.6; }
 
 .spot-results {
   margin-top: 8px;
-  border: 1px solid var(--line);
+  border: 2px solid #DCCFB6;
   border-radius: var(--radius-md);
   overflow: hidden;
   max-height: 260px;
@@ -328,11 +365,12 @@ textarea { resize: vertical; min-height: 84px; line-height: 1.6; }
 
 /* ---------- contribution list (step2 accumulated cards) ---------- */
 .contrib-item {
-  border: 1.5px solid var(--line);
+  border: 2px solid var(--line);
   border-radius: var(--radius-md);
   padding: 14px;
   margin-bottom: 12px;
   position: relative;
+  background: #FFFDF8;
 }
 
 .contrib-item .spot-name { font-weight: 700; font-size: 14.5px; margin-bottom: 4px; }
