@@ -25,6 +25,12 @@ const ODEKAKE = (() => {
     './data/contributors.sample.json'
   ];
 
+  // 既存で公開済みの紹介投稿一覧（本体サイトに置かれる contributions.json）
+  const CONTRIBUTIONS_DATA_URLS = [
+    './data/contributions.json',
+    './data/contributions.sample.json'
+  ];
+
   const LS_KEYS = {
     draftContributor: 'odekake_mnO_draftContributor', // このブラウザで登録した「自分」の情報（次回以降の入力省略用）
     pendingContributions: 'odekake_mnO_pendingContributions', // まだ運営者に送っていない下書き
@@ -132,6 +138,19 @@ const ODEKAKE = (() => {
     return _contributorsCache;
   }
 
+  function findContributorById(list, id) {
+    if (!id) return null;
+    return (list || []).find(c => c.id === id) || null;
+  }
+
+  let _contributionsCache = null;
+  async function loadPublishedContributions() {
+    if (_contributionsCache) return _contributionsCache;
+    const { data } = await fetchFirstAvailable(CONTRIBUTIONS_DATA_URLS);
+    _contributionsCache = data || [];
+    return _contributionsCache;
+  }
+
   /* ---------------- 管理用データベース（admin.html が使用） ---------------- */
 
   function getAdminDb() {
@@ -200,7 +219,7 @@ const ODEKAKE = (() => {
   return {
     LS_KEYS, uid, todayISO, escapeHtml, readLS, writeLS,
     isValidInstagramProfileUrl, isValidInstagramPostUrl,
-    loadSpots, searchSpots, loadPublishedContributors,
+    loadSpots, searchSpots, loadPublishedContributors, loadPublishedContributions, findContributorById,
     getAdminDb, setAdminDb,
     buildContributorsJson, buildContributionsJson,
     downloadJson, copyText

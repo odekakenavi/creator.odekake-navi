@@ -18,11 +18,11 @@
   --teal-dark: #1F8088;
   --teal-tint: #EAF7F7;
   --sun: #FFC94D;
-  --paper: #FFFBF3;
+  --paper: #F3E7CE;
   --card: #FFFFFF;
   --ink: #2A2620;
   --ink-soft: #55504A;
-  --line: #E9DCC8;
+  --line: #E3D3B4;
   --danger: #E85D5D;
   --ok: #2E8F5C;
   --radius-lg: 22px;
@@ -45,8 +45,8 @@ html, body {
 body {
   min-height: 100vh;
   background-image:
-    radial-gradient(circle at 8% 0%, rgba(255, 201, 77, 0.18), transparent 40%),
-    radial-gradient(circle at 100% 10%, rgba(47, 168, 176, 0.12), transparent 45%);
+    radial-gradient(circle at 8% 0%, rgba(255, 201, 77, 0.16), transparent 40%),
+    radial-gradient(circle at 100% 10%, rgba(47, 168, 176, 0.10), transparent 45%);
 }
 
 h1, h2, h3, .brand {
@@ -143,12 +143,10 @@ img, svg { max-width: 100%; }
 /* STEP1（アカウント枠）と STEP2（施設枠）を色で明確に分ける */
 .card-step1 {
   border: 2px solid var(--teal);
-  background: linear-gradient(180deg, var(--teal-tint) 0%, #FFFFFF 120px);
 }
 
 .card-step2 {
   border: 2px solid var(--coral);
-  background: linear-gradient(180deg, var(--coral-tint) 0%, #FFFFFF 120px);
 }
 
 .step-eyebrow {
@@ -262,8 +260,8 @@ select {
   font-family: inherit;
   padding: 13px 14px;
   border-radius: var(--radius-sm);
-  border: 2px solid #DCCFB6;
-  background: #FFFEFC;
+  border: 2px solid #C9B98F;
+  background: #FFFFFF;
   color: var(--ink);
   transition: border-color 0.15s ease, box-shadow 0.15s ease;
 }
@@ -284,11 +282,49 @@ textarea { resize: vertical; min-height: 84px; line-height: 1.6; }
 }
 
 /* radio-card for choosing "existing / new" contributor */
-.choice-group { display: flex; gap: 10px; margin-bottom: 14px; }
+.choice-group { display: flex; gap: 10px; margin-bottom: 18px; }
+
+.section-divider {
+  border: none;
+  border-top: 1.5px dashed var(--line);
+  margin: 22px 0;
+}
+
+.id-result-box {
+  margin-top: 10px;
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  border: 1.5px solid #BEE7CC;
+  background: #EFFAF3;
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--ok);
+  display: none;
+}
+
+.id-result-box.show { display: block; }
+
+.id-result-box.not-found {
+  background: #FFF3F0;
+  border-color: #F4C9C9;
+  color: var(--danger);
+}
+
+.id-badge {
+  display: inline-block;
+  font-family: 'SFMono-Regular', Menlo, Consolas, monospace;
+  font-size: 13px;
+  font-weight: 700;
+  background: #2B2822;
+  color: #FFC94D;
+  padding: 8px 14px;
+  border-radius: 999px;
+  letter-spacing: 0.02em;
+}
 
 .choice-card {
   flex: 1;
-  border: 2px solid #DCCFB6;
+  border: 2px solid #C9B98F;
   border-radius: var(--radius-md);
   padding: 13px 10px;
   text-align: center;
@@ -312,7 +348,7 @@ textarea { resize: vertical; min-height: 84px; line-height: 1.6; }
 
 .spot-results {
   margin-top: 8px;
-  border: 2px solid #DCCFB6;
+  border: 2px solid #C9B98F;
   border-radius: var(--radius-md);
   overflow: hidden;
   max-height: 260px;

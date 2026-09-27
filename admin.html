@@ -133,30 +133,37 @@
   const ADMIN_PASSWORD = 'qwe123'; // ブラウザ側だけの簡易チェックです（本格的な認証ではありません）
   const AUTH_KEY = 'odekake_mnO_adminAuth';
 
+  function safeSessionGet(key) {
+    try { return sessionStorage.getItem(key); } catch (e) { return null; }
+  }
+  function safeSessionSet(key, value) {
+    try { sessionStorage.setItem(key, value); } catch (e) { /* ignore: 再読み込みで再ログインが必要になるだけ */ }
+  }
+
   function showAdmin() {
     $('#login-gate').style.display = 'none';
     $('#admin-content').style.display = 'block';
     initAdmin();
   }
 
-  if (sessionStorage.getItem(AUTH_KEY) === 'ok') {
+  $('#login-password').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter') $('#btn-login').click();
+  });
+  $('#btn-login').addEventListener('click', () => {
+    const val = $('#login-password').value;
+    if (val === ADMIN_PASSWORD) {
+      safeSessionSet(AUTH_KEY, 'ok');
+      showAdmin();
+    } else {
+      $('#login-error').style.display = 'block';
+      $('#login-password').closest('.field').classList.add('has-error');
+      $('#login-password').value = '';
+      $('#login-password').focus();
+    }
+  });
+
+  if (safeSessionGet(AUTH_KEY) === 'ok') {
     showAdmin();
-  } else {
-    $('#login-password').addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') $('#btn-login').click();
-    });
-    $('#btn-login').addEventListener('click', () => {
-      const val = $('#login-password').value;
-      if (val === ADMIN_PASSWORD) {
-        sessionStorage.setItem(AUTH_KEY, 'ok');
-        showAdmin();
-      } else {
-        $('#login-error').style.display = 'block';
-        $('#login-password').closest('.field').classList.add('has-error');
-        $('#login-password').value = '';
-        $('#login-password').focus();
-      }
-    });
   }
 
   function initAdmin() {

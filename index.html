@@ -39,8 +39,10 @@
 
       <div class="choice-group">
         <div class="choice-card selected" id="choice-new" data-choice="new">はじめて登録する</div>
-        <div class="choice-card" id="choice-existing" data-choice="existing">前回の続きから</div>
+        <div class="choice-card" id="choice-existing" data-choice="existing">IDをお持ちの方</div>
       </div>
+
+      <hr class="section-divider">
 
       <!-- 新規登録フォーム -->
       <div id="new-contributor-form">
@@ -58,20 +60,20 @@
         </div>
 
         <div class="field" id="field-profileText">
-          <label>プロフィール紹介文 <span class="optional-tag">任意</span></label>
+          <label>プロフィール紹介文 <span class="required-tag">必須</span></label>
           <textarea id="input-profileText" maxlength="150" placeholder="例：横浜・湘南を中心に、子どもと楽しめるおでかけ先を紹介しています。"></textarea>
           <div class="char-count"><span id="count-profileText">0</span>/150</div>
+          <div class="error-msg">プロフィール紹介文を入力してください</div>
         </div>
       </div>
 
-      <!-- 既存紹介者を選ぶフォーム -->
+      <!-- IDで再開するフォーム -->
       <div id="existing-contributor-form" class="hidden">
-        <div class="field">
-          <label>紹介者を選択 <span class="required-tag">必須</span></label>
-          <select id="select-existing-contributor">
-            <option value="">選択してください</option>
-          </select>
-          <div class="hint" id="existing-contributor-empty">読み込み中です…</div>
+        <div class="field" id="field-contributor-id">
+          <label>あなたのID <span class="required-tag">必須</span></label>
+          <input type="text" id="input-contributor-id" placeholder="例：creator_001" autocapitalize="off" autocomplete="off">
+          <div class="hint">初回登録が完了した画面に表示されたIDを入力してください。IDを入れると、表示名などが自動で読み込まれます。</div>
+          <div class="id-result-box" id="id-result-box"></div>
         </div>
       </div>
     </div>
@@ -144,22 +146,31 @@
       <button class="btn btn-ghost" id="btn-confirm-back">戻る</button>
       <button class="btn btn-primary" id="btn-confirm-submit">登録する</button>
     </div>
+    <button class="btn btn-secondary" id="btn-confirm-bulk" style="margin-top:10px;">一括出力（管理者用）</button>
+    <p style="font-size:11.5px; color:var(--ink-soft); text-align:center; margin-top:8px; line-height:1.7;">
+      ご自身が管理者で、そのまま完成版JSONが欲しい場合は「一括出力」を押してください。<br>
+      既存の公開データに今回の内容を加えた、そのままアップロードできる合計JSONを出力します。
+    </p>
   </section>
 
   <!-- ============ 完了画面 ============ -->
   <section id="screen-done" class="hidden">
     <div class="card" style="text-align:center;">
       <div class="done-icon">✓</div>
-      <h2 style="margin:0 0 8px;">ご登録ありがとうございます！</h2>
-      <p style="color:var(--ink-soft); font-size:13.5px; line-height:1.8;">
+      <h2 id="done-heading" style="margin:0 0 8px;">ご登録ありがとうございます！</h2>
+      <p id="done-lead" style="color:var(--ink-soft); font-size:13.5px; line-height:1.8;">
         このフォームだけでは自動的にサイトへ反映されません。<br>
         下の「登録内容（JSON）」を<b>コピーまたはダウンロード</b>して、<br>
         おでかけナビ運営者へお送りください。運営者が内容を確認・公開設定した後、サイトに掲載されます。
       </p>
+      <div id="done-id-box" class="hidden" style="margin-top:14px;">
+        <div style="font-size:12px; color:var(--ink-soft); margin-bottom:6px;">あなたのID（次回はこのIDで入力を省略できます）</div>
+        <span class="id-badge" id="done-id-value"></span>
+      </div>
     </div>
 
     <div class="card">
-      <div class="file-label">登録内容（JSON）</div>
+      <div class="file-label" id="done-json-label">登録内容（JSON）</div>
       <div class="json-box" id="output-json"></div>
       <div class="btn-row">
         <button class="btn btn-secondary btn-sm" id="btn-copy-json">JSONをコピー</button>
@@ -229,29 +240,36 @@
     $('#existing-contributor-form').classList.toggle('hidden', mode !== 'existing');
   }
 
-  // 前回このブラウザで登録した情報があれば「前回の続きから」を出せるようにする
+  // 前回このブラウザで登録した情報（IDを忘れてしまった場合の補助用）
   const draft = ODEKAKE.readLS(ODEKAKE.LS_KEYS.draftContributor, null);
+  let foundById = null; // ID入力で見つかった紹介者
 
   ODEKAKE.loadPublishedContributors().then(list => {
     state.publishedContributors = list;
-    const sel = $('#select-existing-contributor');
-    const emptyHint = $('#existing-contributor-empty');
-    if (draft) {
-      const opt = document.createElement('option');
-      opt.value = '__draft__';
-      opt.textContent = draft.displayName + '（このブラウザで前回登録）';
-      sel.appendChild(opt);
+  });
+
+  const idResultBox = $('#id-result-box');
+
+  $('#input-contributor-id').addEventListener('input', (e) => {
+    const id = e.target.value.trim();
+    if (!id) {
+      idResultBox.classList.remove('show', 'not-found');
+      foundById = null;
+      return;
     }
-    list.forEach(c => {
-      const opt = document.createElement('option');
-      opt.value = c.id;
-      opt.textContent = c.displayName;
-      sel.appendChild(opt);
-    });
-    if (list.length === 0 && !draft) {
-      emptyHint.textContent = '公開済みの紹介者データを取得できませんでした。はじめての方はそのまま「はじめて登録する」から進めます。';
+    let match = ODEKAKE.findContributorById(state.publishedContributors, id);
+    if (!match && draft && draft.id === id) match = draft;
+
+    if (match) {
+      foundById = match;
+      idResultBox.classList.remove('not-found');
+      idResultBox.classList.add('show');
+      idResultBox.textContent = `こんにちは、${match.displayName} さん！このIDで続けます。`;
+      toggleError('field-contributor-id', false);
     } else {
-      emptyHint.textContent = '一覧にない場合は「はじめて登録する」を選んでください。';
+      foundById = null;
+      idResultBox.classList.add('show', 'not-found');
+      idResultBox.textContent = 'このIDは見つかりませんでした。入力し直すか、「はじめて登録する」を選んでください。';
     }
   });
 
@@ -260,14 +278,17 @@
     if (state.mode === 'new') {
       const name = $('#input-displayName').value.trim();
       const url = $('#input-snsUrl').value.trim();
+      const profileText = $('#input-profileText').value.trim();
       toggleError('field-displayName', !name);
       if (!name) ok = false;
       const urlOk = ODEKAKE.isValidInstagramProfileUrl(url);
       toggleError('field-snsUrl', !urlOk);
       if (!urlOk) ok = false;
+      toggleError('field-profileText', !profileText);
+      if (!profileText) ok = false;
     } else {
-      const val = $('#select-existing-contributor').value;
-      if (!val) { toast('紹介者を選択してください'); ok = false; }
+      toggleError('field-contributor-id', !foundById);
+      if (!foundById) ok = false;
     }
     return ok;
   }
@@ -292,15 +313,10 @@
         profileText: $('#input-profileText').value.trim()
       };
     } else {
-      const val = $('#select-existing-contributor').value;
-      if (val === '__draft__') {
-        state.isNewContributor = true; // まだ運営者側に届いていない可能性があるためJSONには含める
-        state.contributor = draft;
-      } else {
-        state.isNewContributor = false;
-        const found = state.publishedContributors.find(c => c.id === val);
-        state.contributor = found;
-      }
+      // ID一致した紹介者が「公開済みリスト」由来かどうかで、運営者に届いているかを判定
+      const alreadyPublished = state.publishedContributors.some(c => c.id === foundById.id);
+      state.isNewContributor = !alreadyPublished;
+      state.contributor = foundById;
     }
     showStepDot(2);
     showScreen('screen-step2');
@@ -479,16 +495,76 @@
     pending.push(payload);
     ODEKAKE.writeLS(ODEKAKE.LS_KEYS.pendingContributions, pending);
 
-    renderDone(payload);
+    renderDone(payload, 'submit');
     showScreen('screen-done');
   });
 
-  function renderDone(payload) {
-    const out = {};
-    if (payload.isNewContributor) {
-      out.contributors = ODEKAKE.buildContributorsJson([{ ...payload.contributor, published: false }]);
+  $('#btn-confirm-bulk').addEventListener('click', async () => {
+    ODEKAKE.writeLS(ODEKAKE.LS_KEYS.draftContributor, state.contributor);
+
+    $('#btn-confirm-bulk').disabled = true;
+    $('#btn-confirm-bulk').textContent = '既存データを取得中…';
+
+    const [existingContributors, existingContributions] = await Promise.all([
+      ODEKAKE.loadPublishedContributors(),
+      ODEKAKE.loadPublishedContributions()
+    ]);
+
+    const payload = {
+      contributor: state.contributor,
+      isNewContributor: state.isNewContributor,
+      contributions: state.contributions.map(c => ({
+        id: c.id,
+        contributorId: state.contributor.id,
+        spotId: c.spotId,
+        postUrl: c.postUrl,
+        comment: c.comment,
+        visitDate: c.visitDate,
+        published: true
+      }))
+    };
+
+    renderDone(payload, 'bulk', { existingContributors, existingContributions });
+    showScreen('screen-done');
+
+    $('#btn-confirm-bulk').disabled = false;
+    $('#btn-confirm-bulk').textContent = '一括出力（管理者用）';
+  });
+
+  function renderDone(payload, mode, existing) {
+    let out = {};
+
+    if (mode === 'bulk') {
+      const contributorsList = (existing.existingContributors || []).filter(c => c.id !== payload.contributor.id);
+      contributorsList.push({ ...payload.contributor, published: true });
+      const contributionsList = (existing.existingContributions || []).filter(c =>
+        !payload.contributions.some(nc => nc.id === c.id)
+      ).concat(payload.contributions);
+
+      out.contributors = ODEKAKE.buildContributorsJson(contributorsList);
+      out.contributions = ODEKAKE.buildContributionsJson(contributionsList);
+
+      $('#done-heading').textContent = '合計JSONを出力しました';
+      $('#done-lead').innerHTML = '既存の公開データに今回の内容を加えた、そのままアップロードできる<b>完成版JSON（contributors.json / contributions.json）</b>です。<br>おでかけナビ本体のリポジトリにそのままアップロードしてください。';
+      $('#done-json-label').textContent = '完成版JSON（合計データ）';
+    } else {
+      if (payload.isNewContributor) {
+        out.contributors = ODEKAKE.buildContributorsJson([{ ...payload.contributor, published: false }]);
+      }
+      out.contributions = ODEKAKE.buildContributionsJson(payload.contributions);
+
+      $('#done-heading').textContent = 'ご登録ありがとうございます！';
+      $('#done-lead').innerHTML = 'このフォームだけでは自動的にサイトへ反映されません。<br>下の「登録内容（JSON）」を<b>コピーまたはダウンロード</b>して、<br>おでかけナビ運営者へお送りください。運営者が内容を確認・公開設定した後、サイトに掲載されます。';
+      $('#done-json-label').textContent = '登録内容（JSON）';
     }
-    out.contributions = ODEKAKE.buildContributionsJson(payload.contributions);
+
+    if (payload.isNewContributor) {
+      $('#done-id-box').classList.remove('hidden');
+      $('#done-id-value').textContent = payload.contributor.id;
+    } else {
+      $('#done-id-box').classList.add('hidden');
+    }
+
     const jsonText = JSON.stringify(out, null, 2);
     $('#output-json').textContent = jsonText;
 
@@ -498,7 +574,10 @@
       setTimeout(() => $('#copy-flash').style.display = 'none', 1800);
     };
     $('#btn-download-json').onclick = () => {
-      ODEKAKE.downloadJson('odekake_submission_' + ODEKAKE.todayISO() + '.json', out);
+      const filename = mode === 'bulk'
+        ? 'odekake_total_' + ODEKAKE.todayISO() + '.json'
+        : 'odekake_submission_' + ODEKAKE.todayISO() + '.json';
+      ODEKAKE.downloadJson(filename, out);
     };
   }
 
