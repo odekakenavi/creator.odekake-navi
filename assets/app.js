@@ -149,10 +149,30 @@ const ODEKAKE = (() => {
 
   /* ---------------- 紹介者データ（公開済み一覧） ---------------- */
 
+  // GAS（スプレッドシート）から公開済みデータを1回だけ取得して使い回す。
+  // 取得できなかった場合は null を返し、呼び出し側で従来のJSONファイルに切り替える。
+  let _publicDataPromise = null;
+  function loadPublicDataFromServer() {
+    if (!SUBMIT_API_URL) return Promise.resolve(null);
+    if (!_publicDataPromise) {
+      _publicDataPromise = fetchPublicData().catch(e => {
+        console.warn('GASから公開データを取得できなかったため、JSONファイルを使用します', e);
+        return null;
+      });
+    }
+    return _publicDataPromise;
+  }
+
   let _contributorsCache = null;
   async function loadPublishedContributors() {
     if (_contributorsCache) return _contributorsCache;
-    const { data } = await fetchFirstAvailable(CONTRIBUTORS_DATA_URLS);
+    const server = await loadPublicDataFromServer();
+    let data;
+    if (server) {
+      data = server.contributors;          // ① スプレッドシート（自動更新）
+    } else {
+      data = (await fetchFirstAvailable(CONTRIBUTORS_DATA_URLS)).data; // ② フォールバック
+    }
     _contributorsCache = (data || []).filter(c => c && c.displayName);
     return _contributorsCache;
   }
@@ -171,7 +191,13 @@ const ODEKAKE = (() => {
   let _contributionsCache = null;
   async function loadPublishedContributions() {
     if (_contributionsCache) return _contributionsCache;
-    const { data } = await fetchFirstAvailable(CONTRIBUTIONS_DATA_URLS);
+    const server = await loadPublicDataFromServer();
+    let data;
+    if (server) {
+      data = server.contributions;         // ① スプレッドシート（自動更新）
+    } else {
+      data = (await fetchFirstAvailable(CONTRIBUTIONS_DATA_URLS)).data; // ② フォールバック
+    }
     _contributionsCache = data || [];
     return _contributionsCache;
   }
