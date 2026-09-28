@@ -1,34 +1,35 @@
 /* ============================================================
    おでかけナビ「📸 みんなのおでかけ」専用フォーム
-   デザイントークン
-   - メイン: サンセットコーラル #FF7A54（元気・親しみ）
-   - サブ  : スカイティール  #2FA8B0（お出かけ・晴天）
-   - 差し色: サンシャイン    #FFC94D（子ども向けの明るさ）
-   - 背景  : ペーパー        #FFFBF3
-   - 文字  : スミレ濃紺      #33302B
+   デザイントークン（おでかけナビ本体サイトの配色に合わせています）
+   - メイン: コーラル      #E2603A
+   - サブ  : ティール      #3E8FB0
+   - 差し色: サンシャイン  #F4B740
+   - 背景  : クリーム      #FBF7EF（本体の --cream）
+   - カード: ペーパー      #FFFDF8（本体の --paper）
+   - 文字  : インク        #2B2620
    - 見出しフォント: 'Zen Maru Gothic'（丸みで柔らかい）
    - 本文フォント  : 'Noto Sans JP'
    ============================================================ */
 
 :root {
-  --coral: #FF7A54;
-  --coral-dark: #E8613C;
-  --coral-tint: #FFF1EA;
-  --teal: #2FA8B0;
-  --teal-dark: #1F8088;
-  --teal-tint: #EAF7F7;
-  --sun: #FFC94D;
-  --paper: #F3E7CE;
-  --card: #FFFFFF;
-  --ink: #2A2620;
-  --ink-soft: #55504A;
-  --line: #E3D3B4;
-  --danger: #E85D5D;
-  --ok: #2E8F5C;
-  --radius-lg: 22px;
-  --radius-md: 14px;
+  --coral: #E2603A;
+  --coral-dark: #C94F2F;
+  --coral-tint: #FDEDE6;
+  --teal: #3E8FB0;
+  --teal-dark: #2F7690;
+  --teal-tint: #EAF4F8;
+  --sun: #F4B740;
+  --paper: #FBF7EF;
+  --card: #FFFDF8;
+  --ink: #2B2620;
+  --ink-soft: #6b6259;
+  --line: #E7DFCF;
+  --danger: #a33b2c;
+  --ok: #4F7942;
+  --radius-lg: 18px;
+  --radius-md: 12px;
   --radius-sm: 10px;
-  --shadow: 0 10px 26px rgba(180, 110, 60, 0.18);
+  --shadow: 0 3px 12px rgba(43, 38, 32, 0.10);
 }
 
 * { box-sizing: border-box; }
@@ -44,9 +45,6 @@ html, body {
 
 body {
   min-height: 100vh;
-  background-image:
-    radial-gradient(circle at 8% 0%, rgba(255, 201, 77, 0.16), transparent 40%),
-    radial-gradient(circle at 100% 10%, rgba(47, 168, 176, 0.10), transparent 45%);
 }
 
 h1, h2, h3, .brand {
