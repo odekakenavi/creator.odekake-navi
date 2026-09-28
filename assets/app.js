@@ -1,8 +1,9 @@
 /* ============================================================
    おでかけナビ「📸 みんなのおでかけ」専用フォーム — 共通ロジック
    ・画像は一切扱いません（保存もアップロードもしません）
-   ・サーバーやDBは使わず、ブラウザ内 localStorage と
-     JSONのコピー/ダウンロードだけでデータをやり取りします
+   ・登録内容は Google Apps Script（SUBMIT_API_URL）経由で
+     Googleスプレッドシートに自動で備蓄されます（初期状態は非公開）
+   ・通信に失敗したときだけ、JSONのコピー/ダウンロードに切り替わります
    ============================================================ */
 
 const ODEKAKE = (() => {
@@ -29,6 +30,13 @@ const ODEKAKE = (() => {
     './data/contributions.json',
     './data/contributions.sample.json'
   ];
+
+  /* ---------------------------------------------------------
+     ★ 送信先：Google Apps Script のウェブアプリURL（…/exec で終わるもの）
+     セットアップ手順（README_setup.md）の手順4で発行されたURLを貼り付けてください。
+     空のままの場合は、従来どおりJSONのコピー/ダウンロード方式になります。
+  --------------------------------------------------------- */
+  const SUBMIT_API_URL = 'https://docs.google.com/spreadsheets/d/1w7U_ZUCRAm6ZmA11XSTZUYObAw2ra3fRJsUnbn3vEqw/edit?usp=sharing';
 
   const LS_KEYS = {
     draftContributor: 'odekake_mnO_draftContributor', // このブラウザで登録した「自分」の情報（次回以降の入力省略用）
@@ -203,6 +211,47 @@ const ODEKAKE = (() => {
     }));
   }
 
+  /* ---------------- サーバー（GAS）との通信 ---------------- */
+
+  // 登録内容を送信する。成功時は { ok:true, contributorId, contributionId, isNewContributor } を返す。
+  // ※ Content-Type を text/plain にしているのは、CORSのプリフライトを避けるため（GASの仕様）
+  async function submitToServer(payload) {
+    if (!SUBMIT_API_URL) throw new Error('送信先が設定されていません');
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), 20000);
+    try {
+      const res = await fetch(SUBMIT_API_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify(payload),
+        signal: ctrl.signal
+      });
+      if (!res.ok) throw new Error('通信エラー（' + res.status + '）');
+      const data = await res.json();
+      if (!data || !data.ok) throw new Error((data && data.error) || '登録に失敗しました');
+      return data;
+    } catch (e) {
+      if (e && e.name === 'AbortError') throw new Error('通信がタイムアウトしました');
+      throw e;
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  // 公開済み（スプレッドシートで published=TRUE のもの）だけを取得する。
+  // おでかけナビ本体から使う場合は  ODEKAKE.fetchPublicData()  で
+  // { contributors: [...], contributions: [...] } が返ります。
+  async function fetchPublicData() {
+    if (!SUBMIT_API_URL) return { contributors: [], contributions: [] };
+    const res = await fetch(SUBMIT_API_URL + '?action=public', { cache: 'no-store' });
+    if (!res.ok) throw new Error('公開データの取得に失敗しました（' + res.status + '）');
+    const data = await res.json();
+    return {
+      contributors: Array.isArray(data.contributors) ? data.contributors : [],
+      contributions: Array.isArray(data.contributions) ? data.contributions : []
+    };
+  }
+
   function downloadJson(filename, obj) {
     const blob = new Blob([JSON.stringify(obj, null, 2)], { type: 'application/json' });
     const url = URL.createObjectURL(blob);
@@ -241,6 +290,7 @@ const ODEKAKE = (() => {
     findContributorById, findContributorBySnsUrl,
     getAdminDb, setAdminDb,
     buildContributorsJson, buildContributionsJson,
+    submitToServer, fetchPublicData,
     downloadJson, copyText
   };
 })();
