@@ -36,7 +36,7 @@ const ODEKAKE = (() => {
      セットアップ手順（README_setup.md）の手順4で発行されたURLを貼り付けてください。
      空のままの場合は、従来どおりJSONのコピー/ダウンロード方式になります。
   --------------------------------------------------------- */
-  const SUBMIT_API_URL = '';
+  const SUBMIT_API_URL = 'https://script.google.com/macros/s/AKfycbwoIFOD0jlu4LMael6Q_ofnCrbowA3Bs7ICJwjEQMkzp82_EMBRpjQWxoU_UOWza_TF/exec';
 
   const LS_KEYS = {
     draftContributor: 'odekake_mnO_draftContributor', // このブラウザで登録した「自分」の情報（次回以降の入力省略用）
