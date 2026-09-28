@@ -11,153 +11,112 @@
 <body>
 <div class="wrap" id="app">
 
-  <div class="mini-brand"><span class="mini-brand-mark">🚗</span> おでかけナビ｜みんなのおでかけ</div>
+  <!-- ============ ヘッダー／完了前は常に表示 ============ -->
+  <section id="screen-form">
+    <div class="mini-brand"><span class="mini-brand-mark">🚗</span> おでかけナビ｜みんなのおでかけ</div>
 
-  <!-- ============ STEP 0：ウェルカム ============ -->
-  <section id="screen-welcome" class="step-screen">
-    <div class="welcome-hero">
-      <div class="welcome-emoji">📸</div>
-      <h1 class="welcome-title">みんなのおでかけ</h1>
-      <p class="welcome-lead">あなたの「行ってよかった！」を、<br>おでかけナビで紹介しませんか？</p>
-      <p class="welcome-sub">Instagramで紹介したスポットを送るだけ。<br>登録は約1〜2分。</p>
-    </div>
+    <h1 class="page-title">📸 みんなのおでかけ</h1>
+    <p class="page-lead">
+      あなたの「行ってよかった！」を、おでかけナビで紹介しませんか？<br>
+      Instagramで紹介したスポットを送るだけ。登録は約1〜2分です。
+    </p>
 
-    <div class="returning-box hidden" id="welcome-returning">
-      <p class="returning-greet">👋 <span id="returning-name"></span>さん</p>
-      <p class="returning-sub">またスポットを紹介しますか？</p>
-      <button class="btn btn-primary btn-cta" id="btn-welcome-returning">スポットを紹介する →</button>
-      <div style="text-align:center; margin-top:10px;">
-        <button class="link-btn" id="btn-welcome-reset">別のアカウントで登録する</button>
+    <!-- ============ ① アカウント情報 ============ -->
+    <div class="card card-step1" id="section-account">
+      <span class="step-eyebrow">① アカウント情報</span>
+      <div class="section-heading"><span class="num">1</span>あなたのInstagram</div>
+
+      <div id="account-returning" class="hidden" style="margin-bottom:14px;">
+        <div class="id-result-box show" id="account-returning-box"></div>
+        <button class="link-btn" id="btn-account-reset">別のアカウントで登録する</button>
+      </div>
+
+      <div id="account-input-area">
+        <div class="field" id="field-snsUrl">
+          <label>📷 Instagram URL <span class="required-tag">必須</span></label>
+          <input type="url" id="input-snsUrl" placeholder="https://www.instagram.com/xxxxx/" inputmode="url" autocapitalize="off" autocomplete="off">
+          <div class="hint">あなたのInstagramアカウントのURLを入力してください</div>
+          <div class="error-msg">Instagram URLの形式が正しくありません（例：https://www.instagram.com/xxxxx/）</div>
+        </div>
+
+        <div class="ig-confirm hidden" id="ig-confirm-box">
+          <div class="ig-confirm-name">✓ <span id="ig-confirm-display"></span></div>
+          <div class="ig-confirm-handle">Instagram：@<span id="ig-confirm-handle"></span></div>
+          <button class="link-btn" id="btn-edit-displayname">表示名を編集する</button>
+          <div class="field hidden" id="field-custom-displayname" style="margin-top:10px;">
+            <input type="text" id="input-custom-displayname" maxlength="30" placeholder="表示名（例：○○ママ）">
+          </div>
+        </div>
       </div>
     </div>
 
-    <button class="btn btn-primary btn-cta" id="btn-welcome-start">スポットを紹介する →</button>
-  </section>
+    <!-- ============ ② 紹介する施設 ============ -->
+    <div class="card card-step2 hidden" id="section-spot">
+      <span class="step-eyebrow">② 紹介する施設</span>
+      <div class="section-heading"><span class="num">2</span>📍 どこに行きましたか？</div>
 
-  <!-- ============ STEP 1：Instagram ============ -->
-  <section id="screen-insta" class="step-screen hidden">
-    <div class="step-header">
-      <button class="back-btn" data-back>← もどる</button>
-      <div class="steps">
-        <span class="step-dot active"></span><span class="step-dot"></span><span class="step-dot"></span><span class="step-dot"></span><span class="step-dot"></span>
+      <div class="field" id="field-spot-search">
+        <input type="text" id="input-spot-search" placeholder="施設名で検索（例：動物園）">
+        <div class="hint" id="spot-hint">1文字入力すると候補が出てきます</div>
+        <div class="error-msg">施設を選んでください</div>
+      </div>
+
+      <div class="spot-card-list" id="spot-card-list"></div>
+
+      <div class="spot-selected-card" id="spot-selected-card">
+        <div class="ssc-icon">📍</div>
+        <div style="flex:1;">
+          <div class="ssc-name" id="ssc-name"></div>
+          <div class="ssc-area" id="ssc-area"></div>
+        </div>
+        <button class="link-btn" id="btn-spot-reselect">選び直す</button>
       </div>
     </div>
 
-    <h2 class="q-title">あなたのInstagramを<br>教えてください</h2>
+    <!-- ============ ③ 具体的な内容 ============ -->
+    <div class="card card-step1 hidden" id="section-detail">
+      <span class="step-eyebrow">③ 具体的な内容</span>
+      <div class="section-heading"><span class="num">3</span>投稿とコメント</div>
 
-    <div class="field" id="field-snsUrl">
-      <input type="url" id="input-snsUrl" placeholder="https://www.instagram.com/xxxxx/" inputmode="url" autocapitalize="off" autocomplete="off">
-      <div class="error-msg">InstagramのURLを正しい形式で入力してください</div>
-    </div>
+      <div class="field" id="field-postUrl">
+        <label>📸 Instagram投稿URL <span class="required-tag">必須</span></label>
+        <input type="url" id="input-postUrl" placeholder="Instagram投稿URLを貼り付け" inputmode="url" autocapitalize="off" autocomplete="off">
+        <div class="hint">紹介したスポットが分かる投稿を貼ってください</div>
+        <div class="error-msg">投稿URLの形式が正しくありません（例：https://www.instagram.com/p/xxxxx/）</div>
+      </div>
 
-    <div class="ig-confirm hidden" id="ig-confirm-box">
-      <div class="ig-confirm-name">✓ <span id="ig-confirm-display"></span></div>
-      <div class="ig-confirm-handle">Instagram：@<span id="ig-confirm-handle"></span></div>
-      <button class="link-btn" id="btn-edit-displayname">表示名を編集する</button>
-      <div class="field hidden" id="field-custom-displayname" style="margin-top:10px;">
-        <input type="text" id="input-custom-displayname" maxlength="30" placeholder="表示名（例：○○ママ）">
+      <div class="field">
+        <label>💬 この場所、どうだった？ <span class="optional-tag">任意</span></label>
+        <textarea id="input-comment" maxlength="300" placeholder="例：3歳でもかなり楽しめました！"></textarea>
+        <div class="char-count"><span id="count-comment">0</span>/300</div>
+      </div>
+
+      <div class="field">
+        <label>📅 訪問日 <span class="optional-tag">任意</span></label>
+        <input type="date" id="input-visitDate">
       </div>
     </div>
 
-    <button class="btn btn-primary btn-cta" id="btn-insta-next" disabled>つぎへ →</button>
-  </section>
+    <!-- ============ ④ 確認して登録 ============ -->
+    <div class="card card-step2 hidden" id="section-confirm">
+      <span class="step-eyebrow">④ 確認して登録</span>
+      <div class="section-heading"><span class="num">4</span>この内容で登録しますか？</div>
 
-  <!-- ============ STEP 2：スポット ============ -->
-  <section id="screen-spot" class="step-screen hidden">
-    <div class="step-header">
-      <button class="back-btn" data-back>← もどる</button>
-      <div class="steps">
-        <span class="step-dot done"></span><span class="step-dot active"></span><span class="step-dot"></span><span class="step-dot"></span><span class="step-dot"></span>
+      <div class="confirm-card" id="confirm-card"></div>
+
+      <button class="btn btn-primary btn-cta" id="btn-confirm-submit" style="margin-top:18px;">掲載情報を登録する</button>
+      <div style="text-align:center;">
+        <button class="link-btn" id="btn-confirm-bulk" style="margin-top:12px;">一括出力（管理者用）</button>
       </div>
     </div>
 
-    <h2 class="q-title">📍 どこに行きましたか？</h2>
-
-    <div class="field" id="field-spot-search">
-      <input type="text" id="input-spot-search" placeholder="施設名で検索（例：動物園）">
-      <div class="hint" id="spot-hint">1文字入力すると候補が出てきます</div>
-      <div class="error-msg">施設を選んでください</div>
-    </div>
-
-    <div class="spot-card-list" id="spot-card-list"></div>
-
-    <div class="spot-selected-card" id="spot-selected-card">
-      <div class="ssc-icon">📍</div>
-      <div style="flex:1;">
-        <div class="ssc-name" id="ssc-name"></div>
-        <div class="ssc-area" id="ssc-area"></div>
-      </div>
-      <button class="link-btn" id="btn-spot-reselect">選び直す</button>
-    </div>
-
-    <button class="btn btn-primary btn-cta" id="btn-spot-next" disabled>つぎへ →</button>
-  </section>
-
-  <!-- ============ STEP 3：投稿URL ============ -->
-  <section id="screen-post" class="step-screen hidden">
-    <div class="step-header">
-      <button class="back-btn" data-back>← もどる</button>
-      <div class="steps">
-        <span class="step-dot done"></span><span class="step-dot done"></span><span class="step-dot active"></span><span class="step-dot"></span><span class="step-dot"></span>
-      </div>
-    </div>
-
-    <h2 class="q-title">📸 Instagramの投稿を<br>教えてください</h2>
-
-    <div class="field" id="field-postUrl">
-      <input type="url" id="input-postUrl" placeholder="Instagram投稿URLを貼り付け" inputmode="url" autocapitalize="off" autocomplete="off">
-      <div class="hint">紹介したスポットが分かる投稿を貼ってください</div>
-      <div class="error-msg">投稿URLの形式が正しくありません（例：https://www.instagram.com/p/xxxxx/）</div>
-    </div>
-
-    <button class="btn btn-primary btn-cta" id="btn-post-next" disabled>つぎへ →</button>
-  </section>
-
-  <!-- ============ STEP 4：ひとこと ============ -->
-  <section id="screen-comment" class="step-screen hidden">
-    <div class="step-header">
-      <button class="back-btn" data-back>← もどる</button>
-      <div class="steps">
-        <span class="step-dot done"></span><span class="step-dot done"></span><span class="step-dot done"></span><span class="step-dot active"></span><span class="step-dot"></span>
-      </div>
-    </div>
-
-    <h2 class="q-title">💬 この場所、<br>どうだった？</h2>
-
-    <div class="field">
-      <textarea id="input-comment" maxlength="300" placeholder="例：3歳でもかなり楽しめました！&#10;駐車場から近くてワンオペでも行きやすかったです"></textarea>
-      <div class="char-count"><span id="count-comment">0</span>/300</div>
-    </div>
-
-    <div class="field">
-      <label style="font-size:12.5px; font-weight:700; color:var(--ink-soft);">📅 訪問日（任意）</label>
-      <input type="date" id="input-visitDate">
-    </div>
-
-    <button class="btn btn-primary btn-cta" id="btn-comment-next">つぎへ →</button>
-  </section>
-
-  <!-- ============ STEP 5：確認 ============ -->
-  <section id="screen-confirm" class="step-screen hidden">
-    <div class="step-header">
-      <button class="back-btn" data-back>← もどる</button>
-      <div class="steps">
-        <span class="step-dot done"></span><span class="step-dot done"></span><span class="step-dot done"></span><span class="step-dot done"></span><span class="step-dot active"></span>
-      </div>
-    </div>
-
-    <h2 class="q-title">この内容で送りますか？</h2>
-
-    <div class="confirm-card" id="confirm-card"></div>
-
-    <button class="btn btn-primary btn-cta" id="btn-confirm-submit" style="margin-top:20px;">この内容で送る</button>
-    <div style="text-align:center;">
-      <button class="link-btn" id="btn-confirm-bulk" style="margin-top:14px;">一括出力（管理者用）</button>
+    <div style="text-align:center; margin-top:44px; padding-bottom:6px;">
+      <a href="./admin.html" class="admin-link">・</a>
     </div>
   </section>
 
-  <!-- ============ STEP 6：完了 ============ -->
-  <section id="screen-done" class="step-screen hidden">
+  <!-- ============ 完了画面 ============ -->
+  <section id="screen-done" class="hidden">
     <div class="done-hero">
       <div class="done-emoji">🎉</div>
       <h2 id="done-heading">ありがとうございます！</h2>
@@ -184,42 +143,23 @@
     </details>
   </section>
 
-  <div style="text-align:center; margin-top:44px; padding-bottom:6px;">
-    <a href="./admin.html" class="admin-link">・</a>
-  </div>
-
 </div>
 
 <div class="toast" id="toast"></div>
 
 <script src="./assets/app.js"></script>
 <script>
-(async function () {
+(function () {
   const $ = (sel) => document.querySelector(sel);
-  const $$ = (sel) => Array.from(document.querySelectorAll(sel));
 
   const state = {
-    contributor: null,       // {id, displayName, snsUrl, profileText}
+    contributor: null,
     isNewContributor: true,
     publishedContributors: [],
     selectedSpot: null,
-    contribution: null       // built at STEP4 -> STEP5 transition
+    contribution: null,
+    customDisplayName: ''
   };
-
-  let screenStack = ['welcome'];
-
-  function show(step) {
-    $$('.step-screen').forEach(s => s.classList.add('hidden'));
-    $('#screen-' + step).classList.remove('hidden');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
-  function goTo(step) { screenStack.push(step); show(step); }
-  function goBack() {
-    if (screenStack.length <= 1) return;
-    screenStack.pop();
-    show(screenStack[screenStack.length - 1]);
-  }
-  $$('[data-back]').forEach(btn => btn.addEventListener('click', goBack));
 
   function toast(msg) {
     const t = $('#toast');
@@ -233,7 +173,19 @@
     if (el) el.classList.toggle('has-error', hasError);
   }
 
-  /* ---------------- STEP0：ウェルカム／再訪判定 ---------------- */
+  function revealSection(id) {
+    const el = document.getElementById(id);
+    if (!el || !el.classList.contains('hidden')) return;
+    el.classList.remove('hidden');
+    setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+  }
+
+  function hideSection(id) {
+    const el = document.getElementById(id);
+    if (el) el.classList.add('hidden');
+  }
+
+  /* ---------------- ① アカウント情報 ---------------- */
 
   const draft = ODEKAKE.readLS(ODEKAKE.LS_KEYS.draftContributor, null);
 
@@ -241,43 +193,54 @@
     state.publishedContributors = list;
   });
 
-  if (draft && draft.displayName) {
-    $('#welcome-returning').classList.remove('hidden');
-    $('#btn-welcome-start').classList.add('hidden');
-    $('#returning-name').textContent = draft.displayName;
+  function useContributor(contributor) {
+    state.contributor = contributor;
+    state.isNewContributor = !state.publishedContributors.some(c => c.id === contributor.id);
+    revealSection('section-spot');
   }
 
-  $('#btn-welcome-start').addEventListener('click', () => goTo('insta'));
+  if (draft && draft.displayName) {
+    $('#account-returning').classList.remove('hidden');
+    $('#account-input-area').classList.add('hidden');
+    $('#account-returning-box').textContent = `👋 ${draft.displayName} さんとして続けます`;
+    useContributor(draft);
+  }
 
-  $('#btn-welcome-returning').addEventListener('click', () => {
-    state.contributor = draft;
-    state.isNewContributor = !state.publishedContributors.some(c => c.id === draft.id);
-    goTo('spot');
+  $('#btn-account-reset').addEventListener('click', () => {
+    $('#account-returning').classList.add('hidden');
+    $('#account-input-area').classList.remove('hidden');
+    state.contributor = null;
+    hideSection('section-spot');
+    hideSection('section-detail');
+    hideSection('section-confirm');
   });
-
-  $('#btn-welcome-reset').addEventListener('click', () => {
-    $('#welcome-returning').classList.add('hidden');
-    $('#btn-welcome-start').classList.remove('hidden');
-  });
-
-  /* ---------------- STEP1：Instagram ---------------- */
-
-  let customDisplayName = '';
 
   $('#input-snsUrl').addEventListener('input', (e) => {
     const url = e.target.value.trim();
     const ok = ODEKAKE.isValidInstagramProfileUrl(url);
-    toggleError('field-snsUrl', false); // 入力中はエラーを出さない
+    toggleError('field-snsUrl', false);
     if (ok) {
       const username = ODEKAKE.extractInstagramUsername(url);
       $('#ig-confirm-handle').textContent = username;
-      $('#ig-confirm-display').textContent = customDisplayName || username;
+      $('#ig-confirm-display').textContent = state.customDisplayName || username;
       $('#ig-confirm-box').classList.remove('hidden');
-      $('#btn-insta-next').disabled = false;
+
+      state.isNewContributor = true;
+      state.contributor = {
+        id: (state.contributor && state.contributor.snsUrl === url) ? state.contributor.id : ODEKAKE.uid('creator'),
+        displayName: state.customDisplayName || username,
+        snsUrl: url,
+        profileText: ''
+      };
+      revealSection('section-spot');
     } else {
       $('#ig-confirm-box').classList.add('hidden');
-      $('#btn-insta-next').disabled = true;
     }
+  });
+
+  $('#input-snsUrl').addEventListener('blur', (e) => {
+    const url = e.target.value.trim();
+    if (url && !ODEKAKE.isValidInstagramProfileUrl(url)) toggleError('field-snsUrl', true);
   });
 
   $('#btn-edit-displayname').addEventListener('click', () => {
@@ -286,29 +249,14 @@
   });
 
   $('#input-custom-displayname').addEventListener('input', (e) => {
-    customDisplayName = e.target.value.trim();
+    state.customDisplayName = e.target.value.trim();
     const username = $('#ig-confirm-handle').textContent;
-    $('#ig-confirm-display').textContent = customDisplayName || username;
+    const display = state.customDisplayName || username;
+    $('#ig-confirm-display').textContent = display;
+    if (state.contributor) state.contributor.displayName = display;
   });
 
-  $('#btn-insta-next').addEventListener('click', () => {
-    const url = $('#input-snsUrl').value.trim();
-    const ok = ODEKAKE.isValidInstagramProfileUrl(url);
-    toggleError('field-snsUrl', !ok);
-    if (!ok) return;
-    const username = ODEKAKE.extractInstagramUsername(url);
-
-    state.isNewContributor = true;
-    state.contributor = {
-      id: ODEKAKE.uid('creator'),
-      displayName: customDisplayName || username,
-      snsUrl: url,
-      profileText: ''
-    };
-    goTo('spot');
-  });
-
-  /* ---------------- STEP2：スポット ---------------- */
+  /* ---------------- ② 紹介する施設 ---------------- */
 
   const spotsReady = ODEKAKE.loadSpots();
 
@@ -355,8 +303,8 @@
     $('#spot-selected-card').classList.add('show');
     $('#field-spot-search').classList.add('hidden');
     $('#spot-card-list').innerHTML = '';
-    $('#btn-spot-next').disabled = false;
     toggleError('field-spot-search', false);
+    revealSection('section-detail');
   });
 
   $('#btn-spot-reselect').addEventListener('click', () => {
@@ -365,39 +313,39 @@
     $('#field-spot-search').classList.remove('hidden');
     $('#input-spot-search').value = '';
     $('#input-spot-search').focus();
-    $('#btn-spot-next').disabled = true;
+    hideSection('section-detail');
+    hideSection('section-confirm');
   });
 
-  $('#btn-spot-next').addEventListener('click', () => {
-    if (!state.selectedSpot) { toggleError('field-spot-search', true); return; }
-    goTo('post');
-  });
-
-  /* ---------------- STEP3：投稿URL ---------------- */
-
-  $('#input-postUrl').addEventListener('input', (e) => {
-    const ok = ODEKAKE.isValidInstagramPostUrl(e.target.value.trim());
-    $('#btn-post-next').disabled = !ok;
-    toggleError('field-postUrl', false);
-  });
-
-  $('#btn-post-next').addEventListener('click', () => {
-    const url = $('#input-postUrl').value.trim();
-    const ok = ODEKAKE.isValidInstagramPostUrl(url);
-    toggleError('field-postUrl', !ok);
-    if (!ok) return;
-    goTo('comment');
-  });
-
-  /* ---------------- STEP4：ひとこと ---------------- */
+  /* ---------------- ③ 具体的な内容 ---------------- */
 
   $('#input-comment').addEventListener('input', (e) => {
     $('#count-comment').textContent = e.target.value.length;
   });
 
-  $('#btn-comment-next').addEventListener('click', () => {
+  function tryRevealConfirm() {
+    const postUrl = $('#input-postUrl').value.trim();
+    if (ODEKAKE.isValidInstagramPostUrl(postUrl)) {
+      buildContribution();
+      renderConfirm();
+      revealSection('section-confirm');
+    }
+  }
+
+  $('#input-postUrl').addEventListener('input', () => {
+    toggleError('field-postUrl', false);
+    tryRevealConfirm();
+  });
+  $('#input-postUrl').addEventListener('blur', (e) => {
+    const url = e.target.value.trim();
+    if (url && !ODEKAKE.isValidInstagramPostUrl(url)) toggleError('field-postUrl', true);
+  });
+  $('#input-comment').addEventListener('input', () => { if (!$('#section-confirm').classList.contains('hidden')) { buildContribution(); renderConfirm(); } });
+  $('#input-visitDate').addEventListener('change', () => { if (!$('#section-confirm').classList.contains('hidden')) { buildContribution(); renderConfirm(); } });
+
+  function buildContribution() {
     state.contribution = {
-      id: ODEKAKE.uid('contribution'),
+      id: (state.contribution && state.contribution.spotId === state.selectedSpot.id) ? state.contribution.id : ODEKAKE.uid('contribution'),
       spotId: state.selectedSpot.id,
       spotName: state.selectedSpot.name,
       spotArea: state.selectedSpot.area,
@@ -405,11 +353,9 @@
       comment: $('#input-comment').value.trim(),
       visitDate: $('#input-visitDate').value || ''
     };
-    renderConfirm();
-    goTo('confirm');
-  });
+  }
 
-  /* ---------------- STEP5：確認 ---------------- */
+  /* ---------------- ④ 確認して登録 ---------------- */
 
   function renderConfirm() {
     const c = state.contributor;
@@ -435,7 +381,31 @@
     `;
   }
 
+  function validateAll() {
+    let ok = true;
+    if (!state.contributor || !ODEKAKE.isValidInstagramProfileUrl(state.contributor.snsUrl)) {
+      toggleError('field-snsUrl', true);
+      toast('①アカウント情報を確認してください');
+      ok = false;
+    }
+    if (!state.selectedSpot) {
+      toggleError('field-spot-search', true);
+      if (ok) toast('②紹介する施設を選択してください');
+      ok = false;
+    }
+    const postUrl = $('#input-postUrl').value.trim();
+    if (!ODEKAKE.isValidInstagramPostUrl(postUrl)) {
+      toggleError('field-postUrl', true);
+      if (ok) toast('③投稿URLを確認してください');
+      ok = false;
+    }
+    return ok;
+  }
+
   $('#btn-confirm-submit').addEventListener('click', () => {
+    if (!validateAll()) return;
+    buildContribution();
+
     ODEKAKE.writeLS(ODEKAKE.LS_KEYS.draftContributor, state.contributor);
 
     const pending = ODEKAKE.readLS(ODEKAKE.LS_KEYS.pendingContributions, []);
@@ -456,11 +426,16 @@
     ODEKAKE.writeLS(ODEKAKE.LS_KEYS.pendingContributions, pending);
 
     renderDone(payload, 'submit');
-    goTo('done');
+    $('#screen-form').classList.add('hidden');
+    $('#screen-done').classList.remove('hidden');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 
   $('#btn-confirm-bulk').addEventListener('click', async () => {
+    if (!validateAll()) return;
+    buildContribution();
     ODEKAKE.writeLS(ODEKAKE.LS_KEYS.draftContributor, state.contributor);
+
     const btn = $('#btn-confirm-bulk');
     const originalText = btn.textContent;
     btn.textContent = '既存データを取得中…';
@@ -486,13 +461,15 @@
     };
 
     renderDone(payload, 'bulk', { existingContributors, existingContributions });
-    goTo('done');
+    $('#screen-form').classList.add('hidden');
+    $('#screen-done').classList.remove('hidden');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
 
     btn.disabled = false;
     btn.textContent = originalText;
   });
 
-  /* ---------------- STEP6：完了 ---------------- */
+  /* ---------------- 完了画面 ---------------- */
 
   function renderDone(payload, mode, existing) {
     let out = {};
@@ -502,7 +479,7 @@
       const dup = ODEKAKE.findContributorBySnsUrl(contributorsList, payload.contributor.snsUrl);
       let effectiveContributorId = payload.contributor.id;
       if (dup) {
-        effectiveContributorId = dup.id; // 同じInstagramアカウントが既にあれば統合
+        effectiveContributorId = dup.id;
       } else {
         contributorsList.push({ ...payload.contributor, published: true });
       }
@@ -552,23 +529,25 @@
   }
 
   $('#btn-add-more').addEventListener('click', () => {
-    // Instagram情報はそのまま、スポット以降だけリセットして再スタート
     state.selectedSpot = null;
     state.contribution = null;
     $('#spot-selected-card').classList.remove('show');
     $('#field-spot-search').classList.remove('hidden');
     $('#input-spot-search').value = '';
     $('#spot-card-list').innerHTML = '';
-    $('#btn-spot-next').disabled = true;
     $('#input-postUrl').value = '';
-    $('#btn-post-next').disabled = true;
     $('#input-comment').value = '';
     $('#count-comment').textContent = '0';
     $('#input-visitDate').value = '';
+    hideSection('section-detail');
+    hideSection('section-confirm');
 
     state.isNewContributor = !state.publishedContributors.some(c => c.id === state.contributor.id);
-    screenStack = ['welcome', 'spot'];
-    show('spot');
+
+    $('#screen-done').classList.add('hidden');
+    $('#screen-form').classList.remove('hidden');
+    revealSection('section-spot');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 })();
 </script>
