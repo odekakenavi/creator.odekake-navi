@@ -7,6 +7,46 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="./assets/style.css" onerror="window.__ODEKAKE_CSS_FAILED = true;">
+<style>
+  /* ---- 今回追加分の見た目調整（style.css を上書き） ---- */
+  input[type="date"]{ width:100%; box-sizing:border-box; }
+
+  .help-details{ margin-top:8px; font-size:13px; }
+  .help-details summary{
+    cursor:pointer; list-style:none; color:#2b6cb0; font-weight:500;
+    display:inline-flex; align-items:center; gap:4px;
+  }
+  .help-details summary::-webkit-details-marker{ display:none; }
+  .help-details[open] summary{ margin-bottom:6px; }
+  .help-body{
+    background:#f4f7fb; border:1px solid #dbe6f3; border-radius:10px;
+    padding:10px 12px; line-height:1.7; color:#3a4a5c;
+  }
+  .help-body ol{ margin:0; padding-left:1.2em; }
+
+  .ig-confirm .btn-row-inline{ display:flex; gap:14px; flex-wrap:wrap; margin-top:6px; }
+
+  .spot-selected-chips{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; }
+  .spot-chip{
+    display:inline-flex; align-items:center; gap:6px;
+    background:#eef5ff; border:1px solid #cfe0f5; border-radius:999px;
+    padding:6px 8px 6px 14px; font-size:13px; color:#25415f;
+  }
+  .spot-chip .spot-chip-remove{
+    border:none; background:#dbe8fb; color:#25415f; width:20px; height:20px;
+    border-radius:50%; cursor:pointer; font-size:12px; line-height:1;
+  }
+  .spot-more-hint{ font-size:12px; color:var(--ink-soft, #667); margin-top:2px; }
+
+  .locked-value{
+    display:flex; align-items:center; gap:10px; justify-content:space-between;
+    background:#f4f7fb; border:1px solid #dbe6f3; border-radius:10px;
+    padding:10px 12px; font-size:14px; word-break:break-all;
+  }
+  .locked-value a{ color:#2b6cb0; }
+
+  .step3-submit-row{ margin-top:18px; }
+</style>
 </head>
 <body>
 <div class="wrap" id="app">
@@ -31,12 +71,27 @@
         <input type="url" id="input-snsUrl" placeholder="https://www.instagram.com/xxxxx/" inputmode="url" autocapitalize="off" autocomplete="off">
         <div class="hint">あなたのInstagramアカウントのURLを入力してください（一度入力すればこのブラウザが記憶します）</div>
         <div class="error-msg">Instagram URLの形式が正しくありません（例：https://www.instagram.com/xxxxx/）</div>
+
+        <details class="help-details">
+          <summary>❓ URLの取得方法</summary>
+          <div class="help-body">
+            <ol>
+              <li>Instagramアプリで、自分のプロフィール画面を開く</li>
+              <li>右上の「≡」または「プロフィールを編集」の横のボタンをタップ</li>
+              <li>「プロフィールをシェア」→「リンクをコピー」を選ぶ</li>
+              <li>コピーしたURLをこの欄に貼り付けてください</li>
+            </ol>
+          </div>
+        </details>
       </div>
 
       <div class="ig-confirm hidden" id="ig-confirm-box">
         <div class="ig-confirm-name">✓ <span id="ig-confirm-display"></span></div>
         <div class="ig-confirm-handle">Instagram：@<span id="ig-confirm-handle"></span></div>
-        <button class="link-btn" id="btn-edit-displayname">表示名を編集する</button>
+        <div class="btn-row-inline">
+          <button class="link-btn" id="btn-edit-displayname">表示名を編集する</button>
+          <button class="link-btn" id="btn-edit-account">アカウントを変更する</button>
+        </div>
         <div class="field hidden" id="field-custom-displayname" style="margin-top:10px;">
           <input type="text" id="input-custom-displayname" maxlength="30" placeholder="表示名（例：○○ママ）">
         </div>
@@ -47,22 +102,20 @@
     <div class="card card-step2 hidden" id="section-spot">
       <span class="step-eyebrow">② 紹介する施設</span>
       <div class="section-heading"><span class="num">2</span>📍 どこに行きましたか？</div>
+      <div class="hint">複数のスポットを紹介する場合は、続けて検索して選んでください</div>
+
+      <div class="spot-selected-chips" id="spot-selected-chips"></div>
 
       <div class="field" id="field-spot-search">
         <input type="text" id="input-spot-search" placeholder="施設名で検索（例：動物園）">
         <div class="hint" id="spot-hint">1文字入力すると候補が出てきます</div>
-        <div class="error-msg">施設を選んでください</div>
+        <div class="error-msg">施設を1つ以上選んでください</div>
       </div>
 
       <div class="spot-card-list" id="spot-card-list"></div>
 
-      <div class="spot-selected-card" id="spot-selected-card">
-        <div class="ssc-icon">📍</div>
-        <div style="flex:1;">
-          <div class="ssc-name" id="ssc-name"></div>
-          <div class="ssc-area" id="ssc-area"></div>
-        </div>
-        <button class="link-btn" id="btn-spot-reselect">選び直す</button>
+      <div class="btn-row" style="margin-top:14px;">
+        <button class="btn btn-primary btn-cta hidden" id="btn-spot-next">この内容で次へ進む</button>
       </div>
     </div>
 
@@ -76,6 +129,23 @@
         <input type="url" id="input-postUrl" placeholder="Instagram投稿URLを貼り付け" inputmode="url" autocapitalize="off" autocomplete="off">
         <div class="hint">紹介したスポットが分かる投稿を貼ってください</div>
         <div class="error-msg">投稿URLの形式が正しくありません（例：https://www.instagram.com/p/xxxxx/）</div>
+
+        <details class="help-details">
+          <summary>❓ リンクの取得方法</summary>
+          <div class="help-body">
+            <ol>
+              <li>Instagramで紹介したい投稿を開く</li>
+              <li>投稿右上の「…」をタップ</li>
+              <li>「リンクをコピー」を選ぶ</li>
+              <li>コピーしたURLをこの欄に貼り付けてください</li>
+            </ol>
+          </div>
+        </details>
+
+        <div class="locked-value hidden" id="postUrl-locked">
+          <a href="#" id="postUrl-locked-link" target="_blank" rel="noopener">投稿を確認する ↗</a>
+          <button class="link-btn" id="btn-edit-posturl">変更する</button>
+        </div>
       </div>
 
       <div class="field">
@@ -88,16 +158,10 @@
         <label>📅 訪問日 <span class="optional-tag">任意</span></label>
         <input type="date" id="input-visitDate">
       </div>
-    </div>
 
-    <!-- ============ ④ 確認して登録 ============ -->
-    <div class="card card-step2 hidden" id="section-confirm">
-      <span class="step-eyebrow">④ 確認して登録</span>
-      <div class="section-heading"><span class="num">4</span>この内容で登録しますか？</div>
-
-      <div class="confirm-card" id="confirm-card"></div>
-
-      <button class="btn btn-primary btn-cta" id="btn-confirm-submit" style="margin-top:18px;">掲載情報を登録する</button>
+      <div class="btn-row step3-submit-row">
+        <button class="btn btn-primary btn-cta" id="btn-confirm-submit">掲載情報を登録する</button>
+      </div>
     </div>
 
     <div style="padding-bottom:6px;"></div>
@@ -109,10 +173,6 @@
       <div class="done-emoji">🎉</div>
       <h2 id="done-heading">ありがとうございます！</h2>
       <p id="done-lead">あなたのおでかけ情報を受け取りました。<br>内容を確認したあと、おでかけナビで紹介します。</p>
-      <div class="id-note hidden" id="done-id-note">
-        <span class="id-badge" id="done-id-value"></span>
-        <div class="id-note-text">あなたの紹介者ID（次回の紹介に自動で使われます）</div>
-      </div>
     </div>
 
     <div class="btn-row-col">
@@ -174,9 +234,10 @@
 
   const state = {
     contributor: null,
-    selectedSpot: null,
-    contribution: null,
-    customDisplayName: ''
+    selectedSpots: [],          // 複数選択できる施設一覧
+    contributionsBySpotId: new Map(), // 施設ごとの下書き（idを保持するため）
+    customDisplayName: '',
+    postUrlLocked: false
   };
 
   function toast(msg) {
@@ -209,7 +270,17 @@
     if (state.contributor) ODEKAKE.writeLS(ODEKAKE.LS_KEYS.draftContributor, state.contributor);
   }
 
-  function applyAccountFromUrl(url) {
+  function showAccountMinimized() {
+    $('#field-snsUrl').classList.add('hidden');
+  }
+
+  function showAccountInput() {
+    $('#field-snsUrl').classList.remove('hidden');
+    $('#input-snsUrl').focus();
+  }
+
+  function applyAccountFromUrl(url, opts) {
+    opts = opts || {};
     const ok = ODEKAKE.isValidInstagramProfileUrl(url);
     if (!ok) { $('#ig-confirm-box').classList.add('hidden'); return false; }
     const username = ODEKAKE.extractInstagramUsername(url);
@@ -227,10 +298,11 @@
     };
     revealSection('section-spot');
     saveAccountDraft();
+    if (opts.minimize) showAccountMinimized();
     return true;
   }
 
-  // このブラウザに前回の入力が残っていれば自動で読み込む（別アカウント切替ボタンは設けない）
+  // このブラウザに前回の入力が残っていれば自動で読み込み、2回目以降は入力欄を最小化する
   // ※ localStorage が使えない/壊れている場合でも、以降のボタン登録が止まらないようにガードする
   try {
     const draft = ODEKAKE.readLS(ODEKAKE.LS_KEYS.draftContributor, null);
@@ -242,7 +314,7 @@
         $('#input-custom-displayname').value = draft.displayName;
       }
       state.contributor = { ...draft };
-      applyAccountFromUrl(draft.snsUrl);
+      applyAccountFromUrl(draft.snsUrl, { minimize: true });
     }
   } catch (err) {
     showFatalError('前回の入力内容の読み込みに失敗しました：' + err.message);
@@ -263,6 +335,10 @@
     $('#input-custom-displayname').focus();
   });
 
+  $('#btn-edit-account').addEventListener('click', () => {
+    showAccountInput();
+  });
+
   $('#input-custom-displayname').addEventListener('input', (e) => {
     state.customDisplayName = e.target.value.trim();
     const username = $('#ig-confirm-handle').textContent;
@@ -274,9 +350,24 @@
     }
   });
 
-  /* ---------------- ② 紹介する施設 ---------------- */
+  /* ---------------- ② 紹介する施設（複数選択） ---------------- */
 
   const spotsReady = ODEKAKE.loadSpots();
+
+  function isSpotSelected(id) {
+    return state.selectedSpots.some(s => s.id === id);
+  }
+
+  function renderSelectedChips() {
+    const box = $('#spot-selected-chips');
+    box.innerHTML = state.selectedSpots.map(s => `
+      <span class="spot-chip" data-id="${ODEKAKE.escapeHtml(s.id)}">
+        📍 ${ODEKAKE.escapeHtml(s.name)}
+        <button type="button" class="spot-chip-remove" data-id="${ODEKAKE.escapeHtml(s.id)}" aria-label="削除">✕</button>
+      </span>
+    `).join('');
+    $('#btn-spot-next').classList.toggle('hidden', state.selectedSpots.length === 0);
+  }
 
   $('#input-spot-search').addEventListener('input', async (e) => {
     const { items } = await spotsReady;
@@ -296,14 +387,14 @@
       return;
     }
     box.innerHTML = results.map(s => `
-      <div class="spot-card" data-id="${ODEKAKE.escapeHtml(s.id)}">
+      <div class="spot-card${isSpotSelected(s.id) ? ' is-selected' : ''}" data-id="${ODEKAKE.escapeHtml(s.id)}">
         <div class="sc-icon">📍</div>
         <div style="flex:1;">
           <div class="sc-name">${ODEKAKE.escapeHtml(s.name)}</div>
           <div class="sc-area">${ODEKAKE.escapeHtml(s.area)}</div>
           ${s.tag ? `<span class="sc-tag">${ODEKAKE.escapeHtml(s.tag)}</span>` : ''}
         </div>
-        <div class="sc-cta">選ぶ &gt;</div>
+        <div class="sc-cta">${isSpotSelected(s.id) ? '選択済み ✓' : '選ぶ &gt;'}</div>
       </div>
     `).join('');
   });
@@ -314,24 +405,34 @@
     const { items } = await spotsReady;
     const spot = items.find(s => s.id === card.dataset.id);
     if (!spot) return;
-    state.selectedSpot = spot;
-    $('#ssc-name').textContent = spot.name;
-    $('#ssc-area').textContent = spot.area;
-    $('#spot-selected-card').classList.add('show');
-    $('#field-spot-search').classList.add('hidden');
-    $('#spot-card-list').innerHTML = '';
+    if (isSpotSelected(spot.id)) return;
+
+    state.selectedSpots.push(spot);
+    renderSelectedChips();
     toggleError('field-spot-search', false);
-    revealSection('section-detail');
+
+    $('#input-spot-search').value = '';
+    $('#spot-card-list').innerHTML = '';
+    $('#input-spot-search').focus();
   });
 
-  $('#btn-spot-reselect').addEventListener('click', () => {
-    state.selectedSpot = null;
-    $('#spot-selected-card').classList.remove('show');
-    $('#field-spot-search').classList.remove('hidden');
-    $('#input-spot-search').value = '';
-    $('#input-spot-search').focus();
-    hideSection('section-detail');
-    hideSection('section-confirm');
+  $('#spot-selected-chips').addEventListener('click', (e) => {
+    const btn = e.target.closest('.spot-chip-remove');
+    if (!btn) return;
+    const id = btn.dataset.id;
+    state.selectedSpots = state.selectedSpots.filter(s => s.id !== id);
+    state.contributionsBySpotId.delete(id);
+    renderSelectedChips();
+  });
+
+  $('#btn-spot-next').addEventListener('click', () => {
+    if (state.selectedSpots.length === 0) {
+      toggleError('field-spot-search', true);
+      toast('②紹介する施設を選択してください');
+      return;
+    }
+    toggleError('field-spot-search', false);
+    revealSection('section-detail');
   });
 
   /* ---------------- ③ 具体的な内容 ---------------- */
@@ -340,62 +441,55 @@
     $('#count-comment').textContent = e.target.value.length;
   });
 
-  function tryRevealConfirm() {
-    const postUrl = $('#input-postUrl').value.trim();
-    if (ODEKAKE.isValidInstagramPostUrl(postUrl)) {
-      buildContribution();
-      renderConfirm();
-      revealSection('section-confirm');
-    }
+  function lockPostUrl(url) {
+    state.postUrlLocked = true;
+    $('#input-postUrl').disabled = true;
+    $('#postUrl-locked-link').href = url;
+    $('#postUrl-locked').classList.remove('hidden');
   }
 
-  $('#input-postUrl').addEventListener('input', () => {
+  function unlockPostUrl() {
+    state.postUrlLocked = false;
+    $('#input-postUrl').disabled = false;
+    $('#postUrl-locked').classList.add('hidden');
+    $('#input-postUrl').focus();
+  }
+
+  $('#input-postUrl').addEventListener('input', (e) => {
     toggleError('field-postUrl', false);
-    tryRevealConfirm();
+    const url = e.target.value.trim();
+    if (ODEKAKE.isValidInstagramPostUrl(url)) {
+      lockPostUrl(url);
+    }
   });
   $('#input-postUrl').addEventListener('blur', (e) => {
     const url = e.target.value.trim();
     if (url && !ODEKAKE.isValidInstagramPostUrl(url)) toggleError('field-postUrl', true);
   });
-  $('#input-comment').addEventListener('input', () => { if (!$('#section-confirm').classList.contains('hidden')) { buildContribution(); renderConfirm(); } });
-  $('#input-visitDate').addEventListener('change', () => { if (!$('#section-confirm').classList.contains('hidden')) { buildContribution(); renderConfirm(); } });
+  $('#btn-edit-posturl').addEventListener('click', () => {
+    unlockPostUrl();
+  });
 
-  function buildContribution() {
-    state.contribution = {
-      id: (state.contribution && state.contribution.spotId === state.selectedSpot.id) ? state.contribution.id : ODEKAKE.uid('contribution'),
-      spotId: state.selectedSpot.id,
-      spotName: state.selectedSpot.name,
-      spotArea: state.selectedSpot.area,
-      postUrl: $('#input-postUrl').value.trim(),
-      comment: $('#input-comment').value.trim(),
-      visitDate: $('#input-visitDate').value || ''
-    };
-  }
+  // 選択中の施設ぶん、共通の投稿URL・コメント・訪問日から contribution を組み立てる
+  function buildContributions() {
+    const postUrl = $('#input-postUrl').value.trim();
+    const comment = $('#input-comment').value.trim();
+    const visitDate = $('#input-visitDate').value || '';
 
-  /* ---------------- ④ 確認して登録 ---------------- */
-
-  function renderConfirm() {
-    const c = state.contributor;
-    const item = state.contribution;
-    const username = ODEKAKE.extractInstagramUsername(c.snsUrl);
-    $('#confirm-card').innerHTML = `
-      <div class="cc-row">
-        <div class="cc-label">紹介者</div>
-        <div class="cc-value">${ODEKAKE.escapeHtml(c.displayName)}<br><span style="font-weight:400; font-size:13px; color:var(--ink-soft);">Instagram：@${ODEKAKE.escapeHtml(username)}</span></div>
-      </div>
-      <hr>
-      <div class="cc-row">
-        <div class="cc-label">📍 紹介するスポット</div>
-        <div class="cc-value">${ODEKAKE.escapeHtml(item.spotName)}<br><span style="font-weight:400; font-size:13px; color:var(--ink-soft);">${ODEKAKE.escapeHtml(item.spotArea)}</span></div>
-      </div>
-      <hr>
-      <div class="cc-row">
-        <div class="cc-label">📸 Instagram投稿</div>
-        <div class="cc-value"><a href="${ODEKAKE.escapeHtml(item.postUrl)}" target="_blank" rel="noopener">投稿を見る ↗</a></div>
-      </div>
-      ${item.comment ? `<hr><div class="cc-row"><div class="cc-label">💬 コメント</div><div class="cc-value" style="font-weight:400; font-size:14px;">${ODEKAKE.escapeHtml(item.comment)}</div></div>` : ''}
-      ${item.visitDate ? `<hr><div class="cc-row"><div class="cc-label">📅 訪問日</div><div class="cc-value" style="font-weight:400; font-size:14px;">${ODEKAKE.escapeHtml(item.visitDate)}</div></div>` : ''}
-    `;
+    return state.selectedSpots.map(spot => {
+      const prev = state.contributionsBySpotId.get(spot.id);
+      const item = {
+        id: prev ? prev.id : ODEKAKE.uid('contribution'),
+        spotId: spot.id,
+        spotName: spot.name,
+        spotArea: spot.area,
+        postUrl,
+        comment,
+        visitDate
+      };
+      state.contributionsBySpotId.set(spot.id, item);
+      return item;
+    });
   }
 
   function validateAll() {
@@ -405,7 +499,7 @@
       toast('①アカウント情報を確認してください');
       ok = false;
     }
-    if (!state.selectedSpot) {
+    if (state.selectedSpots.length === 0) {
       toggleError('field-spot-search', true);
       if (ok) toast('②紹介する施設を選択してください');
       ok = false;
@@ -434,9 +528,8 @@
     }
   }
 
-  function buildPayload() {
+  function buildPayload(item) {
     const c = state.contributor;
-    const item = state.contribution;
     return {
       contributor: {
         id: c.id,
@@ -462,30 +555,39 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-  async function submitPayload(payload) {
-    try {
-      const result = await ODEKAKE.submitToServer(payload);
-      // 既存の紹介者と同じInstagramだった場合、サーバー側のIDに揃える
-      if (result.contributorId && state.contributor) {
-        state.contributor.id = result.contributorId;
-        saveAccountDraft();
+  // 選択されたスポットぶん、順番に送信する。途中で失敗したら、その時点で送れていないものを
+  // まとめて JSON で手動送付できるようにする。
+  async function submitAllContributions(contributions) {
+    const submitted = [];
+    for (const item of contributions) {
+      const payload = buildPayload(item);
+      try {
+        const result = await ODEKAKE.submitToServer(payload);
+        if (result.contributorId && state.contributor) {
+          state.contributor.id = result.contributorId;
+          saveAccountDraft();
+        }
+        submitted.push(item);
+      } catch (err) {
+        console.error('[おでかけナビ] 送信に失敗しました', err);
+        const remaining = contributions.slice(submitted.length);
+        renderDone('fallback', remaining, { error: err && err.message ? err.message : '' });
+        showDoneScreen();
+        return;
       }
-      renderDone('success', payload, result);
-    } catch (err) {
-      console.error('[おでかけナビ] 送信に失敗しました', err);
-      renderDone('fallback', payload, { error: err && err.message ? err.message : '' });
     }
+    renderDone('success', contributions, {});
     showDoneScreen();
   }
 
   $('#btn-confirm-submit').addEventListener('click', async () => {
     if (!validateAll()) return;
-    buildContribution();
+    const contributions = buildContributions();
     saveAccountDraft();
 
     setSubmitting(true);
     try {
-      await submitPayload(buildPayload());
+      await submitAllContributions(contributions);
     } finally {
       setSubmitting(false);
     }
@@ -493,22 +595,17 @@
 
   /* ---------------- 完了画面 ---------------- */
 
-  function renderDone(mode, payload, info) {
+  function renderDone(mode, contributions, info) {
     const details = document.querySelector('.json-details');
     const retryBtn = $('#btn-retry');
-    const idNote = $('#done-id-note');
 
     if (mode === 'success') {
       $('#done-heading').textContent = 'ありがとうございます！';
-      $('#done-lead').innerHTML = '送信が完了しました。<br>内容を確認したあと、おでかけナビで紹介します。';
+      $('#done-lead').innerHTML = contributions.length > 1
+        ? `${contributions.length}件のスポットの送信が完了しました。<br>内容を確認したあと、おでかけナビで紹介します。`
+        : '送信が完了しました。<br>内容を確認したあと、おでかけナビで紹介します。';
       details.classList.add('hidden');
       retryBtn.classList.add('hidden');
-      if (info && info.isNewContributor) {
-        idNote.classList.remove('hidden');
-        $('#done-id-value').textContent = info.contributorId || payload.contributor.id;
-      } else {
-        idNote.classList.add('hidden');
-      }
       return;
     }
 
@@ -516,19 +613,18 @@
     $('#done-heading').textContent = '送信できませんでした';
     $('#done-lead').innerHTML = 'まだ登録は完了していません。<br>「もう一度送信する」をお試しください。うまくいかない場合は、下のデータをコピーして運営者にお送りください。'
       + (info && info.error ? '<br><span style="font-size:12px;">（' + ODEKAKE.escapeHtml(info.error) + '）</span>' : '');
-    idNote.classList.add('hidden');
     retryBtn.classList.remove('hidden');
     details.classList.remove('hidden');
     details.open = true;
     $('#done-json-label').textContent = '登録内容データを見る（送付用）';
 
     const out = {
-      contributors: ODEKAKE.buildContributorsJson([{ ...payload.contributor, published: false }]),
-      contributions: ODEKAKE.buildContributionsJson([{
-        ...payload.contribution,
-        contributorId: payload.contributor.id,
+      contributors: ODEKAKE.buildContributorsJson([{ ...state.contributor, published: false }]),
+      contributions: ODEKAKE.buildContributionsJson(contributions.map(item => ({
+        ...item,
+        contributorId: state.contributor.id,
         published: false
-      }])
+      })))
     };
     const jsonText = JSON.stringify(out, null, 2);
     $('#output-json').textContent = jsonText;
@@ -537,7 +633,7 @@
       retryBtn.disabled = true;
       retryBtn.textContent = '送信中…';
       try {
-        await submitPayload(payload);
+        await submitAllContributions(contributions);
       } finally {
         retryBtn.disabled = false;
         retryBtn.textContent = 'もう一度送信する';
@@ -554,18 +650,19 @@
   }
 
   $('#btn-add-more').addEventListener('click', () => {
-    state.selectedSpot = null;
-    state.contribution = null;
-    $('#spot-selected-card').classList.remove('show');
-    $('#field-spot-search').classList.remove('hidden');
+    state.selectedSpots = [];
+    state.contributionsBySpotId.clear();
+    $('#spot-selected-chips').innerHTML = '';
+    $('#btn-spot-next').classList.add('hidden');
     $('#input-spot-search').value = '';
     $('#spot-card-list').innerHTML = '';
+
     $('#input-postUrl').value = '';
+    unlockPostUrl();
     $('#input-comment').value = '';
     $('#count-comment').textContent = '0';
     $('#input-visitDate').value = '';
     hideSection('section-detail');
-    hideSection('section-confirm');
 
     $('#screen-done').classList.add('hidden');
     $('#screen-form').classList.remove('hidden');
