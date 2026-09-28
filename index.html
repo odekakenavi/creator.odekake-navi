@@ -6,7 +6,7 @@
 <title>📸 みんなのおでかけ - おでかけナビ</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./assets/style.css">
+<link rel="stylesheet" href="./assets/style.css" onerror="window.__ODEKAKE_CSS_FAILED = true;">
 </head>
 <body>
 <div class="wrap" id="app">
@@ -140,10 +140,41 @@
 
 <div class="toast" id="toast"></div>
 
-<script src="./assets/app.js"></script>
+<div class="fatal-error hidden" id="fatal-error" style="display:none; position:fixed; left:0; right:0; top:0; z-index:9999; background:#c0392b; color:#fff; padding:14px 16px; font-size:14px; line-height:1.6; text-align:left;">
+  <strong>⚠️ アプリの読み込みでエラーが発生しました</strong>
+  <div id="fatal-error-message" style="margin-top:6px; font-weight:400;"></div>
+</div>
+
+<script src="./assets/app.js" onerror="window.__ODEKAKE_APPJS_FAILED = true;"></script>
 <script>
 (function () {
   const $ = (sel) => document.querySelector(sel);
+
+  // ---- ここから: 読み込み失敗やエラーを画面に必ず表示する仕組み ----
+  function showFatalError(message) {
+    const box = document.getElementById('fatal-error');
+    const msgEl = document.getElementById('fatal-error-message');
+    if (box && msgEl) {
+      msgEl.textContent = message;
+      box.style.display = 'block';
+      box.classList.remove('hidden');
+    }
+    console.error('[おでかけナビ] ' + message);
+  }
+
+  window.addEventListener('error', function (e) {
+    showFatalError('JavaScriptの実行中にエラーが発生しました：' + (e && e.message ? e.message : '不明なエラー'));
+  });
+
+  if (window.__ODEKAKE_CSS_FAILED) {
+    showFatalError('スタイルシート（assets/style.css）を読み込めませんでした。ファイルの配置場所・ファイル名の大文字小文字をご確認ください。');
+  }
+
+  if (window.__ODEKAKE_APPJS_FAILED || typeof ODEKAKE === 'undefined') {
+    showFatalError('共通スクリプト（assets/app.js）を読み込めませんでした。ファイルの配置場所・ファイル名の大文字小文字をご確認ください。フォームは動作しません。');
+    return; // ODEKAKE が無いと以降の処理はすべて失敗するため、ここで安全に停止する
+  }
+  // ---- ここまで ----
 
   const state = {
     contributor: null,
@@ -180,12 +211,16 @@
 
   /* ---------------- ① アカウント情報 ---------------- */
 
-  ODEKAKE.loadPublishedContributors().then(list => {
-    state.publishedContributors = list;
-    if (state.contributor) {
-      state.isNewContributor = !state.publishedContributors.some(c => c.id === state.contributor.id);
-    }
-  });
+  try {
+    ODEKAKE.loadPublishedContributors().then(list => {
+      state.publishedContributors = list;
+      if (state.contributor) {
+        state.isNewContributor = !state.publishedContributors.some(c => c.id === state.contributor.id);
+      }
+    }).catch(err => showFatalError('紹介者データの取得に失敗しました：' + err.message));
+  } catch (err) {
+    showFatalError('紹介者データの取得に失敗しました：' + err.message);
+  }
 
   function saveAccountDraft() {
     if (state.contributor) ODEKAKE.writeLS(ODEKAKE.LS_KEYS.draftContributor, state.contributor);
@@ -214,16 +249,21 @@
   }
 
   // このブラウザに前回の入力が残っていれば自動で読み込む（別アカウント切替ボタンは設けない）
-  const draft = ODEKAKE.readLS(ODEKAKE.LS_KEYS.draftContributor, null);
-  if (draft && draft.snsUrl) {
-    $('#input-snsUrl').value = draft.snsUrl;
-    const derivedUsername = ODEKAKE.extractInstagramUsername(draft.snsUrl);
-    if (draft.displayName && draft.displayName !== derivedUsername) {
-      state.customDisplayName = draft.displayName;
-      $('#input-custom-displayname').value = draft.displayName;
+  // ※ localStorage が使えない/壊れている場合でも、以降のボタン登録が止まらないようにガードする
+  try {
+    const draft = ODEKAKE.readLS(ODEKAKE.LS_KEYS.draftContributor, null);
+    if (draft && draft.snsUrl) {
+      $('#input-snsUrl').value = draft.snsUrl;
+      const derivedUsername = ODEKAKE.extractInstagramUsername(draft.snsUrl);
+      if (draft.displayName && draft.displayName !== derivedUsername) {
+        state.customDisplayName = draft.displayName;
+        $('#input-custom-displayname').value = draft.displayName;
+      }
+      state.contributor = { ...draft };
+      applyAccountFromUrl(draft.snsUrl);
     }
-    state.contributor = { ...draft };
-    applyAccountFromUrl(draft.snsUrl);
+  } catch (err) {
+    showFatalError('前回の入力内容の読み込みに失敗しました：' + err.message);
   }
 
   $('#input-snsUrl').addEventListener('input', (e) => {
