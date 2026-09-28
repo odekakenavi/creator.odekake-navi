@@ -98,14 +98,9 @@
       <div class="confirm-card" id="confirm-card"></div>
 
       <button class="btn btn-primary btn-cta" id="btn-confirm-submit" style="margin-top:18px;">掲載情報を登録する</button>
-      <div style="text-align:center;">
-        <button class="link-btn" id="btn-confirm-bulk" style="margin-top:12px;">一括出力（管理者用）</button>
-      </div>
     </div>
 
-    <div style="text-align:center; margin-top:44px; padding-bottom:6px;">
-      <a href="./admin.html" class="admin-link">・</a>
-    </div>
+    <div style="padding-bottom:6px;"></div>
   </section>
 
   <!-- ============ 完了画面 ============ -->
@@ -121,6 +116,7 @@
     </div>
 
     <div class="btn-row-col">
+      <button class="btn btn-primary btn-cta hidden" id="btn-retry">もう一度送信する</button>
       <button class="btn btn-primary btn-cta" id="btn-add-more">もう1スポット紹介する</button>
       <a class="btn btn-secondary btn-cta" href="https://odekakenavi.github.io/odekake-navi/" id="btn-see-navi">おでかけナビを見る</a>
     </div>
@@ -178,8 +174,6 @@
 
   const state = {
     contributor: null,
-    isNewContributor: true,
-    publishedContributors: [],
     selectedSpot: null,
     contribution: null,
     customDisplayName: ''
@@ -211,17 +205,6 @@
 
   /* ---------------- ① アカウント情報 ---------------- */
 
-  try {
-    ODEKAKE.loadPublishedContributors().then(list => {
-      state.publishedContributors = list;
-      if (state.contributor) {
-        state.isNewContributor = !state.publishedContributors.some(c => c.id === state.contributor.id);
-      }
-    }).catch(err => showFatalError('紹介者データの取得に失敗しました：' + err.message));
-  } catch (err) {
-    showFatalError('紹介者データの取得に失敗しました：' + err.message);
-  }
-
   function saveAccountDraft() {
     if (state.contributor) ODEKAKE.writeLS(ODEKAKE.LS_KEYS.draftContributor, state.contributor);
   }
@@ -242,7 +225,6 @@
       snsUrl: url,
       profileText: keepProfileText
     };
-    state.isNewContributor = !state.publishedContributors.some(c => c.id === keepId);
     revealSection('section-spot');
     saveAccountDraft();
     return true;
@@ -437,129 +419,137 @@
     return ok;
   }
 
-  $('#btn-confirm-submit').addEventListener('click', () => {
-    if (!validateAll()) return;
-    buildContribution();
+  /* ---------------- 送信（GAS → スプレッドシート） ---------------- */
 
-    ODEKAKE.writeLS(ODEKAKE.LS_KEYS.draftContributor, state.contributor);
+  function setSubmitting(isSubmitting) {
+    const btn = $('#btn-confirm-submit');
+    if (!btn) return;
+    if (isSubmitting) {
+      if (!btn.dataset.label) btn.dataset.label = btn.textContent;
+      btn.textContent = '送信中…';
+      btn.disabled = true;
+    } else {
+      btn.textContent = btn.dataset.label || '掲載情報を登録する';
+      btn.disabled = false;
+    }
+  }
 
-    const pending = ODEKAKE.readLS(ODEKAKE.LS_KEYS.pendingContributions, []);
-    const payload = {
-      contributor: state.isNewContributor ? state.contributor : { id: state.contributor.id },
-      isNewContributor: state.isNewContributor,
-      contributions: [{
-        id: state.contribution.id,
-        contributorId: state.contributor.id,
-        spotId: state.contribution.spotId,
-        postUrl: state.contribution.postUrl,
-        comment: state.contribution.comment,
-        visitDate: state.contribution.visitDate,
-        published: false
-      }]
+  function buildPayload() {
+    const c = state.contributor;
+    const item = state.contribution;
+    return {
+      contributor: {
+        id: c.id,
+        displayName: c.displayName,
+        snsUrl: c.snsUrl,
+        profileText: c.profileText || ''
+      },
+      contribution: {
+        id: item.id,
+        spotId: item.spotId,
+        spotName: item.spotName,
+        spotArea: item.spotArea,
+        postUrl: item.postUrl,
+        comment: item.comment,
+        visitDate: item.visitDate
+      }
     };
-    pending.push(payload);
-    ODEKAKE.writeLS(ODEKAKE.LS_KEYS.pendingContributions, pending);
+  }
 
-    renderDone(payload, 'submit');
+  function showDoneScreen() {
     $('#screen-form').classList.add('hidden');
     $('#screen-done').classList.remove('hidden');
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  });
+  }
 
-  $('#btn-confirm-bulk').addEventListener('click', async () => {
+  async function submitPayload(payload) {
+    try {
+      const result = await ODEKAKE.submitToServer(payload);
+      // 既存の紹介者と同じInstagramだった場合、サーバー側のIDに揃える
+      if (result.contributorId && state.contributor) {
+        state.contributor.id = result.contributorId;
+        saveAccountDraft();
+      }
+      renderDone('success', payload, result);
+    } catch (err) {
+      console.error('[おでかけナビ] 送信に失敗しました', err);
+      renderDone('fallback', payload, { error: err && err.message ? err.message : '' });
+    }
+    showDoneScreen();
+  }
+
+  $('#btn-confirm-submit').addEventListener('click', async () => {
     if (!validateAll()) return;
     buildContribution();
-    ODEKAKE.writeLS(ODEKAKE.LS_KEYS.draftContributor, state.contributor);
+    saveAccountDraft();
 
-    const btn = $('#btn-confirm-bulk');
-    const originalText = btn.textContent;
-    btn.textContent = '既存データを取得中…';
-    btn.disabled = true;
-
-    const [existingContributors, existingContributions] = await Promise.all([
-      ODEKAKE.loadPublishedContributors(),
-      ODEKAKE.loadPublishedContributions()
-    ]);
-
-    const payload = {
-      contributor: state.contributor,
-      isNewContributor: state.isNewContributor,
-      contributions: [{
-        id: state.contribution.id,
-        contributorId: state.contributor.id,
-        spotId: state.contribution.spotId,
-        postUrl: state.contribution.postUrl,
-        comment: state.contribution.comment,
-        visitDate: state.contribution.visitDate,
-        published: true
-      }]
-    };
-
-    renderDone(payload, 'bulk', { existingContributors, existingContributions });
-    $('#screen-form').classList.add('hidden');
-    $('#screen-done').classList.remove('hidden');
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-
-    btn.disabled = false;
-    btn.textContent = originalText;
+    setSubmitting(true);
+    try {
+      await submitPayload(buildPayload());
+    } finally {
+      setSubmitting(false);
+    }
   });
 
   /* ---------------- 完了画面 ---------------- */
 
-  function renderDone(payload, mode, existing) {
-    let out = {};
+  function renderDone(mode, payload, info) {
+    const details = document.querySelector('.json-details');
+    const retryBtn = $('#btn-retry');
+    const idNote = $('#done-id-note');
 
-    if (mode === 'bulk') {
-      let contributorsList = (existing.existingContributors || []).filter(c => c.id !== payload.contributor.id);
-      const dup = ODEKAKE.findContributorBySnsUrl(contributorsList, payload.contributor.snsUrl);
-      let effectiveContributorId = payload.contributor.id;
-      if (dup) {
-        effectiveContributorId = dup.id;
-      } else {
-        contributorsList.push({ ...payload.contributor, published: true });
-      }
-      const remappedContributions = payload.contributions.map(c => ({ ...c, contributorId: effectiveContributorId }));
-      const contributionsList = (existing.existingContributions || []).filter(c =>
-        !remappedContributions.some(nc => nc.id === c.id)
-      ).concat(remappedContributions);
-
-      out.contributors = ODEKAKE.buildContributorsJson(contributorsList);
-      out.contributions = ODEKAKE.buildContributionsJson(contributionsList);
-
-      $('#done-heading').textContent = '合計JSONを出力しました';
-      $('#done-lead').innerHTML = '既存の公開データに今回の内容を加えた、そのままアップロードできる完成版JSONです。<br>おでかけナビ本体のリポジトリにアップロードしてください。';
-      $('#done-json-label').textContent = '完成版JSON（合計データ）を見る';
-    } else {
-      if (payload.isNewContributor) {
-        out.contributors = ODEKAKE.buildContributorsJson([{ ...payload.contributor, published: false }]);
-      }
-      out.contributions = ODEKAKE.buildContributionsJson(payload.contributions);
-
+    if (mode === 'success') {
       $('#done-heading').textContent = 'ありがとうございます！';
-      $('#done-lead').innerHTML = 'あなたのおでかけ情報を受け取りました。<br>内容を確認したあと、おでかけナビで紹介します。';
-      $('#done-json-label').textContent = '登録内容データを見る（送付用）';
+      $('#done-lead').innerHTML = '送信が完了しました。<br>内容を確認したあと、おでかけナビで紹介します。';
+      details.classList.add('hidden');
+      retryBtn.classList.add('hidden');
+      if (info && info.isNewContributor) {
+        idNote.classList.remove('hidden');
+        $('#done-id-value').textContent = info.contributorId || payload.contributor.id;
+      } else {
+        idNote.classList.add('hidden');
+      }
+      return;
     }
 
-    if (payload.isNewContributor) {
-      $('#done-id-note').classList.remove('hidden');
-      $('#done-id-value').textContent = payload.contributor.id;
-    } else {
-      $('#done-id-note').classList.add('hidden');
-    }
+    // ---- 送信に失敗したとき：データを失わないよう、JSONの手動送付に切り替える ----
+    $('#done-heading').textContent = '送信できませんでした';
+    $('#done-lead').innerHTML = 'まだ登録は完了していません。<br>「もう一度送信する」をお試しください。うまくいかない場合は、下のデータをコピーして運営者にお送りください。'
+      + (info && info.error ? '<br><span style="font-size:12px;">（' + ODEKAKE.escapeHtml(info.error) + '）</span>' : '');
+    idNote.classList.add('hidden');
+    retryBtn.classList.remove('hidden');
+    details.classList.remove('hidden');
+    details.open = true;
+    $('#done-json-label').textContent = '登録内容データを見る（送付用）';
 
+    const out = {
+      contributors: ODEKAKE.buildContributorsJson([{ ...payload.contributor, published: false }]),
+      contributions: ODEKAKE.buildContributionsJson([{
+        ...payload.contribution,
+        contributorId: payload.contributor.id,
+        published: false
+      }])
+    };
     const jsonText = JSON.stringify(out, null, 2);
     $('#output-json').textContent = jsonText;
 
+    retryBtn.onclick = async () => {
+      retryBtn.disabled = true;
+      retryBtn.textContent = '送信中…';
+      try {
+        await submitPayload(payload);
+      } finally {
+        retryBtn.disabled = false;
+        retryBtn.textContent = 'もう一度送信する';
+      }
+    };
     $('#btn-copy-json').onclick = async () => {
       await ODEKAKE.copyText(jsonText);
       $('#copy-flash').style.display = 'block';
       setTimeout(() => $('#copy-flash').style.display = 'none', 1800);
     };
     $('#btn-download-json').onclick = () => {
-      const filename = mode === 'bulk'
-        ? 'odekake_total_' + ODEKAKE.todayISO() + '.json'
-        : 'odekake_submission_' + ODEKAKE.todayISO() + '.json';
-      ODEKAKE.downloadJson(filename, out);
+      ODEKAKE.downloadJson('odekake_submission_' + ODEKAKE.todayISO() + '.json', out);
     };
   }
 
@@ -576,8 +566,6 @@
     $('#input-visitDate').value = '';
     hideSection('section-detail');
     hideSection('section-confirm');
-
-    state.isNewContributor = !state.publishedContributors.some(c => c.id === state.contributor.id);
 
     $('#screen-done').classList.add('hidden');
     $('#screen-form').classList.remove('hidden');
