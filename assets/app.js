@@ -119,8 +119,10 @@ const ODEKAKE = (() => {
     // フィールド名が異なる場合はここで正規化してください。
     _spotsCache = {
       source,
-      items: data.map(s => ({
-        id: s.id ?? s.spotId ?? s.spot_id,
+      items: data.map((s, i) => ({
+        // data/spots.json に id / spotId / spot_id が無い場合でも施設が弾かれないよう、
+        // name（無ければ配列のインデックス）からIDを補って生成する
+        id: s.id ?? s.spotId ?? s.spot_id ?? (s.name ? `spot_${s.name}` : `spot_${i}`),
         name: s.name ?? s.spotName ?? s.title ?? '(名称未設定)',
         area: s.area ?? s.address ?? s.category ?? ''
       })).filter(s => s.id)
