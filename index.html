@@ -26,26 +26,19 @@
       <span class="step-eyebrow">① アカウント情報</span>
       <div class="section-heading"><span class="num">1</span>あなたのInstagram</div>
 
-      <div id="account-returning" class="hidden" style="margin-bottom:14px;">
-        <div class="id-result-box show" id="account-returning-box"></div>
-        <button class="link-btn" id="btn-account-reset">別のアカウントで登録する</button>
+      <div class="field" id="field-snsUrl">
+        <label>📷 Instagram URL <span class="required-tag">必須</span></label>
+        <input type="url" id="input-snsUrl" placeholder="https://www.instagram.com/xxxxx/" inputmode="url" autocapitalize="off" autocomplete="off">
+        <div class="hint">あなたのInstagramアカウントのURLを入力してください（一度入力すればこのブラウザが記憶します）</div>
+        <div class="error-msg">Instagram URLの形式が正しくありません（例：https://www.instagram.com/xxxxx/）</div>
       </div>
 
-      <div id="account-input-area">
-        <div class="field" id="field-snsUrl">
-          <label>📷 Instagram URL <span class="required-tag">必須</span></label>
-          <input type="url" id="input-snsUrl" placeholder="https://www.instagram.com/xxxxx/" inputmode="url" autocapitalize="off" autocomplete="off">
-          <div class="hint">あなたのInstagramアカウントのURLを入力してください</div>
-          <div class="error-msg">Instagram URLの形式が正しくありません（例：https://www.instagram.com/xxxxx/）</div>
-        </div>
-
-        <div class="ig-confirm hidden" id="ig-confirm-box">
-          <div class="ig-confirm-name">✓ <span id="ig-confirm-display"></span></div>
-          <div class="ig-confirm-handle">Instagram：@<span id="ig-confirm-handle"></span></div>
-          <button class="link-btn" id="btn-edit-displayname">表示名を編集する</button>
-          <div class="field hidden" id="field-custom-displayname" style="margin-top:10px;">
-            <input type="text" id="input-custom-displayname" maxlength="30" placeholder="表示名（例：○○ママ）">
-          </div>
+      <div class="ig-confirm hidden" id="ig-confirm-box">
+        <div class="ig-confirm-name">✓ <span id="ig-confirm-display"></span></div>
+        <div class="ig-confirm-handle">Instagram：@<span id="ig-confirm-handle"></span></div>
+        <button class="link-btn" id="btn-edit-displayname">表示名を編集する</button>
+        <div class="field hidden" id="field-custom-displayname" style="margin-top:10px;">
+          <input type="text" id="input-custom-displayname" maxlength="30" placeholder="表示名（例：○○ママ）">
         </div>
       </div>
     </div>
@@ -129,7 +122,7 @@
 
     <div class="btn-row-col">
       <button class="btn btn-primary btn-cta" id="btn-add-more">もう1スポット紹介する</button>
-      <a class="btn btn-secondary btn-cta" href="../" id="btn-see-navi">おでかけナビを見る</a>
+      <a class="btn btn-secondary btn-cta" href="https://odekakenavi.github.io/odekake-navi/" id="btn-see-navi">おでかけナビを見る</a>
     </div>
 
     <details class="json-details">
@@ -187,55 +180,55 @@
 
   /* ---------------- ① アカウント情報 ---------------- */
 
-  const draft = ODEKAKE.readLS(ODEKAKE.LS_KEYS.draftContributor, null);
-
   ODEKAKE.loadPublishedContributors().then(list => {
     state.publishedContributors = list;
+    if (state.contributor) {
+      state.isNewContributor = !state.publishedContributors.some(c => c.id === state.contributor.id);
+    }
   });
 
-  function useContributor(contributor) {
-    state.contributor = contributor;
-    state.isNewContributor = !state.publishedContributors.some(c => c.id === contributor.id);
+  function saveAccountDraft() {
+    if (state.contributor) ODEKAKE.writeLS(ODEKAKE.LS_KEYS.draftContributor, state.contributor);
+  }
+
+  function applyAccountFromUrl(url) {
+    const ok = ODEKAKE.isValidInstagramProfileUrl(url);
+    if (!ok) { $('#ig-confirm-box').classList.add('hidden'); return false; }
+    const username = ODEKAKE.extractInstagramUsername(url);
+    $('#ig-confirm-handle').textContent = username;
+    $('#ig-confirm-display').textContent = state.customDisplayName || username;
+    $('#ig-confirm-box').classList.remove('hidden');
+
+    const keepId = (state.contributor && state.contributor.snsUrl === url) ? state.contributor.id : ODEKAKE.uid('creator');
+    const keepProfileText = (state.contributor && state.contributor.snsUrl === url) ? state.contributor.profileText : '';
+    state.contributor = {
+      id: keepId,
+      displayName: state.customDisplayName || username,
+      snsUrl: url,
+      profileText: keepProfileText
+    };
+    state.isNewContributor = !state.publishedContributors.some(c => c.id === keepId);
     revealSection('section-spot');
+    saveAccountDraft();
+    return true;
   }
 
-  if (draft && draft.displayName) {
-    $('#account-returning').classList.remove('hidden');
-    $('#account-input-area').classList.add('hidden');
-    $('#account-returning-box').textContent = `👋 ${draft.displayName} さんとして続けます`;
-    useContributor(draft);
+  // このブラウザに前回の入力が残っていれば自動で読み込む（別アカウント切替ボタンは設けない）
+  const draft = ODEKAKE.readLS(ODEKAKE.LS_KEYS.draftContributor, null);
+  if (draft && draft.snsUrl) {
+    $('#input-snsUrl').value = draft.snsUrl;
+    const derivedUsername = ODEKAKE.extractInstagramUsername(draft.snsUrl);
+    if (draft.displayName && draft.displayName !== derivedUsername) {
+      state.customDisplayName = draft.displayName;
+      $('#input-custom-displayname').value = draft.displayName;
+    }
+    state.contributor = { ...draft };
+    applyAccountFromUrl(draft.snsUrl);
   }
-
-  $('#btn-account-reset').addEventListener('click', () => {
-    $('#account-returning').classList.add('hidden');
-    $('#account-input-area').classList.remove('hidden');
-    state.contributor = null;
-    hideSection('section-spot');
-    hideSection('section-detail');
-    hideSection('section-confirm');
-  });
 
   $('#input-snsUrl').addEventListener('input', (e) => {
-    const url = e.target.value.trim();
-    const ok = ODEKAKE.isValidInstagramProfileUrl(url);
     toggleError('field-snsUrl', false);
-    if (ok) {
-      const username = ODEKAKE.extractInstagramUsername(url);
-      $('#ig-confirm-handle').textContent = username;
-      $('#ig-confirm-display').textContent = state.customDisplayName || username;
-      $('#ig-confirm-box').classList.remove('hidden');
-
-      state.isNewContributor = true;
-      state.contributor = {
-        id: (state.contributor && state.contributor.snsUrl === url) ? state.contributor.id : ODEKAKE.uid('creator'),
-        displayName: state.customDisplayName || username,
-        snsUrl: url,
-        profileText: ''
-      };
-      revealSection('section-spot');
-    } else {
-      $('#ig-confirm-box').classList.add('hidden');
-    }
+    applyAccountFromUrl(e.target.value.trim());
   });
 
   $('#input-snsUrl').addEventListener('blur', (e) => {
@@ -253,27 +246,29 @@
     const username = $('#ig-confirm-handle').textContent;
     const display = state.customDisplayName || username;
     $('#ig-confirm-display').textContent = display;
-    if (state.contributor) state.contributor.displayName = display;
+    if (state.contributor) {
+      state.contributor.displayName = display;
+      saveAccountDraft();
+    }
   });
 
   /* ---------------- ② 紹介する施設 ---------------- */
 
   const spotsReady = ODEKAKE.loadSpots();
 
-  spotsReady.then(({ items }) => {
-    if (!items || items.length === 0) {
-      const hintEl = $('#spot-hint');
-      hintEl.innerHTML = '⚠️ 施設データを読み込めませんでした。管理者の方は <code>data/spots.json</code>（または <code>data/spots.sample.json</code>）の配置と、<code>assets/app.js</code> の <code>SPOTS_DATA_URLS</code> をご確認ください。';
-      hintEl.style.color = 'var(--danger)';
-    }
-  });
-
   $('#input-spot-search').addEventListener('input', async (e) => {
     const { items } = await spotsReady;
     const kw = e.target.value;
-    const results = ODEKAKE.searchSpots(items, kw);
     const box = $('#spot-card-list');
     if (!kw.trim()) { box.innerHTML = ''; return; }
+
+    if (!items || items.length === 0) {
+      // 施設データそのものが読み込めていない場合だけエラーを表示（検索前は出さない）
+      box.innerHTML = '<div class="hint" style="color:var(--danger);">⚠️ 施設データを読み込めませんでした。管理者の方は <code>data/spots.json</code>（または <code>data/spots.sample.json</code>）の配置と、<code>assets/app.js</code> の <code>SPOTS_DATA_URLS</code> をご確認ください。</div>';
+      return;
+    }
+
+    const results = ODEKAKE.searchSpots(items, kw);
     if (results.length === 0) {
       box.innerHTML = '<div class="hint">該当する施設が見つかりません。別のキーワードでお試しください。</div>';
       return;

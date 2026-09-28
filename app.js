@@ -14,9 +14,8 @@ const ODEKAKE = (() => {
      取得できない場合は同梱のサンプルデータで動作確認できます。
   --------------------------------------------------------- */
   const SPOTS_DATA_URLS = [
-    '../data/spots.json',   // 本体リポジトリに配置される想定のパス（要調整）
-    './data/spots.json',
-    './data/spots.sample.json' // フォールバック（動作確認用サンプル）
+    './data/spots.json',        // このリポジトリに配置する本番用の施設データ（★ここに置いてください）
+    './data/spots.sample.json'  // フォールバック（動作確認用サンプル）
   ];
 
   // 既存で公開済みの紹介者一覧（本体サイトに置かれる contributors.json）
