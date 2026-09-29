@@ -75,6 +75,29 @@
   .consent-box .error-msg{ display:none; margin:0 0 10px; }
   .consent-box.has-error{ border-color:var(--danger, #c0392b); }
   .consent-box.has-error .error-msg{ display:block; }
+
+  /* ---- 入力欄右側の薄い「×」一括削除ボタン ---- */
+  .input-clear-wrap{ position:relative; display:block; }
+  .input-clear-wrap > input{ padding-right:40px !important; }
+  .input-clear-btn{
+    position:absolute; right:8px; top:50%; transform:translateY(-50%);
+    width:26px; height:26px; padding:0; border:none; border-radius:50%;
+    background:rgba(0,0,0,.08); color:rgba(0,0,0,.45);
+    font-size:13px; line-height:1; cursor:pointer;
+    display:none; align-items:center; justify-content:center;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .input-clear-wrap.has-value:not(.is-disabled) .input-clear-btn{ display:inline-flex; }
+  .input-clear-btn:active{ background:rgba(0,0,0,.16); }
+
+  /* ---- 施設入力中は検索欄を画面上部に固定（候補をスクロールしても消えない） ---- */
+  #section-spot, #section-spot.card{ overflow:visible; }
+  #field-spot-search{
+    position:sticky; top:0; z-index:20;
+    background:var(--card-bg, #fff);
+    padding:8px 0 6px; margin-top:0;
+    box-shadow:0 6px 8px -8px rgba(0,0,0,.25);
+  }
 </style>
 </head>
 <body>
@@ -97,7 +120,7 @@
 
       <div class="field" id="field-snsUrl">
         <label>📷 Instagram URL <span class="required-tag">必須</span></label>
-        <input type="url" id="input-snsUrl" placeholder="https://www.instagram.com/xxxxx/" inputmode="url" autocapitalize="off" autocomplete="off">
+        <div class="input-clear-wrap"><input type="url" id="input-snsUrl" placeholder="https://www.instagram.com/xxxxx/" inputmode="url" autocapitalize="off" autocomplete="off"><button type="button" class="input-clear-btn" aria-label="入力をすべて削除">✕</button></div>
         <div class="hint">あなたのInstagramアカウントのURLを入力してください（一度入力すればこのブラウザが記憶します）</div>
         <div class="error-msg">Instagram URLの形式が正しくありません（例：https://www.instagram.com/xxxxx/）</div>
 
@@ -158,7 +181,7 @@
 
       <div class="field" id="field-postUrl">
         <label>📸 Instagram投稿URL <span class="required-tag">必須</span></label>
-        <input type="url" id="input-postUrl" placeholder="Instagram投稿URLを貼り付け" inputmode="url" autocapitalize="off" autocomplete="off">
+        <div class="input-clear-wrap"><input type="url" id="input-postUrl" placeholder="Instagram投稿URLを貼り付け" inputmode="url" autocapitalize="off" autocomplete="off"><button type="button" class="input-clear-btn" aria-label="入力をすべて削除">✕</button></div>
         <div class="hint">紹介したスポットが分かる投稿を貼ってください</div>
         <div class="error-msg">投稿URLの形式が正しくありません（例：https://www.instagram.com/p/xxxxx/）</div>
 
@@ -401,6 +424,31 @@
       state.contributor.displayName = display;
       saveAccountDraft();
     }
+  });
+
+  /* ---------------- 入力欄の一括削除（×）ボタン ---------------- */
+  document.querySelectorAll('.input-clear-wrap').forEach((wrap) => {
+    const input = wrap.querySelector('input');
+    const btn = wrap.querySelector('.input-clear-btn');
+    if (!input || !btn) return;
+    const sync = () => {
+      wrap.classList.toggle('has-value', input.value.length > 0);
+      wrap.classList.toggle('is-disabled', input.disabled);
+    };
+    input.addEventListener('input', sync);
+    input.addEventListener('blur', sync);
+    // 値がプログラムから入る/ロックされる場合にも追従
+    setInterval(sync, 300);
+    // フォーカスが外れてキーボードが閉じないよう、押下時の既定動作を止める
+    btn.addEventListener('mousedown', (e) => e.preventDefault());
+    btn.addEventListener('touchstart', (e) => e.preventDefault(), { passive: false });
+    btn.addEventListener('click', () => {
+      input.value = '';
+      input.dispatchEvent(new Event('input', { bubbles: true }));
+      sync();
+      input.focus();
+    });
+    sync();
   });
 
   /* ---------------- ② 紹介する施設（複数選択） ---------------- */
