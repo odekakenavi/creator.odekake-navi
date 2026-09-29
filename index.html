@@ -91,7 +91,8 @@
   .input-clear-btn:active{ background:rgba(0,0,0,.16); }
 
   /* ---- 施設入力中は検索欄を画面上部に固定（候補をスクロールしても消えない） ---- */
-  #section-spot, #section-spot.card{ overflow:visible; }
+  html, body, .wrap, #app, #screen-form, #section-spot, .card{ overflow:visible !important; }
+  .wrap, #app, #screen-form{ contain:none !important; }
   #field-spot-search{
     position:sticky; top:0; z-index:20;
     background:var(--card-bg, #fff);
@@ -792,6 +793,12 @@
     $('#input-consent-owner').checked = false;
     toggleError('field-consent', false);
     hideSection('section-detail');
+
+    // アカウント登録済みなら、再訪時と同じく入力欄を最小化（再入力を求めない）
+    if (state.contributor && ODEKAKE.isValidInstagramProfileUrl(state.contributor.snsUrl)) {
+      showAccountMinimized();
+      $('#ig-confirm-box').classList.remove('hidden');
+    }
 
     $('#screen-done').classList.add('hidden');
     $('#screen-form').classList.remove('hidden');
