@@ -440,10 +440,10 @@
     input.addEventListener('blur', sync);
     // 値がプログラムから入る/ロックされる場合にも追従
     setInterval(sync, 300);
-    // フォーカスが外れてキーボードが閉じないよう、押下時の既定動作を止める
+    // 入力欄からフォーカスが外れないよう mousedown のみ止める（touchstart を止めるとタップ(click)が発火しなくなる）
     btn.addEventListener('mousedown', (e) => e.preventDefault());
-    btn.addEventListener('touchstart', (e) => e.preventDefault(), { passive: false });
-    btn.addEventListener('click', () => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
       input.value = '';
       input.dispatchEvent(new Event('input', { bubbles: true }));
       sync();
@@ -471,10 +471,20 @@
     $('#btn-spot-next').classList.toggle('hidden', state.selectedSpots.length === 0);
   }
 
+  // 候補リストが空になっても高さを保ち、ページが縮んで画面が上にずれるのを防ぐ
+  function holdSpotListHeight() {
+    const box = $('#spot-card-list');
+    const cap = Math.round(window.innerHeight * 0.8);
+    const cur = parseInt(box.style.minHeight, 10) || 0;
+    const h = Math.min(box.offsetHeight, cap);
+    if (h > cur) box.style.minHeight = h + 'px';
+  }
+
   $('#input-spot-search').addEventListener('input', async (e) => {
     const { items } = await spotsReady;
     const kw = e.target.value;
     const box = $('#spot-card-list');
+    holdSpotListHeight();
     if (!kw.trim()) { box.innerHTML = ''; return; }
 
     if (!items || items.length === 0) {
@@ -509,13 +519,16 @@
     if (!spot) return;
     if (isSpotSelected(spot.id)) return;
 
+    holdSpotListHeight();
+    const keepY = window.scrollY;
     state.selectedSpots.push(spot);
     renderSelectedChips();
     toggleError('field-spot-search', false);
 
     $('#input-spot-search').value = '';
     $('#spot-card-list').innerHTML = '';
-    $('#input-spot-search').focus();
+    $('#input-spot-search').focus({ preventScroll: true });
+    window.scrollTo(0, keepY);
   });
 
   $('#spot-selected-chips').addEventListener('click', (e) => {
@@ -534,6 +547,7 @@
       return;
     }
     toggleError('field-spot-search', false);
+    $('#spot-card-list').style.minHeight = '';
     revealSection('section-detail');
   });
 
@@ -783,6 +797,7 @@
     $('#btn-spot-next').classList.add('hidden');
     $('#input-spot-search').value = '';
     $('#spot-card-list').innerHTML = '';
+    $('#spot-card-list').style.minHeight = '';
 
     $('#input-postUrl').value = '';
     unlockPostUrl();
