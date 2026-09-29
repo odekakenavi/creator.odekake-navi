@@ -9,14 +9,14 @@
 <link rel="stylesheet" href="./assets/style.css" onerror="window.__ODEKAKE_CSS_FAILED = true;">
 <style>
   /* ---- 今回追加分の見た目調整（style.css を上書き） ---- */
+  /* 見た目は style.css の共通指定に任せ、iOS Safari で日付欄だけ幅が飛び出す問題のみ抑える */
   input[type="date"]{
-    display:block; width:100%; max-width:100%; min-width:0; box-sizing:border-box;
+    display:block; width:100%; max-width:100%; min-width:0;
+    box-sizing:border-box !important;
     -webkit-appearance:none; appearance:none;
-    font:inherit; line-height:1.4; text-align:left;
+    text-align:left;
   }
-  /* iOS Safari: 日付欄の内側が本来の幅で飛び出すのを防ぐ */
   input[type="date"]::-webkit-date-and-time-value{ text-align:left; min-width:0; }
-  input[type="date"]::-webkit-datetime-edit{ padding:0; }
 
   .help-details{ margin-top:8px; font-size:13px; }
   .help-details summary{
