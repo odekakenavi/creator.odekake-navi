@@ -118,11 +118,14 @@
         <div class="ig-confirm-name">✓ <span id="ig-confirm-display"></span></div>
         <div class="ig-confirm-handle">Instagram：@<span id="ig-confirm-handle"></span></div>
         <div class="btn-row-inline">
-          <button class="link-btn" id="btn-edit-displayname">表示名を編集する</button>
+          <button class="link-btn hidden" id="btn-edit-displayname">表示名を編集する</button>
           <button class="link-btn" id="btn-edit-account">アカウントを変更する</button>
         </div>
-        <div class="field hidden" id="field-custom-displayname" style="margin-top:10px;">
-          <input type="text" id="input-custom-displayname" maxlength="30" placeholder="表示名（例：○○ママ）">
+        <div class="field" id="field-custom-displayname" style="margin-top:10px;">
+          <label>🏷 表示名 <span class="required-tag">必須</span></label>
+          <input type="text" id="input-custom-displayname" maxlength="30" placeholder="例：おでかけパパ たく">
+          <div class="hint">おでかけナビには「○○さん」と表示されます（「さん」は自動で付くので入力しないでください）</div>
+          <div class="error-msg">表示名を入力してください</div>
         </div>
       </div>
     </div>
@@ -390,6 +393,7 @@
 
   $('#input-custom-displayname').addEventListener('input', (e) => {
     state.customDisplayName = e.target.value.trim();
+    toggleError('field-custom-displayname', false);
     const username = $('#ig-confirm-handle').textContent;
     const display = state.customDisplayName || username;
     $('#ig-confirm-display').textContent = display;
@@ -546,6 +550,12 @@
     if (!state.contributor || !ODEKAKE.isValidInstagramProfileUrl(state.contributor.snsUrl)) {
       toggleError('field-snsUrl', true);
       toast('①アカウント情報を確認してください');
+      ok = false;
+    } else if (!state.customDisplayName) {
+      toggleError('field-custom-displayname', true);
+      toast('①表示名を入力してください');
+      const nameBox = document.getElementById('field-custom-displayname');
+      if (nameBox) nameBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
       ok = false;
     }
     if (state.selectedSpots.length === 0) {
