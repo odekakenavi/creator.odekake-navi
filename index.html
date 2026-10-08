@@ -34,15 +34,36 @@
 
   .ig-confirm .btn-row-inline{ display:flex; gap:14px; flex-wrap:wrap; margin-top:6px; }
 
-  .spot-selected-chips{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; }
+  .spot-selected-chips{ display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; min-width:0; }
+  .spot-selected-chips:empty{ margin:0; }
   .spot-chip{
     display:inline-flex; align-items:center; gap:6px;
+    max-width:100%; min-width:0; box-sizing:border-box;
+    overflow-wrap:anywhere; word-break:break-word; text-align:left; line-height:1.4;
     background:#eef5ff; border:1px solid #cfe0f5; border-radius:999px;
     padding:6px 8px 6px 14px; font-size:13px; color:#25415f;
   }
   .spot-chip .spot-chip-remove{
     border:none; background:#dbe8fb; color:#25415f; width:20px; height:20px;
     border-radius:50%; cursor:pointer; font-size:12px; line-height:1;
+    flex:0 0 auto;
+  }
+  /* 施設検索欄：幅の飛び出し・iOSのフォーカス時ズームで崩れないようにする */
+  #field-spot-search input[type="text"]{
+    display:block; width:100%; max-width:100%; min-width:0;
+    box-sizing:border-box !important; font-size:16px;
+  }
+  #field-spot-search .hint{ overflow-wrap:anywhere; }
+  .spot-card-list{ min-width:0; }
+  .spot-card-list .spot-card{ min-width:0; }
+  .spot-card .sc-name, .spot-card .sc-area{ overflow-wrap:anywhere; }
+
+  /* 「この内容で次へ進む」は、施設を選んだら画面下に固定して常に押せるようにする */
+  .spot-next-bar{
+    position:sticky; bottom:0; z-index:15;
+    margin-top:14px;
+    padding:12px 0 calc(12px + env(safe-area-inset-bottom, 0px));
+    background:linear-gradient(to top, var(--card-bg, #fff) 78%, rgba(255,255,255,0));
   }
   .spot-more-hint{ font-size:12px; color:var(--ink-soft, #667); margin-top:2px; }
 
@@ -181,7 +202,7 @@
 
       <div class="spot-card-list" id="spot-card-list"></div>
 
-      <div class="btn-row" style="margin-top:14px;">
+      <div class="btn-row spot-next-bar hidden" id="spot-next-bar">
         <button class="btn btn-primary btn-cta hidden" id="btn-spot-next">この内容で次へ進む</button>
       </div>
     </div>
@@ -353,6 +374,8 @@
     const el = document.getElementById(id);
     if (!el || !el.classList.contains('hidden')) return;
     el.classList.remove('hidden');
+    // 入力中に送信先（GAS）を起こしておく。コールドスタートの待ち時間を送信ボタンを押す前に済ませる
+    if (id === 'section-detail' && ODEKAKE.warmUpServer) ODEKAKE.warmUpServer();
     setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
   }
 
@@ -489,7 +512,9 @@
         <button type="button" class="spot-chip-remove" data-id="${ODEKAKE.escapeHtml(s.id)}" aria-label="削除">✕</button>
       </span>
     `).join('');
-    $('#btn-spot-next').classList.toggle('hidden', state.selectedSpots.length === 0);
+    const none = state.selectedSpots.length === 0;
+    $('#btn-spot-next').classList.toggle('hidden', none);
+    $('#spot-next-bar').classList.toggle('hidden', none);
   }
 
   // 候補リストが空になっても高さを保ち、ページが縮んで画面が上にずれるのを防ぐ
@@ -548,6 +573,8 @@
 
     $('#input-spot-search').value = '';
     $('#spot-card-list').innerHTML = '';
+    // 選び終わったら候補欄の高さの確保を解除（残すと「次へ進む」が画面の下に押し下げられる）
+    $('#spot-card-list').style.minHeight = '';
     $('#input-spot-search').focus({ preventScroll: true });
     window.scrollTo(0, keepY);
   });
@@ -717,28 +744,44 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
-  // 選択されたスポットぶん、順番に送信する。途中で失敗したら、その時点で送れていないものを
-  // まとめて JSON で手動送付できるようにする。
+  // 選択されたスポットぶんを送信する。
+  // ・1件目だけ先に送る（アカウントの新規登録・ID確定を先に済ませ、二重登録を防ぐため）
+  // ・2件目以降は同時に送る（件数が多くても待ち時間がほぼ1件ぶんで済む）
+  // 失敗したものだけを JSON で手動送付・再送できるようにする。
   async function submitAllContributions(contributions) {
-    const submitted = [];
-    for (const item of contributions) {
-      const payload = buildPayload(item);
+    const failed = new Set();
+    let lastError = '';
+
+    const sendOne = async (item) => {
       try {
-        const result = await ODEKAKE.submitToServer(payload);
+        const result = await ODEKAKE.submitToServer(buildPayload(item));
         if (result.contributorId && state.contributor) {
           state.contributor.id = result.contributorId;
           saveAccountDraft();
         }
-        submitted.push(item);
+        return true;
       } catch (err) {
         console.error('[おでかけナビ] 送信に失敗しました', err);
-        const remaining = contributions.slice(submitted.length);
-        renderDone('fallback', remaining, { error: err && err.message ? err.message : '' });
-        showDoneScreen();
-        return;
+        lastError = err && err.message ? err.message : '';
+        failed.add(item);
+        return false;
       }
+    };
+
+    const [first, ...rest] = contributions;
+    if (await sendOne(first)) {
+      await Promise.all(rest.map(sendOne));
+    } else {
+      // 1件目が失敗＝通信そのものが不調の可能性が高いので、残りは送らずまとめて手動送付に回す
+      rest.forEach(item => failed.add(item));
     }
-    renderDone('success', contributions, {});
+
+    if (failed.size > 0) {
+      const remaining = contributions.filter(item => failed.has(item));
+      renderDone('fallback', remaining, { error: lastError });
+    } else {
+      renderDone('success', contributions, {});
+    }
     showDoneScreen();
   }
 
@@ -816,6 +859,7 @@
     state.contributionsBySpotId.clear();
     $('#spot-selected-chips').innerHTML = '';
     $('#btn-spot-next').classList.add('hidden');
+    $('#spot-next-bar').classList.add('hidden');
     $('#input-spot-search').value = '';
     $('#spot-card-list').innerHTML = '';
     $('#spot-card-list').style.minHeight = '';

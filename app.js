@@ -284,6 +284,18 @@ const ODEKAKE = (() => {
 
   /* ---------------- サーバー（GAS）との通信 ---------------- */
 
+  // 送信先（GAS）を事前に起こしておく。Google Apps Script は久しぶりに呼ぶと起動に数秒かかるため、
+  // 入力中にこっそり1回だけ呼んでおき、送信ボタンを押したときの待ち時間を短くする。
+  // 結果は使わない（失敗しても何も起きない）。
+  let _warmedUp = false;
+  function warmUpServer() {
+    if (_warmedUp || !SUBMIT_API_URL) return;
+    _warmedUp = true;
+    try {
+      fetch(SUBMIT_API_URL + '?action=ping', { mode: 'no-cors', cache: 'no-store' }).catch(() => {});
+    } catch (e) { /* 何もしない */ }
+  }
+
   // 登録内容を送信する。成功時は { ok:true, contributorId, contributionId, isNewContributor } を返す。
   // ※ Content-Type を text/plain にしているのは、CORSのプリフライトを避けるため（GASの仕様）
   async function submitToServer(payload) {
@@ -361,7 +373,7 @@ const ODEKAKE = (() => {
     findContributorById, findContributorBySnsUrl,
     getAdminDb, setAdminDb,
     buildContributorsJson, buildContributionsJson,
-    submitToServer, fetchPublicData,
+    submitToServer, fetchPublicData, warmUpServer,
     downloadJson, copyText
   };
 })();
