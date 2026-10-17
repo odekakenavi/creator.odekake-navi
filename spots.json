@@ -206,7 +206,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人2,600円×2＋小学生1,300円×2＋幼児1,300円×1（幼児も子ども料金と仮定）"
     },
-    "image": "photo/spots/tokyo-toshima-sunshinecity.jpg",
+    "image": "img/spots/tokyo-toshima-sunshinecity.jpg",
     "imageCredit": "📷 江戸村のとくぞう / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sunshine_Aquarium_200819q.jpg"
   },
@@ -305,7 +305,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人2,700円×2＋小学生1,400円×2＋幼児900円×1（幼児料金あり）"
     },
-    "image": "photo/spots/tokyo-sumida-sumida-aquarium.jpg",
+    "image": "img/spots/tokyo-sumida-sumida-aquarium.jpg",
     "imageCredit": "📷 Kakidai / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_Soramachi_2012.JPG"
   },
@@ -369,7 +369,7 @@
       "officialUrl": "https://www.kidzania.jp/tokyo/"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/tokyo-koto-kidzania.jpg",
+    "image": "img/spots/tokyo-koto-kidzania.jpg",
     "imageCredit": "📷 Souka Kinmei / CC BY 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%82%AD%E3%83%83%E3%82%B6%E3%83%8B%E3%82%A2%E6%9D%B1%E4%BA%AC_%E5%85%A5%E3%82%8A%E5%8F%A3.jpg"
   },
@@ -428,7 +428,7 @@
       "officialUrl": "https://tokyo.legolanddiscoverycenter.jp/"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/tokyo-minato-legolanddiscoverycenter.jpg",
+    "image": "img/spots/tokyo-minato-legolanddiscoverycenter.jpg",
     "imageCredit": "📷 Tzuhsun Hsu from Taipei, Taiwan / CC BY-SA 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%83%AC%E3%82%B4%E3%83%A9%E3%83%B3%E3%83%89%E3%83%BB%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%90%E3%83%AA%E3%83%BC%E3%83%BB%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC%E6%9D%B1%E4%BA%AC_(20689157239).jpg"
   },
@@ -510,7 +510,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人630円×2＋小学生0円×2＋幼児0円×1（幼児は無料と仮定）"
     },
-    "image": "photo/spots/tokyo-taito-kahaku.jpg",
+    "image": "img/spots/tokyo-taito-kahaku.jpg",
     "imageCredit": "📷 663highland / CC BY 2.5 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:NMNC01s3200.jpg"
   },
@@ -679,7 +679,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人450円×2＋小学生0円×2＋幼児0円×1（幼児は無料と仮定）"
     },
-    "image": "photo/spots/tokyo-tachikawa-showakinen-koen.jpg",
+    "image": "img/spots/tokyo-tachikawa-showakinen-koen.jpg",
     "imageCredit": "📷 KΛNΛTΛ / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%9B%BD%E5%96%B6%E6%98%AD%E5%92%8C%E8%A8%98%E5%BF%B5%E5%85%AC%E5%9C%92_-_panoramio.jpg"
   },
@@ -767,7 +767,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人3,900円×2＋子ども（大人の約半額2,000円と仮定）×2＋幼児は無料と仮定。子ども料金は要確認"
     },
-    "image": "photo/spots/tokyo-tama-puroland.jpg",
+    "image": "img/spots/tokyo-tama-puroland.jpg",
     "imageCredit": "📷 Kakidai / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2024_Sanrio_Puroland_(1).jpg"
   },
@@ -878,7 +878,7 @@
       "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
       "officialUrl": "https://www.yomiuriland.com/"
     },
-    "image": "photo/spots/tokyo-inagi-yomiuriland.jpg",
+    "image": "img/spots/tokyo-inagi-yomiuriland.jpg",
     "imageCredit": "📷 Rsa / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yomiuriland-20100411.jpg"
   },
@@ -975,7 +975,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人600円×2＋小学生0円×2＋幼児0円×1（幼児は無料と仮定）"
     },
-    "image": "photo/spots/tokyo-hino-tama.jpg",
+    "image": "img/spots/tokyo-hino-tama.jpg",
     "imageCredit": "📷 Rsa / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:KeioTamaZooStation_20131012.jpg"
   },
@@ -1053,7 +1053,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人1,600円×2＋小学生600円×2＋幼児600円×1（幼児も子ども料金と仮定）"
     },
-    "image": "photo/spots/saitama-saitama-omiya-railway-museum.jpg",
+    "image": "img/spots/saitama-saitama-omiya-railway-museum.jpg",
     "imageCredit": "📷 小父 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%AC%E9%83%BD%E9%89%84%E9%81%93%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg"
   },
@@ -1122,7 +1122,7 @@
       "officialUrl": "https://www.wbstudiotour.jp/"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/tokyo-nerima-wbstudiotour.jpg",
+    "image": "img/spots/tokyo-nerima-wbstudiotour.jpg",
     "imageCredit": "📷 Jeremy Thompson / CC BY 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Warner_Bros._Studio_Tour_Tokyo_-_The_Making_of_Harry_Potter_-_53408032374.jpg"
   },
@@ -1197,7 +1197,7 @@
     "closedDays": [
       "サービスセンター・各施設は年末年始休業"
     ],
-    "image": "photo/spots/tokyo-shibuya-yoyogi.jpg",
+    "image": "img/spots/tokyo-shibuya-yoyogi.jpg",
     "imageCredit": "📷 Shinjiro / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mainstreet_Yoyogipark.JPG"
   },
@@ -1269,7 +1269,7 @@
     "closedDays": [
       "サービスセンター・各施設は年末年始休業"
     ],
-    "image": "photo/spots/tokyo-nerima-hikarigaoka.jpg",
+    "image": "img/spots/tokyo-nerima-hikarigaoka.jpg",
     "imageCredit": "📷 星組背番号10 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hikarigaoka_Park.jpg"
   },
@@ -1325,7 +1325,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
-    "image": "photo/spots/tokyo-adachi-toneri.jpg",
+    "image": "img/spots/tokyo-adachi-toneri.jpg",
     "imageCredit": "📷 Souka Kinmei / CC BY 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Barbecue_Square_Shop.jpg"
   },
@@ -1408,7 +1408,7 @@
       "12/31",
       "※3/1〜10/31は9:30-17:00。11月は9:30-16:30、12/1〜2月末は9:30-16:00。"
     ],
-    "image": "photo/spots/saitama-namegawa-shinrinkoen.jpg",
+    "image": "img/spots/saitama-namegawa-shinrinkoen.jpg",
     "imageCredit": "📷 くろふね / CC BY 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%9B%BD%E5%96%B6%E6%AD%A6%E8%94%B5%E4%B8%98%E9%99%B5%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92%E8%A5%BF%E5%8F%A320260516-IMG_6328.jpg"
   },
@@ -1515,7 +1515,7 @@
       "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
       "officialUrl": "https://www.tobuzoo.com/"
     },
-    "image": "photo/spots/saitama-miyashiro-tobuzoo.jpg",
+    "image": "img/spots/saitama-miyashiro-tobuzoo.jpg",
     "imageCredit": "📷 日本語版ウィキペディアの京浜にけさん This photo was taken with Canon PowerShot G9 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tobu-dobutsu-koen_Station_east_entrance_20121005.jpg"
   },
@@ -1571,7 +1571,7 @@
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/saitama-saitama-omiya-omiya-park.jpg",
+    "image": "img/spots/saitama-saitama-omiya-omiya-park.jpg",
     "imageCredit": "📷 Mytho88 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Omiya_Park_20240117_01.jpg"
   },
@@ -1725,7 +1725,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料。有料施設（水族館4施設共通「アクアリゾーツパス」高校生以上3500円・小中学生2200円(）も利用する場合は約11,400円"
     },
-    "image": "photo/spots/kanagawa-yokohama-kanazawa-seaparadise.jpg",
+    "image": "img/spots/kanagawa-yokohama-kanazawa-seaparadise.jpg",
     "imageCredit": "📷 Quercus acuta / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yokohama_Hakkeijima_Sea_Paradise_-_01.jpg"
   },
@@ -1818,7 +1818,7 @@
       "年中無休（臨時休館あり）"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/kanagawa-yokohama-nishi-yokohama-anpanman.jpg",
+    "image": "img/spots/kanagawa-yokohama-nishi-yokohama-anpanman.jpg",
     "imageCredit": "📷 Thirteen-fri / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yokohama_Anpanman_Children%27s_Museum_2019_-_03.jpg"
   },
@@ -1894,7 +1894,7 @@
       "年末年始"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/kanagawa-yokohama-naka-cupnoodles-museum.jpg",
+    "image": "img/spots/kanagawa-yokohama-naka-cupnoodles-museum.jpg",
     "imageCredit": "📷 Rs1421 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cupnoodles-Museum-Yokohama.jpg"
   },
@@ -1985,7 +1985,7 @@
       "年中無休",
       "※大型連休・夏休み・イベント時は時間変更あり。"
     ],
-    "image": "photo/spots/kanagawa-fujisawa-enosui.jpg",
+    "image": "img/spots/kanagawa-fujisawa-enosui.jpg",
     "imageCredit": "📷 baggio4ever / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E6%B1%9F%E3%83%8E%E5%B3%B6%E6%B0%B4%E6%97%8F%E9%A4%A86_-_panoramio.jpg"
   },
@@ -2043,7 +2043,7 @@
       "sourceUrl": "https://www.hakone-oam.or.jp/restaurantsandshops/",
       "checkedAt": "2026年10月13日"
     },
-    "image": "photo/spots/kanagawa-hakone-hakone-oam.jpg",
+    "image": "img/spots/kanagawa-hakone-hakone-oam.jpg",
     "imageCredit": "📷 Σ64 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lake_Ashi_from_Mt.Komagatake_03-2.jpg"
   },
@@ -2103,7 +2103,7 @@
       "holiday": "00:00-24:00"
     },
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/kanagawa-yokohama-naka-yamashita-park.jpg",
+    "image": "img/spots/kanagawa-yokohama-naka-yamashita-park.jpg",
     "imageCredit": "📷 alonfloc / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E4%B8%8B%E5%85%AC%E5%9C%92_-_panoramio_(1).jpg"
   },
@@ -2236,7 +2236,7 @@
       "note": "大人8,400〜12,400円（2026/10/1以降の変動制）、子ども(4〜11歳)は大人の約6割と仮定し、大人2＋子ども3で算出。日により変動・公式で要確認"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/chiba-urayasu-tokyodisneyresort.jpg",
+    "image": "img/spots/chiba-urayasu-tokyodisneyresort.jpg",
     "imageCredit": "📷 Emran Kassim / CC BY 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_Disneyland_002.jpg"
   },
@@ -2385,7 +2385,7 @@
       "note": "大人8,400〜12,400円（2026/10/1以降の変動制）、子ども(4〜11歳)は大人の約6割と仮定し、大人2＋子ども3で算出。日により変動・公式で要確認"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/chiba-urayasu-tokyodisneysea.jpg",
+    "image": "img/spots/chiba-urayasu-tokyodisneysea.jpg",
     "imageCredit": "📷 片割れ靴下 (unpaired sock) / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E4%BA%AC%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC%E3%82%B7%E3%83%BC%E5%BA%83%E5%A0%B420200229.jpg"
   },
@@ -2488,7 +2488,7 @@
     "closedDays": [
       "※2〜11月の時間。"
     ],
-    "image": "photo/spots/chiba-futtsu-motherfarm.jpg",
+    "image": "img/spots/chiba-futtsu-motherfarm.jpg",
     "imageCredit": "📷 Syced / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%83%9E%E3%82%B6%E3%83%BC%E7%89%A7%E5%A0%B4_2.jpg"
   },
@@ -2585,7 +2585,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人3,300円×2＋小学生2,000円×2＋幼児1,300円×1（幼児料金あり）"
     },
-    "image": "photo/spots/chiba-kamogawa-kamogawa-seaworld.jpg",
+    "image": "img/spots/chiba-kamogawa-kamogawa-seaworld.jpg",
     "imageCredit": "📷 Volfgang / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kamogawa_sea_world.jpg"
   },
@@ -2784,7 +2784,7 @@
     "closedDays": [
       "年中無休"
     ],
-    "image": "photo/spots/chiba-sodegaura-tokyo-doitsumura.jpg",
+    "image": "img/spots/chiba-sodegaura-tokyo-doitsumura.jpg",
     "imageCredit": "📷 Xser21 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%83%89%E3%82%A4%E3%83%84%E6%9D%91%E3%82%A4%E3%83%AB%E3%83%9F.jpg"
   },
@@ -2934,7 +2934,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人450円×2＋小学生0円×2＋幼児0円×1（幼児は無料と仮定）"
     },
-    "image": "photo/spots/ibaraki-hitachinaka-hitachikaihin.jpg",
+    "image": "img/spots/ibaraki-hitachinaka-hitachikaihin.jpg",
     "imageCredit": "📷 くろふね / CC BY 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%9B%BD%E5%96%B6%E3%81%B2%E3%81%9F%E3%81%A1%E6%B5%B7%E6%B5%9C%E5%85%AC%E5%9C%92%E3%81%BF%E3%81%AF%E3%82%89%E3%81%97%E3%81%AE%E4%B8%98%EF%BC%88%E3%82%B3%E3%82%AD%E3%82%A2%EF%BC%8920261012-IMG_7234.jpg"
   },
@@ -3014,7 +3014,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人2,000円×2＋小学生1,000円×2＋幼児1,000円×1（幼児も子ども料金と仮定）"
     },
-    "image": "photo/spots/ibaraki-oarai-aquaworld-oarai.jpg",
+    "image": "img/spots/ibaraki-oarai-aquaworld-oarai.jpg",
     "imageCredit": "📷 Y440 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aquaworld_Oarai.jpg"
   },
@@ -3095,7 +3095,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人2,500円×2＋子ども（大人の約半額1,200円と仮定）×2＋幼児は無料と仮定。子ども料金は要確認"
     },
-    "image": "photo/spots/tochigi-nasu-nasu-oukoku.jpg",
+    "image": "img/spots/tochigi-nasu-nasu-oukoku.jpg",
     "imageCredit": "📷 Tomokazu Kitjaima / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%82%A2%E3%83%AB%E3%83%91%E3%82%AB%E7%89%A7%E5%A0%B4_-_panoramio.jpg"
   },
@@ -3151,7 +3151,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人2,800円×2＋小学生1,400円×2＋幼児1,400円×1（幼児も子ども料金と仮定）"
     },
-    "image": "photo/spots/tochigi-nikko-tobuws.jpg",
+    "image": "img/spots/tochigi-nikko-tobuws.jpg",
     "imageCredit": "📷 Jiang Dong-Qin / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_entrance_monument_of_Tobu_World_Square.jpg"
   },
@@ -3237,7 +3237,7 @@
     "closedDays": [
       "水曜日（春・夏休み期間は無休）"
     ],
-    "image": "photo/spots/gunma-tomioka-safari.jpg",
+    "image": "img/spots/gunma-tomioka-safari.jpg",
     "imageCredit": "📷 Robek / CC BY 2.5 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Giraffes_at_west_midlands_safari_park.jpg"
   },
@@ -3317,7 +3317,7 @@
     "closedDays": [
       "案内所・各施設は年末年始休業"
     ],
-    "image": "photo/spots/tokyo-musashino-inokashira.jpg",
+    "image": "img/spots/tokyo-musashino-inokashira.jpg",
     "imageCredit": "📷 京浜にけ / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mitaka_Inokashira_Park_In_Spring_1.JPG"
   },
@@ -3399,7 +3399,7 @@
       "年末年始（12/29〜1/1）"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tokyo-musashino-inokashira-2.jpg",
+    "image": "img/spots/tokyo-musashino-inokashira-2.jpg",
     "imageCredit": "📷 運転太郎 / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%95%E3%81%AE%E9%A0%AD%E8%87%AA%E7%84%B6%E6%96%87%E5%8C%96%E5%9C%92_-_panoramio.jpg"
   },
@@ -3478,7 +3478,7 @@
       "毎週火曜日（祝日・春夏冬休み・GWは営業）",
       "1月1日"
     ],
-    "image": "photo/spots/tokyo-shinagawa-shinagawa-aquarium.jpg",
+    "image": "img/spots/tokyo-shinagawa-shinagawa-aquarium.jpg",
     "imageCredit": "📷 Punkssand / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%81%97%E3%81%AA%E3%81%8C%E3%82%8F%E6%B0%B4%E6%97%8F%E9%A4%A8.jpg"
   },
@@ -3552,7 +3552,7 @@
       "note": "大人2,500円×2＋小学生1,300円×2＋幼児1,300円×1（幼児も子ども料金と仮定）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/tokyo-minato-aqua-park.jpg",
+    "image": "img/spots/tokyo-minato-aqua-park.jpg",
     "imageCredit": "📷 Dick Thomas Johnson from Tokyo, Japan / CC BY 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Avatar_The_Way_of_Water_Tokyo_Press_Conference_(52562513647).jpg"
   },
@@ -3614,7 +3614,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人1,500円×2＋子ども（大人の約半額800円と仮定）×2＋幼児は無料と仮定。子ども料金は要確認"
     },
-    "image": "photo/spots/tokyo-minato-tokyo-joypolis.jpg",
+    "image": "img/spots/tokyo-minato-tokyo-joypolis.jpg",
     "imageCredit": "📷 Syced / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Joypolis,_Decks.jpg"
   },
@@ -3701,7 +3701,7 @@
       "12/28〜1/1",
       "※2026年10月1日〜2027年4月22日は施設整備工事のため全館休館予定（公式の案内。再開日は公式サイトで確認を）。"
     ],
-    "image": "photo/spots/tokyo-koto-miraikan.jpg",
+    "image": "img/spots/tokyo-koto-miraikan.jpg",
     "imageCredit": "📷 AMANO Jun-ichi / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:National_Museum_of_Emerging_Science_and_Innovation_%E6%97%A5%E6%9C%AC%E7%A7%91%E5%AD%A6%E6%9C%AA%E6%9D%A5%E9%A4%A8_-_panoramio.jpg"
   },
@@ -3774,7 +3774,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/tokyo-koto-mizunokagaku.jpg",
+    "image": "img/spots/tokyo-koto-mizunokagaku.jpg",
     "imageCredit": "📷 Lombroso / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gas_Science_Museum_%22Gasutenani%22,_at_Toyosu,_Koto,_Tokyo_(2019-01-01).jpg"
   },
@@ -3833,7 +3833,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人1,200円×2＋小学生800円×2＋幼児800円×1（幼児も子ども料金と仮定）"
     },
-    "image": "photo/spots/tokyo-shinjuku-ttm.jpg",
+    "image": "img/spots/tokyo-shinjuku-ttm.jpg",
     "imageCredit": "📷 Tzu-hsun Hsu / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Entrance_of_Tokyo_Toy_Museum.jpg"
   },
@@ -3873,7 +3873,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/tokyo-toshima-hp-ikebukurobousai.jpg",
+    "image": "img/spots/tokyo-toshima-hp-ikebukurobousai.jpg",
     "imageCredit": "📷 Komont / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ikebukuro2007.jpg"
   },
@@ -3928,7 +3928,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/tokyo-sumida-hp-honjyoboudai.jpg",
+    "image": "img/spots/tokyo-sumida-hp-honjyoboudai.jpg",
     "imageCredit": "📷 Asanagi Olympus SH-21 / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Honjo_Fire_Station_2013-02-10.JPG"
   },
@@ -3983,7 +3983,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/tokyo-tachikawa-hp-tatikawaboudai.jpg",
+    "image": "img/spots/tokyo-tachikawa-hp-tatikawaboudai.jpg",
     "imageCredit": "📷 運動会プロテインパワー / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tachikawa_Life_Safety_Learning_Center.jpg"
   },
@@ -4093,7 +4093,7 @@
     "closedDays": [
       "※季節やアトラクションによって変動します。"
     ],
-    "image": "photo/spots/tokyo-bunkyo-attraction.jpg",
+    "image": "img/spots/tokyo-bunkyo-attraction.jpg",
     "imageCredit": "📷 コンピュータが読み取れる情報は提供されていませんが、Fg2だと推定されます（著作権の主張に基づく） / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:TokyoDome8945.jpg"
   },
@@ -4222,7 +4222,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人3,900円×2＋子ども（大人の約半額2,000円と仮定）×2＋幼児は無料と仮定。子ども料金は要確認"
     },
-    "image": "photo/spots/tokyo-akiruno-summerland.jpg",
+    "image": "img/spots/tokyo-akiruno-summerland.jpg",
     "imageCredit": "📷 TaxTest / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E4%BA%AC%E3%82%B5%E3%83%9E%E3%83%BC%E3%83%A9%E3%83%B3%E3%83%89.JPG"
   },
@@ -4278,7 +4278,7 @@
         "periodLabel": "見頃予想：11月22日ごろ〜"
       }
     },
-    "image": "photo/spots/tokyo-hachioji-takaotozan.jpg",
+    "image": "img/spots/tokyo-hachioji-takaotozan.jpg",
     "imageCredit": "📷 Σ64 / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokai_Nature_Trail_in_Mt.Takao_02.jpg"
   },
@@ -4349,7 +4349,7 @@
       "月曜日（祝日・振替休日の場合は開館し、その翌日が休館）",
       "年末年始"
     ],
-    "image": "photo/spots/tokyo-nishitokyo-tamarokuto.jpg",
+    "image": "img/spots/tokyo-nishitokyo-tamarokuto.jpg",
     "imageCredit": "📷 ja:User:Nnn / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Akashi-Minicipal-Planetarium3387.JPG"
   },
@@ -4404,7 +4404,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人260円×2＋小学生0円×2＋幼児0円×1（幼児は無料と仮定）"
     },
-    "image": "photo/spots/tokyo-itabashi-itabashi-botanical-garden.jpg",
+    "image": "img/spots/tokyo-itabashi-itabashi-botanical-garden.jpg",
     "imageCredit": "📷 妖精書士 / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Itabashi_Botanical_Garden_2019-02-27_(01).jpg"
   },
@@ -4476,7 +4476,7 @@
       "sourceUrl": "https://www.tokyo-park.or.jp/park/kinuta/",
       "checkedAt": "2026年10月13日"
     },
-    "image": "photo/spots/tokyo-setagaya-kinuta.jpg",
+    "image": "img/spots/tokyo-setagaya-kinuta.jpg",
     "imageCredit": "📷 珈琲牛乳 / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%A0%A7%E5%85%AC%E5%9C%92-%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AF-%E7%A0%A7%E7%B7%91%E5%9C%B0_-_panoramio_(6).jpg"
   },
@@ -4549,7 +4549,7 @@
     "closedDays": [
       "サービスセンター・各施設は年末年始休業"
     ],
-    "image": "photo/spots/tokyo-koto-kiba.jpg",
+    "image": "img/spots/tokyo-koto-kiba.jpg",
     "imageCredit": "📷 Tak1701d / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tomioka_Hachiman-gu_201708.jpg"
   },
@@ -4592,7 +4592,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/tokyo-ota-jonanjima.jpg",
+    "image": "img/spots/tokyo-ota-jonanjima.jpg",
     "imageCredit": "📷 Japanbird / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:JonanjimaKaihinPark-201816-002.jpg"
   },
@@ -4814,7 +4814,7 @@
     "closedDays": [
       "サービスセンター・各施設は年末年始休業"
     ],
-    "image": "photo/spots/tokyo-katsushika-mizumoto.jpg",
+    "image": "img/spots/tokyo-katsushika-mizumoto.jpg",
     "imageCredit": "📷 しんぎんぐきゃっと / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mizumoto_Park_2021.jpg"
   },
@@ -4863,7 +4863,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/tokyo-edogawa-shinozaki.jpg",
+    "image": "img/spots/tokyo-edogawa-shinozaki.jpg",
     "imageCredit": "📷 Kamemaru2000 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shinozaki_park_a_area_entrance.JPG"
   },
@@ -4926,7 +4926,7 @@
     "closedDays": [
       "サービスセンター・各施設は年末年始休業"
     ],
-    "image": "photo/spots/tokyo-itabashi-johoku.jpg",
+    "image": "img/spots/tokyo-itabashi-johoku.jpg",
     "imageCredit": "📷 Koujigenba / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Johoku-Chuo-Park-2010.jpg"
   },
@@ -4994,7 +4994,7 @@
       "年末年始"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tokyo-koto-sonaarea.jpg",
+    "image": "img/spots/tokyo-koto-sonaarea.jpg",
     "imageCredit": "📷 Shinjiro / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fountain_Yoyogipark.JPG"
   },
@@ -5337,7 +5337,7 @@
       "note": "大人1,000円×2＋小学生500円×2＋幼児500円×1（幼児も子ども料金と仮定）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-kawasaki-tama-fujiko-museum.jpg",
+    "image": "img/spots/kanagawa-kawasaki-tama-fujiko-museum.jpg",
     "imageCredit": "📷 Wei-Te Wong from Taipei City, Taiwan, Republic of China / CC BY-SA 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%97%A4%E5%AD%90_F_%E4%B8%8D%E4%BA%8C%E9%9B%84%E5%8D%9A%E7%89%A9%E9%A4%A8_(49292081636).jpg"
   },
@@ -5538,7 +5538,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/kanagawa-kawasaki-saiwai-toshiba-mirai-kagakukan.jpg",
+    "image": "img/spots/kanagawa-kawasaki-saiwai-toshiba-mirai-kagakukan.jpg",
     "imageCredit": "📷 MaedaAkihiko / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:LAZONA-Kawasaki_Toshiba-Building.jpg"
   },
@@ -5606,7 +5606,7 @@
     "closedDays": [
       "月曜日（祝日・GW・夏休み等の長期休暇期間は営業）"
     ],
-    "image": "photo/spots/kanagawa-sagamihara-chuo-sagamigawa-fureai-science-museum-aquarium-sagamihara.jpg",
+    "image": "img/spots/kanagawa-sagamihara-chuo-sagamigawa-fureai-science-museum-aquarium-sagamihara.jpg",
     "imageCredit": "📷 挾間雅行 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%96%E8%A6%B3%EF%BC%88%E6%96%9C%EF%BC%89.jpg"
   },
@@ -5651,7 +5651,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料。有料施設（天守閣 大人510円）も利用する場合は約1,620円（子どもは大人の約半額と仮定）"
     },
-    "image": "photo/spots/kanagawa-odawara-odawaracastle.jpg",
+    "image": "img/spots/kanagawa-odawara-odawaracastle.jpg",
     "imageCredit": "📷 663highland / CC BY 2.5 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:161223_Odawara_Castle_Odawara_Japan01s3.jpg"
   },
@@ -5730,7 +5730,7 @@
       "sourceUrl": "https://www.city.chiba.jp/zoo/guide/welcomebaby_shisetubihin.html",
       "checkedAt": "2026年10月13日"
     },
-    "image": "photo/spots/chiba-chiba-wakaba-chiba-zoo.jpg",
+    "image": "img/spots/chiba-chiba-wakaba-chiba-zoo.jpg",
     "imageCredit": "📷 Misei sen / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%83%E8%91%89%E5%B8%82%E5%8B%95%E7%89%A9%E5%85%AC%E5%9C%92%E6%AD%A3%E9%96%80.jpg"
   },
@@ -5802,7 +5802,7 @@
       "木曜日（祝日は開園）",
       "※3〜10月の時間。最終入園15:30。11〜2月は水・木休み。"
     ],
-    "image": "photo/spots/chiba-ichihara-zounokuni.jpg",
+    "image": "img/spots/chiba-ichihara-zounokuni.jpg",
     "imageCredit": "📷 Xser21 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B8%82%E5%8E%9F%E3%81%9E%E3%81%86%E3%81%AE%E5%9B%BD2015.jpg"
   },
@@ -5845,7 +5845,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/chiba-chiba-mihama-makuhari-kaihin-park.jpg",
+    "image": "img/spots/chiba-chiba-mihama-makuhari-kaihin-park.jpg",
     "imageCredit": "📷 掬茶 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Promenade_of_Makuhari_Seaside_Park_20131201.jpg"
   },
@@ -5891,7 +5891,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
-    "image": "photo/spots/chiba-futtsu-futtsu-park.jpg",
+    "image": "img/spots/chiba-futtsu-futtsu-park.jpg",
     "imageCredit": "📷 Soica2001 (talk) / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Futtu_misaki_tenboudai.jpg"
   },
@@ -5961,7 +5961,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人430円×2＋小学生0円×2＋幼児0円×1（幼児は無料と仮定）"
     },
-    "image": "photo/spots/chiba-ichikawa-ichikawa-zoological-and-botanical-gardens.jpg",
+    "image": "img/spots/chiba-ichikawa-ichikawa-zoological-and-botanical-gardens.jpg",
     "imageCredit": "📷 四葉亭四迷 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ichikawa_Zoo_Main_Gate_20170204.jpg"
   },
@@ -6004,7 +6004,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/chiba-sodegaura-sodegaura-kaihin-park.jpg",
+    "image": "img/spots/chiba-sodegaura-sodegaura-kaihin-park.jpg",
     "imageCredit": "📷 松岡明芳 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sodegaura_park-Chiba_%E8%A2%96%E3%83%B6%E6%B5%A6%E5%85%AC%E5%9C%92-DSCF7066.JPG"
   },
@@ -6045,7 +6045,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
-    "image": "photo/spots/chiba-sakura-sakura-kusabue-no-oka.jpg",
+    "image": "img/spots/chiba-sakura-sakura-kusabue-no-oka.jpg",
     "imageCredit": "📷 Xser21 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sakura_Kusabue-no-Oka.jpg"
   },
@@ -6130,7 +6130,7 @@
       "不定休",
       "※冬季（12〜2月）は平日10:00-16:00、土日祝9:30-16:30。"
     ],
-    "image": "photo/spots/chiba-narita-yumebokujo.jpg",
+    "image": "img/spots/chiba-narita-yumebokujo.jpg",
     "imageCredit": "📷 Syced / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Narita_Dream_Dairy_Farm_2.jpg"
   },
@@ -6245,7 +6245,7 @@
       "officialUrl": "https://www.seibu-leisure.co.jp/seibuen/"
     },
     "strollerRental": true,
-    "image": "photo/spots/saitama-tokorozawa-seibuen.jpg",
+    "image": "img/spots/saitama-tokorozawa-seibuen.jpg",
     "imageCredit": "📷 Kaze315 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Seibuen_Yuenchi_Entrance_2021.jpg"
   },
@@ -6392,7 +6392,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人100円×2＋小学生0円×2＋幼児0円×1（幼児は無料と仮定）"
     },
-    "image": "photo/spots/saitama-kawaguchi-kawaguchi-green-center.jpg",
+    "image": "img/spots/saitama-kawaguchi-kawaguchi-green-center.jpg",
     "imageCredit": "📷 京浜にけ / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kawaguchi_Kawaguchi_Green_Center_Main_Gate_1.JPG"
   },
@@ -6468,7 +6468,7 @@
       "第2・第4月曜日（9〜3月）",
       "12/29〜1/1"
     ],
-    "image": "photo/spots/saitama-hanyu-saitama-suizoku.jpg",
+    "image": "img/spots/saitama-hanyu-saitama-suizoku.jpg",
     "imageCredit": "📷 あばさー / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Saitama_Aquarium.JPG"
   },
@@ -6563,7 +6563,7 @@
       "水曜日（原則。祝日・春休み・5月は営業）",
       "1月の平日（冬休み期間を除く）"
     ],
-    "image": "photo/spots/saitama-kazo-musashinomura.jpg",
+    "image": "img/spots/saitama-kazo-musashinomura.jpg",
     "imageCredit": "📷 あばさー / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Musashino-mura.JPG"
   },
@@ -6613,7 +6613,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料。有料施設（航空発祥記念館 大人520円）も利用する場合は約1,640円（子どもは大人の約半額と仮定）"
     },
-    "image": "photo/spots/saitama-tokorozawa-tokorozawa-aviation-memorial-park.jpg",
+    "image": "img/spots/saitama-tokorozawa-tokorozawa-aviation-memorial-park.jpg",
     "imageCredit": "📷 tokoro koko / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Koku-koen_Station_East_-Summer2009.jpg"
   },
@@ -6668,7 +6668,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
-    "image": "photo/spots/saitama-kawagoe-kawagoe-water-park.jpg",
+    "image": "img/spots/saitama-kawagoe-kawagoe-water-park.jpg",
     "imageCredit": "📷 Ebiebi2 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kawagoe_Aquatic_Park_1.JPG"
   },
@@ -6725,7 +6725,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人720円×2＋小学生0円×2＋幼児0円×1（幼児は無料と仮定）"
     },
-    "image": "photo/spots/ibaraki-bando-ibaraki-nature-museum.jpg",
+    "image": "img/spots/ibaraki-bando-ibaraki-nature-museum.jpg",
     "imageCredit": "📷 photo: Qurren (トーク) Taken with Canon PowerShot G9 X / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ibaraki_Nature_Museum_entrance.jpg"
   },
@@ -6841,7 +6841,7 @@
       "年末年始"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/ibaraki-tsukuba-expocenter.jpg",
+    "image": "img/spots/ibaraki-tsukuba-expocenter.jpg",
     "imageCredit": "📷 Guilhem Vellut from Annecy, France / CC BY 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tsukuba_(9975806953).jpg"
   },
@@ -7004,7 +7004,7 @@
       "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
       "officialUrl": "https://www.nasuhai.co.jp/"
     },
-    "image": "photo/spots/tochigi-nasu-nasuhighlandpark.jpg",
+    "image": "img/spots/tochigi-nasu-nasuhighlandpark.jpg",
     "imageCredit": "📷 Tomokazu Kitjaima / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%82%A3%E9%A0%88%E3%83%8F%E3%82%A4%E3%83%A9%E3%83%B3%E3%83%89%E3%83%91%E3%83%BC%E3%82%AF%E5%85%A8%E6%99%AF.jpg"
   },
@@ -7089,7 +7089,7 @@
       "※3/20〜11/30の営業時間。祝日・休暇期間は開園。"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tochigi-nikko-edowonderland.jpg",
+    "image": "img/spots/tochigi-nikko-edowonderland.jpg",
     "imageCredit": "📷 あばさー / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Edo_Wonderland_Nikko_Edomura_01.JPG"
   },
@@ -7154,7 +7154,7 @@
     "closedDays": [
       "火曜日（原則）"
     ],
-    "image": "photo/spots/tochigi-utsunomiya-tochinoki-family-land.jpg",
+    "image": "img/spots/tochigi-utsunomiya-tochinoki-family-land.jpg",
     "imageCredit": "📷 Miyuki Meinaka / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pond_in_Tochinoki_Family_Land.jpg"
   },
@@ -7211,7 +7211,7 @@
       "月曜日（祝日の場合は火曜日）",
       "※施設により時間が異なります。"
     ],
-    "image": "photo/spots/gunma-ota-city-gunma-childrens-land.jpg",
+    "image": "img/spots/gunma-ota-city-gunma-childrens-land.jpg",
     "imageCredit": "📷 CyberOyaji / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%81%90%E3%82%93%E3%81%BE%E3%81%93%E3%81%A9%E3%82%82%E3%81%AE%E5%9B%BD_-_panoramio_(12).jpg"
   },
@@ -7326,7 +7326,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/gunma-maebashi-lunapark.jpg",
+    "image": "img/spots/gunma-maebashi-lunapark.jpg",
     "imageCredit": "📷 あばさー / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lunar_Park_(Maebashi).JPG"
   },
@@ -7397,7 +7397,7 @@
     "closedDays": [
       "川崎ルフロンの休業日に準ずる"
     ],
-    "image": "photo/spots/kanagawa-kawasaki-saiwai-kawasu-kawasaki-aquarium.png",
+    "image": "img/spots/kanagawa-kawasaki-saiwai-kawasu-kawasaki-aquarium.png",
     "imageCredit": "📷 Gant223 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kawasaki_Aquarium_01.png"
   },
@@ -7520,7 +7520,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人1,000円×2＋小学生500円×2＋幼児500円×1（幼児も子ども料金と仮定）"
     },
-    "image": "photo/spots/kanagawa-yokohama-nishi-hara-model-railway-museum.jpg",
+    "image": "img/spots/kanagawa-yokohama-nishi-hara-model-railway-museum.jpg",
     "imageCredit": "📷 Ganden / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E9%89%84%E9%81%93%E6%A8%A1%E5%9E%8B%E5%8D%9A%E7%89%A9%E9%A4%A8_Hara_Model_Railway_Museum_(140286263).jpeg"
   },
@@ -7582,7 +7582,7 @@
       "sourceUrl": "https://yumepark.net/410_faq/index.html",
       "checkedAt": "2026年10月13日"
     },
-    "image": "photo/spots/kanagawa-kawasaki-takatsu-yumepark.jpg",
+    "image": "img/spots/kanagawa-kawasaki-takatsu-yumepark.jpg",
     "imageCredit": "📷 Tokyo-Good / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tsudayama-station-building-north.jpg"
   },
@@ -7625,7 +7625,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/kanagawa-kawasaki-miyamae-higashitakane-forest-park.jpg",
+    "image": "img/spots/kanagawa-kawasaki-miyamae-higashitakane-forest-park.jpg",
     "imageCredit": "📷 Toshihiro Matsui / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E9%AB%98%E6%A0%B9%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92%EF%BD%A4%E5%B7%9D%E5%B4%8E%E5%B8%82_-_panoramio.jpg"
   },
@@ -7684,7 +7684,7 @@
       "sun": "00:00-24:00",
       "holiday": "00:00-24:00"
     },
-    "image": "photo/spots/kanagawa-kawasaki-nakahara-todoroki-ryokuchi.jpg",
+    "image": "img/spots/kanagawa-kawasaki-nakahara-todoroki-ryokuchi.jpg",
     "imageCredit": "📷 Kaz Ish / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nakahara-heiwa_park_,_Kawasaki_-_panoramio.jpg"
   },
@@ -7745,7 +7745,7 @@
       "無休"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/kanagawa-kawasaki-saiwai-yumemigasaki-zoo.jpg",
+    "image": "img/spots/kanagawa-kawasaki-saiwai-yumemigasaki-zoo.jpg",
     "imageCredit": "📷 CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yumemigasaki-doubutukouen.jpg"
   },
@@ -7800,7 +7800,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/kanagawa-yokohama-tsurumi-mitsuike-park.jpg",
+    "image": "img/spots/kanagawa-yokohama-tsurumi-mitsuike-park.jpg",
     "imageCredit": "📷 Chihiro H / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Reflection_Sakura_2018_8_(252102573).jpeg"
   },
@@ -7843,7 +7843,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/kanagawa-yokohama-midori-shikinomori-park.jpg",
+    "image": "img/spots/kanagawa-yokohama-midori-shikinomori-park.jpg",
     "imageCredit": "📷 Toshihiro Gamo / CC BY 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shikinomori_Park,_Yokohama_%E5%9B%9B%E5%AD%A3%E3%81%AE%E6%A3%AE%E5%85%AC%E5%9C%92_May_5,_2013_(1).jpg"
   },
@@ -7892,7 +7892,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/kanagawa-yokohama-asahi-yokohama-childrens-nature-park-oike-park.jpg",
+    "image": "img/spots/kanagawa-yokohama-asahi-yokohama-childrens-nature-park-oike-park.jpg",
     "imageCredit": "📷 Nesnad / CC BY 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kodomo_Shizen_Koen_-_Kanagawa_-_2023_September_19_various_00_58_23_483000.jpeg"
   },
@@ -7987,7 +7987,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/kanagawa-yokohama-naka-negishi-forest-park.jpg",
+    "image": "img/spots/kanagawa-yokohama-naka-negishi-forest-park.jpg",
     "imageCredit": "📷 AMANO Jun-ichi / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Negishi_Forest_Park_%E6%A0%B9%E5%B2%B8%E6%A3%AE%E6%9E%97%E5%85%AC%E5%9C%92_-_panoramio.jpg"
   },
@@ -8048,7 +8048,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/kanagawa-yokohama-naka-yokohama-park.jpg",
+    "image": "img/spots/kanagawa-yokohama-naka-yokohama-park.jpg",
     "imageCredit": "📷 経済特区 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A8%AA%E6%B5%9C%E5%85%AC%E5%9C%92(20201212).jpg"
   },
@@ -8158,7 +8158,7 @@
       "sourceUrl": "https://tabi-mag.jp/kn0777/",
       "checkedAt": "2026年10月13日"
     },
-    "image": "photo/spots/kanagawa-yokohama-kohoku-shinyokohama-park.jpg",
+    "image": "img/spots/kanagawa-yokohama-kohoku-shinyokohama-park.jpg",
     "imageCredit": "📷 alonfloc / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%96%B0%E6%A8%AA%E6%B5%9C%E5%85%AC%E5%9C%92_-_panoramio_(1).jpg"
   },
@@ -8379,7 +8379,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-yokosuka-arasaki-park.jpg",
+    "image": "img/spots/kanagawa-yokosuka-arasaki-park.jpg",
     "imageCredit": "📷 Quercus acuta / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Arasaki_Park_-_Yokosuka.jpg"
   },
@@ -8427,7 +8427,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/kanagawa-sagamihara-minami-sagamihara-park.jpg",
+    "image": "img/spots/kanagawa-sagamihara-minami-sagamihara-park.jpg",
     "imageCredit": "📷 JuanGotoh / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Green_House_of_Sagamihara_park.jpg"
   },
@@ -8476,7 +8476,7 @@
       "checkedAt": "2026年10月13日"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-atsugi-nanasawa-forest-park.jpg",
+    "image": "img/spots/kanagawa-atsugi-nanasawa-forest-park.jpg",
     "imageCredit": "📷 Drivephotographer / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A3%AE%E3%81%AE%E3%81%8B%E3%81%91%E3%81%AF%E3%81%97.jpg"
   },
@@ -8578,7 +8578,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-chigasaki-chigasaki-satoyama-park.jpg",
+    "image": "img/spots/kanagawa-chigasaki-chigasaki-satoyama-park.jpg",
     "imageCredit": "📷 五虎将軍 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chigasaki_Satoyama_Park_02.jpg"
   },
@@ -8636,7 +8636,7 @@
       "sourceUrl": "https://kids.rurubu.jp/article/137862/",
       "checkedAt": "2026年10月13日"
     },
-    "image": "photo/spots/kanagawa-hiratsuka-hiratsuka-city-general-park.jpg",
+    "image": "img/spots/kanagawa-hiratsuka-hiratsuka-city-general-park.jpg",
     "imageCredit": "📷 Nesnad / CC BY 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hiratsukashi_Sogo_Park_-_2023_March_12_various_18_27_05_998000.jpeg"
   },
@@ -8684,7 +8684,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/kanagawa-hiratsuka-shonan-daira.jpg",
+    "image": "img/spots/kanagawa-hiratsuka-shonan-daira.jpg",
     "imageCredit": "📷 Quercus acuta / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shonandaira1.jpg"
   },
@@ -8743,7 +8743,7 @@
       "12〜2月の火曜日"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/kanagawa-odawara-kanagawa-prefectural-museum-of-natural-history.jpg",
+    "image": "img/spots/kanagawa-odawara-kanagawa-prefectural-museum-of-natural-history.jpg",
     "imageCredit": "📷 GuchuanYanyi / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E7%94%B0%E5%8E%9F%E6%B9%AF%E6%B2%B3%E5%8E%9F%E5%BA%83%E5%9F%9F%E8%BE%B2%E9%81%93_%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E7%AB%8B%E7%94%9F%E5%91%BD%E3%81%AE%E6%98%9F%E3%83%BB%E5%9C%B0%E7%90%83%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg"
   },
@@ -8812,7 +8812,7 @@
     "closedDays": [
       "※自然観察センター・しらかしのいえは月曜（祝日の場合は翌日）と12/29〜1/3"
     ],
-    "image": "photo/spots/kanagawa-yamato-izumi-no-mori.jpg",
+    "image": "img/spots/kanagawa-yamato-izumi-no-mori.jpg",
     "imageCredit": "📷 xezna / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B3%89%E3%81%AE%E6%A3%AE%E5%85%AC%E5%9C%92%E3%81%AE%E6%B1%A0,_The_pond_of_Izuminomori_Park_-_panoramio.jpg"
   },
@@ -8855,7 +8855,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-zama-zama-yatoyama-park.jpg",
+    "image": "img/spots/kanagawa-zama-zama-yatoyama-park.jpg",
     "imageCredit": "📷 tak1701d / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bando_08_Shokoku-ji_02.jpg"
   },
@@ -8927,7 +8927,7 @@
       "年末年始（12/29〜1/3）"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/kanagawa-kamakura-kanagawa-prefectural-ofuna-flower-center.jpg",
+    "image": "img/spots/kanagawa-kamakura-kanagawa-prefectural-ofuna-flower-center.jpg",
     "imageCredit": "📷 あばさー / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kanagawa_Prefectural_Flower_Center_Ofuna_Botanical_Garden.JPG"
   },
@@ -9127,7 +9127,7 @@
         "periodLabel": "11/20〜12/13"
       }
     },
-    "image": "photo/spots/kanagawa-yokohama-naka-sankeien.jpg",
+    "image": "img/spots/kanagawa-yokohama-naka-sankeien.jpg",
     "imageCredit": "📷 Arisdp / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sangkaien_Garden.jpg"
   },
@@ -9252,7 +9252,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/kanagawa-oiso-oiso-shiroyama-park.jpg",
+    "image": "img/spots/kanagawa-oiso-oiso-shiroyama-park.jpg",
     "imageCredit": "📷 Nesnad / CC BY 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Oisojoyama_park_-_Aug_30_2021_various.jpeg"
   },
@@ -9338,7 +9338,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/kanagawa-yokohama-hodogaya-hodogaya-park.jpg",
+    "image": "img/spots/kanagawa-yokohama-hodogaya-hodogaya-park.jpg",
     "imageCredit": "📷 ソースは私 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hodogaya_Park_in_Yokohama_Japan.JPG"
   },
@@ -9431,7 +9431,7 @@
       "9〜11月は無休"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/kanagawa-hiratsuka-kana-garden.jpg",
+    "image": "img/spots/kanagawa-hiratsuka-kana-garden.jpg",
     "imageCredit": "📷 Nesnad / CC BY 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kana_Garden_-_Hiratsuka_-_2023_Aug_31_various_03.jpg"
   },
@@ -9575,7 +9575,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/kanagawa-yokosuka-mikasa-park.jpg",
+    "image": "img/spots/kanagawa-yokosuka-mikasa-park.jpg",
     "imageCredit": "📷 ex-h20g-fan / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%89%E7%AC%A0%E5%85%AC%E5%9C%92_-_panoramio_(13).jpg"
   },
@@ -9772,7 +9772,7 @@
       "12/29〜1/1"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tokyo-bunkyo-rikugien.jpg",
+    "image": "img/spots/tokyo-bunkyo-rikugien.jpg",
     "imageCredit": "📷 京浜にけ / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Bunkyo_Rikugien_Panoramic_View_In_Late_Autumn_1.JPG"
   },
@@ -9841,7 +9841,7 @@
       "12/29〜1/1"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tokyo-bunkyo-koishikawa-korakuen.jpg",
+    "image": "img/spots/tokyo-bunkyo-koishikawa-korakuen.jpg",
     "imageCredit": "📷 Gribeco / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Koishikawa_korakuen_-_Osensui_and_Horaijima.jpg"
   },
@@ -9974,7 +9974,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/tokyo-nerima-shakujii-park.jpg",
+    "image": "img/spots/tokyo-nerima-shakujii-park.jpg",
     "imageCredit": "📷 Guy-aan / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%89%E5%AE%9D%E5%AF%BA%E6%B1%A0%E3%81%A8%E5%8E%B3%E5%B3%B6%E7%A5%9E%E7%A4%BE%EF%BC%882021%E5%B9%B45%E6%9C%88%EF%BC%89.jpg"
   },
@@ -10016,7 +10016,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/tokyo-suginami-zenpukuji-park.jpg",
+    "image": "img/spots/tokyo-suginami-zenpukuji-park.jpg",
     "imageCredit": "📷 Asanagi / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Zenpukuji_Park_north_pond_(1)_2026-05-10.jpg"
   },
@@ -10058,7 +10058,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/tokyo-nakano-heiwajima-park.jpg",
+    "image": "img/spots/tokyo-nakano-heiwajima-park.jpg",
     "imageCredit": "📷 Shinjiro / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fountain_Yoyogipark.JPG"
   },
@@ -10159,7 +10159,7 @@
       "年中無休"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tokyo-kita-ukima-park.jpg",
+    "image": "img/spots/tokyo-kita-ukima-park.jpg",
     "imageCredit": "📷 y_a_s_u_ / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%95%A3%E6%AD%A9%E6%97%A5%E5%92%8C%E3%81%AE%E6%B5%AE%E9%96%93%E5%85%AC%E5%9C%92_-_panoramio_-_y_a_s_u_.jpg"
   },
@@ -10211,7 +10211,7 @@
       "checkedAt": "2026年10月13日"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/tokyo-setagaya-hanegi-park.jpg",
+    "image": "img/spots/tokyo-setagaya-hanegi-park.jpg",
     "imageCredit": "📷 Shiragiku / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hydrangea_in_hanegi.JPG"
   },
@@ -10295,7 +10295,7 @@
       "年末年始（12/29〜1/3）"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/saitama-yorii-saitama-river-museum.jpg",
+    "image": "img/spots/saitama-yorii-saitama-river-museum.jpg",
     "imageCredit": "📷 Qurren (トーク) Taken with Canon IXY 430F (Digital IXUS 245 HS) / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Saitama_Museum_of_Rivers.jpg"
   },
@@ -10364,7 +10364,7 @@
       "sourceUrl": "https://tabi-mag.jp/sa0083/",
       "checkedAt": "2026年10月13日"
     },
-    "image": "photo/spots/saitama-chichibu-chichibu-muse-park.jpg",
+    "image": "img/spots/saitama-chichibu-chichibu-muse-park.jpg",
     "imageCredit": "📷 Koda6029 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%A7%A9%E7%88%B6%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%BA%E3%83%91%E3%83%BC%E3%82%AF%E3%81%AE%E5%B1%95%E6%9C%9B%E5%8F%B0.jpg"
   },
@@ -10406,7 +10406,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/saitama-gyoda-sakitama-kofun-park.jpg",
+    "image": "img/spots/saitama-gyoda-sakitama-kofun-park.jpg",
     "imageCredit": "📷 京浜にけ / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gyoda_Museum_of_The_Sakitama_Ancient_Burial_Mounds_Appearance_1.JPG"
   },
@@ -10502,7 +10502,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/saitama-kazo-kazo-hanasaki-park.jpg",
+    "image": "img/spots/saitama-kazo-kazo-hanasaki-park.jpg",
     "imageCredit": "📷 京浜にけ / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kazo_Kazohanasaki_Park_1.JPG"
   },
@@ -10544,7 +10544,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/saitama-saitama-iwatsuki-iwatsuki-castle-ruins-park.jpg",
+    "image": "img/spots/saitama-saitama-iwatsuki-iwatsuki-castle-ruins-park.jpg",
     "imageCredit": "📷 Shift / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:(%E5%9F%BC%E7%8E%89%E7%9C%8C)_%E5%B2%A9%E6%A7%BB%E3%81%AB%E3%81%82%E3%82%8B%E5%B2%A9%E6%A7%BB%E5%9F%8E%E5%9D%80%E5%85%AC%E5%9C%92%E3%80%82%E7%B4%84600%E6%9C%AC%E3%81%AE%E6%A1%9C%E3%81%8C%E3%81%82%E3%82%8B%E3%81%A8%E3%81%AE%E3%81%93%E3%81%A8%E3%80%82%E5%9C%92%E5%86%85%E3%81%AB%E3%81%AF%E6%9D%B1%E6%AD%A6%E9%89%84%E9%81%93%E3%81%AE%E3%83%AD%E3%83%9E%E3%83%B3%E3%82%B9%E3%82%AB%E3%83%BC%E3%82%82%E5%B1%95%E7%A4%BA%E3%81%95%E3%82%8C%E3%81%A6%E3%81%8A%E3%82%8A_-_panoramio.jpg"
   },
@@ -10597,7 +10597,7 @@
       "sourceUrl": "https://www.pref.saitama.lg.jp/documents/284534/02_r8_hanyu.pdf",
       "checkedAt": "2026年10月13日"
     },
-    "image": "photo/spots/saitama-hanyu-hanyu-suigo-park.jpg",
+    "image": "img/spots/saitama-hanyu-hanyu-suigo-park.jpg",
     "imageCredit": "📷 京浜にけ / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hanyu_Hanyusuigo_Park_Flower_Square_1.JPG"
   },
@@ -10639,7 +10639,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/saitama-kumagaya-kumagaya-sports-culture-park.jpg",
+    "image": "img/spots/saitama-kumagaya-kumagaya-sports-culture-park.jpg",
     "imageCredit": "📷 Nori Norisa / CC BY 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%A5%BF%E6%B1%A0_%E7%86%8A%E8%B0%B7%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E6%96%87%E5%8C%96%E5%85%AC%E5%9C%92_%E7%86%8A%E8%B0%B7%E5%B8%82_Nov_30,_2025.jpg"
   },
@@ -10680,7 +10680,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/chiba-chiba-chuo-chiba-port-park.jpg",
+    "image": "img/spots/chiba-chiba-chuo-chiba-port-park.jpg",
     "imageCredit": "📷 Otota DANA / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%83%E8%91%89%E3%83%9D%E3%83%BC%E3%83%88%E3%83%91%E3%83%BC%E3%82%AF_-_panoramio.jpg"
   },
@@ -10739,7 +10739,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/chiba-chiba-mihama-inage-kaihin-park.jpg",
+    "image": "img/spots/chiba-chiba-mihama-inage-kaihin-park.jpg",
     "imageCredit": "📷 Xser21 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Inage-seasidepark-dekki.jpg"
   },
@@ -10780,7 +10780,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/chiba-kashiwa-teganuma-park.jpg",
+    "image": "img/spots/chiba-kashiwa-teganuma-park.jpg",
     "imageCredit": "📷 運転太郎 / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%89%8B%E8%B3%80%E6%B2%BC%E5%85%AC%E5%9C%92_-_panoramio.jpg"
   },
@@ -10865,7 +10865,7 @@
       "sun": "00:00-24:00",
       "holiday": "00:00-24:00"
     },
-    "image": "photo/spots/chiba-kashiwa-千葉県立柏の葉公園.jpg",
+    "image": "img/spots/chiba-kashiwa-千葉県立柏の葉公園.jpg",
     "imageCredit": "📷 あばさー / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kashiwanoha_Park_Makigahara-en.JPG"
   },
@@ -10904,7 +10904,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/chiba-choshi-choshi-inubosaki.jpg",
+    "image": "img/spots/chiba-choshi-choshi-inubosaki.jpg",
     "imageCredit": "📷 Hiroaki Kaneko / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%8A%AC%E5%90%A0%E5%9F%BC%E7%81%AF%E5%8F%B0_(Inubozaki_Lighthouse)_07_Aug,_2009_-_panoramio.jpg"
   },
@@ -10998,7 +10998,7 @@
       "月曜日（祝・休日の場合は翌日）",
       "臨時休館日あり"
     ],
-    "image": "photo/spots/chiba-sakae-boso-no-mura.jpg",
+    "image": "img/spots/chiba-sakae-boso-no-mura.jpg",
     "imageCredit": "📷 Dddeco / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fudokinooka-siryokan.JPG"
   },
@@ -11055,7 +11055,7 @@
       }
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/ibaraki-mito-kairakuen.jpg",
+    "image": "img/spots/ibaraki-mito-kairakuen.jpg",
     "imageCredit": "📷 Σ64 / CC BY 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kairaku-en,_Ibaraki_24.jpg"
   },
@@ -11097,7 +11097,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/ibaraki-mito-senba-park.jpg",
+    "image": "img/spots/ibaraki-mito-senba-park.jpg",
     "imageCredit": "📷 CyberOyaji / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%83%E6%B3%A2%E5%85%AC%E5%9C%92_-_panoramio.jpg"
   },
@@ -11149,7 +11149,7 @@
         "periodLabel": "11/1〜11/30"
       }
     },
-    "image": "photo/spots/ibaraki-hitachiota-ryujin-otsuribashi.jpg",
+    "image": "img/spots/ibaraki-hitachiota-ryujin-otsuribashi.jpg",
     "imageCredit": "📷 Kanohara (talk) / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ryujin_Dam_Reservoir.jpg"
   },
@@ -11199,7 +11199,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/ibaraki-oarai-oarai-sun-beach.jpg",
+    "image": "img/spots/ibaraki-oarai-oarai-sun-beach.jpg",
     "imageCredit": "📷 ブルーノ・プラス / CC BY 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ooarai_port.jpg"
   },
@@ -11253,7 +11253,7 @@
       }
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/ibaraki-tsukuba-mount-tsukuba.jpg",
+    "image": "img/spots/ibaraki-tsukuba-mount-tsukuba.jpg",
     "imageCredit": "📷 RESPITE / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Tsukuba_seen_from_the_WSW_(2006).jpg"
   },
@@ -11313,7 +11313,7 @@
       "年末年始"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tochigi-mibu-とちぎわんぱく公園.jpg",
+    "image": "img/spots/tochigi-mibu-とちぎわんぱく公園.jpg",
     "imageCredit": "📷 京浜にけ / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mibu_Tochigi_Wanpaku_Park_1.JPG"
   },
@@ -11515,7 +11515,7 @@
       "sourceUrl": "https://iko-yo.net/facilities/45664",
       "checkedAt": "2026年10月13日"
     },
-    "image": "photo/spots/tochigi-moka-igashira-park.jpg",
+    "image": "img/spots/tochigi-moka-igashira-park.jpg",
     "imageCredit": "📷 Miyuki Meinaka / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cascade_of_Igashira_park.jpg"
   },
@@ -11571,7 +11571,7 @@
       }
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/tochigi-nikko-lake-chuzenji-kegon-falls.jpg",
+    "image": "img/spots/tochigi-nikko-lake-chuzenji-kegon-falls.jpg",
     "imageCredit": "📷 Jordy Meow / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kegon_Taki.jpg"
   },
@@ -11690,7 +11690,7 @@
       "※入場は15:00まで。12〜2月は10時開始、1月上旬〜2月末は平日休み。"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/gunma-shibukawa-ikaho-green-bokujo.jpg",
+    "image": "img/spots/gunma-shibukawa-ikaho-green-bokujo.jpg",
     "imageCredit": "📷 ger531 / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BC%8A%E9%A6%99%E4%BF%9D%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3%E7%89%A7%E5%A0%B4_-_panoramio.jpg"
   },
@@ -11732,7 +11732,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/gunma-ota-city-ota-city-sports-park.jpg",
+    "image": "img/spots/gunma-ota-city-ota-city-sports-park.jpg",
     "imageCredit": "📷 あばさー / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ota_Sports_Park.JPG"
   },
@@ -11785,7 +11785,7 @@
       "sourceUrl": "https://iko-yo.net/facilities/18709",
       "checkedAt": "2026年10月13日"
     },
-    "image": "photo/spots/gunma-maebashi-shikishima-park.jpg",
+    "image": "img/spots/gunma-maebashi-shikishima-park.jpg",
     "imageCredit": "📷 CyberOyaji / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%89%8D%E6%A9%8B%E6%95%B7%E5%B3%B6%E5%85%AC%E5%9C%92_-_panoramio.jpg"
   },
@@ -11859,7 +11859,7 @@
       "※入園は閉園30分前まで。11〜3月は16:00閉園。"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/gunma-kiryu-gunma-insect-forest.jpg",
+    "image": "img/spots/gunma-kiryu-gunma-insect-forest.jpg",
     "imageCredit": "📷 岡部碩道 / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Glasshouse_of_Gunma_Insect_World.jpg"
   },
@@ -11917,7 +11917,7 @@
       "なし"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tokyo-kita-asakayama-park.jpg",
+    "image": "img/spots/tokyo-kita-asakayama-park.jpg",
     "imageCredit": "📷 Shinjiro / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fountain_Yoyogipark.JPG"
   },
@@ -12866,7 +12866,7 @@
       "note": "大人1,120円×2＋子ども（大人の約半額600円と仮定）×2＋幼児は無料と仮定。子ども料金は要確認"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-isehara-oyama-cable-car.jpg",
+    "image": "img/spots/kanagawa-isehara-oyama-cable-car.jpg",
     "imageCredit": "📷 Kounoichi / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Oyama_Cable_Car_No.2_20171210.jpg"
   },
@@ -13225,7 +13225,7 @@
       "月曜日（祝日の場合は翌平日）"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/saitama-saitama-omiya-youth-space-science-museum.jpg",
+    "image": "img/spots/saitama-saitama-omiya-youth-space-science-museum.jpg",
     "imageCredit": "📷 Ebiebi2 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Saitama_Municupal_Youth_Astronomical_Museum_1.JPG"
   },
@@ -13266,7 +13266,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/saitama-saitama-nishi-mitsuhashi-general-park.jpg",
+    "image": "img/spots/saitama-saitama-nishi-mitsuhashi-general-park.jpg",
     "imageCredit": "📷 妖精書士 (talk) / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mihashi_Recreational_Palk.JPG"
   },
@@ -13381,7 +13381,7 @@
       "checkedAt": "2026年10月13日"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/saitama-chichibu-hitsujiyama-park.jpg",
+    "image": "img/spots/saitama-chichibu-hitsujiyama-park.jpg",
     "imageCredit": "📷 Koda6029 / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%BE%8A%E5%B1%B1%E5%85%AC%E5%9C%92%E8%8A%9D%E6%A1%9C%E3%81%AE%E4%B8%98%E3%81%8B%E3%82%89%E6%AD%A6%E7%94%B2%E5%B1%B1.jpg"
   },
@@ -13592,7 +13592,7 @@
       "note": "大人2,000円×2＋子ども（大人の約半額1,000円と仮定）×2＋幼児は無料と仮定。子ども料金は要確認"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/saitama-hanno-metsa-hanno.jpg",
+    "image": "img/spots/saitama-hanno-metsa-hanno.jpg",
     "imageCredit": "📷 chinnian from Singapore / CC BY-SA 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%83%A1%E3%83%83%E3%83%84%E3%82%A1_(47983738511).jpg"
   },
@@ -13885,7 +13885,7 @@
       "月曜日（祝日の場合は翌日）"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/chiba-ichikawa-chiba-museum-of-science-and-industry.jpg",
+    "image": "img/spots/chiba-ichikawa-chiba-museum-of-science-and-industry.jpg",
     "imageCredit": "📷 Namazu-tron / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chiba_Museum_of_Science_and_Industry_(cropped).jpg"
   },
@@ -14152,7 +14152,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人500円×2＋小学生300円×2＋幼児300円×1（幼児も子ども料金と仮定）"
     },
-    "image": "photo/spots/chiba-chiba-chuo-chiba-city-science-museum-qiball.jpg",
+    "image": "img/spots/chiba-chiba-chuo-chiba-city-science-museum-qiball.jpg",
     "imageCredit": "📷 掬茶 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Qiball.jpg"
   },
@@ -14256,7 +14256,7 @@
         "tentative": true
       }
     },
-    "image": "photo/spots/chiba-noda-shimizu-park.jpg",
+    "image": "img/spots/chiba-noda-shimizu-park.jpg",
     "imageCredit": "📷 DAJF / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shimizu-koen_Station_east_entrance_20160416.JPG"
   },
@@ -14414,7 +14414,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/ibaraki-tsuchiura-kamitakatsu-shell-mound-historical-park.jpg",
+    "image": "img/spots/ibaraki-tsuchiura-kamitakatsu-shell-mound-historical-park.jpg",
     "imageCredit": "📷 麒麟坊 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:KamitakatsuKaizuka.jpg"
   },
@@ -14685,7 +14685,7 @@
       }
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/ibaraki-takahagi-hananuki-keikoku.jpg",
+    "image": "img/spots/ibaraki-takahagi-hananuki-keikoku.jpg",
     "imageCredit": "📷 Raita Futo from Tokyo, Japan / CC BY 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hananuki_Gorge_(51847182208).jpg"
   },
@@ -14735,7 +14735,7 @@
       }
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/ibaraki-daigo-fukuroda-falls.jpg",
+    "image": "img/spots/ibaraki-daigo-fukuroda-falls.jpg",
     "imageCredit": "📷 Raita Futo from Tokyo, Japan / CC BY 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fukuroda_Falls_(51846147587).jpg"
   },
@@ -14787,7 +14787,7 @@
       }
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/tochigi-nasu-nasudake-ropeway.jpg",
+    "image": "img/spots/tochigi-nasu-nasudake-ropeway.jpg",
     "imageCredit": "📷 9689tatsuya / CC BY 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tochigi-Mt._Nasu_that_burns_in_autumn-m.jpg"
   },
@@ -15329,7 +15329,7 @@
       "無休"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/gunma-tomioka-tomioka-silk-mill.jpg",
+    "image": "img/spots/gunma-tomioka-tomioka-silk-mill.jpg",
     "imageCredit": "📷 しゅん君 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:IMG_E0946_%E6%9D%B1%E7%BD%AE%E7%B9%AD%E6%89%80.jpg"
   },
@@ -15383,7 +15383,7 @@
         "periodLabel": "ロープウェイは11/15（予定）まで運行"
       }
     },
-    "image": "photo/spots/gunma-minakami-tanigawadake-ropeway.jpg",
+    "image": "img/spots/gunma-minakami-tanigawadake-ropeway.jpg",
     "imageCredit": "📷 photo: Qurren (トーク) Taken with Canon IXY 430F (Digital IXUS 245 HS) / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tanigawadake_Ropeway.jpg"
   },
@@ -15505,7 +15505,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
-    "image": "photo/spots/gunma-fujioka-laran-fujioka.jpg",
+    "image": "img/spots/gunma-fujioka-laran-fujioka.jpg",
     "imageCredit": "📷 Filler / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Michinoeki_fujioka.jpg"
   },
@@ -15561,7 +15561,7 @@
       "12/29〜1/4",
       "※11〜2月は16:30閉園。"
     ],
-    "image": "photo/spots/gunma-annaka-usui-toge-railway-culture-village.jpg",
+    "image": "img/spots/gunma-annaka-usui-toge-railway-culture-village.jpg",
     "imageCredit": "📷 くろふね / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%A2%93%E6%B0%B7%E5%B3%A0%E9%89%84%E9%81%93%E6%96%87%E5%8C%96%E3%82%80%E3%82%89_-_panoramio_(6).jpg"
   },
@@ -15758,7 +15758,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-yokohama-minami-maita-park.jpg",
+    "image": "img/spots/kanagawa-yokohama-minami-maita-park.jpg",
     "imageCredit": "📷 妖精書士 / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Maita_Park.jpg"
   },
@@ -15807,7 +15807,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-yokohama-konan-kuraki-park.jpg",
+    "image": "img/spots/kanagawa-yokohama-konan-kuraki-park.jpg",
     "imageCredit": "📷 妖精書士 (talk) / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kuraki_Park2.JPG"
   },
@@ -15899,7 +15899,7 @@
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-yokohama-kanazawa-kanazawa-nature-park.jpg",
+    "image": "img/spots/kanagawa-yokohama-kanazawa-kanazawa-nature-park.jpg",
     "imageCredit": "📷 Quercus acuta / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kanazawa-Shizen-Koen_Park_03.jpg"
   },
@@ -15996,7 +15996,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/tokyo-shinagawa-oi-futo-central-seaside-park.jpg",
+    "image": "img/spots/tokyo-shinagawa-oi-futo-central-seaside-park.jpg",
     "imageCredit": "📷 Kamemaru2000 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Oi_futo_chuo_kaihin_park_entrance.JPG"
   },
@@ -16051,7 +16051,7 @@
     "closedDays": [
       "なし"
     ],
-    "image": "photo/spots/tokyo-adachi-higashi-ayase-park.jpg",
+    "image": "img/spots/tokyo-adachi-higashi-ayase-park.jpg",
     "imageCredit": "📷 Miyuki Meinaka / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Higashi_Ayase_Park_Central.jpg"
   },
@@ -16219,7 +16219,7 @@
       "sourceUrl": "https://www.tokyu.co.jp/area/futako-tamagawa/article/arti-01KNQR38GHZ8M89YGGM8KRGGEN/",
       "checkedAt": "2026年10月13日"
     },
-    "image": "photo/spots/tokyo-setagaya-futakotamagawa-park.jpg",
+    "image": "img/spots/tokyo-setagaya-futakotamagawa-park.jpg",
     "imageCredit": "📷 Wpcpey / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Futako-Tamagawa_Park_Overview_2018.jpg"
   },
@@ -16268,7 +16268,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
-    "image": "photo/spots/saitama-koshigaya-shirakobato-suijo-park.jpg",
+    "image": "img/spots/saitama-koshigaya-shirakobato-suijo-park.jpg",
     "imageCredit": "📷 星組背番号10 / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shirakobato_Aquatic_Park.JPG"
   },
@@ -16347,7 +16347,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/saitama-saitama-omiya-omiya-daini-park.jpg",
+    "image": "img/spots/saitama-saitama-omiya-omiya-daini-park.jpg",
     "imageCredit": "📷 Mytho88 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Omiya_Park_20240117_01.jpg"
   },
@@ -16671,7 +16671,7 @@
       "月曜日（祝日・振替休日の場合は翌日）",
       "年末年始（12/30〜1/3）"
     ],
-    "image": "photo/spots/tokyo-edogawa-chikahaku.jpg",
+    "image": "img/spots/tokyo-edogawa-chikahaku.jpg",
     "imageCredit": "📷 User:Jmho / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chikatetsu_Museum.jpg"
   },
@@ -16736,7 +16736,7 @@
       "元日"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tokyo-adachi-galaxcity.jpg",
+    "image": "img/spots/tokyo-adachi-galaxcity.jpg",
     "imageCredit": "📷 Kamemaru2000 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gyarakusiti_adachi_2009.JPG"
   },
@@ -16788,7 +16788,7 @@
       "note": "大人550円×2＋小学生1,430円×2＋幼児1,430円×1（幼児も子ども料金と仮定）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-yokohama-nishi-hapipiland.jpg",
+    "image": "img/spots/kanagawa-yokohama-nishi-hapipiland.jpg",
     "imageCredit": "📷 妖精書士 / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:AsoBuild_01.jpg"
   },
@@ -17104,7 +17104,7 @@
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/ibaraki-tsukuba-tsukuba.jpg",
+    "image": "img/spots/ibaraki-tsukuba-tsukuba.jpg",
     "imageCredit": "📷 Tnk3a / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tsukuba_Space_Center-01.jpg"
   },
@@ -17266,7 +17266,7 @@
       "第4木曜日（祝日の場合は開園）"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tochigi-otawara-tochigi-nakagawa.jpg",
+    "image": "img/spots/tochigi-otawara-tochigi-nakagawa.jpg",
     "imageCredit": "📷 CyberOyaji / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%81%AA%E3%81%8B%E3%81%8C%E3%82%8F%E6%B0%B4%E9%81%8A%E5%9C%92_-_panoramio.jpg"
   },
@@ -17344,7 +17344,7 @@
     "closedDays": [
       "※メインデッキの時間。最終入場は22:30。"
     ],
-    "image": "photo/spots/tokyo-minato-tokyotower.jpg",
+    "image": "img/spots/tokyo-minato-tokyotower.jpg",
     "imageCredit": "📷 Mont Blank rich / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%97%A5%E6%9C%AC%E9%9B%BB%E6%B3%A2%E5%A1%94%EF%BC%88%E6%9D%B1%E4%BA%AC%E3%82%BF%E3%83%AF%E3%83%BC%EF%BC%89.jpg"
   },
@@ -17433,7 +17433,7 @@
       "※展望台の時間。入場は21:00まで。"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tokyo-sumida-tokyo-skytree.jpg",
+    "image": "img/spots/tokyo-sumida-tokyo-skytree.jpg",
     "imageCredit": "📷 Kakidai / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_Skytree_2014_%E2%85%A2.jpg"
   },
@@ -17903,7 +17903,7 @@
       "holiday": "10:00-17:30"
     },
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/kanagawa-hakone-hakone-garasunomori.jpg",
+    "image": "img/spots/kanagawa-hakone-hakone-garasunomori.jpg",
     "imageCredit": "📷 Flow in edgewise / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hakone_Venetian_Glass_Museum.jpg"
   },
@@ -18096,7 +18096,7 @@
       "note": "料金の記載が不十分で目安を出せません。最新の料金は公式サイトでご確認ください",
       "officialUrl": "https://www.seibu-leisure.co.jp/ski_noflame/"
     },
-    "image": "photo/spots/saitama-tokorozawa-seibu-leisure.jpg",
+    "image": "img/spots/saitama-tokorozawa-seibu-leisure.jpg",
     "imageCredit": "📷 Ski Mania / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Prince_Snow_Resort_Sayama.JPG"
   },
@@ -18164,7 +18164,7 @@
       "月曜日（祝日の場合はその翌日）",
       "年末（12/29〜12/31）"
     ],
-    "image": "photo/spots/chiba-shibayama-aeromuseum.jpg",
+    "image": "img/spots/chiba-shibayama-aeromuseum.jpg",
     "imageCredit": "📷 photo: Qurren (トーク) Taken with Canon IXY 430F (Digital IXUS 245 HS) / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Museum_of_Aeronautical_Sciences_2016-11.jpg"
   },
@@ -18379,7 +18379,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人340円×2＋小学生170円×2＋幼児0円×1（幼児は無料）"
     },
-    "image": "photo/spots/ibaraki-oarai-oarai-marine-tower.jpg",
+    "image": "img/spots/ibaraki-oarai-oarai-marine-tower.jpg",
     "imageCredit": "📷 CyberOyaji / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%A7%E6%B4%97%E3%83%9E%E3%83%AA%E3%83%B3%E3%82%BF%E3%83%AF%E3%83%BC_-_panoramio_(3).jpg"
   },
@@ -18482,7 +18482,7 @@
       "checkedAt": "2026年10月13日"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/tochigi-nasu-nasu-safari-park.jpg",
+    "image": "img/spots/tochigi-nasu-nasu-safari-park.jpg",
     "imageCredit": "📷 Robek / CC BY 2.5 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Giraffes_at_west_midlands_safari_park.jpg"
   },
@@ -18651,7 +18651,7 @@
       "sun": "09:30-17:00",
       "holiday": "09:30-17:00"
     },
-    "image": "photo/spots/tochigi-nasu-nasu-music-box-museum.jpg",
+    "image": "img/spots/tochigi-nasu-nasu-music-box-museum.jpg",
     "imageCredit": "📷 Mk346598 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%82%A3%E9%A0%88%E3%82%AA%E3%83%AB%E3%82%B4%E3%83%BC%E3%83%AB%E7%BE%8E%E8%A1%93%E9%A4%A8%E5%A4%96%E8%A6%B3.jpg"
   },
@@ -18710,7 +18710,7 @@
       "水曜日（祝日の場合は営業）"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tochigi-nasu-nasu-stained-glass-museum.jpg",
+    "image": "img/spots/tochigi-nasu-nasu-stained-glass-museum.jpg",
     "imageCredit": "📷 663highland / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:190725_Nasu_Stained_Glass_Museum_Nasu_Tochigi_pref_Japan06s3.jpg"
   },
@@ -18831,7 +18831,7 @@
       "年中無休（臨時休館あり）"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tochigi-nikko-trick-art-pia-nikko.jpg",
+    "image": "img/spots/tochigi-nikko-trick-art-pia-nikko.jpg",
     "imageCredit": "📷 あばさー / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Trick_Artpia_Nikko.JPG"
   },
@@ -19347,7 +19347,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/saitama-saitama-minami-lotte-urawa-factory-tour.jpg",
+    "image": "img/spots/saitama-saitama-minami-lotte-urawa-factory-tour.jpg",
     "imageCredit": "📷 ブツチチ / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%83%AD%E3%83%83%E3%83%86%E6%B5%A6%E5%92%8C%E5%B7%A5%E5%A0%B4.JPG"
   },
@@ -19386,7 +19386,7 @@
       "note": "入場・入園は無料"
     },
     "closedFrom": "2023-12-24",
-    "image": "photo/spots/chiba-funabashi-sapporobeer.jpg",
+    "image": "img/spots/chiba-funabashi-sapporobeer.jpg",
     "imageCredit": "📷 Melkul / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sapporo_Holdings_Headoffice.JPG"
   },
@@ -20258,7 +20258,7 @@
       "12/31"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tochigi-ashikaga-ashikaga.jpg",
+    "image": "img/spots/tochigi-ashikaga-ashikaga.jpg",
     "imageCredit": "📷 Yoshio Kohara / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%81%82%E3%81%97%E3%81%8B%E3%81%8C%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC%E3%83%91%E3%83%BC%E3%82%AF_-_panoramio.jpg"
   },
@@ -20388,7 +20388,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
-    "image": "photo/spots/tokyo-chiyoda-chidorigafuchi-greenway.jpg",
+    "image": "img/spots/tokyo-chiyoda-chidorigafuchi-greenway.jpg",
     "imageCredit": "📷 &quot;Tyoron2&quot; / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chidorigafuchi_sakura.JPG"
   },
@@ -20443,7 +20443,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/saitama-kumagaya-kumagaya-sakuranotei.jpg",
+    "image": "img/spots/saitama-kumagaya-kumagaya-sakuranotei.jpg",
     "imageCredit": "📷 京浜にけ / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Saitama_Kumagaya_Sakuratsutsumi_1.JPG"
   },
@@ -20681,7 +20681,7 @@
       "特別整理期間"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/saitama-kawaguchi-kawaguchi-science.jpg",
+    "image": "img/spots/saitama-kawaguchi-kawaguchi-science.jpg",
     "imageCredit": "📷 あばさー / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kawaguchi_Science_Museum.JPG"
   },
@@ -20740,7 +20740,7 @@
       "holiday": "09:00-20:00"
     },
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/kanagawa-fujisawa-enoshima-seacandle.jpg",
+    "image": "img/spots/kanagawa-fujisawa-enoshima-seacandle.jpg",
     "imageCredit": "📷 photo: Qurren (トーク) Taken with Canon IXY 430F (Digital IXUS 245 HS) / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Enoshima_Sea_Candle_2.jpg"
   },
@@ -20832,7 +20832,7 @@
       "偶数月の第4月曜日",
       "12/28〜12/31"
     ],
-    "image": "photo/spots/chiba-chiba-chuo-chiba-port-tower.jpg",
+    "image": "img/spots/chiba-chiba-chuo-chiba-port-tower.jpg",
     "imageCredit": "📷 くろふね / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8D%83%E8%91%89%E3%83%9D%E3%83%BC%E3%83%88%E3%82%BF%E3%83%AF%E3%83%BC_-_panoramio.jpg"
   },
@@ -20955,7 +20955,7 @@
       "年末年始（12/29〜1/1）"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tokyo-arakawa-yuuen.jpg",
+    "image": "img/spots/tokyo-arakawa-yuuen.jpg",
     "imageCredit": "📷 jmho / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Arakawa_yuen_wheel.jpg"
   },
@@ -21009,7 +21009,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人3,800円×2＋小学生1,500円×2＋幼児1,500円×1（幼児料金あり）"
     },
-    "image": "photo/spots/tokyo-koto-planets.jpg",
+    "image": "img/spots/tokyo-koto-planets.jpg",
     "imageCredit": "📷 Sasa0403 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Photos_at_teamlab_planets_tokyo.jpg"
   },
@@ -21148,7 +21148,7 @@
       "木曜日（祝日・繁忙期は営業）"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/kanagawa-yokohama-naka-cosmoworld.jpg",
+    "image": "img/spots/kanagawa-yokohama-naka-cosmoworld.jpg",
     "imageCredit": "📷 Akonnchiroll / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yokohama_Cosmoworld_2022.jpg"
   },
@@ -21269,7 +21269,7 @@
       "火曜日（祝日を除く）"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/ibaraki-ishioka-flowerpark.jpg",
+    "image": "img/spots/ibaraki-ishioka-flowerpark.jpg",
     "imageCredit": "📷 Strangesnow / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ibaraki,_Ishioka,_Ibaraki_Flower_Park_Entrance.jpg"
   },
@@ -21547,7 +21547,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料。有料施設（フリーパス 大人6000円から〜/小学生4400円から〜、日により変動）も利用する場合は約20,800円"
     },
-    "image": "photo/spots/yamanashi-fujiyoshida-fujiq.jpg",
+    "image": "img/spots/yamanashi-fujiyoshida-fujiq.jpg",
     "imageCredit": "📷 Nayvik / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:FujiQ_Highland_MainGate.JPG"
   },
@@ -21620,7 +21620,7 @@
       "checkedAt": "2026年10月13日"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/shizuoka-susono-fujisafari.jpg",
+    "image": "img/spots/shizuoka-susono-fujisafari.jpg",
     "imageCredit": "📷 Robek / CC BY 2.5 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Giraffes_at_west_midlands_safari_park.jpg"
   },
@@ -21757,7 +21757,7 @@
       "note": "大人4,100円×2＋小学生2,800円×2＋幼児2,200円×1（幼児料金あり）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/fukushima-iwaki-hawaiians.jpg",
+    "image": "img/spots/fukushima-iwaki-hawaiians.jpg",
     "imageCredit": "📷 Sakaori (talk) / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Spa_Resort_Hawaiians_Water_Park._A.JPG"
   },
@@ -21840,7 +21840,7 @@
       "※入館は閉館1時間前まで。12/1〜3/20は17:00まで。"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/fukushima-iwaki-aquamarine.jpg",
+    "image": "img/spots/fukushima-iwaki-aquamarine.jpg",
     "imageCredit": "📷 DAJF / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aquamarine_Fukushima_20100124.JPG"
   },
@@ -22483,7 +22483,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/chiba-sakura-furusato.jpg",
+    "image": "img/spots/chiba-sakura-furusato.jpg",
     "imageCredit": "📷 Hiroaki Kaneko / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BD%90%E5%80%89%E3%81%B5%E3%82%8B%E3%81%95%E3%81%A8%E5%BA%83%E5%A0%B4%E3%81%AE%E3%83%81%E3%83%A5%E3%83%BC%E3%83%AA%E3%83%83%E3%83%97_(Tulips_Garden_in_Sakura)_14_Apr,_2013_-_panoramio.jpg"
   },
@@ -22690,7 +22690,7 @@
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/gunma-kusatsu-kusatsu-onsen.jpg",
+    "image": "img/spots/gunma-kusatsu-kusatsu-onsen.jpg",
     "imageCredit": "📷 おにく / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yubatake_(Kusatsu_Onsen).jpg"
   },
@@ -22745,7 +22745,7 @@
       }
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/gunma-shibukawa-ikaho-onsen-stone-steps.jpg",
+    "image": "img/spots/gunma-shibukawa-ikaho-onsen-stone-steps.jpg",
     "imageCredit": "📷 noppo3 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BC%8A%E9%A6%99%E4%BF%9D%E6%B8%A9%E6%B3%89_%E7%9F%B3%E6%AE%B5%E8%A1%97_-_panoramio.jpg"
   },
@@ -22811,7 +22811,7 @@
       "note": "大人2,700円×2＋小学生1,300円×2＋幼児700円×1（幼児料金あり）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/shizuoka-ito-izushaboten.jpg",
+    "image": "img/spots/shizuoka-ito-izushaboten.jpg",
     "imageCredit": "📷 Houshimaru / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BC%8A%E8%B1%86%E3%82%B7%E3%83%A3%E3%83%9C%E3%83%86%E3%83%B3%E5%85%AC%E5%9C%92.jpg"
   },
@@ -22993,7 +22993,7 @@
       "note": "大人1,300円×2＋小学生900円×2＋幼児0円×1（幼児は無料と仮定）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/shizuoka-hamamatsu-pal2.jpg",
+    "image": "img/spots/shizuoka-hamamatsu-pal2.jpg",
     "imageCredit": "📷 あばさー / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hamanako_Palpal_01.JPG"
   },
@@ -23072,7 +23072,7 @@
       "holiday": "08:30-17:30"
     },
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/yamanashi-yamanakako-hananomiyakokouen.jpg",
+    "image": "img/spots/yamanashi-yamanakako-hananomiyakokouen.jpg",
     "imageCredit": "📷 funk bass / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%8A%B1%E3%81%AE%E9%83%BD%E5%85%AC%E5%9C%92_-_panoramio.jpg"
   },
@@ -23119,7 +23119,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人1,500円×2＋小学生800円×2＋幼児0円×1（幼児は無料と仮定）"
     },
-    "image": "photo/spots/yamanashi-fujikawaguchiko-kawaguchikomusicforest.jpg",
+    "image": "img/spots/yamanashi-fujikawaguchiko-kawaguchikomusicforest.jpg",
     "imageCredit": "📷 Yamaguchi Yoshiaki / CC BY-SA 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fountain_show_on_the_hour_every_hour,_Kawaguchi-ko_Music_Forest_Museum_(%E6%B2%B3%E5%8F%A3%E6%B9%96%E3%82%AA%E3%83%AB%E3%82%B4%E3%83%BC%E3%83%AB%E3%81%AE%E6%A3%AE%E3%81%A7%E6%AF%8E%E6%AD%A3%E6%99%82%E3%81%AB%E8%A1%8C%E3%82%8F%E3%82%8C%E3%82%8B%E5%99%B4%E6%B0%B4%E3%82%B7%E3%83%A7%E3%83%BC).jpg"
   },
@@ -23257,7 +23257,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人700円×2＋小学生500円×2＋幼児200円×1（幼児料金あり）"
     },
-    "image": "photo/spots/nagano-nagano-city-togakushi-ninja.jpg",
+    "image": "img/spots/nagano-nagano-city-togakushi-ninja.jpg",
     "imageCredit": "📷 photo: Qurren (トーク) Taken with Canon PowerShot G9 X / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Togakushi_Folk_Museum,_Togakushi_Ninja_Museum,_Ninja_Trick_Mansion.jpg"
   },
@@ -23431,7 +23431,7 @@
       }
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/shizuoka-ito-granpal.jpg",
+    "image": "img/spots/shizuoka-ito-granpal.jpg",
     "imageCredit": "📷 inunami / CC BY 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Izu_20190814140557_(49843206497).jpg"
   },
@@ -23644,7 +23644,7 @@
       "※10〜2月は16:00閉園。"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/shizuoka-izu-city-nijinosato.jpg",
+    "image": "img/spots/shizuoka-izu-city-nijinosato.jpg",
     "imageCredit": "📷 Batholith / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nijinosato_20121104_Entrance.jpg"
   },
@@ -23706,7 +23706,7 @@
       "checkedAt": "2026年10月13日"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/shizuoka-izunokuni-panoramapark.jpg",
+    "image": "img/spots/shizuoka-izunokuni-panoramapark.jpg",
     "imageCredit": "📷 Darklanlan / CC BY 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Izunokuni_from_Katsuragiyama_Ropeway_(2006).jpg"
   },
@@ -23772,7 +23772,7 @@
     "closedDays": [
       "年中無休"
     ],
-    "image": "photo/spots/shizuoka-numazu-mitosea.jpg",
+    "image": "img/spots/shizuoka-numazu-mitosea.jpg",
     "imageCredit": "📷 CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BC%8A%E8%B1%86%E3%83%BB%E4%B8%89%E6%B4%A5%E3%82%B7%E3%83%BC%E3%83%91%E3%83%A9%E3%83%80%E3%82%A4%E3%82%B9_%E3%82%B7%E3%83%A7%E3%83%BC_(4).JPG"
   },
@@ -23818,7 +23818,7 @@
       "note": "入場・入園は無料。有料施設（観光リフト往復 大人1000円/小学生100円）も利用する場合は約2,200円"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/shizuoka-ito-itospa.jpg",
+    "image": "img/spots/shizuoka-ito-itospa.jpg",
     "imageCredit": "📷 ger531 / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B0%8F%E5%AE%A4%E5%B1%B1%E3%83%AA%E3%83%95%E3%83%88_-_panoramio.jpg"
   },
@@ -23881,7 +23881,7 @@
       "※10〜3月は16:00閉園。"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/shizuoka-higashiizu-izu-animal-kingdom.jpg",
+    "image": "img/spots/shizuoka-higashiizu-izu-animal-kingdom.jpg",
     "imageCredit": "📷 ユライ さん http://photozou.jp/photo/show/231268/149332262 (フォト蔵) / CC BY-SA 2.1 jp / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BC%8A%E8%B1%86%E3%82%A2%E3%83%8B%E3%83%9E%E3%83%AB%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0_%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%82%BF%E3%82%A4%E3%82%AC%E3%83%BC_2_%E6%98%BC.jpg"
   },
@@ -24095,7 +24095,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人1,000円×2＋小学生500円×2＋幼児0円×1（幼児料金あり）"
     },
-    "image": "photo/spots/shizuoka-kawazu-kawazoo.png",
+    "image": "img/spots/shizuoka-kawazu-kawazoo.png",
     "imageCredit": "📷 Saico tan / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:KawaZOO.png"
   },
@@ -24241,7 +24241,7 @@
       "note": "大人1,000円×2＋小学生500円×2＋幼児0円×1（幼児は無料と仮定）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/shizuoka-ito-omuroyama.jpg",
+    "image": "img/spots/shizuoka-ito-omuroyama.jpg",
     "imageCredit": "📷 Charlie fong / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_%C5%8Cmuro_(Izu_Peninsula)_%26_Mt.Fuji.jpg"
   },
@@ -24396,7 +24396,7 @@
       "※4〜10月の拝観時間。11月以降は16:00まで。受付は閉門30分前。"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/tochigi-nikko-toshogu.jpg",
+    "image": "img/spots/tochigi-nikko-toshogu.jpg",
     "imageCredit": "📷 Jpatokal / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nikko_Toshogu_Yomeimon_Gate_2024.jpg"
   },
@@ -24452,7 +24452,7 @@
         "periodLabel": "現在見頃（10/12時点）・見頃予想：9月下旬〜10月下旬"
       }
     },
-    "image": "photo/spots/tochigi-nikko-senjogahara.jpg",
+    "image": "img/spots/tochigi-nikko-senjogahara.jpg",
     "imageCredit": "📷 赤カメラ / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%88%A6%E5%A0%B4%E3%83%B6%E5%8E%9F%E5%B1%95%E6%9C%9B%E5%8F%B0_-_panoramio_(2).jpg"
   },
@@ -24508,7 +24508,7 @@
         "tentative": true
       }
     },
-    "image": "photo/spots/tochigi-nikko-yutaki-falls.jpg",
+    "image": "img/spots/tochigi-nikko-yutaki-falls.jpg",
     "imageCredit": "📷 くろふね / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B9%AF%E6%BB%9D_-_panoramio_(6).jpg"
   },
@@ -24952,7 +24952,7 @@
       "無休"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/kanagawa-hakone-hakonenavi.jpg",
+    "image": "img/spots/kanagawa-hakone-hakonenavi.jpg",
     "imageCredit": "📷 663highland / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:211126_Hakone-en_Station_Hakone_Japan01s3.jpg"
   },
@@ -25007,7 +25007,7 @@
       "年中無休"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/kanagawa-hakone-owakudani.jpg",
+    "image": "img/spots/kanagawa-hakone-owakudani.jpg",
     "imageCredit": "📷 663highland / CC BY 2.5 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:161223_Owakudani_Hakone_Japan09s3.jpg"
   },
@@ -25059,7 +25059,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人1,200円×2＋小学生650円×2＋幼児500円×1（幼児料金あり）"
     },
-    "image": "photo/spots/shizuoka-atami-atamijyo.jpg",
+    "image": "img/spots/shizuoka-atami-atamijyo.jpg",
     "imageCredit": "📷 Batholith / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Atami_Castle_20120915.jpg"
   },
@@ -25145,7 +25145,7 @@
       "note": "大人2,000円×2＋小学生700円×2＋幼児0円×1（幼児は無料と仮定）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-hakone-hakone-ropeway.jpg",
+    "image": "img/spots/kanagawa-hakone-hakone-ropeway.jpg",
     "imageCredit": "📷 663highland / CC BY 2.5 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:161223_Togendai_Station_Hakone_Japan06s3.jpg"
   },
@@ -25189,7 +25189,7 @@
       "note": "大人1,700円×2＋小学生850円×2＋幼児0円×1（幼児は無料と仮定）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-hakone-hakone-kankosen.jpg",
+    "image": "img/spots/kanagawa-hakone-hakone-kankosen.jpg",
     "imageCredit": "📷 De-Shao Liu (Terry850324) / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%AE%B1%E6%A0%B9%E7%94%BA%E6%B8%AF%E7%9A%84%E6%B5%B7%E8%B3%8A%E8%A7%80%E5%85%89%E8%88%B9_Hakone_Pirate_Ships_at_Hakonemachi_Port_01.jpg"
   },
@@ -25441,7 +25441,7 @@
       "checkedAt": "2026年10月13日"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/shizuoka-atami-ataminews.jpg",
+    "image": "img/spots/shizuoka-atami-ataminews.jpg",
     "imageCredit": "📷 CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%86%B1%E6%B5%B701.JPG"
   },
@@ -25971,7 +25971,7 @@
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/shizuoka-gotemba-gotemba.jpg",
+    "image": "img/spots/shizuoka-gotemba-gotemba.jpg",
     "imageCredit": "📷 myself / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gotemba_premium_outlets1.jpg"
   },
@@ -26702,7 +26702,7 @@
       "※季節により変動あり。12〜3月は不定休。"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/yamanashi-narusawa-contents.jpg",
+    "image": "img/spots/yamanashi-narusawa-contents.jpg",
     "imageCredit": "📷 Osumi Akari / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Icicle_in_Narusawa_Ice_Cave.jpg"
   },
@@ -27091,7 +27091,7 @@
       "※館山城（八犬伝博物館）の時間。入館は16:30まで。"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/chiba-tateyama-tateyamacastle.jpg",
+    "image": "img/spots/chiba-tateyama-tateyamacastle.jpg",
     "imageCredit": "📷 Saigen Jiro / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tateyama_Castle,_tenshu.JPG"
   },
@@ -27133,7 +27133,7 @@
       "note": "大人300円×2＋小学生0円×2＋幼児0円×1（幼児は無料と仮定）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/chiba-minamiboso-mboso-etoko-2.jpg",
+    "image": "img/spots/chiba-minamiboso-mboso-etoko-2.jpg",
     "imageCredit": "📷 日本語版ウィキペディアのガウスさん / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nojimasakitodai0.jpg"
   },
@@ -27372,7 +27372,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/gunma-minakami-michinoeki-yaze.jpg",
+    "image": "img/spots/gunma-minakami-michinoeki-yaze.jpg",
     "imageCredit": "📷 photo: Qurren (トーク) Taken with Canon IXY 430F (Digital IXUS 245 HS) / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tsukiyono_Vidro_Park_factory.jpg"
   },
@@ -27498,7 +27498,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/gunma-minakami-urami-falls.jpg",
+    "image": "img/spots/gunma-minakami-urami-falls.jpg",
     "imageCredit": "📷 fum3670045 / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E8%A3%8F%E8%A6%8B%E3%81%AE%E6%BB%9D_-_panoramio.jpg"
   },
@@ -28203,7 +28203,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/nagano-karuizawa-shiraito-falls.jpg",
+    "image": "img/spots/nagano-karuizawa-shiraito-falls.jpg",
     "imageCredit": "📷 松岡明芳 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:2013-12-02_Shiraito_Falls,_Fujinomiya(%E7%99%BD%E7%B3%B8%E3%81%AE%E6%BB%9D)_DSCF9975.jpg"
   },
@@ -28483,7 +28483,7 @@
       }
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/nagano-karuizawa-kumoba-pond.jpg",
+    "image": "img/spots/nagano-karuizawa-kumoba-pond.jpg",
     "imageCredit": "📷 663highland / CC BY 2.5 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:160729_Kumoba-ike_Karuizawa_Japan05s3.jpg"
   },
@@ -29056,7 +29056,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/ibaraki-kasama-kasama-inari-jinja.jpg",
+    "image": "img/spots/ibaraki-kasama-kasama-inari-jinja.jpg",
     "imageCredit": "📷 Tak1701d / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kasama_Inari_Shrine_05.jpg"
   },
@@ -29099,7 +29099,7 @@
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/ibaraki-tsukuba-tsukubasan-jinja.jpg",
+    "image": "img/spots/ibaraki-tsukuba-tsukubasan-jinja.jpg",
     "imageCredit": "📷 Saigen Jiro / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tsukubasan-jinja_haiden.JPG"
   },
@@ -29197,7 +29197,7 @@
       "毎月最終月曜日（臨時休館の場合あり）",
       "※科学館の時間。最終入館16:30。"
     ],
-    "image": "photo/spots/ibaraki-hitachi-hitachi-civic-center.jpg",
+    "image": "img/spots/ibaraki-hitachi-hitachi-civic-center.jpg",
     "imageCredit": "📷 KΛNΛTΛ / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%97%A5%E7%AB%8B%E3%82%B7%E3%83%93%E3%83%83%E3%82%AF%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC_-_panoramio.jpg"
   },
@@ -29639,7 +29639,7 @@
       "note": "大人850円×2＋小学生350円×2＋幼児350円×1（幼児も子ども料金と仮定）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/tokyo-higashikurume-spadium-japon.jpg",
+    "image": "img/spots/tokyo-higashikurume-spadium-japon.jpg",
     "imageCredit": "📷 Souka Kinmei / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%82%B9%E3%83%91%E3%82%B8%E3%82%A2%E3%83%A0%E3%82%B8%E3%83%A3%E3%83%9D%E3%83%B3.jpg"
   },
@@ -30799,7 +30799,7 @@
       "note": "大人1,958円×2＋小学生650円×2＋幼児650円×1（幼児料金あり）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-yokohama-tsurumi-tsurumi.jpg",
+    "image": "img/spots/kanagawa-yokohama-tsurumi-tsurumi.jpg",
     "imageCredit": "📷 Dandy1022 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:RAKU_SPA_Tsurumi.jpg"
   },
@@ -31285,7 +31285,7 @@
       "※祝日は営業。12〜2月は16:30まで。"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/ibaraki-inashiki-ibaraido.jpg",
+    "image": "img/spots/ibaraki-inashiki-ibaraido.jpg",
     "imageCredit": "📷 こもれび森のイバライド / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%81%93%E3%82%82%E3%82%8C%E3%81%B3%E6%A3%AE%E3%81%AE%E3%82%A4%E3%83%90%E3%83%A9%E3%82%A4%E3%83%89.jpg"
   },
@@ -31829,7 +31829,7 @@
       "12月中旬〜3月中旬は休業"
     ],
     "verifiedAt": "2026年10月13日",
-    "image": "photo/spots/gunma-shimonita-kouzubokujyo.jpg",
+    "image": "img/spots/gunma-shimonita-kouzubokujyo.jpg",
     "imageCredit": "📷 photo: Qurren (トーク) Taken with Canon PowerShot G9 X / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kouzu_Dairy_Farm_survey.jpg"
   },
@@ -32516,7 +32516,7 @@
     },
     "officialUrlStatus": "候補・公式性未確認",
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/chiba-kujukuri-kujukuri-sea-fishing-center.jpg",
+    "image": "img/spots/chiba-kujukuri-kujukuri-sea-fishing-center.jpg",
     "imageCredit": "📷 Mukasora (トーク) / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sardine_Center_exterior_in_2015-07-31.jpg"
   },
@@ -32649,7 +32649,7 @@
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-yokohama-kanazawa-umi-no-park.jpg",
+    "image": "img/spots/kanagawa-yokohama-kanazawa-umi-no-park.jpg",
     "imageCredit": "📷 Quercus acuta / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Uminokoen_01.jpg"
   },
@@ -33001,7 +33001,7 @@
       "officialUrl": "https://yeti-resort.com/"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/shizuoka-susono-yeti-resort.jpg",
+    "image": "img/spots/shizuoka-susono-yeti-resort.jpg",
     "imageCredit": "📷 Ski Mania / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Snowtown_Yeti.JPG"
   },
@@ -33395,7 +33395,7 @@
       "sun": "09:00-19:00",
       "holiday": "09:00-19:00"
     },
-    "image": "photo/spots/tokyo-shinjuku-ichigaya-fc.jpg",
+    "image": "img/spots/tokyo-shinjuku-ichigaya-fc.jpg",
     "imageCredit": "📷 Kentaro Ohno / CC BY 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%B8%82%E3%83%B6%E8%B0%B7%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC_2014_(15332169875).jpg"
   },
@@ -33908,7 +33908,7 @@
       "note": "大人1,800円×2＋小学生1,000円×2＋幼児1,000円×1（幼児もこども料金と仮定）。貸靴は別途"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/tokyo-higashiyamato-iceskate.jpg",
+    "image": "img/spots/tokyo-higashiyamato-iceskate.jpg",
     "imageCredit": "📷 ウィ貴公子 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%9D%B1%E5%A4%A7%E5%92%8C%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%88%E3%82%BB%E3%83%B3%E3%82%BF%E3%83%BC_2024%E5%B9%B48%E6%9C%886%E6%97%A5%E3%81%AE%E6%9D%B1%E4%BA%AC%E9%83%BD_202408061001_IMG_0365.jpg"
   },
@@ -33959,7 +33959,7 @@
       "note": "大人1,300円×2＋小学生800円×2＋幼児800円×1（幼児も子ども料金と仮定）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-yokohama-kanagawa-yokohama-icearena.jpg",
+    "image": "img/spots/kanagawa-yokohama-kanagawa-yokohama-icearena.jpg",
     "imageCredit": "📷 Kaze315 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yokohama_icearena.JPG"
   },
@@ -34114,7 +34114,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/kanagawa-hakone-sengokuhara-susuki-grassland.jpg",
+    "image": "img/spots/kanagawa-hakone-sengokuhara-susuki-grassland.jpg",
     "imageCredit": "📷 Quercus acuta / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hakone_Sengokuhara_05.jpg"
   },
@@ -34237,7 +34237,7 @@
       }
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/tokyo-minato-meijijingugaien.jpg",
+    "image": "img/spots/tokyo-minato-meijijingugaien.jpg",
     "imageCredit": "📷 ウィ貴公子 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%98%8E%E6%B2%BB%E7%A5%9E%E5%AE%AE%E5%A4%96%E8%8B%91%E3%81%84%E3%81%A1%E3%82%87%E3%81%86%E4%B8%A6%E6%9C%A8_2025%E5%B9%B411%E6%9C%8816%E6%97%A5%E3%81%AE%E6%9D%B1%E4%BA%AC_202511161503_IMG_3224.jpg"
   },
@@ -34284,7 +34284,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/chiba-kyonan-ezuki-suisen-road.jpg",
+    "image": "img/spots/chiba-kyonan-ezuki-suisen-road.jpg",
     "imageCredit": "📷 くろふね / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B1%9F%E6%9C%88%E6%B0%B4%E4%BB%99%E3%83%AD%E3%83%BC%E3%83%89_-_panoramio_(1).jpg"
   },
@@ -34347,7 +34347,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
-    "image": "photo/spots/shizuoka-kawazu-kawazuzakura.jpg",
+    "image": "img/spots/shizuoka-kawazu-kawazuzakura.jpg",
     "imageCredit": "📷 9689tatsuya / CC BY 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Shizuoka-early_spring-xl.jpg"
   },
@@ -35179,7 +35179,7 @@
       "note": "大人980円×2＋小学生350円×2＋幼児350円×1（幼児料金あり）"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/kanagawa-yokohama-minami-黒湯天然温泉-みうら湯.jpg",
+    "image": "img/spots/kanagawa-yokohama-minami-黒湯天然温泉-みうら湯.jpg",
     "imageCredit": "📷 Thirteen-fri / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Miurayu2016.JPG"
   },
@@ -37469,7 +37469,7 @@
     "closedDays": [
       "年中無休"
     ],
-    "image": "photo/spots/saitama-ogawa-道の駅おがわまち.jpg",
+    "image": "img/spots/saitama-ogawa-道の駅おがわまち.jpg",
     "imageCredit": "📷 photo: Qurren (トーク) Taken with Canon PowerShot G9 X / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Michinoeki_Ogawamachi_Saitama_Craft_Center_1.jpg"
   },
@@ -37925,7 +37925,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人420円×2＋小学生200円×2＋幼児0円×1（幼児料金あり）"
     },
-    "image": "photo/spots/yamanashi-tsuru-山梨県立リニア見学センター.jpg",
+    "image": "img/spots/yamanashi-tsuru-山梨県立リニア見学センター.jpg",
     "imageCredit": "📷 tataquax from Japan / CC BY-SA 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Maglev_Exhibition_Center_(30725636374).jpg"
   },
@@ -38042,7 +38042,7 @@
     "kidsToilet": true,
     "kidsToiletNote": "スパ棟前の「幸せの黄色いトイレ」に、女性用・男性用ともキッズトイレ1室ずつ（24時間利用可）（公式サイトより）",
     "kidsToiletCheckedAt": "2026年10月14日",
-    "image": "photo/spots/shizuoka-ito-道の駅-伊東マリンタウン.jpg",
+    "image": "img/spots/shizuoka-ito-道の駅-伊東マリンタウン.jpg",
     "imageCredit": "📷 Nyao148 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Michinoeki-Ito-Marinetown-1.JPG"
   },
@@ -38125,7 +38125,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
-    "image": "photo/spots/kanagawa-yokohama-kanazawa-UNIQLO-PARK-横浜ベイサイド店.jpg",
+    "image": "img/spots/kanagawa-yokohama-kanazawa-UNIQLO-PARK-横浜ベイサイド店.jpg",
     "imageCredit": "📷 あばさー / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mitsui_Outlet_Park_Yokohama_Bayside_01.JPG"
   },
@@ -38776,7 +38776,7 @@
         "reason": "改修工事のため休館"
       }
     ],
-    "image": "photo/spots/kanagawa-yokohama-kohoku-綱島公園こどもログハウス.jpg",
+    "image": "img/spots/kanagawa-yokohama-kohoku-綱島公園こどもログハウス.jpg",
     "imageCredit": "📷 珈琲牛乳 / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%B6%B1%E5%B3%B6%E5%85%AC%E5%9C%92_-_panoramio.jpg"
   },
@@ -39045,7 +39045,7 @@
       "sourceUrl": "https://iko-yo.net/facilities/2069",
       "checkedAt": "2026年10月13日"
     },
-    "image": "photo/spots/kanagawa-sagamihara-minami-相模原麻溝公園（ふれあい動物広場）.jpg",
+    "image": "img/spots/kanagawa-sagamihara-minami-相模原麻溝公園（ふれあい動物広場）.jpg",
     "imageCredit": "📷 hasano_jp / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%9B%B8%E6%A8%A1%E5%8E%9F%E5%85%AC%E5%9C%92_-_panoramio_-_hasano_jp_(1).jpg"
   },
@@ -39309,7 +39309,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/kanagawa-chigasaki-道の駅-湘南ちがさき.jpg",
+    "image": "img/spots/kanagawa-chigasaki-道の駅-湘南ちがさき.jpg",
     "imageCredit": "📷 On-neko / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E9%81%93%E3%81%AE%E9%A7%85_%E6%B9%98%E5%8D%97%E3%81%A1%E3%81%8C%E3%81%95%E3%81%8D.jpg"
   },
@@ -39940,7 +39940,7 @@
     "closedDays": [
       "年中無休"
     ],
-    "image": "photo/spots/shizuoka-mishima-mishima-skywalk.jpg",
+    "image": "img/spots/shizuoka-mishima-mishima-skywalk.jpg",
     "imageCredit": "📷 くろふね / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%B8%89%E5%B3%B6%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF_-_panoramio_(2).jpg"
   },
@@ -39996,7 +39996,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/kanagawa-yokohama-tsurumi-bay-bridge-skywalk.jpg",
+    "image": "img/spots/kanagawa-yokohama-tsurumi-bay-bridge-skywalk.jpg",
     "imageCredit": "📷 DeepSkyBlue / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yokohama_Bay_Bridge.jpg"
   },
@@ -40053,7 +40053,7 @@
       "施設点検日",
       "※10月の営業時間。"
     ],
-    "image": "photo/spots/kanagawa-yokohama-naka-honmoku-umizuri.jpg",
+    "image": "img/spots/kanagawa-yokohama-naka-honmoku-umizuri.jpg",
     "imageCredit": "📷 要塞騎士 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yokohama-Honmoku_Fishing_Pier_on_weekends.jpg"
   },
@@ -40096,7 +40096,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人1,300円×2＋小学生250円×2＋幼児0円×1（幼児は無料と仮定）"
     },
-    "image": "photo/spots/kanagawa-yokosuka-sarushima.jpg",
+    "image": "img/spots/kanagawa-yokosuka-sarushima.jpg",
     "imageCredit": "📷 Yamaguchi Yoshiaki from Japan / CC BY-SA 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sarushima_island_%E7%8C%BF%E5%B3%B6_(4570920494).jpg"
   },
@@ -40140,7 +40140,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
-    "image": "photo/spots/kanagawa-yokosuka-umikaze-park.jpg",
+    "image": "img/spots/kanagawa-yokosuka-umikaze-park.jpg",
     "imageCredit": "📷 ☆ブロッコリーマン☆ / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%81%86%E3%81%BF%E3%81%8B%E3%81%9C%E5%85%AC%E5%9C%92%EF%BC%88%E6%A8%AA%E9%A0%88%E8%B3%80%E5%B8%82%EF%BC%89_-_panoramio.jpg"
   },
@@ -40681,7 +40681,7 @@
       "sun": "10:00-18:00",
       "holiday": "10:00-18:00"
     },
-    "image": "photo/spots/tokyo-taito-花やしき.jpg",
+    "image": "img/spots/tokyo-taito-花やしき.jpg",
     "imageCredit": "📷 Aimaimyi / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Asakusa_Hanayashiki_-01.jpg"
   },
@@ -42566,7 +42566,7 @@
       "sun": "10:00-16:00",
       "holiday": "10:00-16:00"
     },
-    "image": "photo/spots/tokyo-machida-町田リス園.jpg",
+    "image": "img/spots/tokyo-machida-町田リス園.jpg",
     "imageCredit": "📷 kaduki / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%94%BA%E7%94%B0%E3%83%AA%E3%82%B9%E5%9C%92%E3%80%81%E3%82%A2%E3%82%AB%E3%83%AA%E3%82%B9_-_panoramio.jpg"
   },
@@ -42772,7 +42772,7 @@
       "sun": "09:30-17:00",
       "holiday": "09:30-17:00"
     },
-    "image": "photo/spots/tokyo-edogawa-kasai.jpg",
+    "image": "img/spots/tokyo-edogawa-kasai.jpg",
     "imageCredit": "📷 Patrick Bolduan from Tokyo, Japan / CC BY-SA 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokyo_See_Life_Park_01.jpg"
   },
@@ -43532,7 +43532,7 @@
       "sourceUrl": "https://tabi-mag.jp/tk0216/",
       "checkedAt": "2026年10月13日"
     },
-    "image": "photo/spots/tokyo-koto-yumenoshima.jpg",
+    "image": "img/spots/tokyo-koto-yumenoshima.jpg",
     "imageCredit": "📷 Wiiii / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yumenoshima_Tropical_Greenhouse_Dome.jpg"
   },
@@ -43727,7 +43727,7 @@
       "sun": "08:30-17:00",
       "holiday": "08:30-17:00"
     },
-    "image": "photo/spots/nagano-matsumoto-国宝-松本城.jpg",
+    "image": "img/spots/nagano-matsumoto-国宝-松本城.jpg",
     "imageCredit": "📷 柑橘類 (talk) / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Matsumoto_Castle_1-1.jpg"
   },
@@ -43797,7 +43797,7 @@
       "note": "料金の記載が不十分で目安を出せません。最新の料金は公式サイトでご確認ください",
       "officialUrl": "https://matsumoto-artmuse.jp/"
     },
-    "image": "photo/spots/nagano-matsumoto-松本市美術館.jpg",
+    "image": "img/spots/nagano-matsumoto-松本市美術館.jpg",
     "imageCredit": "📷 663highland / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:220728_Matsumoto_City_Museum_of_Art_Japan03s3.jpg"
   },
@@ -43868,7 +43868,7 @@
       "sun": "09:00-17:00",
       "holiday": "09:00-17:00"
     },
-    "image": "photo/spots/nagano-matsumoto-松本市立博物館.jpg",
+    "image": "img/spots/nagano-matsumoto-松本市立博物館.jpg",
     "imageCredit": "📷 663highland / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:220728_Matsumoto_City_Museum_Japan01s3.jpg"
   },
@@ -44143,7 +44143,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
-    "image": "photo/spots/gunma-minakami-土合駅.jpg",
+    "image": "img/spots/gunma-minakami-土合駅.jpg",
     "imageCredit": "📷 AMANO Jun-ichi / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Doai_Station_%E4%B8%8A%E8%B6%8A%E7%B7%9A%E5%9C%9F%E5%90%88%E9%A7%85_%E5%9C%B0%E4%B8%8B%E3%83%9B%E3%83%BC%E3%83%A0_-_panoramio.jpg"
   },
@@ -44606,7 +44606,7 @@
       "毎月末日",
       "年末年始（12/28〜1/4）"
     ],
-    "image": "photo/spots/tochigi-shimotsuke-グリムの森（グリムの館）.jpg",
+    "image": "img/spots/tochigi-shimotsuke-グリムの森（グリムの館）.jpg",
     "imageCredit": "📷 Miyuki Meinaka / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Grimm_House,_Grimm_Forest.jpg"
   },
@@ -44750,7 +44750,7 @@
       "sun": "10:00-17:00",
       "holiday": "10:00-17:00"
     },
-    "image": "photo/spots/kanagawa-ebina-romansukaamyuujiamu.jpg",
+    "image": "img/spots/kanagawa-ebina-romansukaamyuujiamu.jpg",
     "imageCredit": "📷 Tokyo-Good / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Romancecar-Museum-SE-NSE-LSE.jpg"
   },
@@ -44819,7 +44819,7 @@
         "periodLabel": "見頃予想：10月下旬〜11月下旬（昇仙峡）"
       }
     },
-    "image": "photo/spots/yamanashi-kofu-昇仙峡ロープウェイ.jpg",
+    "image": "img/spots/yamanashi-kofu-昇仙峡ロープウェイ.jpg",
     "imageCredit": "📷 funk bass / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%98%87%E4%BB%99%E5%B3%A1%E3%83%AD%E3%83%BC%E3%83%97%E3%82%A6%E3%82%A7%E3%82%A4_-_panoramio.jpg"
   },
@@ -44891,7 +44891,7 @@
       "sun": "10:00-16:30",
       "holiday": "10:00-16:30"
     },
-    "image": "photo/spots/kanagawa-yokohama-nishi-京急ミュージアム.jpg",
+    "image": "img/spots/kanagawa-yokohama-nishi-京急ミュージアム.jpg",
     "imageCredit": "📷 NEO-NEED / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Keikyu_Group_Headquarters_03_(KEIKYU_MUSEUM).jpg"
   },
@@ -46050,7 +46050,7 @@
       "無休（1月にメンテナンス休業あり）",
       "※繁忙期は時間が変わる場合があります。"
     ],
-    "image": "photo/spots/shizuoka-numazu-沼津港深海水族館-シーラカンス-ミュージアム.jpg",
+    "image": "img/spots/shizuoka-numazu-沼津港深海水族館-シーラカンス-ミュージアム.jpg",
     "imageCredit": "📷 Kentaro Ohno さん https://www.flickr.com/photos/inucara/ / CC BY 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%B2%BC%E6%B4%A5%E6%B8%AF%E6%B7%B1%E6%B5%B7%E6%B0%B4%E6%97%8F%E9%A4%A8_%E3%82%B7%E3%83%BC%E3%83%A9%E3%82%AB%E3%83%B3%E3%82%B9%E3%83%9F%E3%83%A5%E3%83%BC%E3%82%B8%E3%82%A2%E3%83%A013_%E3%82%B7%E3%83%BC%E3%83%A9%E3%82%AB%E3%83%B3%E3%82%B9.jpg"
   },
@@ -46697,7 +46697,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "image": "photo/spots/yamanashi-narusawa-なるさわ鉱石ミュージアム.jpg",
+    "image": "img/spots/yamanashi-narusawa-なるさわ鉱石ミュージアム.jpg",
     "imageCredit": "📷 Osumi Akari / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Narusawa-Fujisan_Museum.jpg"
   },
@@ -46802,7 +46802,7 @@
       "note": "入場・入園は無料"
     },
     "verifiedAt": "2026年10月14日",
-    "image": "photo/spots/yamanashi-fuefuki-八代ふるさと公園.jpg",
+    "image": "img/spots/yamanashi-fuefuki-八代ふるさと公園.jpg",
     "imageCredit": "📷 Yasu (トーク) / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yatsushiro_Furusato_Park.jpg"
   },
@@ -47435,7 +47435,7 @@
         "tentative": true
       }
     },
-    "image": "photo/spots/shizuoka-hamamatsu-はままつフルーツパーク時之栖.jpg",
+    "image": "img/spots/shizuoka-hamamatsu-はままつフルーツパーク時之栖.jpg",
     "imageCredit": "📷 しゅんしゅん / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hamamatsu_fruit_park01,_2007.jpg"
   },
@@ -48669,7 +48669,7 @@
         "tentative": true
       }
     },
-    "image": "photo/spots/saitama-yoshimi-道の駅-いちごの里よしみ（いちご狩り）.jpg",
+    "image": "img/spots/saitama-yoshimi-道の駅-いちごの里よしみ（いちご狩り）.jpg",
     "imageCredit": "📷 京浜にけ / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Yoshimi_Michinoeki_Strawberry_Village_Yoshimi_1.JPG"
   },
@@ -53851,7 +53851,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人1,500円×2＋小学生750円×2＋幼児0円×1（幼児は無料と仮定）"
     },
-    "image": "photo/spots/shizuoka-nishiizu-dogashima-cave-cruise.jpg",
+    "image": "img/spots/shizuoka-nishiizu-dogashima-cave-cruise.jpg",
     "imageCredit": "📷 fujitariuji / CC BY 2.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tensodo_2008-09-15.jpg"
   },
@@ -54219,7 +54219,7 @@
       "sun": "09:00-16:30",
       "holiday": "09:00-16:30"
     },
-    "image": "photo/spots/saitama-ranzan-ranzan-shiseki-museum.jpg",
+    "image": "img/spots/saitama-ranzan-ranzan-shiseki-museum.jpg",
     "imageCredit": "📷 Tak1701d / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Historical_Museum_of_Ranzan_01.JPG"
   },
@@ -54326,7 +54326,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
-    "image": "photo/spots/kanagawa-zushi-zushi-beach.jpg",
+    "image": "img/spots/kanagawa-zushi-zushi-beach.jpg",
     "imageCredit": "📷 Zushi-Wiki / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%AA%E9%99%BD%E3%81%AE%E5%A1%94%E3%81%A8%E9%80%97%E5%AD%90%E6%B5%B7%E5%B2%B8.jpg"
   },
@@ -54381,7 +54381,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
     },
-    "image": "photo/spots/kanagawa-hayama-morito-beach.jpg",
+    "image": "img/spots/kanagawa-hayama-morito-beach.jpg",
     "imageCredit": "📷 ohkubo / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E6%A3%AE%E6%88%B8%E6%B5%B7%E6%B0%B4%E6%B5%B4%E5%A0%B4%E3%81%8B%E3%82%89%E3%81%AE%E5%A4%95%E6%97%A5_-_panoramio.jpg"
   },
