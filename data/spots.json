@@ -57915,5 +57915,1042 @@
       "児童センターの授乳・おむつ替えの利用条件は要確認",
       "公式URLは品川区トップ（個別ページ未確認）"
     ]
+  },
+  {
+    "region": "神奈川",
+    "name": "自然館泉",
+    "slug": "kanagawa/yokohama-izumi/shizenkan-izumi",
+    "area": "横浜市泉区下飯田町",
+    "lat": 35.409062,
+    "lng": 139.478813,
+    "address": "神奈川県横浜市泉区下飯田町1734",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "3株コース 2,400円〜（じゃらん掲載）",
+    "parking": "yes",
+    "access": "相鉄いずみ野線「ゆめが丘」駅から徒歩約10分、横浜市営地下鉄「下飯田」駅から徒歩約12分（じゃらん掲載）",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）",
+    "lunch": "要確認",
+    "officialUrl": "https://www.shizenkanizumi.jp/",
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000212008/activity/l00004EEFA/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年9月12日〜11月30日（じゃらん掲載）",
+    "closedDays": null,
+    "verifiedAt": "2026年10月25日",
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 60
+    },
+    "desc": "横浜市泉区の農園で楽しむさつまいも掘り。1歳以上が対象で、掘ったお芋は全部持ち帰れる。何名で掘ってもOK。直売所で受付をしてから、約100m先の畑へ移動して掘る。",
+    "tip": "雨天は中止（小雨なら決行）。草や虫対策に長袖・長ズボン、軍手、長靴、持ち帰り用の袋があると安心。",
+    "needsReview": [
+      "座標はGoogleマップのPlus Code（ユーザー確認）から換算した値",
+      "駐車場の台数は未確認（じゃらんは「あり」とのみ記載）",
+      "住所：じゃらんの集合場所は下飯田町1734（直売所）、公式サイトの収穫体験欄は下飯田町1761の表記。畑の位置を確認して統一する",
+      "公式サイトURL（https://www.shizenkanizumi.jp）は確認済みだが未登録"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000212008/activity/l00004EEFA/"
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "体験型農園 みんなの田舎",
+    "slug": "saitama/konosu/minna-no-inaka",
+    "area": "鴻巣市新井",
+    "lat": 36.0981418,
+    "lng": 139.5344631,
+    "address": "埼玉県鴻巣市新井437",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "1組5,000円〜（掲載プラン情報）",
+    "parking": "unknown",
+    "access": "JR鴻巣駅東口から「フラワー号」で「共和小学校前」下車、徒歩約5〜7分",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）",
+    "lunch": "要確認",
+    "officialUrl": "http://www.minnanoinaka.com",
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000198219/activity/l00006FF65/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年10月17日〜11月14日（掲載プラン情報）。お店（受付）は水・土・日曜の10:00〜16:00",
+    "closedDays": "水・土・日曜以外はお店が閉まっている（年末年始とお盆は休み）",
+    "verifiedAt": "2026年10月25日",
+    "stayTime": {
+      "minMinutes": 180,
+      "maxMinutes": 180
+    },
+    "desc": "空き家と畑を開放した体験型農園で、さつまいも掘りなどの収穫体験ができる。BBQ場や、そば打ち・流しそうめんなどのイベントもある。",
+    "tip": "お店（受付）は毎週水・土・日曜の10〜16時のみ開いている。中学生以下は保護者の見守りが必要。",
+    "needsReview": [
+      "座標は鴻巣市ポータル（kounosu-portal.jp）の掲載値。Googleマップ等での目視確認が望ましい",
+      "対象年齢は未確認",
+      "駐車場は未確認",
+      "料金は「1組5,000円〜」（掲載プラン情報）。人数・内容の条件は要確認",
+      "体験プランの開催日と、お店の営業日（水・土・日）の関係は要確認"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000198219/activity/l00006FF65/"
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "菜園倶楽部",
+    "slug": "saitama/ageo/saien-club",
+    "area": "上尾市菅谷",
+    "lat": 35.997188,
+    "lng": 139.595938,
+    "address": "埼玉県上尾市菅谷",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "3株1,200円（掲載プラン情報）",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）",
+    "lunch": "要確認",
+    "officialUrl": null,
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000221796/activity/l00005BDD9/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年11月3日まで（掲載プラン情報）",
+    "closedDays": null,
+    "verifiedAt": "2026年10月25日",
+    "stayTime": {
+      "minMinutes": 30,
+      "maxMinutes": 30
+    },
+    "desc": "上尾市菅谷にある農園のさつまいも掘り。体験時間は約30分。",
+    "tip": "予約プランの内容と集合場所は、予約前にじゃらんのページで確認を。",
+    "needsReview": [
+      "座標はGoogleマップのPlus Code（ユーザー確認）から換算した値",
+      "番地未確認（上尾市菅谷まで）",
+      "対象年齢・駐車場は未確認",
+      "施設住所と体験場所の一致は未確認"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000221796/activity/l00005BDD9/"
+    }
+  },
+  {
+    "region": "神奈川",
+    "name": "川戸農園",
+    "slug": "kanagawa/yokohama-totsuka/kawato-nouen",
+    "area": "横浜市戸塚区東俣野町",
+    "lat": 35.367312,
+    "lng": 139.492812,
+    "address": "神奈川県横浜市戸塚区東俣野町838-2",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "3株コース 2,500円（公式サイト掲載）",
+    "parking": "yes",
+    "access": "横浜新道戸塚料金所から車で約20分（公式サイト）",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）",
+    "lunch": "要確認",
+    "officialUrl": "https://kawato-nouen.com/",
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000214171/activity/l00005ADDE/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年9月26日〜11月30日（掲載プラン情報）。公式サイトでは11月29日までの案内あり",
+    "closedDays": null,
+    "verifiedAt": "2026年10月25日",
+    "stayTime": {
+      "minMinutes": 30,
+      "maxMinutes": 30
+    },
+    "desc": "横浜市戸塚区の農園で、最大7品種から選べるさつまいも掘りができる。掘ったお芋は全て持ち帰れる。ブルーベリー狩りやにんにく収穫体験も行っている。",
+    "tip": "雨は警報級の大雨を除き小雨なら開催の案内。最新の予約状況は公式サイト・Instagramで確認を。",
+    "needsReview": [
+      "座標はGoogleマップのPlus Code（ユーザー確認）から換算した値",
+      "終了日がじゃらん（11/30）と公式サイト（11/29）で異なる",
+      "駐車場の詳細は未確認",
+      "対象年齢は未確認"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000214171/activity/l00005ADDE/"
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "平野観光農園",
+    "slug": "saitama/ageo/hirano-kanko-nouen",
+    "area": "上尾市菅谷",
+    "lat": 35.9979925,
+    "lng": 139.5902445,
+    "address": "埼玉県上尾市菅谷308",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "1kg 400円〜（掲載プラン情報）",
+    "parking": "yes",
+    "access": "JR北上尾駅から車で約7分（じゃらん掲載）",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）",
+    "lunch": "要確認",
+    "officialUrl": null,
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000206873/activity/l000030DE9/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年10月18日〜11月15日（掲載プラン情報）",
+    "closedDays": null,
+    "verifiedAt": "2026年10月25日",
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 60
+    },
+    "desc": "上尾市の観光農園。秋はさつまいも掘りやキウイ狩りができ、収穫した分を量り売りで購入する。",
+    "tip": "収穫量に応じた量り売りなので、持ち帰り用の袋を用意しておくと便利。",
+    "needsReview": [
+      "座標はMapFanの掲載値。Googleマップ等での目視確認が望ましい",
+      "対象年齢は未確認",
+      "同一住所の直売所情報と営業時間（10:00〜16:00／じゃらん10:00〜14:00）が掲載元で異なる"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000206873/activity/l000030DE9/"
+    }
+  },
+  {
+    "region": "千葉",
+    "name": "ふぁいんファーム",
+    "slug": "chiba/chiba-midori/fine-farm",
+    "area": "千葉市緑区大膳野町",
+    "lat": 35.5413818,
+    "lng": 140.2004298,
+    "address": "千葉県千葉市緑区大膳野町4-126",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "1株500円、3株以上（掲載プラン情報）",
+    "parking": "yes",
+    "access": "JR外房線「誉田」駅から徒歩約20〜25分、「鎌取」駅からバス（千葉市つくたべ掲載）",
+    "baby": "多目的トイレ、キッチンやケトルが用意された授乳室あり（千葉市つくたべ掲載・2025年）",
+    "lunch": "要確認",
+    "officialUrl": "https://www.finefarm.co.jp/",
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000219716/activity/l000070735/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年9月20日〜11月30日（掲載プラン情報）",
+    "closedDays": null,
+    "verifiedAt": "2026年10月25日",
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 60
+    },
+    "desc": "千葉市緑区の観光農園で、さつまいも掘りが体験できる。いちご狩りやブルーベリー狩りも行っている。",
+    "tip": "車で行くときは、カーナビの目的地を「緑区大膳野町4-334」に設定する（公式サイトの案内）。",
+    "needsReview": [
+      "座標はenjoytokyo・食べログの掲載値。Googleマップ等での目視確認が望ましい",
+      "対象年齢は未確認",
+      "駐車場台数が掲載元で異なる（30台／20台程度）",
+      "授乳室・多目的トイレの有無は2025年の千葉市つくたべ掲載による。今年の状況は要確認"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000219716/activity/l000070735/"
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "大澤農園",
+    "slug": "saitama/sakado/osawa-nouen",
+    "area": "坂戸市戸宮",
+    "lat": null,
+    "lng": null,
+    "address": "埼玉県坂戸市戸宮43-6 西側圃場",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "予約料200円＋収穫物代（掲載プラン情報）",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）",
+    "lunch": "要確認",
+    "officialUrl": null,
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000218237/activity/l00004A19D/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年9月20日〜10月18日（掲載プラン情報）。今季の掲載期間は終了",
+    "closedDays": null,
+    "verifiedAt": "2026年10月25日",
+    "stayTime": {
+      "minMinutes": 90,
+      "maxMinutes": 90
+    },
+    "desc": "坂戸市の農園で、さつまいも・里芋の収穫体験ができる。予約料に加えて、収穫した分の代金がかかる。",
+    "tip": "体験場所は「西側圃場」。集合場所は予約前にじゃらんで確認を。",
+    "needsReview": [
+      "座標は未確認のため、住所で地図を表示している",
+      "今季の掲載期間（〜10/18）は終了済み。来季の開催情報を確認して更新する",
+      "対象年齢・駐車場は未確認",
+      "施設住所と体験場所（西側圃場）の一致は要確認"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000218237/activity/l00004A19D/"
+    }
+  },
+  {
+    "region": "千葉",
+    "name": "JAL Agriport",
+    "slug": "chiba/narita/jal-agriport",
+    "area": "成田市川上",
+    "lat": 35.792118,
+    "lng": 140.404941,
+    "address": "千葉県成田市川上245-1002",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "100gあたり90円＋入場料（掲載プラン情報）",
+    "parking": "yes",
+    "access": "成田空港から車で約10分、東関道成田ICから約15分（ちば観光ナビ）",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）／車椅子・ベビーカーOKの案内あり（千葉県観光サイト）",
+    "lunch": "要確認",
+    "officialUrl": "https://jalagriport.com/",
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000208157/activity/l000066422/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年10月10日〜11月1日（掲載プラン情報）",
+    "closedDays": null,
+    "verifiedAt": "2026年10月25日",
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 60
+    },
+    "desc": "成田空港から車で約10分の場所にあるJALグループの農園。さつまいも掘りのほか、季節ごとのいちご狩りやブルーベリー狩りもできる。古民家風レストランも併設。",
+    "tip": "駐車場は無料で農園に25台（大型バスも可）。成田空港の行き帰りに立ち寄る使い方もできる。",
+    "needsReview": [
+      "座標はちば観光ナビ（Tripadvisorとも約30m差）の掲載値。Googleマップ等での目視確認が望ましい",
+      "入場料の金額は未確認",
+      "対象年齢は未確認",
+      "じゃらんの旧プランに別のプラン（ブルーベリー狩り）があり、予約URLはさつまいも掘りプランで合っているか目視確認"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000208157/activity/l000066422/"
+    }
+  },
+  {
+    "region": "東京",
+    "name": "東京地球農園",
+    "slug": "tokyo/akiruno/tokyo-chikyu-nouen",
+    "area": "あきる野市引田",
+    "lat": 35.729063,
+    "lng": 139.273188,
+    "address": "東京都あきる野市引田301-2",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "2,000円〜（掲載プラン情報）",
+    "parking": "unknown",
+    "access": "JR五日市線「武蔵引田」駅から徒歩約5〜6分",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）",
+    "lunch": "要確認",
+    "officialUrl": "https://www.taiyonoie-vc.com/terrafarm/",
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000206994/activity/l00004D493/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "さつまいも掘り：2026年10月11日〜11月30日（掲載プラン情報）",
+    "closedDays": null,
+    "verifiedAt": "2026年10月25日",
+    "desc": "あきる野市の約3,600坪の畑で、さつまいも掘りや栗拾いなどの収穫体験ができる。山並みを望む畑で、ヤギやニワトリがいる。",
+    "tip": "車で行く場合、カーナビでは正確に案内されないことがあるので、Googleマップで「地球農園」と検索して向かう（じゃらん・公式サイトの案内）。",
+    "needsReview": [
+      "座標はGoogleマップのPlus Code（ユーザー確認）から換算した値",
+      "栗拾いの開催時期・料金は未確認",
+      "対象年齢・駐車場の詳細は未確認（ロケ地情報では駐車20台可）",
+      "所要時間は未確認"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000206994/activity/l00004D493/"
+    }
+  },
+  {
+    "region": "神奈川",
+    "name": "ワイワイ栗園",
+    "slug": "kanagawa/atsugi/waiwai-kurien",
+    "area": "厚木市山際",
+    "lat": 35.505563,
+    "lng": 139.347063,
+    "address": "神奈川県厚木市山際432-3",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "1kgまで800円（掲載プラン情報）",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）",
+    "lunch": "要確認",
+    "officialUrl": null,
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000221173/activity/l00004A212/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年9月17日〜10月11日（掲載プラン情報）。今季の掲載期間は終了",
+    "closedDays": null,
+    "verifiedAt": "2026年10月25日",
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 60
+    },
+    "desc": "厚木市の栗園で楽しむ栗拾い。料金は1kgまで800円（掲載プラン情報）。",
+    "tip": "栗拾いの時期は短いので、来季は開園前に最新の日程を確認して予約を。",
+    "needsReview": [
+      "座標はGoogleマップのPlus Code（ユーザー確認）から換算した値",
+      "今季の掲載期間（〜10/11）は終了済み。来季の開催情報を確認して更新する",
+      "対象年齢・駐車場は未確認"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000221173/activity/l00004A212/"
+    }
+  },
+  {
+    "region": "千葉",
+    "name": "野田みかん園",
+    "slug": "chiba/noda/noda-mikan-en",
+    "area": "野田市吉春",
+    "lat": 35.984063,
+    "lng": 139.852188,
+    "address": "千葉県野田市吉春1291",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "要確認",
+    "parking": "yes",
+    "access": "要確認",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）",
+    "lunch": "要確認",
+    "officialUrl": null,
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000223716/activity/l000067655/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年9月13日〜10月31日（掲載プラン情報）",
+    "closedDays": null,
+    "verifiedAt": "2026年10月25日",
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 60
+    },
+    "desc": "野田市の園で楽しむ栗拾い。駐車場は約15台。",
+    "tip": "栗拾いの掲載期間は10月末まで。早めの予約がおすすめ。",
+    "needsReview": [
+      "座標はGoogleマップのPlus Code（ユーザー確認）から換算した値",
+      "園名は「みかん園」だが体験は栗拾い。体験内容と園の実態を要確認",
+      "料金・対象年齢は未確認"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000223716/activity/l000067655/"
+    }
+  },
+  {
+    "region": "群馬",
+    "name": "金井農園",
+    "slug": "gunma/nakanojo/kanai-nouen",
+    "area": "吾妻郡中之条町折田",
+    "lat": 36.600563,
+    "lng": 138.802313,
+    "address": "群馬県吾妻郡中之条町折田1192",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "りんご持ち帰り1kg 600円（掲載プラン情報）",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）",
+    "lunch": "要確認",
+    "officialUrl": null,
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000183170/activity/l0000665B6/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年11月9日まで（掲載プラン情報）",
+    "closedDays": null,
+    "verifiedAt": "2026年10月25日",
+    "stayTime": {
+      "minMinutes": 45,
+      "maxMinutes": 45
+    },
+    "desc": "中之条町の農園で楽しむりんご狩り。0歳から参加できる。収穫したりんごは1kg 600円で持ち帰る。",
+    "tip": "りんご狩りは11月上旬まで。園内で食べる分と持ち帰り分の料金を、予約前に確認しておくと安心。",
+    "needsReview": [
+      "座標はGoogleマップのPlus Code（ユーザー確認）から換算した値",
+      "入園料・食べ放題の有無は未確認",
+      "駐車場は未確認"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000183170/activity/l0000665B6/"
+    }
+  },
+  {
+    "region": "群馬",
+    "name": "染谷りんご園",
+    "slug": "gunma/numata/someya-ringoen",
+    "area": "沼田市久屋原町",
+    "lat": 36.662312,
+    "lng": 139.089938,
+    "address": "群馬県沼田市久屋原町69-1",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "要確認",
+    "parking": "yes",
+    "access": "要確認",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）",
+    "lunch": "要確認",
+    "officialUrl": null,
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000191741/activity/l00004FA5D/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年9月19日〜11月15日（掲載プラン情報）",
+    "closedDays": null,
+    "verifiedAt": "2026年10月25日",
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 60
+    },
+    "desc": "沼田市のりんご園で、りんご狩りができる。駐車場は普通車12台。",
+    "tip": "駐車場は12台と少なめなので、混み合う日は早めの到着がおすすめ。",
+    "needsReview": [
+      "座標はGoogleマップのPlus Code（ユーザー確認）から換算した値",
+      "料金・対象年齢は未確認"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000191741/activity/l00004FA5D/"
+    }
+  },
+  {
+    "region": "茨城",
+    "name": "しいなりんご園",
+    "slug": "ibaraki/daigo/shiina-ringoen",
+    "area": "久慈郡大子町川山",
+    "lat": 36.803312,
+    "lng": 140.368563,
+    "address": "茨城県久慈郡大子町川山897",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "大人800円〜（掲載プラン情報）",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）",
+    "lunch": "要確認",
+    "officialUrl": null,
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000201286/activity/l00006892D/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年10月（掲載プラン情報）",
+    "closedDays": null,
+    "verifiedAt": "2026年10月25日",
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 60
+    },
+    "desc": "大子町のりんご園で楽しむりんご狩り。",
+    "tip": "掲載期間が10月のみなので、日程は予約前にじゃらんで確認を。",
+    "needsReview": [
+      "座標はGoogleマップのPlus Code（ユーザー確認）から換算した値",
+      "子どもの料金・対象年齢は未確認",
+      "駐車場は未確認"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000201286/activity/l00006892D/"
+    }
+  },
+  {
+    "region": "群馬",
+    "name": "上野村きのこセンター",
+    "slug": "gunma/ueno-village/kinoko-center",
+    "area": "多野郡上野村川和",
+    "lat": 36.080062,
+    "lng": 138.760437,
+    "address": "群馬県多野郡上野村川和899",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "春",
+      "秋"
+    ],
+    "price": "大人（中学生以上）1,000円、4歳〜小学生500円、3歳以下無料（しいたけ約500g付／じゃらん掲載）",
+    "parking": "unknown",
+    "access": "関越道「本庄児玉IC」から国道462号経由、または上信越道「下仁田IC」から国道254号・県道45号経由（じゃらん掲載）",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）",
+    "lunch": "要確認",
+    "officialUrl": null,
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000228572/activity/l00007040C/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年は10月11日・12日のみ（じゃらん掲載）。次回は2027年3月予定",
+    "closedDays": null,
+    "verifiedAt": "2026年10月25日",
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 60
+    },
+    "desc": "約15分のミニ工場ツアーの後、しいたけ狩りができる。収穫は屋内なので雨の日も安心。収穫したしいたけは約500gを持ち帰れる。",
+    "tip": "2026年のしいたけ狩りは10月11・12日で終了。次回は2027年3月予定なので、開催日が出たら予約を。",
+    "needsReview": [
+      "座標はGoogleマップのPlus Code（ユーザー確認）から換算した値",
+      "2026年の開催は終了済み。2027年の日程が出たら更新する",
+      "駐車場は未確認"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000228572/activity/l00007040C/"
+    }
+  },
+  {
+    "region": "千葉",
+    "name": "ホップファーム",
+    "slug": "chiba/funabashi/hop-farm",
+    "area": "船橋市上山町",
+    "lat": null,
+    "lng": null,
+    "address": "千葉県船橋市上山町2丁目364-5",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "1人2,500円（掲載プラン情報）",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）",
+    "lunch": "要確認",
+    "officialUrl": null,
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000230998/activity/l00006D91A/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年10月31日まで（掲載プラン情報）",
+    "closedDays": null,
+    "verifiedAt": "2026年10月25日",
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 60
+    },
+    "desc": "船橋市のホップファームで楽しむしいたけ狩り。全年齢が対象。",
+    "tip": "掲載期間は10月末まで。予約前に、料金が子どもも同額かどうかを確認しておくと安心。",
+    "needsReview": [
+      "座標は未確認のため、住所で地図を表示している",
+      "子どもの料金・駐車場は未確認"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000230998/activity/l00006D91A/"
+    }
+  },
+  {
+    "region": "神奈川",
+    "name": "長澤マルユみかん園",
+    "slug": "kanagawa/miura/nagasawa-maruyu-mikanen",
+    "area": "三浦市初声町和田",
+    "lat": 35.1975545,
+    "lng": 139.6270093,
+    "address": "神奈川県三浦市初声町和田2771",
+    "genre": "果物狩り・収穫体験",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "秋"
+    ],
+    "price": "小学生以上1,200円、3歳以上900円（じゃらん掲載）",
+    "parking": "yes",
+    "access": "三浦縦貫道路「林」入口から三崎口方面へ。セブンイレブンの真裏が駐車場（公式サイト）",
+    "baby": "授乳室・おむつ替えは公式情報なし（未確認）",
+    "lunch": "要確認",
+    "officialUrl": "https://www.nagasawamaruyu-mikan.com/",
+    "bookingLinks": {
+      "jalan": "https://www.jalan.net/kankou/spt_guide000000211449/activity/l0000707D9/"
+    },
+    "bookingNote": "じゃらん遊び・体験で予約可（体験プランのページに直接リンク）。",
+    "businessHoursNote": "2026年10月24日〜11月29日（掲載プラン情報）。公式サイトではみかん狩りは土・日・祝日のみ開園の案内",
+    "closedDays": "平日（みかん狩りは土・日・祝日のみ。雨天休業）",
+    "verifiedAt": "2026年10月25日",
+    "desc": "三浦半島のみかん園で、時間無制限の食べ放題のみかん狩りができる。園内は平坦で、駐車場は15台以上。",
+    "tip": "みかん狩りは土・日・祝日のみ開園で、雨天は休業の案内。3歳未満の料金は予約プランで確認を。",
+    "needsReview": [
+      "座標はenjoytokyo・aumo・食べログの掲載値。Googleマップ等での目視確認が望ましい",
+      "3歳未満の扱いは要確認（過去のプランでは2歳以下無料）",
+      "みかん狩りの開園日（土・日・祝日のみ）と予約プランの日程が合うか確認"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、予約サイト（じゃらん）で料金をご確認ください",
+      "confirmVia": "booking",
+      "confirmUrl": "https://www.jalan.net/kankou/spt_guide000000211449/activity/l0000707D9/"
+    }
   }
 ]
