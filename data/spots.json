@@ -19007,7 +19007,7 @@
     "image": "img/spots/saitama-tokorozawa-seibu-leisure.jpg",
     "imageCredit": "📷 Ski Mania / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Prince_Snow_Resort_Sayama.JPG",
-    "genre": "アスレチック・アウトドア"
+    "genre": "雪遊び・スケート"
   },
   {
     "region": "千葉",
@@ -29227,7 +29227,7 @@
       "officialUrl": "https://www.932-onsen.com/green/"
     },
     "officialUrlStatus": "ウォーカープラスの公式サイト欄に記載（未直接確認）",
-    "genre": "アスレチック・アウトドア"
+    "genre": "雪遊び・スケート"
   },
   {
     "region": "群馬",
@@ -34183,7 +34183,7 @@
     "address": "群馬県沼田市玉原高原",
     "lat": 36.7795,
     "lng": 139.0745,
-    "genre": "アスレチック・アウトドア",
+    "genre": "雪遊び・スケート",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -34236,7 +34236,7 @@
     "address": "群馬県吾妻郡長野原町北軽井沢2032-16",
     "lat": 36.423063,
     "lng": 138.627063,
-    "genre": "アスレチック・アウトドア",
+    "genre": "雪遊び・スケート",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -34297,7 +34297,7 @@
     "address": "長野県上水内郡信濃町野尻3807",
     "lat": 36.826,
     "lng": 138.161,
-    "genre": "アスレチック・アウトドア",
+    "genre": "雪遊び・スケート",
     "overnightRecommended": true,
     "hotelArea": "kurohime",
     "ages": [
@@ -34364,7 +34364,7 @@
     "address": "長野県北安曇郡小谷村千国乙12860-1",
     "lat": 36.7778,
     "lng": 137.8861,
-    "genre": "アスレチック・アウトドア",
+    "genre": "雪遊び・スケート",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -34425,7 +34425,7 @@
     "area": "裾野市（富士山2合目）",
     "lat": 35.30112,
     "lng": 138.77218,
-    "genre": "アスレチック・アウトドア",
+    "genre": "雪遊び・スケート",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -35339,7 +35339,7 @@
     "area": "東大和市桜が丘",
     "lat": 35.752,
     "lng": 139.426,
-    "genre": "室内遊び場",
+    "genre": "雪遊び・スケート",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -35392,7 +35392,7 @@
     "area": "横浜市神奈川区広台太田町",
     "lat": 35.4757,
     "lng": 139.6302,
-    "genre": "室内遊び場",
+    "genre": "雪遊び・スケート",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -60109,5 +60109,1099 @@
     "parkingDetail": "無料駐車場あり（約500台）",
     "businessHoursNote": "日帰り温泉 9:30〜22:00（最終入館21:00）。宿泊者は9:30〜23:00",
     "priceCheckedAt": "2026年10月28日"
+  },
+  {
+    "region": "長野",
+    "name": "佐久スキーガーデン パラダ",
+    "slug": "nagano/saku/saku-ski-garden-parada",
+    "area": "佐久市",
+    "lat": 36.294187,
+    "lng": 138.510312,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。そり・チュービング・屋内キッズ施設。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（7GV6+M4）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.saku-parada.jp/ski/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://www.saku-parada.jp/ski/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）"
+  },
+  {
+    "region": "長野",
+    "name": "池の平スノーパーク",
+    "slug": "nagano/tateshina/ikenotaira-snowpark",
+    "area": "北佐久郡立科町",
+    "lat": 36.109187,
+    "lng": 138.244687,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。そり・スノーエスカレーター・ふわふわ遊具。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（465V+MV）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.shirakabaresort.jp/snowpark/snowland/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://www.shirakabaresort.jp/snowpark/snowland/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/item/ticket/ticket0000046896/"
+    }
+  },
+  {
+    "region": "長野",
+    "name": "軽井沢プリンスホテルスキー場",
+    "slug": "nagano/karuizawa/karuizawa-prince-ski",
+    "area": "北佐久郡軽井沢町",
+    "lat": 36.340562,
+    "lng": 138.643687,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。そり・チュービング。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（8JRV+6F）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.princehotels.co.jp/ski/karuizawa/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://www.princehotels.co.jp/ski/karuizawa/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）"
+  },
+  {
+    "region": "長野",
+    "name": "富士見パノラマリゾート",
+    "slug": "nagano/fujimi/fujimi-panorama",
+    "area": "諏訪郡富士見町",
+    "lat": 35.910687,
+    "lng": 138.206938,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。キッズパーク・そり。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（W664+7Q）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.fujimipanorama.com/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://www.fujimipanorama.com/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）"
+  },
+  {
+    "region": "長野",
+    "name": "八千穂高原スキー場",
+    "slug": "nagano/sakuho/yachiho-kogen-ski",
+    "area": "南佐久郡佐久穂町",
+    "lat": 36.069812,
+    "lng": 138.380813,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。ジュニアランド・雪遊び。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（399J+W8）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://yachiho-kogen.com/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://yachiho-kogen.com/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）"
+  },
+  {
+    "region": "長野",
+    "name": "菅平高原スノーリゾート",
+    "slug": "nagano/ueda/sugadaira-snowresort",
+    "area": "上田市菅平高原",
+    "lat": 36.531687,
+    "lng": 138.330063,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。スマイルパーク・キッズ向け雪遊び。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（G8JJ+M2）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://sugadaira-snowresort.com/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://sugadaira-snowresort.com/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）"
+  },
+  {
+    "region": "群馬",
+    "name": "水上高原スキーリゾート",
+    "slug": "gunma/minakami/minakami-kogen-ski",
+    "area": "利根郡みなかみ町",
+    "lat": 36.855438,
+    "lng": 139.076563,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。キンダーガーテン・スノーパレット・チュービング。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（V34G+5J）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.minakami-ski.jp/kids_family/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://www.minakami-ski.jp/kids_family/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）"
+  },
+  {
+    "region": "群馬",
+    "name": "ノルンみなかみスキー場",
+    "slug": "gunma/minakami/norn-minakami",
+    "area": "利根郡みなかみ町",
+    "lat": 36.743312,
+    "lng": 138.942188,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。スノーランド・そり・チュービング。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（PWVR+8V）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.norn.co.jp/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://www.norn.co.jp/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）"
+  },
+  {
+    "region": "山梨",
+    "name": "ふじてんスノーリゾート",
+    "slug": "yamanashi/narusawa/fujiten",
+    "area": "南都留郡鳴沢村",
+    "lat": 35.442062,
+    "lng": 138.687938,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。ちびっこ愛ランド・そり。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（CMRQ+R5）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.fujiten.net/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://www.fujiten.net/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）"
+  },
+  {
+    "region": "栃木",
+    "name": "ハンターマウンテン塩原",
+    "slug": "tochigi/nasushiobara/hunter-mountain-shiobara",
+    "area": "那須塩原市",
+    "lat": 36.938187,
+    "lng": 139.753938,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。キッズパーク・そり。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（WQQ3+7H）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.hunter.co.jp/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://www.hunter.co.jp/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/item/ticket/ticket0000044170/"
+    }
+  },
+  {
+    "region": "栃木",
+    "name": "湯西川水の郷スノーパーク",
+    "slug": "tochigi/nikko/yunishigawa-mizunosato-snowpark",
+    "area": "日光市湯西川",
+    "lat": 36.966438,
+    "lng": 139.611562,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "温泉・物産・食事処がある日光市の「湯西川水の郷」の施設内で、冬季に開催されるスノーパーク。そり・雪遊び・温泉（湯西川水の郷の施設内で開催される冬季のスノーパーク）。開催期間・内容は年によって変わるので事前に確認が必要。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "提供URLは日光市観光協会サイトのトップで施設の公式サイトではないため、officialUrlは未設定。開催有無・期間は湯西川水の郷の案内で要確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（XJ86+HJ）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください"
+    },
+    "verifiedAt": "2026年10月29日"
+  },
+  {
+    "region": "栃木",
+    "name": "エーデルワイススキーリゾート",
+    "slug": "tochigi/nikko/edelweiss-ski-resort",
+    "area": "日光市川治温泉高原鶏頂山",
+    "lat": 36.925062,
+    "lng": 139.748938,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。キッズパーク・雪遊び。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（WPGX+2H）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://edelsnow.com/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://edelsnow.com/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）"
+  },
+  {
+    "region": "福島",
+    "name": "沼尻スキー場",
+    "slug": "fukushima/inawashiro/numajiri-ski",
+    "area": "耶麻郡猪苗代町",
+    "lat": 37.622563,
+    "lng": 140.227937,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。どんぐり広場・そり・キッズ向け設備。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（J6FH+25）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.numajiri-ski.jp/kids/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://www.numajiri-ski.jp/kids/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/item/ticket/ticket0000033469/"
+    }
+  },
+  {
+    "region": "福島",
+    "name": "絶景・猪苗代スキー場",
+    "slug": "fukushima/inawashiro/inawashiro-ski",
+    "area": "耶麻郡猪苗代町",
+    "lat": 37.575312,
+    "lng": 140.094688,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。キッズパーク・そり・チュービング。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（H3GV+4V）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.inawashiro-ski.com/kids/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://www.inawashiro-ski.com/kids/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）"
+  },
+  {
+    "region": "福島",
+    "name": "グランデコスノーリゾート",
+    "slug": "fukushima/kitashiobara/grandeco",
+    "area": "耶麻郡北塩原村",
+    "lat": 37.695563,
+    "lng": 140.132688,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。キッズパーク・雪遊び。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（M4WM+63）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.grandeco.com/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://www.grandeco.com/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/item/ticket/ticket0000058157/"
+    }
+  },
+  {
+    "region": "福島",
+    "name": "リステルスキーファンタジア",
+    "slug": "fukushima/inawashiro/listel-ski-fantasia",
+    "area": "耶麻郡猪苗代町",
+    "lat": 37.543187,
+    "lng": 140.149688,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。ファミリー向け雪遊び・宿泊。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（G4VX+7V）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.listel-inawashiro.jp/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://www.listel-inawashiro.jp/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）"
+  },
+  {
+    "region": "福島",
+    "name": "裏磐梯スキー場",
+    "slug": "fukushima/kitashiobara/urabandai-ski",
+    "area": "耶麻郡北塩原村",
+    "lat": 37.632063,
+    "lng": 140.067688,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。ファミリーゲレンデ・キッズ向け雪遊び。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（J3J9+R3）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.urabandai-ski.jp/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://www.urabandai-ski.jp/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）"
+  },
+  {
+    "region": "福島",
+    "name": "星野リゾート ネコマ マウンテン",
+    "slug": "fukushima/kitashiobara/nekoma-mountain",
+    "area": "耶麻郡磐梯町・北塩原村",
+    "lat": 37.627187,
+    "lng": 140.037937,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "desc": "雪遊びスポット候補。ファミリー向けスキー・雪遊び候補。スキーをしない子どもも雪遊びで楽しめるかは、公式サイトで最新の内容を確認してから出かけると安心。",
+    "tip": "積雪状況や営業日は年・天候で変わるため、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "公式URLは提供されたもの。個別ページの内容は未確認",
+      "価格・営業期間・雪遊びエリアの営業日・対象年齢・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（J2GQ+V5）を市区町村基準で変換した値。住所は未確認のためareaは市町村までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.nekoma.co.jp/"
+    },
+    "verifiedAt": "2026年10月29日",
+    "officialUrl": "https://www.nekoma.co.jp/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）"
+  },
+  {
+    "region": "神奈川",
+    "name": "KOSÉ新横浜スケートセンター",
+    "slug": "kanagawa/yokohama-kohoku/kose-shinyokohama-skate-center",
+    "area": "横浜市港北区",
+    "lat": 35.507812,
+    "lng": 139.612562,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ",
+      "雨"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "officialUrl": "https://www.princehotels.co.jp/skate/shinyokohama/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）",
+    "desc": "スケート場。通年・屋内。一般滑走は日程の確認が必要。一般滑走の日時は日によって変わるため、行く前に公式サイトで確認すると安心。",
+    "tip": "一般滑走の時間帯や貸切の日は変わるので、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "料金・対象年齢・一般滑走の日程・営業時間・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（GJ57+42）を市区町村基準で変換した値。住所は未確認のためareaは市区までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.princehotels.co.jp/skate/shinyokohama/"
+    },
+    "verifiedAt": "2026年10月29日"
+  },
+  {
+    "region": "千葉",
+    "name": "アクアリンクちば",
+    "slug": "chiba/chiba-mihama/aquarink-chiba",
+    "area": "千葉市美浜区",
+    "lat": 35.611187,
+    "lng": 140.071313,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ",
+      "雨"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "要確認",
+    "parking": "yes",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "officialUrl": "http://www.aquarink-chiba.jp/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）",
+    "desc": "スケート場。通年・屋内。温水プール併設。一般滑走の日時は日によって変わるため、行く前に公式サイトで確認すると安心。",
+    "tip": "一般滑走の時間帯や貸切の日は変わるので、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "料金・対象年齢・一般滑走の日程・営業時間・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（J36C+FG）を市区町村基準で変換した値。住所は未確認のためareaは市区までの表記",
+      "駐車場ありは資料の記載（公式で未確認）"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "http://www.aquarink-chiba.jp/"
+    },
+    "verifiedAt": "2026年10月29日"
+  },
+  {
+    "region": "千葉",
+    "name": "三井不動産アイスパーク船橋",
+    "slug": "chiba/funabashi/mitsui-fudosan-icepark-funabashi",
+    "area": "船橋市",
+    "lat": 35.679563,
+    "lng": 139.990062,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ",
+      "雨"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "officialUrl": "https://www.icepark-funabashi.jp/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）",
+    "desc": "スケート場。通年・屋内。初心者向けの補助具あり。一般滑走の日時は日によって変わるため、行く前に公式サイトで確認すると安心。",
+    "tip": "一般滑走の時間帯や貸切の日は変わるので、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "料金・対象年齢・一般滑走の日程・営業時間・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（MXHR+R2）を市区町村基準で変換した値。住所は未確認のためareaは市区までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.icepark-funabashi.jp/"
+    },
+    "verifiedAt": "2026年10月29日"
+  },
+  {
+    "region": "埼玉",
+    "name": "埼玉アイスアリーナ",
+    "slug": "saitama/ageo/saitama-ice-arena",
+    "area": "上尾市",
+    "lat": 35.969437,
+    "lng": 139.609813,
+    "genre": "雪遊び・スケート",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ",
+      "雨"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "lunch": "要確認",
+    "officialUrl": "https://www.saitama-icearena.com/",
+    "officialUrlStatus": "提供されたURL（個別ページ未確認）",
+    "desc": "スケート場。通年・屋内。一般滑走あり。一般滑走の日時は日によって変わるため、行く前に公式サイトで確認すると安心。",
+    "tip": "一般滑走の時間帯や貸切の日は変わるので、出かける前に公式サイトで確認を。",
+    "needsReview": [
+      "料金・対象年齢・一般滑走の日程・営業時間・駐車場・授乳室などは公式サイトで未確認（登録前に要確認）",
+      "座標は提供されたPlus Code（XJ95+QW）を市区町村基準で変換した値。住所は未確認のためareaは市区までの表記"
+    ],
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.saitama-icearena.com/"
+    },
+    "verifiedAt": "2026年10月29日"
   }
 ]
