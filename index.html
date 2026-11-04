@@ -129,6 +129,13 @@
     border-radius:14px;
     box-shadow:0 2px 8px rgba(0,0,0,.08);
   }
+
+  /* ---- ホーム画面アプリ(standalone)で日本語の変換候補が出ない対策 ---- */
+  input, textarea{
+    -webkit-user-select:text !important; user-select:text !important;
+    -webkit-touch-callout:default;
+  }
+  input[type="text"], textarea{ -webkit-appearance:none; appearance:none; }
 </style>
 </head>
 <body>
@@ -179,7 +186,7 @@
         </div>
         <div class="field" id="field-custom-displayname" style="margin-top:10px;">
           <label>🏷 表示名 <span class="required-tag">必須</span></label>
-          <input type="text" id="input-custom-displayname" maxlength="30" placeholder="例：おでかけパパ たく">
+          <input type="text" id="input-custom-displayname" inputmode="text" autocomplete="off" autocorrect="on" autocapitalize="none" maxlength="30" placeholder="例：おでかけパパ たく">
           <div class="hint">おでかけナビには「○○さん」と表示されます（「さん」は自動で付くので入力しないでください）</div>
           <div class="error-msg">表示名を入力してください</div>
         </div>
@@ -195,7 +202,7 @@
       <div class="spot-selected-chips" id="spot-selected-chips"></div>
 
       <div class="field" id="field-spot-search">
-        <input type="text" id="input-spot-search" placeholder="施設名で検索（例：動物園）">
+        <input type="text" id="input-spot-search" placeholder="施設名で検索（例：動物園）" inputmode="text" enterkeyhint="search" autocomplete="off" autocorrect="on" autocapitalize="none" spellcheck="false">
         <div class="hint" id="spot-hint">1文字入力すると候補が出てきます</div>
         <div class="error-msg">施設を1つ以上選んでください</div>
       </div>
@@ -238,7 +245,7 @@
 
       <div class="field">
         <label>💬 この場所、どうだった？ <span class="optional-tag">任意</span></label>
-        <textarea id="input-comment" maxlength="300" placeholder="例：3歳でもかなり楽しめました！"></textarea>
+        <textarea id="input-comment" autocorrect="on" autocapitalize="none" maxlength="300" placeholder="例：3歳でもかなり楽しめました！"></textarea>
         <div class="char-count"><span id="count-comment">0</span>/300</div>
       </div>
 
@@ -360,6 +367,29 @@
     postUrlLocked: false
   };
 
+  // 貼り付けたURLが判定に通らない時だけ、よくある原因を補正して再判定する。
+  // （前後の文字・全角・?igsh=…などの付属パラメータ・末尾の/の有無）
+  // 既に判定に通るURLは変更しないので、既存ユーザーの保存データや動作には影響しない。
+  function cleanUrl(raw, isValid) {
+    let v = (raw || '').trim();
+    if (!v || isValid(v)) return v;
+    const orig = v;
+    v = v.replace(/[！-～]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xFEE0)).replace(/\u3000/g, ' ');
+    let m = v.match(/https?:\/\/[^\s<>"'「」]+/i);
+    let base = m ? m[0] : '';
+    if (!base) {
+      const m2 = v.match(/(?:www\.)?instagram\.com\/[^\s<>"'「」]+/i);
+      if (m2) base = 'https://' + m2[0];
+    }
+    if (!base) return orig;
+    base = base.replace(/[)）。、,.]+$/, '');
+    const noQuery = base.split(/[?#]/)[0];
+    const noSlash = noQuery.replace(/\/+$/, '');
+    const candidates = [base, noQuery, noSlash + '/', noSlash];
+    for (const c of candidates) { if (isValid(c)) return c; }
+    return orig;
+  }
+
   function toast(msg) {
     const t = $('#toast');
     t.textContent = msg;
@@ -444,7 +474,9 @@
 
   $('#input-snsUrl').addEventListener('input', (e) => {
     toggleError('field-snsUrl', false);
-    applyAccountFromUrl(e.target.value.trim());
+    const fixed = cleanUrl(e.target.value, ODEKAKE.isValidInstagramProfileUrl);
+    if (fixed !== e.target.value.trim()) e.target.value = fixed;
+    applyAccountFromUrl(fixed);
   });
 
   $('#input-snsUrl').addEventListener('blur', (e) => {
@@ -530,6 +562,7 @@
 
   $('#input-spot-search').addEventListener('input', async (e) => {
     const { items } = await spotsReady;
+    if (e.isComposing) { /* 変換中も候補は更新するが、再描画はこの関数内のみで入力欄には触れない */ }
     const kw = e.target.value;
     const box = $('#spot-card-list');
     holdSpotListHeight();
@@ -623,7 +656,8 @@
 
   $('#input-postUrl').addEventListener('input', (e) => {
     toggleError('field-postUrl', false);
-    const url = e.target.value.trim();
+    const url = cleanUrl(e.target.value, ODEKAKE.isValidInstagramPostUrl);
+    if (url !== e.target.value.trim()) e.target.value = url;
     if (ODEKAKE.isValidInstagramPostUrl(url)) {
       lockPostUrl(url);
     }
@@ -887,6 +921,41 @@
     revealSection('section-spot');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
+
+  /* ---------------- 追加：URL欄の「貼り付け」ボタン（入力の手間を減らす。保存形式・送信内容は変更なし） ---------------- */
+  (function setupPasteButtons() {
+    if (!navigator.clipboard || !navigator.clipboard.readText) return; // 非対応環境では何も表示しない（従来どおり手入力）
+    ['#input-snsUrl', '#input-postUrl'].forEach((sel) => {
+      const input = $(sel);
+      const wrap = input && input.closest('.input-clear-wrap');
+      if (!wrap) return;
+      const btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'link-btn paste-btn';
+      btn.textContent = '📋 コピーしたURLを貼り付け';
+      btn.style.cssText = 'margin-top:6px;';
+      wrap.insertAdjacentElement('afterend', btn);
+
+      const sync = () => { btn.style.display = (input.value || input.disabled) ? 'none' : 'inline-block'; };
+      input.addEventListener('input', sync);
+      setInterval(sync, 300);
+      sync();
+
+      btn.addEventListener('click', async () => {
+        try {
+          const text = (await navigator.clipboard.readText() || '').trim();
+          if (!text) { toast('コピーされたURLがありません'); return; }
+          input.value = text;
+          // 既存の入力チェック・自動ロック処理をそのまま動かす
+          input.dispatchEvent(new Event('input', { bubbles: true }));
+          input.dispatchEvent(new Event('blur'));
+        } catch (err) {
+          toast('貼り付けできませんでした。入力欄を長押しして貼り付けてください');
+        }
+        sync();
+      });
+    });
+  })();
 })();
 </script>
 </body>
