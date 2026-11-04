@@ -760,6 +760,8 @@
         id: c.id,
         displayName: c.displayName,
         snsUrl: c.snsUrl,
+        // 同一アカウント判定用（大文字小文字・末尾/・?igsh等の違いを吸収した小文字ユーザー名）。既存項目は変更なし
+        username: String(ODEKAKE.extractInstagramUsername(c.snsUrl) || '').toLowerCase(),
         profileText: c.profileText || ''
       },
       contribution: {
