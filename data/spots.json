@@ -73237,5 +73237,930 @@
       "checkedAt": "2026年11月1日",
       "sourceUrl": "https://www.saitama-icearena.com/"
     }
+  },
+  {
+    "region": "静岡",
+    "name": "長伏公園",
+    "slug": "shizuoka/mishima/nagabushi-park",
+    "area": "三島市長伏",
+    "address": "静岡県三島市長伏274-3",
+    "lat": 35.083437,
+    "lng": 138.910813,
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "要確認（駐車場は無料）",
+    "parking": "yes",
+    "access": "要確認（駐車場420台・無料）",
+    "baby": "要確認",
+    "officialUrl": null,
+    "verifiedAt": "2026年11月7日",
+    "desc": "2026年4月25日にリニューアルオープンした三島市の公園。閉園した長伏プールの跡地に大型複合遊具の広場ができた。中心の「絵本のまちの湧くわくタワー」は高さ約10mから滑り降りる全長約40mのロングローラースライダー。20mのターザンロープや、虹をモチーフにした幼児向け遊具広場「とびだす絵本広場」もあり、年齢に合わせて遊べる。",
+    "tip": "幼児向けの「とびだす絵本広場」と大きい子向けのローラースライダー・ターザンロープで遊び分けられる。駐車場は420台（無料）。利用ルールや設備の詳細は、三島市みどりと水のまちづくり課（TEL 055-983-2643）などで事前に確認を。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、現地や電話でご確認ください",
+      "confirmVia": "onsite"
+    },
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 135
+    },
+    "food": {
+      "lunch": "要確認（園内・周辺の飲食は未確認）",
+      "bento": "ask",
+      "bentoNote": "お弁当の持ち込みルールは確認できませんでした。",
+      "nearbyLunch": [
+        {
+          "name": "園内・周辺の飲食",
+          "note": "要確認（園内・周辺の飲食は未確認）"
+        }
+      ],
+      "source": "text",
+      "checkedAt": "2026年11月7日"
+    }
+  },
+  {
+    "region": "静岡",
+    "name": "鮎壺公園",
+    "slug": "shizuoka/nagaizumi/ayutsubo-park",
+    "area": "駿東郡長泉町下土狩",
+    "address": "静岡県駿東郡長泉町下土狩1069-1",
+    "lat": 35.130563,
+    "lng": 138.893188,
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "要確認（駐車場は無料）",
+    "parking": "yes",
+    "access": "要確認（駐車場約40台・無料、開放時間9:00〜18:00）",
+    "baby": "要確認",
+    "businessHoursNote": "休憩施設「鮎壺テラス」は9:00〜17:30（12/29〜1/3休館）",
+    "officialUrl": null,
+    "verifiedAt": "2026年11月7日",
+    "desc": "2025年3月にリニューアルした長泉町の多目的公園。大型複合遊具のある「こども広場」、広い芝生広場、水遊び場、砂場があり、休憩施設「鮎壺テラス」では本を自由に読める。隣接する名勝「鮎壺の滝」や、世界かんがい施設遺産の「本宿用水」も近くで見られる。",
+    "tip": "遊んだあとは鮎壺テラスで読書の時間を。隣の鮎壺の滝までは散歩がてら。水遊び場の利用期間や開放時間は、長泉町工事管理課（TEL 055-989-5518）などで事前に確認を。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。公式サイトが不明のため、現地や電話でご確認ください",
+      "confirmVia": "onsite"
+    },
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 135
+    },
+    "food": {
+      "lunch": "要確認（園内・周辺の飲食は未確認）",
+      "bento": "ask",
+      "bentoNote": "お弁当の持ち込みルールは確認できませんでした。",
+      "nearbyLunch": [
+        {
+          "name": "園内・周辺の飲食",
+          "note": "要確認（園内・周辺の飲食は未確認）"
+        }
+      ],
+      "source": "text",
+      "checkedAt": "2026年11月7日"
+    }
+  },
+  {
+    "region": "神奈川",
+    "name": "Muchu Planet ユニクロパーク 横浜ベイサイド",
+    "slug": "kanagawa/yokohama-kanazawa/muchu-planet-uniqlo-park-yokohama-bayside",
+    "area": "横浜市金沢区白帆",
+    "address": "神奈川県横浜市金沢区白帆6-5 UNIQLO PARK 横浜ベイサイド 3F",
+    "lat": 35.379951,
+    "lng": 139.646271,
+    "genre": "室内遊び場",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "平日30分 子供500〜700円・大人700円／休日30分 子供720〜960円・大人960円／平日1日フリーパス 子供1,600〜1,800円・大人900円／休日1日フリーパス 子供2,400〜2,700円・大人1,400円（子供料金は年齢で異なる・0〜1歳無料）",
+    "parking": "yes",
+    "access": "横浜シーサイドライン「鳥浜」駅から徒歩約8分。三井アウトレットパーク 横浜ベイサイドに隣接",
+    "baby": "0〜1歳は無料。詳細設備は要確認",
+    "officialUrl": "https://litpla.com/space/muchu-yokohamabayside/",
+    "verifiedAt": "2026年11月7日",
+    "desc": "2026年10月31日オープン。UNIQLO PARK 横浜ベイサイド3階にある、本とデジタル遊びを組み合わせた屋内キッズパーク（約91坪・アトラクション10種）。光と音のボールプール「ZABOOM JOURNEY」、地形が変わる砂遊び「SAND PARTY!」、描いた乗り物でレースする「SKETCH RACING」などが揃い、隣には約5,200冊の本と約1,600点の雑貨・おもちゃのショップもある。Muchu Planetとしては関東2店舗目で神奈川県初。",
+    "tip": "1日フリーパスは平日が特にお得。平日3か月出入り自由の「平日ミラクルパス」（大人1＋子供1で6,800円）もある。2026年10/27〜12/6は「こびとづかん」コラボ開催中（ペーパーリキシは11/8まで）。屋根の公園（無料）と組み合わせると1日遊べる。",
+    "familyPrice": {
+      "yen": 6600,
+      "yenMax": 10900,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "平日1日フリーパス（大人900円×2＋子供1,600〜1,800円×3）で約6,600〜7,200円、休日1日フリーパス（大人1,400円×2＋子供2,400〜2,700円×3）で約10,000〜10,900円。子供料金は年齢により異なり、0〜1歳は無料のため幼児の年齢次第で変わる"
+    },
+    "stayTime": {
+      "minMinutes": 90,
+      "maxMinutes": 180
+    },
+    "businessHours": {
+      "mon": "10:00-20:00",
+      "tue": "10:00-20:00",
+      "wed": "10:00-20:00",
+      "thu": "10:00-20:00",
+      "fri": "10:00-20:00",
+      "sat": "10:00-20:00",
+      "sun": "10:00-20:00",
+      "holiday": "10:00-20:00"
+    },
+    "businessHoursNote": "10:00〜20:00（最終入場19:30）",
+    "closedDays": [
+      "UNIQLO PARK 横浜ベイサイドの営業日に準ずる（要確認）"
+    ],
+    "food": {
+      "lunch": "隣接する三井アウトレットパーク横浜ベイサイド内に飲食店多数。",
+      "bento": "ask",
+      "bentoNote": "食べ物の持ち込み可否は公式で確認できていません（同じリトルプラネット系の別パークでは食べ物の持ち込み不可の案内あり）。お出かけ前に施設へご確認ください。",
+      "source": "unverified",
+      "sourceUrl": "https://litpla.com/space/muchu-yokohamabayside/",
+      "checkedAt": "2026年11月7日",
+      "nearbyLunch": [
+        {
+          "name": "三井アウトレットパーク 横浜ベイサイド",
+          "note": "隣接。飲食店多数。"
+        }
+      ]
+    },
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerCheckedAt": "2026年11月7日",
+    "strollerOk": "ask"
+  },
+  {
+    "region": "千葉",
+    "name": "SNOOPY Playful PARK イオンモール津田沼South",
+    "slug": "chiba/narashino/snoopy-playful-park-aeonmall-tsudanuma-south",
+    "area": "習志野市津田沼",
+    "address": "千葉県習志野市津田沼1-10-30 イオンモール津田沼South 7F",
+    "lat": 35.689812,
+    "lng": 140.023813,
+    "genre": "室内遊び場",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "平日 大人(13歳以上)1,000円・子供(1〜12歳)700円／土日祝・スクールホリデー 大人1,300円・子供900円（0歳無料・キャッシュレス決済のみ）",
+    "parking": "yes",
+    "access": "京成松戸線「新津田沼」駅北口から直結／JR津田沼駅から徒歩約5分",
+    "baby": "0歳は無料。プレイグラウンドは土足禁止で、靴箱と小さなロッカーあり。大人のみの入場も可。授乳室・おむつ替えは要確認",
+    "officialUrl": "https://www.snoopyplayfulpark.jp/",
+    "verifiedAt": "2026年11月7日",
+    "desc": "2026年8月10日（スヌーピーの誕生日）オープン。日本初のスヌーピーのインドアプレイグラウンドで、約900㎡。月面をテーマにした大きなスヌーピーのボールプールやアスレチック、なりきりショップ（ごっこ遊び）、フォトブース、イベント広場のほか、飲食エリア「SNOOPY Playful STAND」（58席）と物販エリア「Playful MARKET」がある。",
+    "tip": "90分の完全入替制で、保護者の交代は不可。チケットは専用Webサイトのみ（当日購入可）。来場者にはオリジナルステッカー（全12種）のプレゼントあり。アスレチックで遊べるのは小学生以下のみ。",
+    "familyPrice": {
+      "yen": 4100,
+      "yenMax": 5300,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "平日は大人1,000円×2＋子供700円×3＝4,100円、土日祝・スクールホリデーは大人1,300円×2＋子供900円×3＝5,300円（1〜12歳は子供料金と仮定。90分入替制）"
+    },
+    "stayTime": {
+      "minMinutes": 90,
+      "maxMinutes": 120
+    },
+    "businessHoursNote": "10:00〜20:30（2026年9月1日から拡大）／時間指定の90分完全入替制／保護者の交代は不可／チケットは専用Webサイトのみ（当日購入可・店頭販売なし）／現金不可",
+    "food": {
+      "lunch": "施設内の飲食エリア「SNOOPY Playful STAND」（全60席・入場時間枠＋30分まで滞在可）。キッズオムライスセット1,500円、ホットドッグ600円など。イオンモール津田沼South内にも飲食店あり。",
+      "bento": "ask",
+      "bentoNote": "弁当・飲食物の持ち込み可否は確認できていません。飲食エリアの利用にはプレイグラウンドの当日入場チケットが必要です。",
+      "nearbyLunch": [
+        {
+          "name": "イオンモール津田沼 South／North",
+          "note": "同じ商業施設内。ただし保護者の交代・再入場は不可なので、食事は入場前後に。"
+        }
+      ],
+      "source": "unverified",
+      "sourceUrl": "https://travel.watch.impress.co.jp/docs/news/2139996.html",
+      "checkedAt": "2026年11月7日"
+    },
+    "parkingDetail": "イオンモール津田沼 Northの駐車場（1,300台）を利用。パーク利用者は5時間30分まで無料（トラベルWatch内覧レポートより）",
+    "businessHours": {
+      "mon": "10:00-20:30",
+      "tue": "10:00-20:30",
+      "wed": "10:00-20:30",
+      "thu": "10:00-20:30",
+      "fri": "10:00-20:30",
+      "sat": "10:00-20:30",
+      "sun": "10:00-20:30",
+      "holiday": "10:00-20:30"
+    },
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerCheckedAt": "2026年11月7日",
+    "strollerOk": "ask"
+  },
+  {
+    "region": "埼玉",
+    "name": "埼玉おもちゃ美術館",
+    "slug": "saitama/yoshikawa/saitama-toy-museum",
+    "area": "吉川市美南",
+    "address": "埼玉県吉川市美南3-25-1 イオンタウン吉川美南 東街区1F（イオンタウン館）／幼稚園館：埼玉県三郷市彦糸3-1-1",
+    "lat": 35.8662691,
+    "lng": 139.8593437,
+    "genre": "博物館・科学館",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "大人（中学生以上）1,200円／子供（6か月〜小学生）1,000円／6か月未満は無料（要予約）",
+    "parking": "yes",
+    "access": "JR武蔵野線「吉川美南」駅から徒歩約1分（イオンタウン館）。三郷JCTから約3.9km。イオンタウン館と幼稚園館の間は無料バスあり",
+    "baby": "赤ちゃん木育ひろば（3歳以下向け）あり／授乳室・キッズトイレあり／ベビーカー置き場あり／赤ちゃん木育広場と幼稚園館WESTは靴を脱いで遊べる",
+    "officialUrl": null,
+    "verifiedAt": "2026年11月7日",
+    "desc": "2025年9月開館、国内14館目のおもちゃ美術館。木のおもちゃに触れて遊べる体験型ミュージアムで、ラトルや木のたまごプールのある「赤ちゃん木育ひろば」、「おもちゃのもり」、地域の職人の作品などがある。イオンタウン吉川美南内の「イオンタウン館」と、三郷市の「幼稚園館」の2拠点で、同日のチケットで両方利用できる。",
+    "tip": "当日のチケットで両館を利用でき、館間の無料バスもある。土日祝も再入館OK（2026年4月〜）なので、昼食や休憩を挟める。来館して料金を払うとイオンタウンの駐車場が4時間無料。土曜日が比較的ゆっくりとの案内あり。 開館時の案内では利用はすべて事前予約制（赤ちゃん木育ひろばは1時間ごとの予約）。現在の予約ルールは公式で確認を。",
+    "familyPrice": {
+      "yen": 5400,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "大人1,200円×2＋子供1,000円×3（幼児も子供料金と仮定）"
+    },
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    },
+    "businessHours": {
+      "mon": "10:00-17:00",
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "定休日",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": "10:00-17:00",
+      "holiday": "10:00-17:00"
+    },
+    "businessHoursNote": "イオンタウン館 10:00〜17:00（最終入館16:00）／幼稚園館 10:30〜16:30（最終入館15:30）。木曜が祝日の場合は開館",
+    "closedDays": [
+      "毎週木曜日（祝日の場合は開館）",
+      "年末年始"
+    ],
+    "food": {
+      "lunch": "イオンタウン吉川美南内に飲食店あり。",
+      "bento": "ask",
+      "bentoNote": "館内での弁当持ち込み可否は確認できていません（公式FAQ未確認）。土日祝も再入館OK（2026年4月〜）で、いこーよでは食事や休憩のための再入館が案内されています。",
+      "source": "unverified",
+      "sourceUrl": "https://report.iko-yo.net/articles/25940",
+      "checkedAt": "2026年11月7日",
+      "nearbyLunch": [
+        {
+          "name": "イオンタウン吉川美南",
+          "note": "同じ建物内。再入館して食事が可能。"
+        }
+      ]
+    },
+    "strollerNote": "ベビーカー置き場あり（いこーよ掲載情報。公式では未確認）。赤ちゃん木育ひろばと幼稚園館WESTは靴を脱いで遊べる。",
+    "strollerCheckedAt": "2026年11月7日",
+    "strollerOk": "ask"
+  },
+  {
+    "region": "東京",
+    "name": "キッズランドUS 東京青梅店",
+    "slug": "tokyo/ome/kidsland-us",
+    "area": "青梅市河辺町",
+    "address": "東京都青梅市河辺町10-9-1 トライアル西友 河辺店 3F",
+    "lat": 35.785997,
+    "lng": 139.284725,
+    "genre": "室内遊び場",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "子供 1時間パック800円／平日1日パック1,000円／休日3時間パック1,300円、保護者700円（全パック共通）、0歳無料",
+    "parking": "unknown",
+    "access": "JR青梅線「河辺」駅北口から徒歩3分。青梅ICから車で約15分（約5km）",
+    "baby": "0歳無料・0〜12歳対象。詳細設備は要確認",
+    "officialUrl": "https://kidslandus.com/",
+    "verifiedAt": "2026年11月7日",
+    "desc": "2026年9月18日オープン。東京都内のキッズランドUSでは最大級で、約30種類の遊びがある。子牛にミルクをあげる世話ごっこの「牧場コーナー」、小動物をなでたり世話をしたりできる「癒し動物園」、撮影用衣装・照明つきの「セルフ写真館」、宇宙空間のようなボールプールなど。",
+    "tip": "受付後の出入り自由・飲食持ち込み自由・保護者の交代自由。休日のパックは3時間なので、長く遊ぶなら時間に注意。",
+    "familyPrice": {
+      "yen": 4400,
+      "yenMax": 5300,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "平日：保護者700円×2＋子供1日パック1,000円×3＝4,400円、休日：保護者700円×2＋子供3時間パック1,300円×3＝5,300円（幼児も子供料金と仮定）"
+    },
+    "stayTime": {
+      "minMinutes": 90,
+      "maxMinutes": 180
+    },
+    "businessHours": {
+      "mon": "10:00-19:00",
+      "tue": "10:00-19:00",
+      "wed": "10:00-19:00",
+      "thu": "10:00-19:00",
+      "fri": "10:00-19:00",
+      "sat": "10:00-19:00",
+      "sun": "10:00-19:00",
+      "holiday": "10:00-19:00"
+    },
+    "businessHoursNote": "10:00〜19:00",
+    "closedDays": [
+      "ショッピングセンターに準ずる"
+    ],
+    "food": {
+      "lunch": "トライアル西友 河辺店内の飲食を利用できる（要確認）。",
+      "bento": "ok",
+      "bentoNote": "キッズランドUS共通のルールとして飲食物の持ち込みOK・受付後の出入り自由・保護者の交代自由（運営会社ユーエスマートのプレスリリースより）。この店舗固有の飲食スペースの詳細は未確認です。",
+      "source": "web",
+      "sourceUrl": "https://www.bcnretail.com/news/detail/20260928_663568.html",
+      "checkedAt": "2026年11月7日"
+    },
+    "strollerNote": "この店舗のベビーカーの扱い（持ち込み・預かり）は確認できていません。ブランド共通ではなく店舗や階によって異なるため、お出かけ前に施設へご確認ください。",
+    "strollerCheckedAt": "2026年11月7日",
+    "strollerOk": "ask",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/base/165018/"
+    },
+    "recommendedBooking": "asoview",
+    "bookingNote": "アソビューで「平日・200円OFF こども1日遊び放題」の日時指定チケットあり（https://www.asoview.com/item/ticket/ticket0000055425/）。内容・割引は変わるので購入時に確認を。"
+  },
+  {
+    "region": "埼玉",
+    "name": "キッズランドUS MAX 川越南古谷店",
+    "slug": "saitama/kawagoe/kidsland-us-max-minamifuruya",
+    "area": "川越市南古谷",
+    "lat": 35.904687,
+    "lng": 139.511938,
+    "genre": "室内遊び場",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "price": "要確認（料金は公式サイト参照。0歳は無料）",
+    "parking": "unknown",
+    "access": "ウニクス南古谷アネックス 2F（要確認）",
+    "baby": "要確認",
+    "officialUrl": "https://kidslandus.com/",
+    "verifiedAt": "2026年11月7日",
+    "desc": "2026年7月31日オープン。ウニクス南古谷アネックス2階にある、関東初の「MAX」店舗。約1,000坪に40種類以上の遊具があり、二階建ての巨大ジャングルジム「スーパージャングルジム」などが人気。",
+    "tip": "受付後の出入り自由・飲食持ち込み自由・保護者の交代自由。オープン記念の「メルちゃんスタンプラリー」（トイザらス・ベビーザらス川越店と連動）は期間限定なので、実施中か要確認。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://kidslandus.com/"
+    },
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    },
+    "food": {
+      "lunch": "ウニクス南古谷内の飲食店を利用できる（要確認）。",
+      "bento": "ok",
+      "bentoNote": "キッズランドUS共通のルールとして飲食物の持ち込みOK・受付後の出入り自由・保護者の交代自由（運営会社ユーエスマートのプレスリリースより）。この店舗固有の飲食スペースの詳細は未確認です。",
+      "source": "web",
+      "sourceUrl": "https://news.livedoor.com/article/detail/31644847/",
+      "checkedAt": "2026年11月7日"
+    },
+    "strollerNote": "この店舗のベビーカーの扱い（持ち込み・預かり）は確認できていません。ブランド共通ではなく店舗や階によって異なるため、お出かけ前に施設へご確認ください。",
+    "strollerCheckedAt": "2026年11月7日",
+    "strollerOk": "ask"
+  },
+  {
+    "region": "千葉",
+    "name": "フレーベル館 Kinder Platz 成田空港店",
+    "slug": "chiba/narita/kinder-platz-narita-airport",
+    "area": "成田市（成田国際空港 第1ターミナル）",
+    "address": "千葉県成田市成田国際空港 第1ターミナル中央ビル新館5F（SHIKISAI GARDEN）",
+    "lat": 35.764063,
+    "lng": 140.384438,
+    "genre": "室内遊び場",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "1日フリーパス こども2,200円／おとな1,100円（税込）",
+    "parking": "unknown",
+    "access": "成田空港 第1ターミナル 中央ビル新館5階「SHIKISAI GARDEN」",
+    "baby": "6〜24か月専用の乳児コーナー「ぼうけんのしま」あり",
+    "officialUrl": "https://kinderplatz.froebel-kan.co.jp/",
+    "verifiedAt": "2026年11月7日",
+    "desc": "2026年4月9日オープン。約800㎡（屋内・屋外合計）の有料キッズパーク。乳児コーナー、ワークショップの「もりのアトリエ」、レール遊びやままごとの「あそびのまち」、絵本コーナー、運動遊びの「のびのびはらっぱ」に加え、Kinder Platz初の屋外エリアでは離着陸する飛行機を間近に眺められる。",
+    "tip": "対象は6か月〜12歳で保護者の同伴が必須。フライト前後の待ち時間にも、近隣からのおでかけにも使える。",
+    "familyPrice": {
+      "yen": 8800,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "こども2,200円×3＋おとな1,100円×2（幼児も子供料金と仮定）"
+    },
+    "stayTime": {
+      "minMinutes": 90,
+      "maxMinutes": 150
+    },
+    "businessHours": {
+      "mon": "10:00-19:00",
+      "tue": "10:00-19:00",
+      "wed": "10:00-19:00",
+      "thu": "10:00-19:00",
+      "fri": "10:00-19:00",
+      "sat": "10:00-19:00",
+      "sun": "10:00-19:00",
+      "holiday": "10:00-19:00"
+    },
+    "businessHoursNote": "10:00〜19:00（受付終了18:30）",
+    "closedDays": [
+      "年中無休（成田空港第1ターミナルの営業日に準ずる）"
+    ],
+    "food": {
+      "lunch": "成田空港第1ターミナル内に飲食店多数。",
+      "bento": "ask",
+      "bentoNote": "成田空港店の食事・持ち込みのルールは確認できていません。Kinder Platzは店舗で異なり（イオンモール木更津店は施設内の食事不可、ガーデン前橋店は持ち込みOKの案内）、お出かけ前にご確認ください。",
+      "source": "unverified",
+      "sourceUrl": "https://kinderplatz.froebel-kan.co.jp/",
+      "checkedAt": "2026年11月7日"
+    },
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerCheckedAt": "2026年11月7日",
+    "strollerOk": "ask"
+  },
+  {
+    "region": "茨城",
+    "name": "のびっこ そよらひたち野うしく",
+    "slug": "ibaraki/ushiku/nobikko-soyora-hitachino-ushiku",
+    "area": "牛久市ひたち野東",
+    "address": "茨城県牛久市ひたち野東1-23-1 そよらひたち野うしく 2F",
+    "lat": 36.009062,
+    "lng": 140.159938,
+    "genre": "室内遊び場",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日",
+      "1日"
+    ],
+    "price": "平日 子供1日パック700円（無料アプリ「トットット」会員料金。非会員は+200円）。休日料金・大人料金は公式で要確認。会員の0歳は無料",
+    "parking": "yes",
+    "access": "JR常磐線「ひたち野うしく」駅からペデストリアンデッキで直結。駐車場792台",
+    "baby": "0歳は無料（トットット会員のみ）",
+    "officialUrl": null,
+    "verifiedAt": "2026年11月7日",
+    "desc": "2026年11月18日オープン予定（開業前）。そよらひたち野うしく2階にある、0〜12歳対象の屋内プレイグラウンド。ボールプール、エアー遊具、ごっこ遊びコーナーなどが揃う。同施設には約550席のフードホールもある。",
+    "tip": "ランチ持ち込み可の案内あり。16歳以上の保護者1名の付き添いが必要。春休み・GW・夏休み・冬休みなどのスクールホリデーは平日でも休日料金。16:00からナイトパックあり。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "平日の子供1日パックは700円（トットット会員）だが、大人料金・休日料金が未確認のため目安は出せません。最新の料金は公式でご確認ください"
+    },
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    },
+    "businessHours": {
+      "mon": "10:00-19:00",
+      "tue": "10:00-19:00",
+      "wed": "10:00-19:00",
+      "thu": "10:00-19:00",
+      "fri": "10:00-19:00",
+      "sat": "10:00-19:00",
+      "sun": "10:00-19:00",
+      "holiday": "10:00-19:00"
+    },
+    "businessHoursNote": "2026年11月18日オープン予定。10:00〜19:00（最終受付18:30）",
+    "food": {
+      "lunch": "そよらひたち野うしくの約550席のフードホールを利用できる。",
+      "bento": "ok",
+      "bentoNote": "ランチ持ち込み可の案内あり（いこーよ掲載記事より）。詳しいルールは施設へご確認ください。",
+      "source": "web",
+      "sourceUrl": "https://report.iko-yo.net/articles/35180",
+      "checkedAt": "2026年11月7日"
+    },
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerCheckedAt": "2026年11月7日",
+    "strollerOk": "ask"
+  },
+  {
+    "region": "埼玉",
+    "name": "Muchu Planet TSUTAYAレイクタウン",
+    "slug": "saitama/koshigaya/muchu-planet-tsutaya-laketown",
+    "area": "越谷市レイクタウン",
+    "address": "埼玉県越谷市レイクタウン4-2-2 イオンレイクタウンkaze 2F（TSUTAYA レイクタウン内）",
+    "lat": 35.878312,
+    "lng": 139.825813,
+    "genre": "室内遊び場",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "30分制・フリーパスあり（料金は公式サイト要確認）",
+    "parking": "yes",
+    "access": "JR武蔵野線「越谷レイクタウン」駅から徒歩約8分",
+    "baby": "要確認",
+    "officialUrl": "https://litpla.com/space/muchu-laketown/",
+    "verifiedAt": "2026年11月7日",
+    "desc": "2024年4月オープン。書店「TSUTAYA レイクタウン」（明文堂書店）内にあるショップ・イン・ショップ型の屋内キッズパークで、Muchu Planet第1号店。リトルプラネットのデジタル砂遊びやボールプールなどに、絵本・図鑑とのコラボアトラクション（「小学館の図鑑NEO」など）が加わる。デジタル「大縄跳び」など関東初登場のアトラクションもある。",
+    "tip": "公式オンラインチケットや公式アプリ「PLANET POTAL」で事前購入するとスマート入場でき、オンライン限定クーポンもある。コラボ内容は時期で変わる。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://litpla.com/space/muchu-laketown/"
+    },
+    "stayTime": {
+      "minMinutes": 90,
+      "maxMinutes": 150
+    },
+    "businessHoursNote": "パークの営業時間は公式で要確認（TSUTAYA レイクタウンは10:00〜21:00）",
+    "food": {
+      "lunch": "イオンレイクタウンkaze内に飲食店あり。",
+      "bento": "ask",
+      "bentoNote": "食べ物の持ち込み可否は確認できていません（リトルプラネット系の別パークでは食べ物の持ち込み不可の案内あり）。お出かけ前にご確認ください。",
+      "source": "unverified",
+      "sourceUrl": "https://litpla.com/space/muchu-laketown/",
+      "checkedAt": "2026年11月7日"
+    },
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerCheckedAt": "2026年11月7日",
+    "strollerOk": "ask"
+  },
+  {
+    "region": "埼玉",
+    "name": "SKIPシティ映像ミュージアム「303ワンダースタジオ」",
+    "slug": "saitama/kawaguchi/skipcity-303-wonder-studio",
+    "area": "川口市上青木",
+    "address": "埼玉県川口市上青木3-12-63 SKIPシティ彩の国ビジュアルプラザ 映像ミュージアム 3F",
+    "lat": 35.827694,
+    "lng": 139.721194,
+    "genre": "博物館・科学館",
+    "ages": [
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "大人（高校生以上）520円／小中学生260円／未就学児無料（追加料金なし）",
+    "parking": "yes",
+    "access": "JR川口駅東口・JR西川口駅東口・埼玉高速鉄道鳩ヶ谷駅西口から国際興業バス「川口市立高校」下車徒歩約5分（鳩ヶ谷駅から徒歩約20分）",
+    "baby": "おむつ交換台・授乳室あり、ベビーカーOK（いこーよ掲載情報。公式で未確認）",
+    "officialUrl": "https://www.skipcity.jp/",
+    "verifiedAt": "2026年11月7日",
+    "desc": "2026年9月19日、映像ミュージアム3階の常設展「303ワンダースタジオ」がリニューアルし、体験型シアター『SPACE HOPPER −138億年 宇宙の旅−』がオープン。四方を映像に囲まれた空間で、しゃがむ・体を傾けるなどの動きがそのままコントローラーになり、振動や風も加わって太陽系や銀河を冒険する。",
+    "tip": "通常の入館料のみで体験できる。同じSKIPシティ内の川口市立科学館（プラネタリウム）と組み合わせるのもおすすめ。",
+    "familyPrice": {
+      "yen": 1560,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "大人520円×2＋小中学生260円×2＋幼児無料"
+    },
+    "stayTime": {
+      "minMinutes": 90,
+      "maxMinutes": 180
+    },
+    "businessHours": {
+      "mon": "定休日",
+      "tue": "09:30-17:00",
+      "wed": "09:30-17:00",
+      "thu": "09:30-17:00",
+      "fri": "09:30-17:00",
+      "sat": "09:30-17:00",
+      "sun": "09:30-17:00",
+      "holiday": "09:30-17:00"
+    },
+    "businessHoursNote": "9:30〜17:00（入館は16:30まで）",
+    "closedDays": [
+      "月曜日（祝日の場合は翌平日）",
+      "年末年始"
+    ],
+    "food": {
+      "lunch": "SKIPシティ周辺で食事（要確認）。",
+      "bento": "ask",
+      "bentoNote": "館内の弁当持ち込み可否は確認できていません（いこーよでは「食事持込OK」のアイコン表示あり）。お出かけ前にご確認ください。",
+      "source": "unverified",
+      "sourceUrl": "https://iko-yo.net/facilities/979",
+      "checkedAt": "2026年11月7日"
+    },
+    "strollerNote": "いこーよ掲載情報で「ベビーカーOK」。貸出や館内の制限は公式で未確認です。",
+    "strollerCheckedAt": "2026年11月7日",
+    "strollerOk": "ask"
+  },
+  {
+    "region": "東京",
+    "name": "KAWAII MONSTER LAND - HARAJUKU -",
+    "slug": "tokyo/shibuya/kawaii-monster-land-harajuku",
+    "area": "渋谷区神宮前",
+    "address": "東京都渋谷区神宮前1-16-4 竹下通りスクエア地下1階",
+    "lat": 35.671188,
+    "lng": 139.704312,
+    "genre": "遊園地・テーマパーク",
+    "ages": [
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "入場チケット 大人2,800〜3,500円／小人（4〜12歳）1,400〜1,750円／3歳以下無料。Kawaii Experience Pack 大人4,800〜5,500円（日時指定・60分入替制）",
+    "parking": "no",
+    "access": "JR山手線「原宿」駅竹下口より徒歩2分",
+    "baby": "要確認",
+    "officialUrl": null,
+    "verifiedAt": "2026年11月7日",
+    "desc": "2026年2月13日オープン。アーティスト・増田セバスチャンが総合プロデュースする、原宿・竹下通り地下の「KAWAIIのワンダーランド」（約400㎡）。ショー・音楽・フード・ゲームを60分で巡る回遊型ライブエンターテイメントで、ティーカップ型ライド「Choppy's Mel-Tea Cup Ride」、ゲームやデコ体験の「Kawaii Monster Carnival」、ショップ、フード通りなどがある。",
+    "tip": "60分の入れ替え制で、時間指定チケットの事前購入が必要。ライドの貸切オプション（2,000円）もある。竹下通りは混雑しやすいので早めの時間帯がおすすめ。",
+    "familyPrice": {
+      "yen": 9800,
+      "yenMax": 12250,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "大人2,800〜3,500円×2＋小人1,400〜1,750円×3（幼児が4歳以上で小人料金の場合。3歳以下なら無料）。日時により変動"
+    },
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 90
+    },
+    "businessHours": {
+      "mon": "10:00-21:40",
+      "tue": "10:00-21:40",
+      "wed": "10:00-21:40",
+      "thu": "10:00-21:40",
+      "fri": "10:00-21:40",
+      "sat": "10:00-21:40",
+      "sun": "10:00-21:40",
+      "holiday": "10:00-21:40"
+    },
+    "businessHoursNote": "10:00〜21:40（60分入替制・時間指定チケット制）",
+    "food": {
+      "lunch": "施設内にフード・ドリンクの「Colorful Snack Street」あり。竹下通り周辺にも飲食店多数。",
+      "bento": "ask",
+      "bentoNote": "弁当の持ち込み可否は確認できていません。お出かけ前にご確認ください。",
+      "source": "unverified",
+      "sourceUrl": "https://report.iko-yo.net/articles/29680",
+      "checkedAt": "2026年11月7日"
+    },
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerCheckedAt": "2026年11月7日",
+    "strollerOk": "ask"
+  },
+  {
+    "region": "埼玉",
+    "name": "グランフィルリゾーツ東武",
+    "slug": "saitama/shiraoka/grandfill-resorts-tobu",
+    "area": "白岡市",
+    "lat": 36.025187,
+    "lng": 139.698438,
+    "genre": "アスレチック・アウトドア",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "1日"
+    ],
+    "price": "宿泊制。ヴィラ素泊りで1名20,400円〜（4名1棟利用時）など。棟・プラン・日程で変動、公式サイトで要確認",
+    "parking": "unknown",
+    "access": "東武動物公園に隣接（白岡市）。詳しいアクセスは公式サイトで要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.tobuzoo-glamping.com/",
+    "verifiedAt": "2026年11月7日",
+    "desc": "2026年3月11日オープン。東武動物公園に隣接する、埼玉県最大級のグランピングリゾート。「ドームテント×動物園」の「アドベンチャー・ドーム」では夜の動物園（アドベンチャー・ナイト）や動物を見ながらの朝食体験ができ、「ヴィラ×プライベートドッグラン」の「シンフォニー・ヴィラ」は愛犬と泊まれる。BBQやサウナも楽しめ、東武動物公園スーパープールの入場券付きプランもある。",
+    "tip": "アドベンチャー・ナイトは対象外の日があるため、予約前に公式の案内で確認を。平日限定で子供の夕食・宿泊が無料になるファミリー向けプランが出ることもある。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "宿泊料金は棟・プラン・日程で大きく変わるため目安は出せません（ヴィラ素泊りで1名20,400円〜・4名1棟利用時の例）。公式サイトでご確認ください",
+      "officialUrl": "https://www.tobuzoo-glamping.com/"
+    },
+    "overnightRecommended": true,
+    "food": {
+      "lunch": "宿泊プランにより食事付き／素泊り（持ち込み自由でBBQ）を選べる。",
+      "bento": "ok",
+      "bentoNote": "素泊りプランは持ち込み自由（予約サイトの案内より）。プランにより異なるので予約時にご確認ください。",
+      "source": "web",
+      "sourceUrl": "https://reserve.489ban.net/client/tobu-glamping/0/detail/1262322",
+      "checkedAt": "2026年11月7日"
+    },
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerCheckedAt": "2026年11月7日",
+    "strollerOk": "ask"
+  },
+  {
+    "region": "栃木",
+    "name": "オフロードツーリング RINDO BIKE／KIDS BIKE Field（モビリティリゾートもてぎ）",
+    "slug": "tochigi/motegi/rindo-bike-kids-bike-field",
+    "area": "芳賀郡茂木町",
+    "address": "栃木県芳賀郡茂木町桧山120-1 モビリティリゾートもてぎ パーク内",
+    "lat": 36.5326,
+    "lng": 140.2267,
+    "genre": "アスレチック・アウトドア",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "1日"
+    ],
+    "price": "各アトラクション900円（パークパスポート利用可）。別途パーク入場料 大人(中学生以上)1,900円／子ども(3歳〜小学生)900円（当日券）",
+    "parking": "yes",
+    "access": "JR宇都宮駅からバス約90分。常磐道水戸ICから約40分／北関東道真岡ICから約50分。駐車場 4輪1,000円・2輪500円",
+    "baby": "モビリティリゾートもてぎ本体の情報を参照",
+    "officialUrl": "https://www.mobilityresort.jp/",
+    "verifiedAt": "2026年11月7日",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/base/155452/"
+    },
+    "desc": "2026年3月7日オープンのバイクアトラクション2種。「RINDO BIKE」は全長約120mの里山コースをEVバイクで走るオフロード体験（小学1年生以上、1年生はKIDS BIKE Fieldのライセンス取得が必要）。「KIDS BIKE Field」は補助輪なしで自転車に乗れる3歳〜小学生が対象で、保護者が見学できるテラスもあり、上手に乗れた小学1年生以上はライセンスカードをもらえる。",
+    "tip": "所要は RINDO BIKE が約15〜20分、KIDS BIKE Fieldが約20分（装備・説明込み）。雨天は見合わせの場合あり。KIDS BIKE Fieldでライセンスを取ると、RINDO BIKEやモトレーサーに挑戦できる。",
+    "familyPrice": {
+      "yen": 6500,
+      "yenMax": null,
+      "optionalYen": 900,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "パーク入場料：大人1,900円×2＋小学生900円×2＋幼児900円×1＝6,500円。バイク体験は1人1回900円（パークパスポート利用可）で別料金（optionalYenは1人分）"
+    },
+    "rideLimits": [
+      {
+        "name": "オフロードツーリング RINDO BIKE",
+        "minAge": 6,
+        "note": "小学1年生以上で補助輪なしの自転車に乗れる方。小学1年生はキッズバイクフィールドのライセンスカード取得が必要"
+      },
+      {
+        "name": "キッズバイクフィールド",
+        "minAge": 3,
+        "maxAge": 12,
+        "note": "補助輪なしで自転車に乗れる3歳〜小学生"
+      }
+    ],
+    "rideLimitsCheckedAt": "2026-10-21",
+    "rideLimitsSource": "https://www.mr-motegi.jp/park/guide/",
+    "stayTime": {
+      "minMinutes": 30,
+      "maxMinutes": 90
+    },
+    "food": {
+      "lunch": "園内にレストラン・BBQエリアあり。",
+      "nearbyLunch": [
+        {
+          "name": "園内・周辺の飲食",
+          "note": "園内にレストラン・BBQエリアあり。"
+        }
+      ],
+      "source": "official",
+      "checkedAt": "2026年11月1日",
+      "bento": "ask",
+      "bentoNote": "場内案内にイベントごとの持ち込み案内はあるが、通常営業時の弁当持ち込み・飲食場所の共通ルールは記載なし",
+      "sourceUrl": "https://www.mr-motegi.jp/"
+    },
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerCheckedAt": "2026年11月7日",
+    "strollerOk": "ask"
   }
 ]
