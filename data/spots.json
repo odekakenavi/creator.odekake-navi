@@ -16577,7 +16577,7 @@
   },
   {
     "region": "神奈川",
-    "name": "松田山ハーブガーデン",
+    "name": "西平畑公園（松田山ハーブガーデン）",
     "slug": "kanagawa/matsuda/matsudayama-herb-garden",
     "area": "足柄上郡松田町",
     "lat": 35.351286,
@@ -16596,22 +16596,30 @@
       "半日"
     ],
     "seasons": [
-      "春"
+      "春",
+      "冬"
     ],
-    "price": "入園無料",
+    "price": "通常は入園無料。イベント（桜まつり・イルミネーション）時は入園料あり（イルミネーション：18歳以上500円・12〜18歳未満100円・12歳未満無料＝2025年実績）",
     "parking": "yes",
-    "access": "JR「松田」駅からバス",
+    "access": "小田急線「新松田」駅から徒歩約25分／JR御殿場線「松田」駅から徒歩約20分／東名大井松田ICから約5km",
     "baby": "おむつ替えトイレあり／ベビーカーOK",
-    "officialUrl": "https://town.matsuda.kanagawa.jp/site/kankou-sub/herb-garden.html",
+    "officialUrl": "https://nisihira-park.org/",
     "desc": "河津桜と富士山の眺めで知られる高台の公園。広場が開けていて、ボール遊びや追いかけっこもしやすい。",
     "tip": "入園無料なので予定に組み込みやすい、駐車場もあるため車での立ち寄りもしやすい、屋外中心の公園なので晴れた日に訪れるのがおすすめ。",
     "events": [
-      "お花見"
+      "お花見",
+      "イルミネーション"
     ],
     "eventInfo": {
       "お花見": {
         "tentative": true,
         "type": "kawazu"
+      },
+      "イルミネーション": {
+        "type": "event",
+        "tentative": true,
+        "note": "松田きらきらフェスタ（約24万球）。2025年は11/29・30、12/6・7・13・14、16〜21、23〜31の17:00〜21:00（最終入場20:30）。2026-27の日程は未確認のため公式で確認を。",
+        "periodLabel": "例年11月下旬〜12月末ごろ"
       }
     },
     "familyPrice": {
@@ -16654,7 +16662,12 @@
       "source": "official",
       "sourceUrl": "https://www.seibu-la.co.jp/matsudayama/",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "address": "神奈川県足柄上郡松田町松田惣領2951",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/spot/14363ah3332073715/"
+    },
+    "parkingDetail": "約70台・1回1,000円（イルミネーション時の案内）"
   },
   {
     "region": "神奈川",
@@ -27079,8 +27092,8 @@
     "slug": "chiba/chiba-chuo/chiba-port-tower",
     "area": "千葉市中央区・千葉みなと",
     "address": "千葉県千葉市中央区中央港1",
-    "lat": 35.600437,
-    "lng": 140.098063,
+    "lat": 35.597222,
+    "lng": 140.101389,
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -30198,6 +30211,9 @@
     "stayTime": {
       "minMinutes": 60,
       "maxMinutes": 90
+    },
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/spot/19425ca3280147669/"
     }
   },
   {
@@ -50569,7 +50585,7 @@
     "desc": "伊勢崎市の華蔵寺公園に隣接する遊園地（愛称「Auto Mirai 華蔵寺遊園地」）。入園は無料で、観覧車やジェットコースターなどを乗り物ごとの料金で気軽に楽しめる。桜やツツジの名所として知られる華蔵寺公園の花見とあわせて過ごせる。",
     "tip": "定休日は火曜（祝日の場合は開園）、営業時間は9:00〜17:00（12〜2月は9:30〜16:30）が目安（TEL 0270-25-4478）。花まつりの時期（3〜5月）は夜間営業もあるが混雑し、駐車場が早く満車になるためバスの利用が安心。",
     "bookingLinks": {
-      "jalan": "https://www.jalan.net/kankou/spt_guide000000185244/"
+      "asoview": "https://www.asoview.com/spot/spot0000012466/"
     },
     "rideLimits": [
       {
@@ -73412,10 +73428,10 @@
     ],
     "food": {
       "lunch": "隣接する三井アウトレットパーク横浜ベイサイド内に飲食店多数。",
-      "bento": "ask",
-      "bentoNote": "食べ物の持ち込み可否は公式で確認できていません（同じリトルプラネット系の別パークでは食べ物の持ち込み不可の案内あり）。お出かけ前に施設へご確認ください。",
-      "source": "unverified",
-      "sourceUrl": "https://litpla.com/space/muchu-yokohamabayside/",
+      "bento": "ng",
+      "bentoNote": "食べ物の持ち込みは不可の可能性が高い（同じリトルプラネット系のTOYLO PARKのパーク公式お知らせでは、水分補給の飲み物のみ持ち込みOK・食べ物はNG）。この店舗個別の案内は未確認です。",
+      "source": "web",
+      "sourceUrl": "https://iko-yo.net/facilities/176186/news/124061",
       "checkedAt": "2026年11月7日",
       "nearbyLunch": [
         {
@@ -73908,10 +73924,10 @@
     "businessHoursNote": "パークの営業時間は公式で要確認（TSUTAYA レイクタウンは10:00〜21:00）",
     "food": {
       "lunch": "イオンレイクタウンkaze内に飲食店あり。",
-      "bento": "ask",
-      "bentoNote": "食べ物の持ち込み可否は確認できていません（リトルプラネット系の別パークでは食べ物の持ち込み不可の案内あり）。お出かけ前にご確認ください。",
-      "source": "unverified",
-      "sourceUrl": "https://litpla.com/space/muchu-laketown/",
+      "bento": "ng",
+      "bentoNote": "食べ物の持ち込みは不可の可能性が高い（同じリトルプラネット系のTOYLO PARKのパーク公式お知らせでは、水分補給の飲み物のみ持ち込みOK・食べ物はNG）。この店舗個別の案内は未確認です。",
+      "source": "web",
+      "sourceUrl": "https://iko-yo.net/facilities/176186/news/124061",
       "checkedAt": "2026年11月7日"
     },
     "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
@@ -74589,7 +74605,18 @@
     },
     "verifiedAt": "2026年11月7日",
     "strollerOk": "ask",
-    "strollerCheckedAt": "2026年11月7日"
+    "strollerCheckedAt": "2026年11月7日",
+    "businessHours": {
+      "mon": "10:00-20:00",
+      "tue": "10:00-20:00",
+      "wed": "10:00-20:00",
+      "thu": "10:00-20:00",
+      "fri": "10:00-20:00",
+      "sat": "10:00-20:00",
+      "sun": "10:00-20:00",
+      "holiday": "10:00-20:00"
+    },
+    "businessHoursNote": "10:00〜20:00（最終受付19:00）"
   },
   {
     "region": "千葉",
@@ -75008,8 +75035,8 @@
     "slug": "kanagawa/yokohama-tsuzuki/the-kids-northport-mall",
     "area": "横浜市都筑区中川中央",
     "address": "神奈川県横浜市都筑区中川中央1-25-1 ノースポート・モール 3F",
-    "lat": null,
-    "lng": null,
+    "lat": 35.552062,
+    "lng": 139.579438,
     "genre": "室内遊び場",
     "ages": [
       "0-1歳",
@@ -75064,8 +75091,8 @@
     "slug": "tokyo/minato/hado-arena-odaiba",
     "area": "港区台場",
     "address": "東京都港区台場1-7-1 アクアシティお台場 東エリア5F",
-    "lat": null,
-    "lng": null,
+    "lat": 35.628063,
+    "lng": 139.774563,
     "genre": "室内遊び場",
     "ages": [
       "低学年",
@@ -75166,5 +75193,1201 @@
     "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
     "strollerOk": "ask",
     "strollerCheckedAt": "2026年11月7日"
+  },
+  {
+    "region": "東京",
+    "name": "JOYPOLIS SPORTS X",
+    "slug": "tokyo/minato/joypolis-sports-x",
+    "area": "港区台場",
+    "address": "東京都港区台場1-6-1 デックス東京ビーチ アイランドモール 5F",
+    "lat": 35.6290767,
+    "lng": 139.7758997,
+    "genre": "遊園地・テーマパーク",
+    "ages": [
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "大人（18歳以上）2,900円／小中高生2,600円／ペアチケット（2名）5,000円／グループチケット（4名）9,800円／未就学児無料（再入場不可）。平日は3時間制、土日祝・ハイシーズンは2時間制",
+    "parking": "yes",
+    "access": "ゆりかもめ「お台場海浜公園」駅から徒歩2分／りんかい線「東京テレポート」駅から徒歩5分。デックス東京ビーチの駐車場を利用",
+    "baby": "未就学児は無料。授乳室などはデックス東京ビーチ館内で要確認",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/base/164839/"
+    },
+    "recommendedBooking": "asoview",
+    "officialUrl": "https://joypolis-sports.com/x-daiba/",
+    "desc": "2026年7月10日にオープンした、東京ジョイポリス30周年から生まれたXR×スポーツの完全屋内型エンターテインメント施設（全16種類のコンテンツ）。光と映像に包まれて全身で遊ぶデジタルスポーツ体験が中心で、運動が苦手でも気軽に遊べる。東京ジョイポリスと同じデックス東京ビーチ内にある。",
+    "tip": "平日は3時間制、土日祝は2時間制で料金は同じ。グループチケット（4名）が割安。再入場はできないので、食事は入場前後に。アソビューでも購入できる。",
+    "familyPrice": {
+      "yen": 11000,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "大人2,900円×2＋小中高生2,600円×2＋未就学児無料＝11,000円（4名のグループチケット9,800円を使うと少し安くなる場合あり）"
+    },
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 180
+    },
+    "businessHours": {
+      "mon": "11:00-19:00",
+      "tue": "11:00-19:00",
+      "wed": "11:00-19:00",
+      "thu": "11:00-19:00",
+      "fri": "11:00-19:00",
+      "sat": "11:00-20:00",
+      "sun": "11:00-20:00",
+      "holiday": "11:00-20:00"
+    },
+    "businessHoursNote": "平日11:00〜19:00（3時間制）／土日祝・ハイシーズン11:00〜20:00（2時間制）。電話 03-5579-4651",
+    "food": {
+      "lunch": "デックス東京ビーチ内に飲食店多数。",
+      "bento": "ask",
+      "bentoNote": "館内の持ち込み可否は確認できていません。再入場不可のため、食事は入場前後がおすすめです。",
+      "source": "unverified",
+      "sourceUrl": "https://report.iko-yo.net/articles/32690",
+      "checkedAt": "2026年11月7日"
+    },
+    "verifiedAt": "2026年11月7日",
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerOk": "ask",
+    "strollerCheckedAt": "2026年11月7日"
+  },
+  {
+    "region": "神奈川",
+    "name": "THE MOVEUM YOKOHAMA",
+    "slug": "kanagawa/yokohama-naka/the-moveum-yokohama",
+    "area": "横浜市中区山下町",
+    "address": "神奈川県横浜市中区山下町279-9 山下ふ頭4号上屋",
+    "lat": 35.4500792,
+    "lng": 139.6575824,
+    "genre": "博物館・科学館",
+    "ages": [
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "一般料金は公式サイト要確認（期間限定で「中学生以下無料」を実施していた時期あり）。小学生以下のみでの入場は不可（18歳以上の保護者の同伴が必要）",
+    "parking": "unknown",
+    "access": "みなとみらい線「元町・中華街」駅4番口から山下ふ頭バス待合所まで徒歩約5分、そこから会場までトヨタの「e-Palette」で無料送迎（約5分・徒歩約20分）",
+    "baby": "詳細は要確認",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/item/ticket/ticket0000055913/"
+    },
+    "recommendedBooking": "asoview",
+    "officialUrl": "https://global.toyota/info/themoveum/",
+    "desc": "トヨタグループが主催する、横浜・山下ふ頭4号上屋（約1,800㎡）のイマーシブ・ミュージアム。360度の映像と音楽に包まれる没入型アート体験で、グスタフ・クリムトからエゴン・シーレまでの世紀末ウィーン芸術を表現した「美の黄金時代」などを上映する。日没後は建物のイルミネーションも楽しめる。",
+    "tip": "上映は1時間ごとの入替制で、開始15分前から並べる。チケットは事前のオンライン購入が推奨。山下ふ頭バス待合所からの無料送迎（e-Palette）を使うと便利。上映作品と営業時間は変わるので公式で確認を。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://global.toyota/info/themoveum/"
+    },
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 120
+    },
+    "businessHoursNote": "11:00〜18:00（土曜・GW期間は〜19:00。2026年春の案内。現在の時間は公式で確認）。上映は1時間ごと",
+    "food": {
+      "lunch": "元町・中華街周辺に飲食店多数。",
+      "bento": "ask",
+      "bentoNote": "館内の飲食・持ち込みのルールは確認できていません。お出かけ前にご確認ください。",
+      "source": "unverified",
+      "sourceUrl": "https://t.pia.jp/pia/events/themoveumyokohama",
+      "checkedAt": "2026年11月7日"
+    },
+    "verifiedAt": "2026年11月7日",
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerOk": "ask",
+    "strollerCheckedAt": "2026年11月7日"
+  },
+  {
+    "region": "埼玉",
+    "name": "MOGUえほんランド",
+    "slug": "saitama/yoshikawa/mogu-ehon-land",
+    "area": "吉川市美南",
+    "address": "〒342-0038 埼玉県吉川市美南3-25-1 イオンタウン吉川美南 東街区 1F",
+    "lat": 35.8659247,
+    "lng": 139.8591053,
+    "genre": "室内遊び場",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "料金は公式案内で要確認（遊び場の利用料は未確認。書店・カフェのみの利用は入場無料のはず）",
+    "parking": "yes",
+    "access": "JR武蔵野線「吉川美南」駅から徒歩約1分。イオンタウン吉川美南の駐車場を利用（埼玉おもちゃ美術館EASTの隣）",
+    "baby": "詳細は要確認",
+    "officialUrl": "https://museum.socialimpact.ed.jp/11%E6%9C%881%E6%97%A5-mogu%E3%81%88%E3%81%BB%E3%82%93%E3%83%A9%E3%83%B3%E3%83%89%E3%81%8C%E3%82%A4%E3%82%AA%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%B3%E5%90%89%E5%B7%9D%E7%BE%8E%E5%8D%97%E3%81%AB%E3%82%AA/",
+    "desc": "2026年11月1日にオープンした、大垣書店とポプラ社が手がける絵本専門店。BOOKエリア（絵本を中心とした児童書売り場）、カフェエリア（キャラクターとのコラボメニュー）、遊び場の「えほんアイランドエリア」（ゾロリの海賊船・ねずみくんの滑り台など）の3機能がそろう。読み聞かせイベントも予定されている。",
+    "tip": "同じ東街区1階の埼玉おもちゃ美術館EASTやオンパミード（7か月〜12歳）、いきもの探検隊と組み合わせて1日遊べる。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式案内でご確認ください"
+    },
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 150
+    },
+    "businessHours": {
+      "mon": "10:00-18:00",
+      "tue": "10:00-18:00",
+      "wed": "10:00-18:00",
+      "thu": "10:00-18:00",
+      "fri": "10:00-18:00",
+      "sat": "10:00-18:00",
+      "sun": "10:00-18:00",
+      "holiday": "10:00-18:00"
+    },
+    "businessHoursNote": "10:00〜18:00（開業時の予定。変更の可能性あり）",
+    "food": {
+      "lunch": "カフェエリアあり。イオンタウン吉川美南内に飲食店あり。",
+      "bento": "ask",
+      "bentoNote": "カフェエリアの利用や持ち込みのルールは確認できていません。お出かけ前にご確認ください。",
+      "source": "unverified",
+      "sourceUrl": "https://www.oricon.co.jp/pressrelease/3015346/",
+      "checkedAt": "2026年11月7日"
+    },
+    "verifiedAt": "2026年11月7日",
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerOk": "ask",
+    "strollerCheckedAt": "2026年11月7日"
+  },
+  {
+    "region": "栃木",
+    "name": "CotoToki ベルモール店",
+    "slug": "tochigi/utsunomiya/cototoki-bellmall",
+    "area": "宇都宮市陽東",
+    "address": "栃木県宇都宮市陽東6-2-1 ベルモール 2F（アカチャンホンポ ベルモール店内）",
+    "lat": 36.5550656,
+    "lng": 139.9282552,
+    "genre": "室内遊び場",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "30分 子供770円・大人770円、以降30分ごとに1名330円追加（120分以上は1名あたり最大1,650円）。6か月未満の子供は無料（大人料金のみ）",
+    "parking": "yes",
+    "access": "ベルモール 2階 アカチャンホンポ店内（ベルモールの駐車場を利用）",
+    "baby": "授乳・おむつ替えに対応したベビーケアルーム、調乳用ウォーターサーバー、電子レンジあり",
+    "officialUrl": "https://www.akachan.jp/topics/CotoToki_bellmall",
+    "desc": "2026年11月13日オープン予定。アカチャンホンポが展開する0歳〜未就学児向けの親子滞在型空間「CotoToki」の関東初・3号店。月齢に合った玩具や運動遊具のある「Side Nest」、3〜4歳頃の子も楽しめる積み木・レール玩具・水で描けるお絵かきなどがあり、持ち込み飲食ができる「Soft Living」で休憩・食事もできる。",
+    "tip": "対象は0歳〜未就学児で、保護者1人につき子供3人まで。小学生は利用できない。",
+    "familyPrice": {
+      "yen": 2310,
+      "yenMax": 4950,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・幼児1の3人（対象は未就学児のみ。小学生は利用不可）",
+      "note": "30分なら770円×3人＝2,310円、120分以上なら最大1,650円×3人＝4,950円（6か月未満は無料）"
+    },
+    "stayTime": {
+      "minMinutes": 30,
+      "maxMinutes": 120
+    },
+    "businessHours": {
+      "mon": "10:00-17:00",
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": "10:00-17:00",
+      "holiday": "10:00-17:00"
+    },
+    "businessHoursNote": "10:00〜17:00（最終受付16:30）。2026年11月13日オープン予定",
+    "food": {
+      "lunch": "ベルモール内に飲食店あり。施設内の「Soft Living」で持ち込み飲食ができる。",
+      "bento": "ok",
+      "bentoNote": "飲食物の持ち込みができる「Soft Living」あり（いこーよニュース掲載の案内より）。",
+      "source": "web",
+      "sourceUrl": "https://report.iko-yo.net/articles/34874",
+      "checkedAt": "2026年11月7日"
+    },
+    "verifiedAt": "2026年11月7日",
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerOk": "ask",
+    "strollerCheckedAt": "2026年11月7日"
+  },
+  {
+    "region": "埼玉",
+    "name": "こびとはくぶつかん",
+    "slug": "saitama/koshigaya/kobito-hakubutsukan",
+    "area": "越谷市レイクタウン",
+    "address": "埼玉県越谷市レイクタウン3-1-1 イオンレイクタウン mori 3F",
+    "lat": 35.8820802,
+    "lng": 139.828246,
+    "genre": "博物館・科学館",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "展示エリア 大人1,200円／子供（12歳以下）600円／3歳以下無料。物販エリアは入場無料",
+    "parking": "yes",
+    "access": "JR武蔵野線「越谷レイクタウン」駅から徒歩（イオンレイクタウンmori 3階）。イオンレイクタウンの駐車場を利用",
+    "baby": "3歳以下は無料。詳細は要確認",
+    "officialUrl": "https://www.kobitos.com/post/kobitos-museum",
+    "desc": "2026年8月12日にグランドオープンした、絵本「こびとづかん」の世界を体感できる約100坪の没入型体験施設（運営はJuice）。来場者が「こびと調査員」になり、葉っぱの陰や岩のすき間などに暮らすコビトたちを観察する。全長約3mのジオラマや8つのエリア、子供だけの特別なスペースがあり、物販エリアでは限定グッズやカプセルトイも買える。",
+    "tip": "混雑時は整理券を配布することがある。入場者には限定ステッカーが配られた（オープン時）。物販エリアだけなら入場無料。",
+    "familyPrice": {
+      "yen": 3600,
+      "yenMax": 4200,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "大人1,200円×2＋子供600円×2＋幼児（3歳以下なら無料、4歳以上なら600円）。幼児の年齢で3,600〜4,200円"
+    },
+    "stayTime": {
+      "minMinutes": 45,
+      "maxMinutes": 90
+    },
+    "businessHours": {
+      "mon": "10:00-21:00",
+      "tue": "10:00-21:00",
+      "wed": "10:00-21:00",
+      "thu": "10:00-21:00",
+      "fri": "10:00-21:00",
+      "sat": "10:00-21:00",
+      "sun": "10:00-21:00",
+      "holiday": "10:00-21:00"
+    },
+    "businessHoursNote": "10:00〜21:00（展示エリアの最終入場20:30）。不定休",
+    "closedDays": [
+      "不定休"
+    ],
+    "food": {
+      "lunch": "イオンレイクタウン内に飲食店・フードコート多数。",
+      "bento": "ask",
+      "bentoNote": "館内の持ち込み可否は確認できていません。お出かけ前にご確認ください。",
+      "source": "unverified",
+      "sourceUrl": "https://report.iko-yo.net/articles/32607",
+      "checkedAt": "2026年11月7日"
+    },
+    "verifiedAt": "2026年11月7日",
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerOk": "ask",
+    "strollerCheckedAt": "2026年11月7日"
+  },
+  {
+    "region": "茨城",
+    "name": "霞ケ浦 どうぶつとみんなのいえ",
+    "slug": "ibaraki/namegata/kasumigaura-doubutsu-to-minna-no-ie",
+    "area": "行方市玉造",
+    "address": "〒311-3512 茨城県行方市玉造甲1234",
+    "lat": 36.0964428,
+    "lng": 140.4028424,
+    "genre": "動物園",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "大人（高校生以上）1,650円／小人（4歳〜中学生）1,100円／3歳以下無料（アプリ会員割引・市民割引・前売券あり）",
+    "parking": "yes",
+    "access": "常磐道千代田石岡ICから約35分／東関東道潮来ICから約50分／JR常磐線土浦駅から車またはバスで約50分。駐車場無料",
+    "baby": "3歳以下は無料。詳細は要確認",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/base/162099/"
+    },
+    "recommendedBooking": "asoview",
+    "officialUrl": "https://doubutsutominna.jp/",
+    "desc": "2024年7月31日にリニューアルオープンした、霞ケ浦湖畔の動物ふれあい施設（旧水の科学館）。キリン、アルパカ、カピバラ、ペンギン、ナマケモノなど約20種80頭羽以上の動物に会え、ヤギにおやつをあげる体験などができる。物産館や軽食コーナー、手ぶらで楽しめるBBQエリアもあり、所要は約2時間。",
+    "tip": "アソビューやアプリ会員の割引がある。霞ケ浦のレンタサイクルや展望台「虹の塔」、「あそう温泉 白帆の湯」と組み合わせやすい。",
+    "familyPrice": {
+      "yen": 6600,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "大人1,650円×2＋小人1,100円×3（幼児が4歳以上の場合。3歳以下なら5,500円）"
+    },
+    "stayTime": {
+      "minMinutes": 90,
+      "maxMinutes": 150
+    },
+    "businessHours": {
+      "mon": "10:00-16:00",
+      "tue": "10:00-16:00",
+      "wed": "定休日",
+      "thu": "10:00-16:00",
+      "fri": "10:00-16:00",
+      "sat": "10:00-16:00",
+      "sun": "10:00-16:00",
+      "holiday": "10:00-16:00"
+    },
+    "businessHoursNote": "10:00〜16:00。電話 0299-55-3928",
+    "closedDays": [
+      "毎週水曜日"
+    ],
+    "food": {
+      "lunch": "施設内に軽食コーナーと手ぶらBBQエリア。隣接する「道の駅 たまつくり」にも飲食あり。",
+      "bento": "ng",
+      "bentoNote": "アソビュー掲載情報で「飲食物持ち込みなし（不可）」。施設内に飲食店・売店あり。公式では未確認です。",
+      "source": "web",
+      "sourceUrl": "https://www.asoview.com/base/162099/",
+      "checkedAt": "2026年11月7日"
+    },
+    "verifiedAt": "2026年11月7日",
+    "strollerNote": "アソビュー掲載情報でベビーカー入館あり（公式では未確認）。",
+    "strollerOk": "ok",
+    "strollerCheckedAt": "2026年11月7日"
+  },
+  {
+    "region": "東京",
+    "name": "動物たちが暮らす森 アニミル お台場店",
+    "slug": "tokyo/minato/animeal-odaiba",
+    "area": "港区台場",
+    "address": "東京都港区台場1-6-1 デックス東京ビーチ シーサイドモール 5F",
+    "lat": 35.6290905,
+    "lng": 139.775797,
+    "genre": "動物園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "大人（13歳以上）45分1,980円〜（入場時に1オーダー制）／小人（4〜12歳）990円（時間無制限・おやつ体験ガチャ付き）／3歳以下無料（20歳以上の同伴者が必要）。平日90分パックなどあり",
+    "parking": "yes",
+    "access": "ゆりかもめ「お台場海浜公園」駅方面（デックス東京ビーチ 5階）。デックスの駐車場550台（30分300円・土日祝400円）",
+    "baby": "3歳以下は無料。詳細は要確認",
+    "officialUrl": "https://www.animeal.jp/odaiba/",
+    "desc": "2022年にオープンした、昼夜で動物が入れ替わる都市型のふれあい動物園。犬・猫・ミーアキャット・フェレット・ハリネズミなど約19種60頭羽が柵なしの異種混合で暮らし、15時半ごろから夜行性のフクロウやアリクイに入れ替わる。おやつ体験やフクロウのフライトなどのパフォーマンスもある。",
+    "tip": "大人は入場時に1オーダー制。子供（4〜12歳）は時間無制限で990円。20歳以上の同伴者が必要。",
+    "familyPrice": {
+      "yen": 6930,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "大人1,980円×2（別途ワンドリンク）＋小人990円×3（幼児が4歳以上の場合）。ドリンク代は含まず"
+    },
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 120
+    },
+    "businessHours": {
+      "mon": "12:00-19:00",
+      "tue": "12:00-19:00",
+      "wed": "12:00-19:00",
+      "fri": "12:00-19:00",
+      "thu": "定休日",
+      "sat": "11:00-19:00",
+      "sun": "11:00-19:00",
+      "holiday": "11:00-19:00"
+    },
+    "businessHoursNote": "平日12:00〜19:00、土日祝11:00〜19:00（最終入場18:15）。電話 03-6457-1215",
+    "closedDays": [
+      "毎週木曜日（祝日の場合は営業）"
+    ],
+    "food": {
+      "lunch": "カフェメニュー（自家製レモネード・ココアなど）あり。デックス東京ビーチ内に飲食店多数。",
+      "bento": "ask",
+      "bentoNote": "持ち込み可否は確認できていません。入場時に1オーダーが必要です。",
+      "source": "unverified",
+      "sourceUrl": "https://zaikei.co.jp/releases/2875932/",
+      "checkedAt": "2026年11月7日"
+    },
+    "verifiedAt": "2026年11月7日",
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerOk": "ask",
+    "strollerCheckedAt": "2026年11月7日"
+  },
+  {
+    "region": "千葉",
+    "name": "トランポランドTOKYO BAYSIDE",
+    "slug": "chiba/urayasu/trampoland-tokyo-bayside",
+    "area": "浦安市日の出",
+    "address": "〒279-0013 千葉県浦安市日の出5-7-7 マリナガーデン新浦安内",
+    "lat": 35.6418552,
+    "lng": 139.9307746,
+    "genre": "室内遊び場",
+    "ages": [
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "1人60分 平日1,800円・土日祝2,100円〜（専用ソックス別売。90分・120分、園児さんエリアの料金設定もあり）。付き添いの保護者は無料",
+    "parking": "yes",
+    "access": "JR新浦安駅から徒歩約25分（おさんぽバスで約16分）。首都高浦安ICから約8分。駐車場無料（約100台）",
+    "baby": "3歳以上が対象。離乳食持ち込み可（アソビュー掲載情報）。コインロッカーあり",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/base/162136/"
+    },
+    "recommendedBooking": "asoview",
+    "officialUrl": "https://trampoland.com/facility/tokyo-bayside",
+    "desc": "2019年にマリナガーデン新浦安内にオープンした屋内トランポリンパーク。ビッグトランポリン、ダイビングエリア、ダンクエリア、ドッジボールエリア、壁を駆け上がるウォールトランポリンなどがあり、3歳以上〜小学生未満専用の「園児さんエリア」もある。",
+    "tip": "専用ソックス必須（受付・予約時に購入）。30日前からWeb予約可。付き添い保護者は無料。園児さんエリアは小学生以上と大人は利用不可。アソビューやいこーよで割引チケットあり。",
+    "familyPrice": {
+      "yen": 3600,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "小学生2人＝1,800円×2（平日60分）。付き添いの大人は無料。園児さんエリアの料金・ソックス代は別途"
+    },
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 120
+    },
+    "businessHours": {
+      "mon": "12:00-21:00",
+      "tue": "12:00-21:00",
+      "thu": "12:00-21:00",
+      "fri": "12:00-21:00",
+      "wed": "定休日",
+      "sat": "10:00-20:00",
+      "sun": "10:00-20:00",
+      "holiday": "10:00-20:00"
+    },
+    "businessHoursNote": "平日12:00〜21:00、土日祝10:00〜20:00（受付は開始20分前から）。電話 047-318-3701",
+    "closedDays": [
+      "毎週水曜日（祝日は営業との案内あり。要確認）"
+    ],
+    "food": {
+      "lunch": "マリナガーデン新浦安内に飲食店あり。",
+      "bento": "ok",
+      "bentoNote": "アソビュー掲載情報で飲食物・離乳食の持ち込みあり。公式では未確認です。",
+      "source": "web",
+      "sourceUrl": "https://www.asoview.com/base/162136/",
+      "checkedAt": "2026年11月7日"
+    },
+    "verifiedAt": "2026年11月7日",
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerOk": "ask",
+    "strollerCheckedAt": "2026年11月7日"
+  },
+  {
+    "region": "栃木",
+    "name": "パワーショベルパーク",
+    "slug": "tochigi/nasushiobara/power-shovel-park",
+    "area": "那須塩原市戸田",
+    "address": "栃木県那須塩原市戸田178-4（ジャイロライドパーク内）",
+    "lat": 37.042687,
+    "lng": 139.960562,
+    "genre": "遊園地・テーマパーク",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "小型ショベルカー・大型ショベルカーともに30分5,800円。小型は3歳から保護者同乗で体験可、大型は10歳から操縦可",
+    "parking": "yes",
+    "access": "JR那須塩原駅から車で約25分（要予約・2名以上で無料送迎あり）。東北道那須ICまたは黒磯板室ICから",
+    "baby": "3歳〜が対象。詳細は要確認",
+    "officialUrl": "https://lbcg.net/psp/",
+    "desc": "那須の森の中で、本物の国産メーカー製パワーショベルを操縦できる体験施設（ジャイロライドパーク内。2024年リニューアル）。土を掘る、岩をつかむ、薪を積むなどのミッションがある。小型は子供でも乗れるサイズで、スタッフが操作を教えてくれる。汚れず汗をかかず、雨の日も体験できる。",
+    "tip": "住所表記に「178-4」と「178-6」のゆれがあり、座標は敷地付近。隣のジャイロライドパークとあわせて楽しめる。予約を推奨。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "体験は1回30分5,800円（人数・乗る人により合計が変わるため目安は出せません）。公式サイトでご確認ください",
+      "officialUrl": "https://lbcg.net/psp/"
+    },
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 120
+    },
+    "businessHours": {
+      "mon": "10:00-17:00",
+      "tue": "10:00-17:00",
+      "wed": "10:00-17:00",
+      "thu": "10:00-17:00",
+      "fri": "10:00-17:00",
+      "sat": "10:00-17:00",
+      "sun": "10:00-17:00",
+      "holiday": "10:00-17:00"
+    },
+    "businessHoursNote": "10:00〜17:00（最終受付16:00）。電話 0287-74-5517",
+    "food": {
+      "lunch": "敷地内にカフェ（焼きカレーなど）あり。",
+      "bento": "ask",
+      "bentoNote": "持ち込み可否は確認できていません。お出かけ前にご確認ください。",
+      "source": "unverified",
+      "sourceUrl": "https://news.allabout.co.jp/articles/o/124575/",
+      "checkedAt": "2026年11月7日"
+    },
+    "verifiedAt": "2026年11月7日",
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerOk": "ask",
+    "strollerCheckedAt": "2026年11月7日"
+  },
+  {
+    "region": "東京",
+    "name": "ASOBono!（アソボーノ）",
+    "slug": "tokyo/bunkyo/asobono-tokyo-dome-city",
+    "area": "文京区後楽",
+    "address": "東京都文京区後楽1-3-61 東京ドームシティ内",
+    "lat": 35.703938,
+    "lng": 139.754688,
+    "genre": "室内遊び場",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "大人 平日950円・土日祝1,050円／こども 平日60分950円・土日祝1,050円（6か月〜小学生）。モーニングスキップパスなどのチケットあり",
+    "parking": "yes",
+    "access": "JR水道橋駅から徒歩3分／東京メトロ後楽園駅・都営三田線水道橋駅から徒歩1分。東京ドームシティの駐車場670台（有料）",
+    "baby": "0〜24か月の赤ちゃん専用エリア、授乳室・おむつ替え台・ベビーカー置き場あり。保護者は20歳以上、再入場不可（アソビュー掲載情報）",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/base/162337/"
+    },
+    "recommendedBooking": "asoview",
+    "officialUrl": "https://www.tokyo-dome.co.jp/asobono/",
+    "desc": "2011年オープンの都内最大級の屋内型キッズ施設。約4万個のボールプール「アドベンチャーオーシャン」、本格的なおままごとの「カラフルタウン」、プラレールなどの「トイフォレスト」など5つのエリアがあり、0〜24か月の赤ちゃん専用エリアもある。",
+    "tip": "受付は閉館の70分前まで。開館10分前から入れる日付指定の「モーニングスキップパス」（70分）がある。アソビューでも購入できる。",
+    "familyPrice": {
+      "yen": 4750,
+      "yenMax": 5250,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "平日：大人950円×2＋子供（60分）950円×3＝4,750円、土日祝：1,050円×5＝5,250円（幼児も子供料金と仮定。延長料金・特定期間料金は別）"
+    },
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 120
+    },
+    "businessHours": {
+      "mon": "10:00-18:00",
+      "tue": "10:00-18:00",
+      "wed": "10:00-18:00",
+      "thu": "10:00-18:00",
+      "fri": "10:00-18:00",
+      "sat": "09:30-19:00",
+      "sun": "09:30-19:00",
+      "holiday": "09:30-19:00"
+    },
+    "businessHoursNote": "平日10:00〜18:00、土日祝9:30〜19:00（受付終了は閉館の70分前）。電話 03-5800-9999",
+    "food": {
+      "lunch": "東京ドームシティ内に飲食店多数。",
+      "bento": "ask",
+      "bentoNote": "持ち込み可否は確認できていません。お出かけ前にご確認ください。",
+      "source": "unverified",
+      "sourceUrl": "https://iko-yo.net/facilities/3879",
+      "checkedAt": "2026年11月7日"
+    },
+    "verifiedAt": "2026年11月7日",
+    "strollerNote": "ベビーカー置き場あり（アソビュー掲載情報）。再入場はできません。",
+    "strollerOk": "ask",
+    "strollerCheckedAt": "2026年11月7日"
+  },
+  {
+    "region": "東京",
+    "name": "ちきゅうのにわ 東久留米店",
+    "slug": "tokyo/higashikurume/chikyu-no-niwa-higashikurume",
+    "area": "東久留米市南沢",
+    "address": "東京都東久留米市南沢5-17-62 イオンモール東久留米専門店街 3F",
+    "lat": 35.7451312,
+    "lng": 139.527414,
+    "genre": "室内遊び場",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "有料（時間制）。無料アプリ「トットット」会員価格あり、非会員は子供1名につき+200円。0歳は会員に限り無料（年齢確認の証明書が必要）。料金表は公式で確認",
+    "parking": "yes",
+    "access": "イオンモール東久留米 専門店街3階",
+    "baby": "0〜2歳専用のボールプール・遊具のある「山エリア」あり。0歳は無料",
+    "officialUrl": "https://www.fantasy.co.jp/chikyunoniwa/higashikurume/",
+    "desc": "2026年7月15日にイオンモール東久留米にオープンした、0〜12歳向けの地球をテーマにした屋内遊び場（22店舗目・約300坪）。火山のボールプール、北極のふわふわドーム、抗菌砂の砂場、氷山スライダー、ベーカリーショップなどのなりきり遊び、21mのスカイレールグライダーなど。毎日イベントやワークショップがある。",
+    "tip": "スクールホリデーは平日も休日料金（7/18〜8/28は平日も休日料金だった）。16歳以上の保護者の付き添いが必須。13〜15歳の同伴者は大人料金。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.fantasy.co.jp/chikyunoniwa/higashikurume/"
+    },
+    "stayTime": {
+      "minMinutes": 90,
+      "maxMinutes": 150
+    },
+    "businessHours": {
+      "mon": "10:00-21:00",
+      "tue": "10:00-21:00",
+      "wed": "10:00-21:00",
+      "thu": "10:00-21:00",
+      "fri": "10:00-21:00",
+      "sat": "10:00-21:00",
+      "sun": "10:00-21:00",
+      "holiday": "10:00-21:00"
+    },
+    "businessHoursNote": "10:00〜21:00（最終受付20:00）",
+    "food": {
+      "lunch": "イオンモール東久留米内にフードコート・飲食店あり。",
+      "bento": "ng",
+      "bentoNote": "同ブランド（羽生店・幕張新都心店）は持ち込みのお食事をお断りし、蓋のある飲み物は持ち込み可の公式案内。東久留米店個別の案内は未確認ですが、同様の可能性が高いです。",
+      "source": "web",
+      "sourceUrl": "https://www.fantasy.co.jp/chikyunoniwa/hanyu/",
+      "checkedAt": "2026年11月7日"
+    },
+    "verifiedAt": "2026年11月7日",
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerOk": "ask",
+    "strollerCheckedAt": "2026年11月7日"
+  },
+  {
+    "region": "千葉",
+    "name": "ふれあいどうぶつ縁",
+    "slug": "chiba/sodegaura/sodegaura-fureai-doubutsu-en",
+    "area": "袖ケ浦市上泉",
+    "address": "〒299-0205 千葉県袖ケ浦市上泉1506-10",
+    "lat": 35.4160806,
+    "lng": 140.0604079,
+    "genre": "動物園",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "料金は公式サイト要確認（年間パスポートあり）",
+    "parking": "yes",
+    "access": "館山自動車道 姉崎袖ヶ浦ICから車で約10分。JR袖ケ浦駅からレンタサイクルで行く方法も案内されている",
+    "baby": "詳細は要確認",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/spot/spot0000044475/"
+    },
+    "recommendedBooking": "asoview",
+    "officialUrl": "https://www.sodegaura-animal.jp/",
+    "desc": "アルパカ、ヒツジ、ヤギ、カピバラ、エミュー、ダチョウ、ウサギ、モルモット、ヒヨコなどとふれあえる動物園（袖ケ浦市）。エサやりやふれあい体験ができ、ドッグランもある（愛犬の入園料・ドッグラン利用は無料）。11:30からお食事の提供もある。",
+    "tip": "2026年10月時点で復旧工事の影響でカピバラ・ウサギのふれあいが中止になる日があった。営業状況は公式SNSで確認を。アソビューやじゃらんでも予約できる。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.sodegaura-animal.jp/"
+    },
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 120
+    },
+    "businessHours": {
+      "mon": "10:00-16:00",
+      "tue": "10:00-16:00",
+      "wed": "10:00-16:00",
+      "fri": "10:00-16:00",
+      "thu": "定休日",
+      "sat": "08:00-16:00",
+      "sun": "08:00-16:00",
+      "holiday": "08:00-16:00"
+    },
+    "businessHoursNote": "平日10:00〜16:00、土日祝8:00〜16:00（最終入縁15:30）。電話 0438-60-4100",
+    "closedDays": [
+      "毎週木曜日（祝日を除く）",
+      "天候等で臨時休縁あり"
+    ],
+    "food": {
+      "lunch": "園内でお食事（11:30〜）とお飲み物の提供あり。",
+      "bento": "ask",
+      "bentoNote": "持ち込み可否は確認できていません。お出かけ前にご確認ください。",
+      "source": "unverified",
+      "sourceUrl": "https://www.sodegaura-animal.jp/",
+      "checkedAt": "2026年11月7日"
+    },
+    "verifiedAt": "2026年11月7日",
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerOk": "ask",
+    "strollerCheckedAt": "2026年11月7日"
+  },
+  {
+    "region": "千葉",
+    "name": "ありのみコース（市川自然公園）",
+    "slug": "chiba/ichikawa/arinomi-course",
+    "area": "市川市大町",
+    "address": "千葉県市川市大町226-1",
+    "lat": 35.7703794,
+    "lng": 139.9724652,
+    "genre": "アスレチック・アウトドア",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "大人1,300円／小・中学生1,000円／幼児（3歳以上）800円／3歳未満無料",
+    "parking": "yes",
+    "access": "北総線「大町」駅から徒歩5分。京葉道路市川ICまたは原木ICから車で約15〜25分。駐車場200台（700円）",
+    "baby": "授乳室は女子ロッカー室、おむつ交換室は男女ロッカー室にあり。ちびっこ広場あり",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/spot/12203ca3450112289/"
+    },
+    "recommendedBooking": "asoview",
+    "officialUrl": "https://arinomi-course.sakura.ne.jp/",
+    "desc": "日本フィールドアスレチック協会公認の本格的なフィールドアスレチックコース。約3万㎡の園内に40ポイントが約1kmにわたって点在し、水路わたりや全長60mのスカイライダーが人気。所要は約1時間半。小さな子向けのちびっこ広場、更衣室・温水シャワー室、売店（Tシャツ販売）もある。夏はじゃぶじゃぶ池（無料）を開設。",
+    "tip": "入園は15時まで。スカイライダーは体重80kg以内。アソビューでも購入できる。係員がいない日は駐車場が無料になる場合あり。",
+    "familyPrice": {
+      "yen": 5400,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "大人1,300円×2＋小学生1,000円×2＋幼児800円（3歳以上）"
+    },
+    "stayTime": {
+      "minMinutes": 90,
+      "maxMinutes": 180
+    },
+    "businessHours": {
+      "mon": "定休日",
+      "tue": "09:30-17:00",
+      "wed": "09:30-17:00",
+      "thu": "09:30-17:00",
+      "fri": "09:30-17:00",
+      "sat": "09:30-17:00",
+      "sun": "09:30-17:00",
+      "holiday": "09:30-17:00"
+    },
+    "businessHoursNote": "9:30〜17:00（入園は15:00まで）。電話 047-338-2050",
+    "closedDays": [
+      "毎週月曜日（祝日の場合は翌日）",
+      "年末年始（12/26〜1/4）"
+    ],
+    "food": {
+      "lunch": "園内に売店あり。",
+      "bento": "ok",
+      "bentoNote": "食べ物の持ち込みOK（ウォーカープラスの掲載情報。酒類は持ち込み禁止）。",
+      "source": "web",
+      "sourceUrl": "https://summer.walkerplus.com/odekake/detail/ar0312s496339/data.html",
+      "checkedAt": "2026年11月7日"
+    },
+    "verifiedAt": "2026年11月7日",
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前に施設へご確認ください。",
+    "strollerOk": "ask",
+    "strollerCheckedAt": "2026年11月7日"
+  },
+  {
+    "region": "神奈川",
+    "name": "宮ヶ瀬湖畔園地",
+    "slug": "kanagawa/kiyokawa/miyagase-kohan-park",
+    "area": "愛甲郡清川村宮ヶ瀬",
+    "address": "神奈川県愛甲郡清川村宮ヶ瀬",
+    "lat": 35.5237965,
+    "lng": 139.2263763,
+    "genre": "公園",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "入園無料（冬のイルミネーションは無料。水の郷大つり橋の夜間通行は中学生以上500円・小学生以下無料＝2025年実績）",
+    "parking": "yes",
+    "parkingDetail": "有料駐車場あり（水の郷第1〜第3・小中沢など約2,000台）。イベント期間中は交通規制の可能性あり",
+    "access": "小田急線「本厚木」駅北口から神奈川中央交通バス「宮ヶ瀬」行き終点下車（約50〜60分）。圏央道相模原ICから約20分／東名厚木ICから約24km",
+    "baby": "詳細は要確認",
+    "officialUrl": "https://www.miyagase.or.jp/",
+    "verifiedAt": "2026年11月7日",
+    "desc": "宮ヶ瀬湖のほとりに広がる園地。冬は「宮ヶ瀬クリスマスみんなのつどい 〜宮ヶ瀬光のメルヘン〜」として、約30mのジャンボクリスマスツリーや大噴水、水の郷商店街、水の郷大つり橋（全長315m）などが光に包まれる。",
+    "tip": "2025年（第39回）は11/22〜12/25、17:00〜22:00に開催。夜間は寒さが厳しいので防寒を。バスの本数が少なく帰りの最終便に注意。2026年の開催日程は公式で確認を。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "入園・イルミネーション鑑賞は無料（駐車料金・大つり橋の夜間通行は別途）"
+    },
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 120
+    },
+    "seasons": [
+      "冬"
+    ],
+    "events": [
+      "イルミネーション"
+    ],
+    "eventInfo": {
+      "イルミネーション": {
+        "type": "event",
+        "tentative": true,
+        "note": "宮ヶ瀬クリスマスみんなのつどい〜宮ヶ瀬光のメルヘン〜。2025年（第39回）は11/22〜12/25の17:00〜22:00、水の郷大つり橋の夜間通行は17:00〜21:30（中学生以上500円）。2026年の日程は未確認のため公式で確認を。",
+        "periodLabel": "例年11月下旬〜12月25日ごろ"
+      }
+    },
+    "strollerOk": "ask",
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前にご確認ください。",
+    "strollerCheckedAt": "2026年11月7日",
+    "food": {
+      "lunch": "水の郷商店街などに飲食店あり。",
+      "bento": "ask",
+      "bentoNote": "持ち込み可否は確認できていません。",
+      "source": "unverified",
+      "sourceUrl": "https://rurubu.jp/andmore/spot/20000695",
+      "checkedAt": "2026年11月7日"
+    }
+  },
+  {
+    "region": "東京",
+    "name": "HANA・BIYORI",
+    "slug": "tokyo/inagi/hana-biyori",
+    "area": "稲城市矢野口",
+    "address": "東京都稲城市矢野口4015-1",
+    "lat": null,
+    "lng": null,
+    "genre": "花の名所",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "入園 大人（中学生以上）800円／小学生500円／乳幼児・未就学児無料（よみうりランドのワンデーパスで入園可の期間あり）",
+    "parking": "yes",
+    "access": "京王「京王よみうりランド」駅から無料シャトルバス約3分（徒歩約10分）／小田急「読売ランド前」駅から小田急バス約10分＋徒歩8分／中央道稲城ICから約5km",
+    "baby": "授乳室・おむつ交換台あり（いこーよ掲載情報）",
+    "officialUrl": "https://www.yomiuriland.com/hanabiyori/",
+    "verifiedAt": "2026年11月7日",
+    "desc": "よみうりランドに隣接する、新感覚のエンターテインメント型フラワーパーク。約300鉢の吊り花「フラワーシャンデリア」が圧巻のHANA・BIYORI館、デジタルアートのプロジェクションマッピング、コツメカワウソの展示、日本庭園、世界的ガーデンデザイナーによる庭園などがある。日帰り温泉「花景の湯」も併設。",
+    "tip": "冬は「HANA・BIYORIのクリスマス」など夜のライトアップ企画あり（2025年は12/25まで）。よみうりランドの遊園地と当日何度も行き来できるチケットがある期間も。",
+    "familyPrice": {
+      "yen": 2600,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "大人800円×2＋小学生500円×2＋幼児無料＝2,600円（温泉・遊園地は別）"
+    },
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 150
+    },
+    "businessHours": {
+      "mon": "10:00-20:30",
+      "tue": "10:00-20:30",
+      "wed": "10:00-20:30",
+      "thu": "10:00-20:30",
+      "fri": "10:00-20:30",
+      "sat": "10:00-20:30",
+      "sun": "10:00-20:30",
+      "holiday": "10:00-20:30"
+    },
+    "businessHoursNote": "10:00〜20:30（日により異なる。不定休・公式で確認）。電話 044-966-8717",
+    "seasons": [
+      "冬"
+    ],
+    "events": [
+      "イルミネーション"
+    ],
+    "eventInfo": {
+      "イルミネーション": {
+        "type": "event",
+        "tentative": true,
+        "note": "「HANA・BIYORIのクリスマス2025」は12/25まで（ツリーシャンデリア・アイスチューリップなど）。2026-27の日程は未確認のため公式で確認を。",
+        "periodLabel": "例年11月下旬〜12月25日ごろ"
+      }
+    },
+    "strollerOk": "ask",
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前にご確認ください。",
+    "strollerCheckedAt": "2026年11月7日",
+    "food": {
+      "lunch": "館内にスターバックスあり。よみうりランド側にも飲食店多数。",
+      "bento": "ok",
+      "bentoNote": "お弁当の持ち込みは可能（缶・ビン類とアルコールは不可）。よみうりランドのイベント案内より。",
+      "source": "web",
+      "sourceUrl": "https://report.iko-yo.net/articles/30542",
+      "checkedAt": "2026年11月7日"
+    }
+  },
+  {
+    "region": "東京",
+    "name": "東京メガイルミ",
+    "slug": "tokyo/shinagawa/tokyo-mega-illumi",
+    "area": "品川区勝島",
+    "address": "東京都品川区勝島2-1-2（大井競馬場）",
+    "lat": 35.5926918,
+    "lng": 139.7419243,
+    "genre": "おでかけスポット",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "料金変動制（来場日により異なる。前売券はアソビューなどで販売。公式サイトで確認）",
+    "parking": "unknown",
+    "access": "東京モノレール「大井競馬場前」駅から徒歩2分／京急本線「立会川」駅から徒歩約12分",
+    "baby": "詳細は要確認",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/base/153956/"
+    },
+    "recommendedBooking": "asoview",
+    "officialUrl": "https://tokyomegaillumi.jp/",
+    "verifiedAt": "2026年11月7日",
+    "desc": "大井競馬場で冬季限定に開催される大型イルミネーション（2026-2027は9シーズン目のファイナルシーズン）。長さ100mの光の回廊「江戸桜トンネル」、「日本原風景」、巨大シンボル「メガツリー」、光と音楽の演出、噴水ショー、ミニチュアホースやポニーとのふれあいなどがある。大井競馬場の再整備のため来季以降は一時休止。",
+    "tip": "営業日は大井競馬の開催日などを除く53日間でとびとび。行く日が営業日か公式カレンダーで必ず確認を。11/16〜20、11/30〜12/4、12/24〜1/1は一部チケットの対象外。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金が日によって変わるため目安は出せません。公式サイトでご確認ください",
+      "officialUrl": "https://tokyomegaillumi.jp/"
+    },
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 120
+    },
+    "businessHoursNote": "16:30〜21:00（最終入場20:00）。混雑状況等で変更の場合あり",
+    "closedDays": [
+      "大井競馬開催日",
+      "12/26・12/27・1/1"
+    ],
+    "seasons": [
+      "冬"
+    ],
+    "events": [
+      "イルミネーション"
+    ],
+    "eventInfo": {
+      "イルミネーション": {
+        "type": "event",
+        "note": "東京メガイルミ2026-2027（ファイナルシーズン）。2026年10月31日（土）〜2027年1月10日（日）のうち、大井競馬開催日と12/26・27、1/1を除く全53日間。16:30〜21:00（最終入場20:00）。料金は変動制。",
+        "start": "2026-10-31",
+        "end": "2027-01-10",
+        "periodLabel": "10/31〜1/10（営業日は公式で確認）"
+      }
+    },
+    "strollerOk": "ask",
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前にご確認ください。",
+    "strollerCheckedAt": "2026年11月7日",
+    "food": {
+      "lunch": "会場内にフードエリアあり（要確認）。",
+      "bento": "ask",
+      "bentoNote": "持ち込み可否は確認できていません。",
+      "source": "unverified",
+      "sourceUrl": "https://tokyomegaillumi.jp/",
+      "checkedAt": "2026年11月7日"
+    }
+  },
+  {
+    "region": "栃木",
+    "name": "那須ガーデンアウトレット",
+    "slug": "tochigi/nasushiobara/nasu-garden-outlet",
+    "area": "那須塩原市野崎",
+    "address": "〒329-3122 栃木県那須塩原市野崎184-7",
+    "lat": 36.9657775,
+    "lng": 139.9911679,
+    "genre": "おでかけスポット",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "雨",
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "入場無料（ショッピング・飲食は各店）。イルミネーション鑑賞は無料",
+    "parking": "yes",
+    "access": "JR那須塩原駅から無料シャトルバス／東北道黒磯板室ICから車で約10分（要確認）。駐車場無料",
+    "baby": "詳細は要確認",
+    "officialUrl": "https://www.nasu-gardenoutlet.com/",
+    "verifiedAt": "2026年11月7日",
+    "desc": "那須連山を望むアウトレットモール。冬は「ウィンターイルミネーション」を開催し、中央のシンボルツリーは時期でライトアップの色が変わる。2025年10月にはペット同伴OKで無料の屋外ドッグランもオープンした。",
+    "tip": "2025-26は11/14〜2/28に開催（点灯17:00〜19:00の情報あり）。2026-27の日程は未確認のため公式で確認を。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "calc",
+      "approx": true,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "入場・イルミネーション鑑賞は無料（買い物・飲食は別）"
+    },
+    "stayTime": {
+      "minMinutes": 60,
+      "maxMinutes": 180
+    },
+    "seasons": [
+      "冬"
+    ],
+    "events": [
+      "イルミネーション"
+    ],
+    "eventInfo": {
+      "イルミネーション": {
+        "type": "event",
+        "tentative": true,
+        "note": "ウィンターイルミネーション。2025-26は2025年11月14日〜2026年2月28日（点灯17:00〜19:00の掲載あり）。2026-27の日程は未確認のため公式で確認を。",
+        "periodLabel": "例年11月中旬〜2月下旬"
+      }
+    },
+    "strollerOk": "ask",
+    "strollerNote": "ベビーカーの扱いは確認できていません。お出かけ前にご確認ください。",
+    "strollerCheckedAt": "2026年11月7日",
+    "food": {
+      "lunch": "モール内に飲食店・フードコートあり。",
+      "bento": "ask",
+      "bentoNote": "持ち込み可否は確認できていません。",
+      "source": "unverified",
+      "sourceUrl": "https://www.nasu-gardenoutlet.com/",
+      "checkedAt": "2026年11月7日"
+    }
   }
 ]
