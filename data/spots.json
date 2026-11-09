@@ -344,8 +344,8 @@
     "name": "キッザニア東京",
     "slug": "tokyo/koto/kidzania",
     "area": "江東区・豊洲",
-    "lat": 35.6547,
-    "lng": 139.796,
+    "lat": 35.6556632,
+    "lng": 139.7924528,
     "ages": [
       "4-6歳",
       "低学年",
@@ -402,7 +402,7 @@
     "image": "img/spots/tokyo-koto-kidzania.jpg",
     "imageCredit": "📷 Souka Kinmei / CC BY 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E3%82%AD%E3%83%83%E3%82%B6%E3%83%8B%E3%82%A2%E6%9D%B1%E4%BA%AC_%E5%85%A5%E3%82%8A%E5%8F%A3.jpg",
-    "genre": "室内遊び場",
+    "genre": "遊園地・テーマパーク",
     "stayTime": {
       "minMinutes": 90,
       "maxMinutes": 150
@@ -419,8 +419,8 @@
     "name": "レゴランド・ディスカバリーセンター東京",
     "slug": "tokyo/minato/legolanddiscoverycenter",
     "area": "港区・お台場",
-    "lat": 35.626,
-    "lng": 139.7756,
+    "lat": 35.629188,
+    "lng": 139.775938,
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -1346,7 +1346,7 @@
     "image": "img/spots/saitama-saitama-omiya-railway-museum.jpg",
     "imageCredit": "📷 小父 / CC BY-SA 4.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E4%BA%AC%E9%83%BD%E9%89%84%E9%81%93%E5%8D%9A%E7%89%A9%E9%A4%A8.jpg",
-    "genre": "博物館・科学館",
+    "genre": "鉄道・観光",
     "strollerOk": "ask",
     "strollerRental": true,
     "strollerRentalNote": "1階エントランスカウンターで有料貸出。ベビカルの予約貸出もあり。",
@@ -2379,8 +2379,8 @@
     "name": "カップヌードルミュージアム横浜",
     "slug": "kanagawa/yokohama-naka/cupnoodles-museum",
     "area": "横浜市中区・みなとみらい",
-    "lat": 35.4564,
-    "lng": 139.6337,
+    "lat": 35.455438,
+    "lng": 139.638813,
     "ages": [
       "低学年",
       "高学年"
@@ -5321,7 +5321,7 @@
     "image": "img/spots/tokyo-hachioji-takaotozan.jpg",
     "imageCredit": "📷 Σ64 / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tokai_Nature_Trail_in_Mt.Takao_02.jpg",
-    "genre": "アスレチック・アウトドア",
+    "genre": "公園",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 210
@@ -5907,7 +5907,8 @@
       "source": "official",
       "sourceUrl": "https://www.tokyo-park.or.jp/park/rokakoshun-en/",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "公園"
   },
   {
     "region": "東京",
@@ -6217,7 +6218,7 @@
     "image": "img/spots/tokyo-koto-sonaarea.jpg",
     "imageCredit": "📷 Shinjiro / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Fountain_Yoyogipark.JPG",
-    "genre": "公園",
+    "genre": "博物館・科学館",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 240
@@ -6529,7 +6530,8 @@
     "strollerNote": "園内でベビーカー利用可。改札外への持ち出し不可。",
     "strollerSourceUrl": "https://www.kodomonokuni.org/service/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "公園"
   },
   {
     "region": "神奈川",
@@ -6678,7 +6680,8 @@
     "strollerNote": "科学館内はベビーカーで見学可。プラネタリウム投影中はドーム内に持ち込めず、指定場所に置く。",
     "strollerSourceUrl": "https://www.nature-kawasaki.jp/faq.html",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "公園"
   },
   {
     "region": "神奈川",
@@ -6938,7 +6941,7 @@
     "image": "img/spots/kanagawa-sagamihara-chuo-sagamigawa-fureai-science-museum-aquarium-sagamihara.jpg",
     "imageCredit": "📷 挾間雅行 / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%A4%96%E8%A6%B3%EF%BC%88%E6%96%9C%EF%BC%89.jpg",
-    "genre": "博物館・科学館",
+    "genre": "水族館",
     "stayTime": {
       "minMinutes": 60,
       "maxMinutes": 120
@@ -6998,7 +7001,7 @@
     "image": "img/spots/kanagawa-odawara-odawaracastle.jpg",
     "imageCredit": "📷 663highland / CC BY 2.5 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:161223_Odawara_Castle_Odawara_Japan01s3.jpg",
-    "genre": "公園",
+    "genre": "城・歴史",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 240
@@ -7526,7 +7529,8 @@
       "source": "official",
       "sourceUrl": "https://www.sakurashi-kankou.or.jp/facility/furusato/",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "公園"
   },
   {
     "region": "千葉",
@@ -7879,7 +7883,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "大人510円×2＋小学生0円×2＋幼児0円×1（幼児は無料と仮定）"
     },
-    "genre": "公園"
+    "genre": "動物園"
   },
   {
     "region": "埼玉",
@@ -7954,7 +7958,8 @@
     "strollerRentalNote": "公式FAQでベビーカーの貸出は行っていないと明記。",
     "strollerSourceUrl": "https://www.city.kawaguchi.lg.jp/faq/sisetu/greencenter/18194.html",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "公園"
   },
   {
     "region": "埼玉",
@@ -9015,7 +9020,8 @@
       "source": "official",
       "sourceUrl": "https://kodomonokuni.or.jp/",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "公園"
   },
   {
     "region": "群馬",
@@ -9425,7 +9431,7 @@
     "image": "img/spots/kanagawa-yokohama-nishi-hara-model-railway-museum.jpg",
     "imageCredit": "📷 Ganden / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E5%8E%9F%E9%89%84%E9%81%93%E6%A8%A1%E5%9E%8B%E5%8D%9A%E7%89%A9%E9%A4%A8_Hara_Model_Railway_Museum_(140286263).jpeg",
-    "genre": "博物館・科学館",
+    "genre": "鉄道・観光",
     "stayTime": {
       "minMinutes": 60,
       "maxMinutes": 120
@@ -11026,7 +11032,8 @@
       "bento": "ask",
       "bentoNote": "展望施設・公園の案内はあるが、弁当持ち込み・食事場所・レジャーシートは公式に記載なし",
       "sourceUrl": "https://www.hiratsuka-kankou.com/spot/shonandaira.html"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "神奈川",
@@ -11419,7 +11426,8 @@
     "strollerNote": "現在利用できる園路にはすべて階段があり、急坂・傾斜もある。ベビーカーでの通行は大変困難。",
     "strollerSourceUrl": "https://www.kanagawaparks.com/kurihama/news/2026101916220410559.html",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "花の名所"
   },
   {
     "region": "神奈川",
@@ -11590,7 +11598,8 @@
     "strollerNote": "園内のベビーカー持ち込み・使用可否、段差・坂道の詳細は確認できず。",
     "strollerSourceUrl": "https://www.sankeien.or.jp/faq/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "公園"
   },
   {
     "region": "神奈川",
@@ -12370,7 +12379,7 @@
       "sourceUrl": "https://www.tokyo-park.or.jp/park/jindai/index.html",
       "checkedAt": "2026年10月13日"
     },
-    "genre": "公園",
+    "genre": "花の名所",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 240
@@ -13304,7 +13313,7 @@
     "image": "img/spots/saitama-gyoda-sakitama-kofun-park.jpg",
     "imageCredit": "📷 京浜にけ / CC BY-SA 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gyoda_Museum_of_The_Sakitama_Ancient_Burial_Mounds_Appearance_1.JPG",
-    "genre": "公園",
+    "genre": "城・歴史",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 240
@@ -13995,7 +14004,8 @@
         "https://inubow-tt.com/shop/seaside-terrace/"
       ],
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "千葉",
@@ -14137,7 +14147,8 @@
     "strollerRentalNote": "受付で無料貸出。台数に限りあり。",
     "strollerSourceUrl": "https://www.chiba-muse.or.jp/MURA/page-1518537659308/",
     "strollerCheckedAt": "2026年11月3日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "城・歴史"
   },
   {
     "region": "茨城",
@@ -14347,7 +14358,8 @@
       "bento": "ask",
       "bentoNote": "施設案内はあるが、弁当持ち込み・施設内外の飲食場所・レジャーシートのルールは記載なし",
       "sourceUrl": "https://ohtsuribashi.ryujinkyo.jp"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "茨城",
@@ -14469,7 +14481,7 @@
     "image": "img/spots/ibaraki-tsukuba-mount-tsukuba.jpg",
     "imageCredit": "📷 RESPITE / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mount_Tsukuba_seen_from_the_WSW_(2006).jpg",
-    "genre": "アスレチック・アウトドア",
+    "genre": "公園",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 210
@@ -14916,7 +14928,8 @@
     "strollerNote": "公式観光案内にベビーカーの持ち込み・利用可否の記載なし。",
     "strollerSourceUrl": "https://www.nikko-kankou.org/spot/list?category_l=2",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "おでかけスポット"
   },
   {
     "region": "群馬",
@@ -15832,7 +15845,8 @@
     "strollerNote": "園内は舗装されておらず、階段箇所もある。車いす貸出の案内はあるが、ベビーカー利用可否は明記なし。",
     "strollerSourceUrl": "https://ins.kahaku.go.jp/riyou/barrierfree.html",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "公園"
   },
   {
     "region": "東京",
@@ -15909,7 +15923,8 @@
     "strollerNote": "山の地形を生かした園路。歩き慣れた靴での来園を案内しているが、ベビーカー利用可否は明記なし。",
     "strollerSourceUrl": "https://www.ffpri.go.jp/tmk/visit/index.html",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "公園"
   },
   {
     "region": "神奈川",
@@ -15961,7 +15976,8 @@
       "bento": "ask",
       "bentoNote": "公式情報を確認できていません。お出かけ前に施設へご確認ください。",
       "bentoSource": "unverified"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "神奈川",
@@ -16160,7 +16176,8 @@
     "strollerNote": "ベビーカーで園内を移動しやすい旨の案内あり。",
     "strollerSourceUrl": "https://soleil-park.jp/forkids",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "公園"
   },
   {
     "region": "神奈川",
@@ -16573,7 +16590,8 @@
       "bento": "ask",
       "bentoNote": "公式サイトに運賃・運行案内あり。車内の弁当持ち込み・飲食ルールは記載なし",
       "sourceUrl": "https://www.ooyama-cable.co.jp/"
-    }
+    },
+    "genre": "鉄道・観光"
   },
   {
     "region": "神奈川",
@@ -16667,7 +16685,8 @@
     "bookingLinks": {
       "asoview": "https://www.asoview.com/spot/14363ah3332073715/"
     },
-    "parkingDetail": "約70台・1回1,000円（イルミネーション時の案内）"
+    "parkingDetail": "約70台・1回1,000円（イルミネーション時の案内）",
+    "genre": "公園"
   },
   {
     "region": "神奈川",
@@ -16794,7 +16813,8 @@
       "bento": "ask",
       "bentoNote": "公式サイトに館内への弁当持ち込みや飲食可能場所のルールの記載なし",
       "sourceUrl": "https://umigyo.co.jp/"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "神奈川",
@@ -16901,7 +16921,7 @@
       "sourceUrl": "https://iko-yo.net/facilities/3253",
       "checkedAt": "2026年10月13日"
     },
-    "genre": "公園",
+    "genre": "花の名所",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 240
@@ -17158,7 +17178,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "genre": "公園",
+    "genre": "花の名所",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 240
@@ -17249,7 +17269,7 @@
     "image": "img/spots/saitama-chichibu-hitsujiyama-park.jpg",
     "imageCredit": "📷 Koda6029 / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%BE%8A%E5%B1%B1%E5%85%AC%E5%9C%92%E8%8A%9D%E6%A1%9C%E3%81%AE%E4%B8%98%E3%81%8B%E3%82%89%E6%AD%A6%E7%94%B2%E5%B1%B1.jpg",
-    "genre": "公園",
+    "genre": "花の名所",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 240
@@ -17336,7 +17356,8 @@
       "bento": "ask",
       "bentoNote": "公式情報を確認できていません。お出かけ前に施設へご確認ください。",
       "bentoSource": "unverified"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "埼玉",
@@ -17661,7 +17682,7 @@
     "area": "日高市",
     "lat": 35.890563,
     "lng": 139.396437,
-    "genre": "おでかけスポット",
+    "genre": "牧場",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -18120,7 +18141,8 @@
       "bento": "ask",
       "bentoNote": "【休館中】施設は改修のため休館中（千葉県立中央博物館大多喜城分館）。／公式情報を確認できていません。お出かけ前に施設へご確認ください。",
       "bentoSource": "unverified"
-    }
+    },
+    "genre": "城・歴史"
   },
   {
     "region": "千葉",
@@ -18169,7 +18191,8 @@
       "bento": "ask",
       "bentoNote": "市の公式ページに遊歩道・自然公園の案内あり。弁当持ち込み・飲食場所・レジャーシートのルールは記載なし",
       "sourceUrl": "https://www.city.kimitsu.lg.jp/site/kanko/2259.html"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "千葉",
@@ -18225,7 +18248,8 @@
       "bento": "ask",
       "bentoNote": "公式情報を確認できていません。お出かけ前に施設へご確認ください。",
       "bentoSource": "unverified"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "千葉",
@@ -18645,7 +18669,8 @@
       "bentoNote": "お弁当・飲食物の持ち込みのルールは公式情報で確認できませんでした。来園前に確認してください。",
       "source": "text",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "城・歴史"
   },
   {
     "region": "茨城",
@@ -18704,7 +18729,8 @@
       "source": "official",
       "sourceUrl": "https://www.asunaronosato.com/",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "公園"
   },
   {
     "region": "茨城",
@@ -18770,7 +18796,8 @@
       "bento": "ask",
       "bentoNote": "園内施設・飲食店の案内はあるが、弁当持ち込み・園内での飲食場所・レジャーシートのルールは記載なし",
       "sourceUrl": "https://daibutu.net/"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "茨城",
@@ -18900,7 +18927,8 @@
         "https://city.kashima.ibaraki.jp/uploaded/attachment/55201.pdf"
       ],
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "茨城",
@@ -19018,7 +19046,8 @@
       "source": "official",
       "sourceUrl": "https://www.city.takahagi.ibaraki.jp/kankou/spot/sizen/page000012.html",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "茨城",
@@ -19091,7 +19120,8 @@
     "strollerNote": "持ち込み・利用可否は公式情報で確認できず。",
     "strollerSourceUrl": "https://www.town.daigo.ibaraki.jp/faq.php?c=7&code=64&lc=0&mode=detail",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "おでかけスポット"
   },
   {
     "region": "栃木",
@@ -19165,7 +19195,8 @@
     "strollerNote": "公式案内にベビーカーの持ち込み・利用可否の記載なし。",
     "strollerSourceUrl": "https://www.nasu-ropeway.jp/information/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "鉄道・観光"
   },
   {
     "region": "栃木",
@@ -19471,7 +19502,7 @@
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料"
     },
-    "genre": "アスレチック・アウトドア",
+    "genre": "公園",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 210
@@ -19733,7 +19764,8 @@
       "bento": "ask",
       "bentoNote": "市の公式案内に飲食ルールの記載なし",
       "sourceUrl": "https://www.city.sano.lg.jp/miryokuhasshin/shizen/1/8984.html"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "栃木",
@@ -19785,7 +19817,7 @@
       "水曜日"
     ],
     "verifiedAt": "2026年10月13日",
-    "genre": "アスレチック・アウトドア",
+    "genre": "公園",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 210
@@ -19966,7 +19998,8 @@
     "strollerNote": "ベビーカーのままロープウェイ乗車可。専用置き場なし、スタッフに相談。山頂周辺には段差・ハイキングルートあり。",
     "strollerSourceUrl": "https://tanigawadake-joch.com/faq/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "鉄道・観光"
   },
   {
     "region": "群馬",
@@ -20023,7 +20056,8 @@
       "source": "official",
       "sourceUrl": "https://www.denenplaza.co.jp/",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "群馬",
@@ -20153,7 +20187,8 @@
       "source": "official",
       "sourceUrl": "https://www.laranfujioka.com/",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "遊園地・テーマパーク"
   },
   {
     "region": "群馬",
@@ -20209,7 +20244,7 @@
     "image": "img/spots/gunma-annaka-usui-toge-railway-culture-village.jpg",
     "imageCredit": "📷 くろふね / CC BY 3.0 / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%E7%A2%93%E6%B0%B7%E5%B3%A0%E9%89%84%E9%81%93%E6%96%87%E5%8C%96%E3%82%80%E3%82%89_-_panoramio_(6).jpg",
-    "genre": "博物館・科学館",
+    "genre": "鉄道・観光",
     "stayTime": {
       "minMinutes": 60,
       "maxMinutes": 120
@@ -20273,7 +20308,8 @@
       "checkedAt": "2026年11月1日",
       "bento": "ok",
       "bentoNote": "県立近代美術館の公式FAQで、展示室・ホール内は飲食禁止、お弁当は公園で食べるよう案内。公園の屋外での飲食は可能"
-    }
+    },
+    "genre": "公園"
   },
   {
     "region": "群馬",
@@ -21755,7 +21791,7 @@
     "image": "img/spots/tokyo-edogawa-chikahaku.jpg",
     "imageCredit": "📷 User:Jmho / パブリックドメイン / Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Chikatetsu_Museum.jpg",
-    "genre": "博物館・科学館",
+    "genre": "鉄道・観光",
     "strollerOk": "ok",
     "strollerRental": true,
     "strollerRentalNote": "ベビーカー無料貸出あり。",
@@ -22608,7 +22644,8 @@
     "strollerNote": "フットタウン全館・メインデッキで使用可。トップデッキは途中に階段があり、1階に預けることを推奨。",
     "strollerSourceUrl": "https://www.tokyotower.co.jp/access/child/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "おでかけスポット"
   },
   {
     "region": "東京",
@@ -23137,7 +23174,7 @@
       "note": "大人2,000円×2＋小学生1,300円×2＋幼児1,300円×1（幼児料金あり）"
     },
     "verifiedAt": "2026年10月14日",
-    "genre": "アスレチック・アウトドア",
+    "genre": "遊園地・テーマパーク",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 210
@@ -23281,8 +23318,8 @@
     "name": "横浜イングリッシュガーデン",
     "slug": "kanagawa/yokohama-nishi/y-eg",
     "area": "横浜市西区",
-    "lat": 35.455,
-    "lng": 139.628,
+    "lat": 35.455938,
+    "lng": 139.611437,
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -23741,7 +23778,8 @@
     "strollerRentalNote": "入園ゲートスタッフに申し出。無料貸出。台数に限りあり。",
     "strollerSourceUrl": "https://wanwan-land.co.jp/faq",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "動物園"
   },
   {
     "region": "茨城",
@@ -23929,7 +23967,8 @@
       "bento": "ask",
       "bentoNote": "通常営業時の弁当・飲食物の持ち込みや館内飲食のルールは公式に記載なし",
       "sourceUrl": "https://www.oarai-mt.jp/"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "栃木",
@@ -24050,7 +24089,7 @@
       "note": "大人1,900円×2＋小学生900円×2＋幼児900円×1（幼児料金あり）"
     },
     "verifiedAt": "2026年10月14日",
-    "genre": "アスレチック・アウトドア",
+    "genre": "遊園地・テーマパーク",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 210
@@ -24826,7 +24865,8 @@
       "bentoNote": "お弁当・飲食物の持ち込みのルールは公式情報で確認できませんでした。来園前に確認してください。",
       "source": "text",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "遊園地・テーマパーク"
   },
   {
     "region": "東京",
@@ -25641,7 +25681,8 @@
     "strollerNote": "公式施設案内にベビーカーの持ち込み・利用可否の記載なし。",
     "strollerSourceUrl": "https://www.okashinoshiro.co.jp/facilities/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "遊園地・テーマパーク"
   },
   {
     "region": "群馬",
@@ -25819,7 +25860,8 @@
       "source": "official",
       "sourceUrl": "https://www.h-nac.or.jp/",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "プール・海"
   },
   {
     "region": "東京",
@@ -26748,7 +26790,8 @@
       "bento": "ask",
       "bentoNote": "公式情報を確認できていません。お出かけ前に施設へご確認ください。",
       "bentoSource": "unverified"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "東京",
@@ -27084,7 +27127,8 @@
     "strollerNote": "エスカーはベビーカー乗車不可。折りたたむか1区で預ける。下りは階段利用。",
     "strollerSourceUrl": "https://www.enoshima-seacandle.com/faq/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "おでかけスポット"
   },
   {
     "region": "千葉",
@@ -27184,7 +27228,8 @@
     "strollerNote": "館内にエレベーター2基。ベビーカーの持ち込み・使用可否は公式記載なし。",
     "strollerSourceUrl": "https://www.chiba-porttower.com/guide.php",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "おでかけスポット"
   },
   {
     "region": "東京",
@@ -28349,7 +28394,8 @@
       "source": "official",
       "sourceUrl": "https://www.kodomo.or.jp/",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "公園"
   },
   {
     "region": "福島",
@@ -29253,7 +29299,8 @@
     "strollerRentalNote": "ベビーカー貸出あり。",
     "strollerSourceUrl": "https://www.umihotaru.com/guide/information/information/",
     "strollerCheckedAt": "2026年11月3日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "おでかけスポット"
   },
   {
     "region": "千葉",
@@ -29455,7 +29502,8 @@
       "source": "official",
       "sourceUrl": "https://koedo.or.jp/",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "城・歴史"
   },
   {
     "region": "埼玉",
@@ -30360,7 +30408,8 @@
       "source": "official",
       "sourceUrl": "https://www.saikoiyashinosatonenba.jp/",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "城・歴史"
   },
   {
     "region": "長野",
@@ -30556,7 +30605,7 @@
       "note": "入場・入園は無料。有料施設（上田市立博物館・上田城櫓は各300円）も利用する場合は約1,500円"
     },
     "verifiedAt": "2026年10月14日",
-    "genre": "公園",
+    "genre": "城・歴史",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 240
@@ -30960,7 +31009,8 @@
     "strollerNote": "自然を利用した園内にベビーカーで通りにくい場所・通行禁止場所あり。",
     "strollerSourceUrl": "https://www.nijinosato.com/faq/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "花の名所"
   },
   {
     "region": "静岡",
@@ -31025,7 +31075,8 @@
     "verifiedAt": "2026年10月14日",
     "image": "img/spots/shizuoka-izunokuni-panoramapark.jpg",
     "imageCredit": "📷 Darklanlan / CC BY 4.0 / Wikimedia Commons",
-    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Izunokuni_from_Katsuragiyama_Ropeway_(2006).jpg"
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:View_of_Izunokuni_from_Katsuragiyama_Ropeway_(2006).jpg",
+    "genre": "鉄道・観光"
   },
   {
     "region": "静岡",
@@ -31784,7 +31835,8 @@
     "strollerNote": "山頂遊歩道はベビーカーでの散策不可。リフト乗り場付近の展望台までは利用可能。",
     "strollerSourceUrl": "https://omuroyama.com/question/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "鉄道・観光"
   },
   {
     "region": "静岡",
@@ -31845,7 +31897,7 @@
       "bentoNote": "公式情報を確認できていません。お出かけ前に施設へご確認ください。",
       "bentoSource": "unverified"
     },
-    "genre": "公園",
+    "genre": "プール・海",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 240
@@ -31901,7 +31953,8 @@
       "bento": "ask",
       "bentoNote": "公式情報を確認できていません。お出かけ前に施設へご確認ください。",
       "bentoSource": "unverified"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "栃木",
@@ -32053,7 +32106,8 @@
     "strollerNote": "公式観光案内に自然研究路・ハイキングコースの案内あり。ベビーカー利用可否は明記なし。",
     "strollerSourceUrl": "https://www.nikko-kankou.org/spot/10/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "おでかけスポット"
   },
   {
     "region": "栃木",
@@ -32128,7 +32182,8 @@
     "strollerNote": "公式観光案内に湯滝下の観瀑台やハイキングコースの案内あり。ベビーカー利用可否は明記なし。",
     "strollerSourceUrl": "https://www.nikko-kankou.org/spot/115",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "おでかけスポット"
   },
   {
     "region": "栃木",
@@ -32495,7 +32550,8 @@
         "https://www.izugateway.com/about/"
       ],
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "静岡",
@@ -32785,7 +32841,8 @@
         "https://owakudani.com/nature/"
       ],
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "静岡",
@@ -32856,7 +32913,8 @@
     "strollerNote": "ベビーカーの持ち込み・館内利用可否は公式情報で確認できず。",
     "strollerSourceUrl": "https://atamijyo.com/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "城・歴史"
   },
   {
     "region": "神奈川",
@@ -33189,7 +33247,8 @@
       "bento": "ask",
       "bentoNote": "公式情報を確認できていません。お出かけ前に施設へご確認ください。",
       "bentoSource": "unverified"
-    }
+    },
+    "genre": "遊園地・テーマパーク"
   },
   {
     "region": "神奈川",
@@ -33276,7 +33335,7 @@
       "5月第2月曜日",
       "※3〜11月の時間。12〜2月は09:30-16:30。"
     ],
-    "genre": "公園",
+    "genre": "花の名所",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 240
@@ -33759,7 +33818,8 @@
       "bento": "ask",
       "bentoNote": "ケープ真鶴館内での食事は禁止。水分補給は休憩スペースのみ可。屋外の弁当・シートは公式に記載なし",
       "sourceUrl": "https://www.town.manazuru.kanagawa.jp/soshiki/sangyoukankou/kanko/4079.html"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "静岡",
@@ -33933,7 +33993,8 @@
         "https://www.489pro.com/asp/489/menu.asp?id=22000070&lan=JPN&m_menu=1"
       ],
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "山梨",
@@ -33987,7 +34048,8 @@
       "bento": "ask",
       "bentoNote": "公式の利用案内に芝生広場・スポーツ施設等の利用時間の記載あり。弁当持ち込み・飲食可能な場所・レジャーシートのルールは記載なし",
       "sourceUrl": "https://www.kirarayamanakako.jp/kirara/guide.php"
-    }
+    },
+    "genre": "公園"
   },
   {
     "region": "静岡",
@@ -34125,7 +34187,7 @@
       "第3月曜日（祝日の場合は翌日）"
     ],
     "verifiedAt": "2026年10月13日",
-    "genre": "公園",
+    "genre": "城・歴史",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 240
@@ -34823,7 +34885,8 @@
       "sourceUrl": "https://iko-yo.net/facilities/5494",
       "checkedAt": "2026年10月13日"
     },
-    "verifiedAt": "2026年10月14日"
+    "verifiedAt": "2026年10月14日",
+    "genre": "公園"
   },
   {
     "region": "山梨",
@@ -34887,7 +34950,7 @@
       "bentoNote": "公式の利用上の注意に火気使用禁止・ゴミ持ち帰り等の記載あり。弁当持ち込みや飲食可能な場所は明確な記載なし（レストランあり）"
     },
     "verifiedAt": "2026年10月14日",
-    "genre": "公園",
+    "genre": "牧場",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 240
@@ -34965,7 +35028,8 @@
     "strollerNote": "公式ガイドツアー申込案内では、ベビーカーでの入洞不可。通常入洞時の扱いは別途確認が必要。",
     "strollerSourceUrl": "https://www.mtfuji-cave.com/reserve/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "おでかけスポット"
   },
   {
     "region": "山梨",
@@ -35245,7 +35309,8 @@
         "https://www.nagisaplace-tateyama.com/"
       ],
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "千葉",
@@ -35326,7 +35391,8 @@
         "https://www.biwakurabu.jp/eat/"
       ],
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "千葉",
@@ -35395,7 +35461,8 @@
       "source": "official",
       "sourceUrl": "https://www.mt-nokogiri.co.jp/pc/p030000.php",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "鉄道・観光"
   },
   {
     "region": "千葉",
@@ -35404,7 +35471,7 @@
     "area": "館山市館山",
     "lat": 34.980712,
     "lng": 139.856708,
-    "genre": "公園",
+    "genre": "城・歴史",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -35743,7 +35810,8 @@
     "strollerNote": "遊歩道あり。ベビーカー利用可否は明記なし。落石による一部通行止め情報あり。",
     "strollerSourceUrl": "https://www.enjoy-minakami.jp/spot/8037/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "おでかけスポット"
   },
   {
     "region": "群馬",
@@ -35822,7 +35890,8 @@
         "https://www.enjoy-minakami.jp/spot/8213/"
       ],
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "群馬",
@@ -36073,7 +36142,8 @@
     "strollerNote": "滝の裏側は落石の危険により通行不可。ベビーカー利用可否は明記なし。",
     "strollerSourceUrl": "https://www.enjoy-minakami.jp/spot/8053/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "おでかけスポット"
   },
   {
     "region": "群馬",
@@ -36546,7 +36616,8 @@
         "https://www.princehotels.co.jp/amuse/onioshidashi/menu/"
       ],
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "長野",
@@ -36686,7 +36757,7 @@
       "木曜日（祝日は開館）"
     ],
     "verifiedAt": "2026年10月13日",
-    "genre": "室内遊び場",
+    "genre": "博物館・科学館",
     "stayTime": {
       "minMinutes": 90,
       "maxMinutes": 150
@@ -36769,7 +36840,8 @@
       "source": "official",
       "sourceUrl": "https://healthyterrace-saku.jp/",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "長野",
@@ -36870,7 +36942,8 @@
       "bento": "ask",
       "bentoNote": "公式情報を確認できていません。お出かけ前に施設へご確認ください。",
       "bentoSource": "unverified"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "長野",
@@ -36918,7 +36991,8 @@
       "bento": "ask",
       "bentoNote": "公式情報を確認できていません。お出かけ前に施設へご確認ください。",
       "bentoSource": "unverified"
-    }
+    },
+    "genre": "城・歴史"
   },
   {
     "region": "長野",
@@ -36963,7 +37037,7 @@
       "officialUrl": "https://www.town.karuizawa.lg.jp/page/1267.html"
     },
     "verifiedAt": "2026年10月14日",
-    "genre": "公園",
+    "genre": "おでかけスポット",
     "stayTime": {
       "minMinutes": 60,
       "maxMinutes": 135
@@ -37066,7 +37140,8 @@
     "strollerNote": "滝まで駐車場から約200mの登り坂。車いす利用は介助者がいれば可能との案内があるが、ベビーカー利用可否は明記なし。",
     "strollerSourceUrl": "https://karuizawa-shw.com/contact/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "おでかけスポット"
   },
   {
     "region": "長野",
@@ -37203,7 +37278,8 @@
       "source": "official",
       "sourceUrl": "https://www.hoshino-area.jp/shop/harunireterrace/",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "長野",
@@ -37269,7 +37345,8 @@
     "strollerRentalNote": "コインロック式ベビーカーを貸出。100円硬貨が必要（返却時返金）。",
     "strollerSourceUrl": "https://www.karuizawa-psp.jp/service/detail4/",
     "strollerCheckedAt": "2026年11月3日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "おでかけスポット"
   },
   {
     "region": "長野",
@@ -37416,7 +37493,8 @@
         "https://www.town.karuizawa.lg.jp/page/1430.html"
       ],
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "栃木",
@@ -37492,7 +37570,7 @@
       "12/29〜1/1",
       "※受付は16:00まで。紅葉期は火曜も開園することがあります。"
     ],
-    "genre": "公園",
+    "genre": "城・歴史",
     "stayTime": {
       "minMinutes": 120,
       "maxMinutes": 240
@@ -37657,7 +37735,8 @@
     "strollerNote": "公式案内にベビーカーの持ち込み・乗船可否の記載なし。",
     "strollerSourceUrl": "https://linekudari.com/access/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "鉄道・観光"
   },
   {
     "region": "栃木",
@@ -38055,7 +38134,8 @@
       "bento": "ask",
       "bentoNote": "神社の公式案内に開門時間・休憩所等の記載あり。境内への弁当持ち込み・飲食の可否は記載なし",
       "sourceUrl": "https://www.oarai-isosakijinja.net/annnai/"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "茨城",
@@ -38173,7 +38253,8 @@
       "bento": "ask",
       "bentoNote": "参拝・境内の案内はあるが、弁当持ち込み・境内での飲食ルールは記載なし",
       "sourceUrl": "https://www.kasama.or.jp/"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "茨城",
@@ -38229,7 +38310,8 @@
       "bento": "ask",
       "bentoNote": "公式サイトに飲食・弁当持ち込みルールの明記なし",
       "sourceUrl": "https://tsukubasanjinja.jp/"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "茨城",
@@ -38375,7 +38457,8 @@
     "strollerNote": "プラネタリウム内は階段が続くため、ベビーカー利用者はスタッフに声をかけるよう案内あり。",
     "strollerSourceUrl": "https://www.civic.jp/science/planetarium/page000394.html",
     "strollerCheckedAt": "2026年11月3日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "博物館・科学館"
   },
   {
     "region": "茨城",
@@ -38441,7 +38524,8 @@
         "https://www.town.daigo.ibaraki.jp/page/page009057.html"
       ],
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "埼玉",
@@ -38630,7 +38714,8 @@
       "checkedAt": "2026年11月1日",
       "bento": "ask",
       "bentoNote": "宝登山ロープウェイの公式案内に小動物公園・山頂の飲食施設の記載あり。弁当持ち込み・食事場所の条件は記載なし（長瀞ラインくだりは別運営のため未確認）"
-    }
+    },
+    "genre": "動物園"
   },
   {
     "region": "埼玉",
@@ -39187,8 +39272,8 @@
     "name": "東京湯楽城",
     "slug": "chiba/tomisato/chi-hotelsresorts",
     "area": "富里市七栄",
-    "lat": 35.782,
-    "lng": 140.348,
+    "lat": 35.7440599,
+    "lng": 140.3438158,
     "genre": "温泉・スパ",
     "ages": [
       "0-1歳",
@@ -40754,7 +40839,7 @@
     "area": "稲敷市上君山",
     "lat": 35.9405,
     "lng": 140.2697,
-    "genre": "アスレチック・アウトドア",
+    "genre": "牧場",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -40835,7 +40920,7 @@
     "area": "古河市中田新田",
     "lat": 36.166438,
     "lng": 139.753563,
-    "genre": "アスレチック・アウトドア",
+    "genre": "公園",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -42098,7 +42183,7 @@
     "area": "秩父郡長瀞町井戸",
     "lat": 36.1051,
     "lng": 139.1185,
-    "genre": "アスレチック・アウトドア",
+    "genre": "おでかけスポット",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -42151,7 +42236,7 @@
     "area": "山武郡九十九里町",
     "lat": 35.5145,
     "lng": 140.439,
-    "genre": "アスレチック・アウトドア",
+    "genre": "おでかけスポット",
     "ages": [
       "4-6歳",
       "低学年",
@@ -42205,7 +42290,7 @@
     "area": "西多摩郡奥多摩町海沢",
     "lat": 35.8002,
     "lng": 139.1174,
-    "genre": "アスレチック・アウトドア",
+    "genre": "おでかけスポット",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -42267,7 +42352,7 @@
     "area": "横浜市金沢区海の公園",
     "lat": 35.339243,
     "lng": 139.632841,
-    "genre": "アスレチック・アウトドア",
+    "genre": "プール・海",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -42341,7 +42426,7 @@
     "address": "千葉県木更津市中島4416",
     "lat": 35.432323,
     "lng": 139.906647,
-    "genre": "アスレチック・アウトドア",
+    "genre": "プール・海",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -42974,7 +43059,7 @@
     "area": "市原市養老",
     "lat": 35.357343,
     "lng": 140.154125,
-    "genre": "アスレチック・アウトドア",
+    "genre": "おでかけスポット",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -43035,7 +43120,7 @@
     "area": "飯能市下名栗",
     "lat": 35.868259,
     "lng": 139.149704,
-    "genre": "アスレチック・アウトドア",
+    "genre": "おでかけスポット",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -43109,7 +43194,7 @@
     "area": "新宿区市谷田町",
     "lat": 35.692026,
     "lng": 139.735707,
-    "genre": "アスレチック・アウトドア",
+    "genre": "おでかけスポット",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -43188,7 +43273,7 @@
     "area": "秦野市蓑毛",
     "lat": 35.417452,
     "lng": 139.228919,
-    "genre": "アスレチック・アウトドア",
+    "genre": "おでかけスポット",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -46935,7 +47020,7 @@
     "area": "横浜市泉区下飯田町",
     "lat": 35.3995,
     "lng": 139.4632,
-    "genre": "室内遊び場",
+    "genre": "公園",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -47099,7 +47184,13 @@
       "bentoNote": "施設内では飲食物の持ち込みをご遠慮くださいと案内されています（フタつきの飲料のみ可）。食事ができる「レストコーナー」があるのは一部の店舗で、この店舗は公式のレストコーナー設置店の一覧に載っていません。",
       "source": "official",
       "sourceUrl": "https://bandainamco-am.co.jp/kids/asobiparkplus/faq/",
-      "checkedAt": "2026年10月12日"
+      "checkedAt": "2026年10月12日",
+      "nearbyLunch": [
+        {
+          "name": "寿司活 ラゾーナ川崎店（ラゾーナ川崎プラザ4F）",
+          "note": "回転寿司。1皿140円（税抜）〜。大型タッチパネルで寿司を選べる「エンタメレーン」で子どもも楽しめる。2026年9月オープン、混雑時は待ち時間あり。"
+        }
+      ]
     },
     "familyPrice": {
       "yen": null,
@@ -47123,7 +47214,7 @@
     "area": "大田区西蒲田",
     "lat": 35.5622,
     "lng": 139.716,
-    "genre": "室内遊び場",
+    "genre": "公園",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -47532,7 +47623,7 @@
     "area": "横浜市青葉区青葉台",
     "lat": 35.542812,
     "lng": 139.517063,
-    "genre": "室内遊び場",
+    "genre": "公園",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -47586,8 +47677,8 @@
     "name": "ボーネルンドあそびのせかい たまプラーザ テラス店",
     "slug": "kanagawa/yokohama-aoba/bornelund-asobi-no-sekai-tama-plaza-terrace",
     "area": "横浜市青葉区美しが丘",
-    "lat": 35.575,
-    "lng": 139.529,
+    "lat": 35.57836853,
+    "lng": 139.5575511,
     "genre": "室内遊び場",
     "ages": [
       "0-1歳",
@@ -47916,7 +48007,8 @@
       "source": "web",
       "sourceUrl": "https://rurubu.jp/andmore/article/23811",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "山梨",
@@ -48451,7 +48543,7 @@
     "address": "山梨県都留市小形山2381",
     "lat": 35.5831,
     "lng": 138.9266,
-    "genre": "博物館・科学館",
+    "genre": "鉄道・観光",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -50441,7 +50533,7 @@
     "address": "神奈川県横浜市金沢区鳥浜町3-5",
     "lat": 35.3808,
     "lng": 139.6406,
-    "genre": "室内遊び場",
+    "genre": "おでかけスポット",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -50875,7 +50967,7 @@
     "area": "朝霞市浜崎",
     "lat": 35.8182405,
     "lng": 139.6037952,
-    "genre": "アスレチック・アウトドア",
+    "genre": "おでかけスポット",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -50933,7 +51025,7 @@
     "address": "東京都大田区羽田空港3-3-2",
     "lat": 35.5494,
     "lng": 139.7798,
-    "genre": "おでかけスポット",
+    "genre": "鉄道・観光",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -51142,7 +51234,7 @@
     "address": "神奈川県横浜市中区本牧ふ頭1",
     "lat": 35.430164,
     "lng": 139.686637,
-    "genre": "アスレチック・アウトドア",
+    "genre": "おでかけスポット",
     "ages": [
       "4-6歳",
       "低学年",
@@ -51216,7 +51308,7 @@
     "address": "神奈川県横須賀市猿島1",
     "lat": 35.28608,
     "lng": 139.69476,
-    "genre": "アスレチック・アウトドア",
+    "genre": "おでかけスポット",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -51836,7 +51928,7 @@
     "area": "塩谷郡高根沢町・宝積寺",
     "lat": 36.581,
     "lng": 139.973,
-    "genre": "アスレチック・アウトドア",
+    "genre": "公園",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -52087,7 +52179,7 @@
     "area": "千葉市美浜区・イオンモール幕張新都心",
     "lat": 35.6459,
     "lng": 140.0328,
-    "genre": "室内遊び場",
+    "genre": "遊園地・テーマパーク",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -52205,7 +52297,7 @@
     "area": "千葉市美浜区・イオンモール幕張新都心",
     "lat": 35.6459,
     "lng": 140.0328,
-    "genre": "アスレチック・アウトドア",
+    "genre": "室内遊び場",
     "ages": [
       "4-6歳",
       "低学年",
@@ -53252,7 +53344,8 @@
       "approx": false,
       "assumption": "大人2・小学生2・幼児1の5人",
       "note": "入場・入園は無料（有料の施設・体験・駐車場などは別料金）"
-    }
+    },
+    "genre": "遊園地・テーマパーク"
   },
   {
     "region": "東京",
@@ -53629,7 +53722,7 @@
       "note": "料金の記載が不十分で目安を出せません。最新の料金は公式サイトでご確認ください",
       "officialUrl": "https://boukennokuni.com/shonantsuribori/"
     },
-    "genre": "室内遊び場",
+    "genre": "おでかけスポット",
     "food": {
       "lunch": "要確認",
       "bento": "ng",
@@ -53716,7 +53809,7 @@
       "sun": "10:00-18:00",
       "holiday": "10:00-18:00"
     },
-    "genre": "室内遊び場",
+    "genre": "おでかけスポット",
     "food": {
       "lunch": "要確認",
       "bento": "partial",
@@ -53874,7 +53967,8 @@
     "strollerNote": "場内でベビーカー利用可。一部未舗装の通路や階段があるため注意。",
     "strollerSourceUrl": "https://kurkkufields.jp/map/",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "遊園地・テーマパーク"
   },
   {
     "region": "神奈川",
@@ -54001,7 +54095,8 @@
       "bentoNote": "お弁当・飲食物の持ち込みのルールは公式情報で確認できませんでした。来園前に確認してください。",
       "source": "text",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "公園"
   },
   {
     "region": "千葉",
@@ -54290,7 +54385,8 @@
     "strollerRentalNote": "貸出について公式記載なし。",
     "strollerNote": "ベビーカー利用可否について公式記載なし。",
     "strollerCheckedAt": "2026年11月2日",
-    "strollerSource": "official"
+    "strollerSource": "official",
+    "genre": "おでかけスポット"
   },
   {
     "region": "東京",
@@ -54355,7 +54451,8 @@
       "source": "official",
       "sourceUrl": "https://greensummit.jp/",
       "checkedAt": "2026年11月1日"
-    }
+    },
+    "genre": "おでかけスポット"
   },
   {
     "region": "東京",
@@ -56047,75 +56144,6 @@
     }
   },
   {
-    "region": "神奈川",
-    "name": "寿司活 ラゾーナ川崎店",
-    "slug": "kanagawa/kawasaki-saiwai/寿司活-ラゾーナ川崎店",
-    "area": "川崎市幸区・ラゾーナ川崎プラザ（堀川町72-1）",
-    "lat": 35.5308,
-    "lng": 139.6959,
-    "genre": "回転寿司・レストラン",
-    "ages": [
-      "0-1歳",
-      "2-3歳",
-      "4-6歳",
-      "低学年",
-      "高学年"
-    ],
-    "weather": [
-      "晴れ",
-      "雨"
-    ],
-    "duration": [
-      "半日"
-    ],
-    "stayTime": {
-      "minMinutes": 45,
-      "maxMinutes": 90
-    },
-    "congestion": {
-      "weekdayAM": "○ 普通",
-      "weekdayPM": "△ やや混雑",
-      "holidayAM": "△ やや混雑",
-      "holidayPM": "▲ 混雑しやすい"
-    },
-    "price": "1皿140円（税抜）〜、250種以上のメニュー（開業時の発表。最新は公式サイトで確認）",
-    "parking": "yes",
-    "access": "JR・京急「川崎」駅から徒歩圏のラゾーナ川崎プラザ4階(テイクアウト売店は1階「グラン・フード」内)",
-    "businessHoursNote": "11:00〜22:00（開業時の発表）。休業日はラゾーナ川崎プラザに準ずる想定で、公式で要確認",
-    "closedDays": [
-      "ラゾーナ川崎プラザに準ずる"
-    ],
-    "baby": "ショッピングモール内の店舗でベビーカーでのアクセスも良好。大型タッチパネル上を流れる寿司をタッチして選ぶ新方式「エンタメレーン」は子どもも楽しめる",
-    "officialUrl": "https://katumidori.co.jp/",
-    "verifiedAt": "2026年10月1日",
-    "desc": "連日行列のできる人気寿司店「活美登利」グループが手がける「寿司活」の新店舗として、2026年9月17日にラゾーナ川崎プラザ4階にグランドオープン。大型タッチパネル上を流れる寿司をタッチして注文する新スタイル「エンタメレーン」を初導入しており、子どもも楽しく寿司を選べる。",
-    "tip": "オープン直後は混雑が予想されるため、平日の時間帯やランチ前後の時間を狙うのがおすすめ。1階のテイクアウト専門売店も同時オープンしているので、持ち帰りたい場合はそちらも便利。",
-    "familyPrice": {
-      "yen": null,
-      "yenMax": null,
-      "optionalYen": null,
-      "type": "official",
-      "approx": false,
-      "assumption": "大人2・小学生2・幼児1の5人",
-      "note": "料金の記載が不十分で目安を出せません。最新の料金は公式サイトでご確認ください",
-      "officialUrl": "https://sushikatsu.jp/"
-    },
-    "food": {
-      "lunch": "店舗自体が飲食店。同フロア・館内に他の飲食店も多数",
-      "nearbyLunch": [
-        {
-          "name": "園内・周辺の飲食",
-          "note": "店舗自体が飲食店。同フロア・館内に他の飲食店も多数"
-        }
-      ],
-      "source": "text",
-      "checkedAt": "2026年11月1日",
-      "bento": "ask",
-      "bentoNote": "公式情報を確認できていません。お出かけ前に施設へご確認ください。",
-      "bentoSource": "unverified"
-    }
-  },
-  {
     "region": "千葉",
     "name": "もってきーな+ 旭店",
     "slug": "chiba/asahi/もってきーな+-旭店",
@@ -56604,7 +56632,7 @@
     "area": "海老名市めぐみ町",
     "lat": 35.45293,
     "lng": 139.39002,
-    "genre": "博物館・科学館",
+    "genre": "鉄道・観光",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -56689,7 +56717,7 @@
     "area": "甲府市猪狩町・昇仙峡",
     "lat": 35.7534,
     "lng": 138.5643,
-    "genre": "おでかけスポット",
+    "genre": "鉄道・観光",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -56765,7 +56793,7 @@
     "area": "横浜市西区高島（京急グループ本社 1F）",
     "lat": 35.462379,
     "lng": 139.6261938,
-    "genre": "博物館・科学館",
+    "genre": "鉄道・観光",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -57041,7 +57069,7 @@
     "area": "比企郡吉見町北吉見",
     "lat": 36.039739,
     "lng": 139.421629,
-    "genre": "おでかけスポット",
+    "genre": "城・歴史",
     "ages": [
       "4-6歳",
       "低学年",
@@ -57762,7 +57790,7 @@
     "officialUrl": "https://www.pica-resort.jp/hatsushima/",
     "desc": "熱海沖の初島にあるリゾート。アスレチックや海辺の遊びなど、島ならではの体験ができる。",
     "tip": "船の時刻と天候（欠航）を事前に確認。名称はPICA初島です。",
-    "genre": "アスレチック・アウトドア",
+    "genre": "遊園地・テーマパーク",
     "address": "静岡県熱海市初島1113",
     "verifiedAt": "2026年10月14日",
     "familyPrice": {
@@ -58727,7 +58755,7 @@
     "officialUrl": "https://www.csc.or.jp/",
     "desc": "公道では乗れない形の「おもしろ自転車」が楽しめる広場や、ペダルをこいで走るアトラクションがそろう自転車の遊園地。5キロのサーキットでは本格的な自転車を借りて走れる。",
     "tip": "3歳までは保護者同伴で入場・施設利用が無料。授乳室・おむつ交換台があり、ベビーカーOK、食事の持ち込みもできる。水・木曜休園（繁忙期・祝日は営業）で、雨の日は休止する施設がある。修善寺駅からバスで約20分。",
-    "genre": "アスレチック・アウトドア",
+    "genre": "遊園地・テーマパーク",
     "address": "静岡県伊豆市大野1826",
     "verifiedAt": "2026年10月14日",
     "food": {
@@ -58782,7 +58810,7 @@
     "officialUrl": "https://www.jukuu.jp/",
     "desc": "入園無料の複合公園で、富士山の自然や文化を紹介するビジターセンターや屋上テラス、レストラン、芝生広場、遊具がある。2026年8月8日には、園内に木のおもちゃで遊べる全天候型の「富士山木のおもちゃ美術館」がオープンし、授乳室やベビーカーにも対応している。",
     "tip": "無料駐車場あり（193台）。火曜休園（祝日の場合は翌日）で、7月20日〜8月31日は無休。全天周映像の「富士山天空シアター」とパークゴルフ場は有料。隣に本格アスレチックの「フォレストアドベンチャー御殿場」がある。",
-    "genre": "アスレチック・アウトドア",
+    "genre": "公園",
     "address": "静岡県御殿場市印野1380-15",
     "familyPrice": {
       "yen": null,
@@ -66646,7 +66674,7 @@
     "lat": 34.908257,
     "lng": 138.79292,
     "address": "静岡県伊豆市土肥2726",
-    "genre": "博物館・科学館",
+    "genre": "遊園地・テーマパーク",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -66719,7 +66747,7 @@
     "lat": 34.7777,
     "lng": 138.758,
     "address": "静岡県賀茂郡西伊豆町仁科2060",
-    "genre": "おでかけスポット",
+    "genre": "鉄道・観光",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -66773,7 +66801,7 @@
     "lat": 35.01058,
     "lng": 138.49292,
     "address": "静岡県静岡市清水区入船町13-15 エスパルスドリームプラザ3階",
-    "genre": "博物館・科学館",
+    "genre": "遊園地・テーマパーク",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -67060,7 +67088,7 @@
     "lat": 36.03226,
     "lng": 139.30888,
     "address": "埼玉県比企郡嵐山町鎌形2857",
-    "genre": "アスレチック・アウトドア",
+    "genre": "おでかけスポット",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -67607,7 +67635,7 @@
     "address": "埼玉県比企郡小川町勝呂423-1",
     "lat": 36.077062,
     "lng": 139.218688,
-    "genre": "おでかけスポット",
+    "genre": "城・歴史",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -68058,7 +68086,7 @@
     "address": "神奈川県横浜市磯子区滝頭3-1-53",
     "lat": 35.420187,
     "lng": 139.623813,
-    "genre": "博物館・科学館",
+    "genre": "鉄道・観光",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -68987,7 +69015,7 @@
     "address": "東京都大田区平和の森公園2-1",
     "lat": 35.582687,
     "lng": 139.739062,
-    "genre": "アスレチック・アウトドア",
+    "genre": "公園",
     "ages": [
       "0-1歳",
       "2-3歳",
@@ -71840,7 +71868,7 @@
     "address": "茨城県日立市入四間町863-1",
     "lat": 36.643562,
     "lng": 140.591688,
-    "genre": "アスレチック・アウトドア",
+    "genre": "公園",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -74080,7 +74108,7 @@
     "area": "白岡市",
     "lat": 36.025187,
     "lng": 139.698438,
-    "genre": "アスレチック・アウトドア",
+    "genre": "おでかけスポット",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -74134,7 +74162,7 @@
     "address": "栃木県芳賀郡茂木町桧山120-1 モビリティリゾートもてぎ パーク内",
     "lat": 36.5326,
     "lng": 140.2267,
-    "genre": "アスレチック・アウトドア",
+    "genre": "遊園地・テーマパーク",
     "ages": [
       "2-3歳",
       "4-6歳",
@@ -76389,5 +76417,1008 @@
       "sourceUrl": "https://www.nasu-gardenoutlet.com/",
       "checkedAt": "2026年11月7日"
     }
+  },
+  {
+    "region": "神奈川",
+    "name": "高座施設組合屋内温水プール",
+    "slug": "kanagawa/ebina/kouza-indoor-warm-pool",
+    "area": "海老名市",
+    "address": "神奈川県海老名市本郷20-1",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ",
+      "雨"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "通年"
+    ],
+    "price": "要確認",
+    "parking": "yes",
+    "parkingDetail": "無料駐車場 約100台",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://kouzapool.jp/",
+    "desc": "通年利用できる屋内温水プール。25mプール、流水プール、子供・幼児用プールがあり、子供用プールは水深0.3〜0.7m。浴室、サウナ、休憩室、キッズスペースも備える。",
+    "tip": "水深の浅い幼児用プールがあり、小さな子連れでも使いやすい。プールのあとは浴室や休憩室で休める。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://kouzapool.jp/"
+    },
+    "verifiedAt": "2026年11月9日",
+    "genre": "プール・海",
+    "stayTime": {
+      "minMinutes": 180,
+      "maxMinutes": 360
+    }
+  },
+  {
+    "region": "東京",
+    "name": "すみだスポーツ健康センター",
+    "slug": "tokyo/sumida/sumida-sports-health-center",
+    "area": "墨田区",
+    "address": "東京都墨田区東墨田1-6-1",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ",
+      "雨"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "通年"
+    ],
+    "price": "要確認",
+    "parking": "yes",
+    "parkingDetail": "駐車場 80台",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.sumispo.com/",
+    "desc": "全天候型の温水プール。流水プール（約90m）と30mのウォータースライダー、子ども用プール（水深60cm）、幼児用プール（水深30cm）がある。",
+    "tip": "幼児用プールからスライダーまであり、年齢の違う兄弟姉妹でも一緒に楽しめる。雨の日の水遊びにも。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.sumispo.com/"
+    },
+    "verifiedAt": "2026年11月9日",
+    "genre": "プール・海",
+    "stayTime": {
+      "minMinutes": 180,
+      "maxMinutes": 360
+    }
+  },
+  {
+    "region": "東京",
+    "name": "アクアブルー多摩",
+    "slug": "tokyo/tama/aqua-blue-tama",
+    "area": "多摩市",
+    "lat": 35.612316263493,
+    "lng": 139.41364421392,
+    "address": "東京都多摩市南野3-15-2",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ",
+      "雨"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "通年"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.tama-pool.org/",
+    "desc": "通年利用できる屋内温水プール。50mプール、流れるプール、キッズプール、2種類のスライダー、ミストサウナ、リラクゼーションプールがある。",
+    "tip": "遊びの種類が多く、屋内プールの中でもレジャー性が高い。",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/spot/13224ca3372076381/"
+    },
+    "recommendedBooking": "asoview",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.tama-pool.org/"
+    },
+    "verifiedAt": "2026年11月9日",
+    "genre": "プール・海",
+    "stayTime": {
+      "minMinutes": 180,
+      "maxMinutes": 360
+    }
+  },
+  {
+    "region": "神奈川",
+    "name": "相模原市立市民健康文化センター",
+    "slug": "kanagawa/sagamihara-minami/sagamihara-kenko-bunka-center",
+    "area": "相模原市南区",
+    "address": "神奈川県相模原市南区麻溝台1872-1",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ",
+      "雨"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "通年"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.s-kenbun.jp/",
+    "desc": "通年利用できる屋内温水プール。25mプール、児童用プール、幼児用プール、ウォータースライダー、ジャグジー、採暖室がある。浴室、幼児コーナー、授乳コーナーも備える。",
+    "tip": "幼児用プールと授乳コーナーがあり、小さな子連れでも過ごしやすい。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.s-kenbun.jp/"
+    },
+    "verifiedAt": "2026年11月9日",
+    "genre": "プール・海",
+    "stayTime": {
+      "minMinutes": 180,
+      "maxMinutes": 360
+    }
+  },
+  {
+    "region": "神奈川",
+    "name": "ヨネッティー王禅寺",
+    "slug": "kanagawa/kawasaki-asao/yonetty-ozenji",
+    "area": "川崎市麻生区",
+    "lat": 35.5935746,
+    "lng": 139.5246891,
+    "address": "神奈川県川崎市麻生区王禅寺1321",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ",
+      "雨"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "通年"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.sportsoasis.co.jp/sh41/",
+    "desc": "通年利用できる温水プール。25mプール、流水プール、スライダープール、幼児プール、ジャグジー、採暖室がある。",
+    "tip": "幼児プールと流水プール、スライダーがあり、子連れの水遊びに向いている。",
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/spot/spot0000051882/"
+    },
+    "recommendedBooking": "asoview",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://www.sportsoasis.co.jp/sh41/"
+    },
+    "verifiedAt": "2026年11月9日",
+    "genre": "プール・海",
+    "stayTime": {
+      "minMinutes": 180,
+      "maxMinutes": 360
+    }
+  },
+  {
+    "region": "東京",
+    "name": "東京都北区立 元気ぷらざ",
+    "slug": "tokyo/kita/genki-plaza",
+    "area": "北区",
+    "address": "東京都北区志茂1-2-22",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ",
+      "雨"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "seasons": [
+      "通年"
+    ],
+    "price": "要確認",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://genkiplaza.tokyo.jp/",
+    "desc": "屋内温水プール。25mプール、流水プール、ウォータースライダー、子供用プール、ジャグジーがあるレジャー型のプール。",
+    "tip": "子ども向けの設備が充実していて、雨の日や冬の水遊びにも使える。",
+    "familyPrice": {
+      "yen": null,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "official",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "料金の目安は出せません。最新の料金は公式サイトでご確認ください",
+      "officialUrl": "https://genkiplaza.tokyo.jp/"
+    },
+    "verifiedAt": "2026年11月9日",
+    "genre": "プール・海",
+    "stayTime": {
+      "minMinutes": 180,
+      "maxMinutes": 360
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "妻沼運動公園",
+    "slug": "saitama/kumagaya/menuma-sports-park",
+    "area": "熊谷市飯塚",
+    "address": "埼玉県熊谷市飯塚200-1",
+    "lat": 36.224673,
+    "lng": 139.356982,
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "無料（公園・子供広場）",
+    "parking": "yes",
+    "parkingDetail": "732台",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://nem-shiteikanri.jp/shisetsu/menuma/undo_koen/",
+    "desc": "ふわふわドームのある子供広場、緑の広場、スケートボード場がある運動公園。",
+    "tip": "ふわふわドームのある子供広場は無料。駐車場が広く、車で行きやすい。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "公園・子供広場は無料"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "熊谷さくら運動公園",
+    "slug": "saitama/kumagaya/kumagaya-sakura-sports-park",
+    "area": "熊谷市小島",
+    "address": "埼玉県熊谷市小島157-1",
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "公園利用無料（屋内プールは要確認）",
+    "parking": "yes",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.city.kumagaya.lg.jp/shisetsu/sports/kumaundo.html",
+    "desc": "子供広場、日本庭園、芝生広場、じゃぶじゃぶ池、屋内プールがある運動公園。",
+    "tip": "じゃぶじゃぶ池は季節営業。利用期間は公式サイトで確認を。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "公園利用無料（屋内プールの料金は要確認）"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "別府沼公園",
+    "slug": "saitama/kumagaya/beppunuma-park",
+    "area": "熊谷市西別府",
+    "address": "埼玉県熊谷市西別府1456",
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "無料",
+    "parking": "yes",
+    "parkingDetail": "340台",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://nem-shiteikanri.jp/shisetsu/menuma/beppunuma/",
+    "desc": "ロングローラー滑り台や複合遊具、ロープウェイ、アスレチックがある。花菖蒲園や日本庭園も楽しめる。",
+    "tip": "遊具で遊んだあとは、花菖蒲園や日本庭園を散策できる。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "入園無料"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "桜リバーサイドパーク",
+    "slug": "saitama/kumagaya/sakura-riverside-park",
+    "area": "熊谷市相上",
+    "address": "埼玉県熊谷市相上1812",
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "無料",
+    "parking": "yes",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.city.kumagaya.lg.jp/shisetsu/sports/sakura_river.html",
+    "desc": "33mと28mのローラー滑り台、じゃぶじゃぶ池、自由広場、BBQ広場がある公園。",
+    "tip": "じゃぶじゃぶ池の利用期間は公式サイトで確認を。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "入園無料"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "江南総合公園（小原運動公園）",
+    "slug": "saitama/kumagaya/konan-general-park",
+    "area": "熊谷市板井",
+    "address": "埼玉県熊谷市板井377-1",
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "無料（遊具広場・芝生広場）",
+    "parking": "yes",
+    "parkingDetail": "約200台",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.city.kumagaya.lg.jp/shisetsu/sports/konansogokoen.html",
+    "desc": "遊具広場、芝生広場、多目的広場がある公園。",
+    "tip": "遊具広場・芝生広場は無料。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "遊具広場・芝生広場は無料"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "本庄総合公園",
+    "slug": "saitama/honjo/honjo-general-park",
+    "area": "本庄市北堀",
+    "address": "埼玉県本庄市北堀433",
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "無料",
+    "parking": "yes",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.honjo-kanko.jp/sightseeing/leisure/honjosohgokoen/",
+    "desc": "子ども広場「わんぱーく」にアスレチック、長いローラー滑り台、ふわふわドームがある。",
+    "tip": "駐車場は無料。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "入園無料"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "行田市総合公園",
+    "slug": "saitama/gyoda/gyoda-general-park",
+    "area": "行田市和田",
+    "address": "埼玉県行田市和田1165",
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "無料（遊具広場）",
+    "parking": "yes",
+    "parkingDetail": "総合公園・体育館等の駐車場の合計で755台",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://ikiiki-zaidan.or.jp/greenarena/facility/sogo/index.html",
+    "desc": "複合遊具、ローラー滑り台、ターザンロープ、ブランコがある公園。",
+    "tip": "複合遊具は中学生以上の利用が禁止されている。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "遊具広場は無料"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "古代蓮の里",
+    "slug": "saitama/gyoda/kodaihasu-no-sato",
+    "area": "行田市小針",
+    "address": "埼玉県行田市小針2375-1",
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "公園無料（古代蓮会館・展望室は別料金）",
+    "parking": "yes",
+    "parkingDetail": "490台",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.ikiiki-zaidan.or.jp/kodaihasu/",
+    "desc": "冒険遊び場、ローラー滑り台、小規模アスレチック、芝生広場、展望タワー、釣り堀がある公園。",
+    "tip": "公園は無料。古代蓮会館・展望室は別料金。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "公園は無料。古代蓮会館・展望室は別料金"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "上谷総合公園",
+    "slug": "saitama/konosu/kamiya-general-park",
+    "area": "鴻巣市上谷",
+    "address": "埼玉県鴻巣市上谷707",
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "無料（スケートパーク等は要確認）",
+    "parking": "yes",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.city.kounosu.saitama.jp/site/kids/1002.html",
+    "desc": "大型複合遊具、水遊び広場、スケートパーク、3on3コートがある公園。",
+    "tip": "公園利用は無料。スケートパークなどの利用条件は公式サイトで確認を。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "公園利用は無料（スケートパーク等は要確認）"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "せせらぎ公園",
+    "slug": "saitama/konosu/seseragi-park",
+    "area": "鴻巣市中央",
+    "address": "埼玉県鴻巣市中央28-1",
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "無料",
+    "parking": "yes",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.city.kounosu.saitama.jp/site/kids/1002.html",
+    "desc": "複合遊具、小川、噴水があり、水遊びもできる公園。",
+    "tip": "駐車場の利用条件・台数は公式サイトで確認を。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "入園無料"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "荒川パノラマ公園",
+    "slug": "saitama/konosu/arakawa-panorama-park",
+    "area": "鴻巣市大芦",
+    "address": "埼玉県鴻巣市大芦1366",
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "無料",
+    "parking": "yes",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.city.kounosu.saitama.jp/site/kids/1002.html",
+    "desc": "ローラー滑り台、ターザンロープ、じゃぶじゃぶ池がある公園。荒川の眺望も楽しめる。",
+    "tip": "じゃぶじゃぶ池の利用期間は公式サイトで確認を。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "入園無料"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "埼玉",
+    "name": "川里中央公園",
+    "slug": "saitama/konosu/kawasato-central-park",
+    "area": "鴻巣市関新田",
+    "address": "埼玉県鴻巣市関新田1780-1",
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "公園利用無料",
+    "parking": "yes",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.city.kounosu.saitama.jp/page/3851.html",
+    "desc": "遊具、弁天池、ドッグランがある公園。",
+    "tip": "駐車場の利用制限やイベント開催日は、公式サイトで確認を。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "公園利用は無料"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "群馬",
+    "name": "観音山ファミリーパーク",
+    "slug": "gunma/takasaki/kannonyama-family-park",
+    "area": "高崎市寺尾町",
+    "address": "群馬県高崎市寺尾町1064-30",
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "入園無料",
+    "parking": "yes",
+    "parkingDetail": "約782台",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://kfp-tomo.org/",
+    "desc": "ふわふわドーム、ローラー滑り台、芝生広場、噴水広場がある。水遊びや遊具の貸出もある。",
+    "tip": "噴水の利用は4月中旬〜10月末が目安。利用時間は公式サイトで確認を。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "入園無料"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "群馬",
+    "name": "嶺公園",
+    "slug": "gunma/maebashi/mine-park",
+    "area": "前橋市嶺町",
+    "address": "群馬県前橋市嶺町1300",
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "無料",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.city.maebashi.gunma.jp/soshiki/kensetsu/koenryokuchi/shisetsu/47105.html",
+    "desc": "幼児用・児童用の複合遊具、レールウェイ型ターザンロープ、水の広場、冒険の森がある公園。",
+    "tip": "幼児用と児童用の遊具が分かれている。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "入園無料"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "群馬",
+    "name": "ハイノート前橋こども公園",
+    "slug": "gunma/maebashi/hi-note-maebashi-kodomo-park",
+    "area": "前橋市西片貝町",
+    "address": "群馬県前橋市西片貝町5-8",
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "無料（ゴーカート・プラネタリウムは有料）",
+    "parking": "yes",
+    "parkingDetail": "一般用237台・身障者用3台・バス用3台（臨時駐車場あり）",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.city.maebashi.gunma.jp/soshiki/kensetsu/koenkanrijimusho/shisetsu/2/5245.html",
+    "desc": "大型複合遊具、ゴーカート、足踏みカート、水遊び、交通学習ゾーンがある。児童文化センター（プラネタリウム）も併設。",
+    "tip": "公園と屋外遊具は無料。ゴーカートとプラネタリウムは有料。児童文化センターの休館日はゴーカート等も休止。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "公園・屋外遊具は無料。ゴーカート・プラネタリウムは有料"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "群馬",
+    "name": "三ツ寺公園",
+    "slug": "gunma/takasaki/mitsudera-park",
+    "area": "高崎市三ツ寺町",
+    "address": "群馬県高崎市三ツ寺町221",
+    "genre": "公園",
+    "ages": [
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "公園利用無料",
+    "parking": "unknown",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.city.takasaki.gunma.jp/page/3671.html",
+    "desc": "ふわふわドーム、複合遊具、滑り台、ボートなどがある公園。",
+    "tip": "遊具の現況・利用制限は公式サイトで確認を。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "公園利用は無料"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    }
+  },
+  {
+    "region": "群馬",
+    "name": "もみじ平総合公園",
+    "slug": "gunma/tomioka/momijidaira-general-park",
+    "area": "富岡市上黒岩",
+    "address": "群馬県富岡市上黒岩1377-1",
+    "lat": 36.2701903,
+    "lng": 138.8669773,
+    "genre": "公園",
+    "ages": [
+      "0-1歳",
+      "2-3歳",
+      "4-6歳",
+      "低学年",
+      "高学年"
+    ],
+    "weather": [
+      "晴れ"
+    ],
+    "duration": [
+      "半日"
+    ],
+    "price": "無料",
+    "parking": "yes",
+    "access": "要確認",
+    "baby": "要確認",
+    "officialUrl": "https://www.city.tomioka.lg.jp/www/contents/1740012163959/index.html",
+    "desc": "ティラノサウルスのロングスライダー、3〜6歳向け遊具、1〜3歳向けの柵付き遊具、インクルーシブブランコがある公園。",
+    "tip": "年齢別に遊具が分かれていて、乳幼児から小学生まで遊びやすい。",
+    "familyPrice": {
+      "yen": 0,
+      "yenMax": null,
+      "optionalYen": null,
+      "type": "free",
+      "approx": false,
+      "assumption": "大人2・小学生2・幼児1の5人",
+      "note": "入園無料"
+    },
+    "verifiedAt": "2026年11月9日",
+    "stayTime": {
+      "minMinutes": 120,
+      "maxMinutes": 240
+    },
+    "bookingLinks": {
+      "asoview": "https://www.asoview.com/spot/10210ah3330043959/"
+    },
+    "recommendedBooking": "asoview"
   }
 ]
