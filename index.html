@@ -445,7 +445,7 @@
     el.classList.remove('hidden');
     // 入力中に送信先（GAS）を起こしておく。コールドスタートの待ち時間を送信ボタンを押す前に済ませる
     if (id === 'section-detail' && ODEKAKE.warmUpServer) ODEKAKE.warmUpServer();
-    setTimeout(() => el.scrollIntoView({ behavior: 'smooth', block: 'start' }), 80);
+    // 入力中に画面が勝手に動かないよう、表示時の自動スクロールは行わない
   }
 
   function hideSection(id) {
