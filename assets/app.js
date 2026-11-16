@@ -15,19 +15,23 @@ const ODEKAKE = (() => {
         変える場合は、このパスも合わせて書き換えてください。
      取得できない場合は同梱のサンプルデータで動作確認できます。
   --------------------------------------------------------- */
+  const MAIN_DATA_BASE = 'https://odekakenavi.github.io/odekake-navi/data/'; // おでかけナビ本体（別リポジトリ）のデータ置き場
   const SPOTS_DATA_URLS = [
-    './data/spots.json',        // ★おでかけナビ本体と共用する施設データ
-    './data/spots.sample.json'  // フォールバック（動作確認用サンプル）
+    MAIN_DATA_BASE + 'spots.min.json', // 本体で自動生成する軽量版（slug/name/area）
+    MAIN_DATA_BASE + 'spots.json',     // 軽量版が無い場合は本体の元データ
+    './data/spots.sample.json'         // フォールバック（動作確認用サンプル）
   ];
 
   // 既存で公開済みの紹介者一覧（本体サイトに置かれる contributors.json）
   const CONTRIBUTORS_DATA_URLS = [
+    MAIN_DATA_BASE + 'contributors.json',
     './data/contributors.json',
     './data/contributors.sample.json'
   ];
 
   // 既存で公開済みの紹介投稿一覧（本体サイトに置かれる contributions.json）
   const CONTRIBUTIONS_DATA_URLS = [
+    MAIN_DATA_BASE + 'contributions.json',
     './data/contributions.json',
     './data/contributions.sample.json'
   ];
@@ -91,8 +95,14 @@ const ODEKAKE = (() => {
 
   function isValidInstagramPostUrl(url) {
     if (!url) return false;
-    // https://www.instagram.com/p/xxxx/ または /reel/xxxx/
-    return /^https?:\/\/(www\.)?instagram\.com\/(p|reel|tv)\/[a-zA-Z0-9_-]+\/?(\?.*)?$/.test(url.trim());
+    // 対応する形式（末尾スラッシュ・?igsh=… などのクエリは任意）
+    //   https://www.instagram.com/p/xxxx/            通常投稿
+    //   https://www.instagram.com/reel/xxxx/         リール
+    //   https://www.instagram.com/reels/xxxx/        リール（複数形）
+    //   https://www.instagram.com/tv/xxxx/           旧IGTV
+    //   https://www.instagram.com/ユーザー名/reel/xxxx/   ユーザー名つき（p / reel / reels / tv）
+    //   https://www.instagram.com/share/reel/xxxx/   アプリの共有リンク（share/p/ も可）
+    return /^https?:\/\/(www\.)?instagram\.com\/(?:[a-zA-Z0-9._]+\/)?(?:p|reels?|tv)\/[a-zA-Z0-9_-]+\/?(\?.*)?$/.test(url.trim());
   }
 
   function extractInstagramUsername(url) {
@@ -169,7 +179,7 @@ const ODEKAKE = (() => {
     _spotsCache = {
       source,
       items: data.map((s, i) => ({
-        id: s.id ?? s.spotId ?? s.spot_id ?? (s.name ? computeFacilityId(s) : `spot_${i}`),
+        id: s.id ?? s.slug ?? s.spotId ?? s.spot_id ?? (s.name ? computeFacilityId(s) : `spot_${i}`),
         name: s.name ?? s.spotName ?? s.title ?? '(名称未設定)',
         area: s.area ?? s.address ?? s.category ?? ''
       })).filter(s => s.id)
@@ -278,6 +288,18 @@ const ODEKAKE = (() => {
 
   /* ---------------- サーバー（GAS）との通信 ---------------- */
 
+  // 送信先（GAS）を事前に起こしておく。Google Apps Script は久しぶりに呼ぶと起動に数秒かかるため、
+  // 入力中にこっそり1回だけ呼んでおき、送信ボタンを押したときの待ち時間を短くする。
+  // 結果は使わない（失敗しても何も起きない）。
+  let _warmedUp = false;
+  function warmUpServer() {
+    if (_warmedUp || !SUBMIT_API_URL) return;
+    _warmedUp = true;
+    try {
+      fetch(SUBMIT_API_URL + '?action=ping', { mode: 'no-cors', cache: 'no-store' }).catch(() => {});
+    } catch (e) { /* 何もしない */ }
+  }
+
   // 登録内容を送信する。成功時は { ok:true, contributorId, contributionId, isNewContributor } を返す。
   // ※ Content-Type を text/plain にしているのは、CORSのプリフライトを避けるため（GASの仕様）
   async function submitToServer(payload) {
@@ -355,7 +377,7 @@ const ODEKAKE = (() => {
     findContributorById, findContributorBySnsUrl,
     getAdminDb, setAdminDb,
     buildContributorsJson, buildContributionsJson,
-    submitToServer, fetchPublicData,
+    submitToServer, fetchPublicData, warmUpServer,
     downloadJson, copyText
   };
 })();
