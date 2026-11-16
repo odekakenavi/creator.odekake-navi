@@ -15,19 +15,23 @@ const ODEKAKE = (() => {
         変える場合は、このパスも合わせて書き換えてください。
      取得できない場合は同梱のサンプルデータで動作確認できます。
   --------------------------------------------------------- */
+  const MAIN_DATA_BASE = 'https://odekakenavi.github.io/odekake-navi/data/'; // おでかけナビ本体（別リポジトリ）のデータ置き場
   const SPOTS_DATA_URLS = [
-    './data/spots.json',        // ★おでかけナビ本体と共用する施設データ
-    './data/spots.sample.json'  // フォールバック（動作確認用サンプル）
+    MAIN_DATA_BASE + 'spots.min.json', // 本体で自動生成する軽量版（slug/name/area）
+    MAIN_DATA_BASE + 'spots.json',     // 軽量版が無い場合は本体の元データ
+    './data/spots.sample.json'         // フォールバック（動作確認用サンプル）
   ];
 
   // 既存で公開済みの紹介者一覧（本体サイトに置かれる contributors.json）
   const CONTRIBUTORS_DATA_URLS = [
+    MAIN_DATA_BASE + 'contributors.json',
     './data/contributors.json',
     './data/contributors.sample.json'
   ];
 
   // 既存で公開済みの紹介投稿一覧（本体サイトに置かれる contributions.json）
   const CONTRIBUTIONS_DATA_URLS = [
+    MAIN_DATA_BASE + 'contributions.json',
     './data/contributions.json',
     './data/contributions.sample.json'
   ];
@@ -175,7 +179,7 @@ const ODEKAKE = (() => {
     _spotsCache = {
       source,
       items: data.map((s, i) => ({
-        id: s.id ?? s.spotId ?? s.spot_id ?? (s.name ? computeFacilityId(s) : `spot_${i}`),
+        id: s.id ?? s.slug ?? s.spotId ?? s.spot_id ?? (s.name ? computeFacilityId(s) : `spot_${i}`),
         name: s.name ?? s.spotName ?? s.title ?? '(名称未設定)',
         area: s.area ?? s.address ?? s.category ?? ''
       })).filter(s => s.id)
